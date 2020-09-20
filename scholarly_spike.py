@@ -51,6 +51,6 @@ def test_query_keyword(keyword):
 
 
 if __name__ == '__main__':
-    s = test_query_keyword("Automating SLR")
-    #foward_snowballing(s)
-    print(s)
+    # Currently set as Batarang cause the scholarly blocks us for insane number of requests...
+    s = test_query_keyword("Batarang")
+    foward_snowballing(s)
