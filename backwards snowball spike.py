@@ -64,13 +64,13 @@ def get_backward_citations(doi):
 
     # query string
     query_str = url + str(doi)
-    request = query_get_request(query_str)
+    results = query_get_request(query_str)
 
-    return json.loads(request.data.decode())
+    return results
 
 
 if __name__ == '__main__':
-    print(get_backward_citations("10.1007/s10434-001-0204-4"))
+    print(get_backward_citations("10.1038/gim.2012.7"))
     print(title_to_backwards_citations(
         "Toward modernizing the systematic review pipeline in genetics: efficient updating via data mining"))
     print(title_to_doi(
