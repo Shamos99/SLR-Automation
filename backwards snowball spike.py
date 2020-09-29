@@ -1,21 +1,9 @@
-import urllib3
-import json
-
-
-def query_get_request(query_string):
-    """
-    Does a request with a query string
-    :param query_string: query string for request
-    :return: json dict
-    """
-    http = urllib3.PoolManager()
-    request = http.request("GET", query_string)
-    return json.loads(request.data.decode())
+from utils import query_get_request
 
 
 def title_to_backwards_citations(title_string):
     """
-    getting refernce list of title from a title string
+    getting reference list of title from a title string
     :param title_string: a title string for a paper
     :return: reference list
     """
