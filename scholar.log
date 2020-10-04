@@ -1,48 +1,1942 @@
-INFO:scholarly:Getting https://scholar.google.com/scholar?hl=en&q=test&as_vis=0&as_sdt=0,33
+INFO:scholarly:Getting https://scholar.google.com/scholar?hl=en&q=Batarang&as_vis=0&as_sdt=0,33
 INFO:scholarly:Session proxy config is {}
-INFO:scholarly:Getting https://scholar.google.com/scholar?q=info:b2pGeL14LLMJ:scholar.google.com/&output=cite&scirp=0&hl=en
+INFO:scholarly:Response code 429.
+                                    Retrying...
 INFO:scholarly:Session proxy config is {}
-INFO:scholarly:Getting https://scholar.googleusercontent.com/scholar.bib?q=info:b2pGeL14LLMJ:scholar.google.com/&output=citation&scisdr=CgXmME46ELXwlIn-cwA:AAGBfm0AAAAAX3L7awDwsA3LlFFGeFqOArSwbo-b95rd&scisig=AAGBfm0AAAAAX3L7a2ZN4r_pIOR9jtsWZ3N9isQVyg2b&scisf=4&ct=citation&cd=-1&hl=en
+INFO:scholarly:Response code 429.
+                                    Retrying...
 INFO:scholarly:Session proxy config is {}
-INFO:scholarly:Getting https://scholar.google.com/scholar?cites=12910826986926402159&as_sdt=5,33&sciodt=0,33&hl=en
+INFO:scholarly:Response code 429.
+                                    Retrying...
 INFO:scholarly:Session proxy config is {}
-INFO:scholarly:Getting https://scholar.google.com/scholar?hl=en&q=Alternative%20to%20mental%20hospital%20treatment%3A%20I.%20Conceptual%20model%2C%20treatment%20program%2C%20and%20clinical%20evaluation&as_vis=0&as_sdt=0,33
+INFO:scholarly:Response code 429.
+                                    Retrying...
 INFO:scholarly:Session proxy config is {}
-INFO:scholarly:Getting https://scholar.google.com/scholar?hl=en&q=Alternative%20to%20mental%20hospital%20treatment%3A%20I.%20Conceptual%20model%2C%20treatment%20program%2C%20and%20clinical%20evaluation&as_vis=0&as_sdt=0,33
+INFO:scholarly:Response code 429.
+                                    Retrying...
+INFO:scholarly:Proxy http://179.96.28.58:80 does not seem to work.
+INFO:scholarly:Getting https://scholar.google.com/scholar?hl=en&q=Batarang&as_vis=0&as_sdt=0,33
 INFO:scholarly:Session proxy config is {}
-INFO:scholarly:Getting https://scholar.google.com/scholar?hl=en&q=&as_vis=0&as_sdt=0,33
+INFO:scholarly:Response code 429.
+                                    Retrying...
 INFO:scholarly:Session proxy config is {}
-INFO:scholarly:Getting https://scholar.google.com/scholar?hl=en&q=test&as_vis=0&as_sdt=0,33
+INFO:scholarly:Response code 429.
+                                    Retrying...
 INFO:scholarly:Session proxy config is {}
-INFO:scholarly:Getting https://scholar.google.com/scholar?hl=en&q=test&as_vis=0&as_sdt=0,33
+INFO:scholarly:Response code 429.
+                                    Retrying...
 INFO:scholarly:Session proxy config is {}
-INFO:scholarly:Getting https://scholar.google.com/scholar?hl=en&q=test&as_vis=0&as_sdt=0,33
+INFO:scholarly:Response code 429.
+                                    Retrying...
 INFO:scholarly:Session proxy config is {}
-INFO:scholarly:Getting https://scholar.google.com/scholar?q=info:b2pGeL14LLMJ:scholar.google.com/&output=cite&scirp=0&hl=en
+INFO:scholarly:Response code 429.
+                                    Retrying...
+INFO:scholarly:Proxy works!
+INFO:scholarly:Enabling proxies: http=http://200.73.129.128:8888 https=http://200.73.129.128:8888
+INFO:scholarly:Getting https://scholar.google.com/scholar?hl=en&q=Batarang&as_vis=0&as_sdt=0,33
+INFO:scholarly:Timeout Exception ReadTimeout while fetching page: (ReadTimeoutError("HTTPSConnectionPool(host='scholar.google.com', port=443): Read timed out. (read timeout=5)"),)
+INFO:scholarly:Increasing timeout and retrying within same session.
+INFO:scholarly:Timeout Exception ConnectTimeout while fetching page: (MaxRetryError("HTTPSConnectionPool(host='scholar.google.com', port=443): Max retries exceeded with url: /scholar?hl=en&q=Batarang&as_vis=0&as_sdt=0,33 (Caused by ConnectTimeoutError(<urllib3.connection.HTTPSConnection object at 0x000002891AB48CA0>, 'Connection to 200.73.129.128 timed out. (connect timeout=10)'))"),)
+INFO:scholarly:Increasing timeout and retrying within same session.
+INFO:scholarly:Timeout Exception ConnectTimeout while fetching page: (MaxRetryError("HTTPSConnectionPool(host='scholar.google.com', port=443): Max retries exceeded with url: /scholar?hl=en&q=Batarang&as_vis=0&as_sdt=0,33 (Caused by ConnectTimeoutError(<urllib3.connection.HTTPSConnection object at 0x000002891AB48280>, 'Connection to 200.73.129.128 timed out. (connect timeout=15)'))"),)
+INFO:scholarly:Giving up this session.
+INFO:scholarly:Timeout Exception ConnectTimeout while fetching page: (MaxRetryError("HTTPSConnectionPool(host='scholar.google.com', port=443): Max retries exceeded with url: /scholar?hl=en&q=Batarang&as_vis=0&as_sdt=0,33 (Caused by ConnectTimeoutError(<urllib3.connection.HTTPSConnection object at 0x000002891ABBEEB0>, 'Connection to 200.73.129.128 timed out. (connect timeout=15)'))"),)
+INFO:scholarly:Giving up this session.
+INFO:scholarly:Session proxy config is {'http': 'http://200.73.129.128:8888', 'https': 'http://200.73.129.128:8888'}
+INFO:scholarly:Got a captcha request.
+INFO:scholarly:Exception WebDriverException while fetching page: ("'geckodriver' executable needs to be in PATH. ",)
+INFO:scholarly:Retrying with a new session.
+INFO:scholarly:Session proxy config is {'http': 'http://200.73.129.128:8888', 'https': 'http://200.73.129.128:8888'}
+INFO:scholarly:Got a captcha request.
+INFO:scholarly:Exception WebDriverException while fetching page: ("'geckodriver' executable needs to be in PATH. ",)
+INFO:scholarly:Retrying with a new session.
+INFO:scholarly:Session proxy config is {'http': 'http://200.73.129.128:8888', 'https': 'http://200.73.129.128:8888'}
+INFO:scholarly:Got a captcha request.
+INFO:scholarly:Exception WebDriverException while fetching page: ("'geckodriver' executable needs to be in PATH. ",)
+INFO:scholarly:Retrying with a new session.
+INFO:scholarly:Proxy works!
+INFO:scholarly:Enabling proxies: http=http://200.73.132.2:8080 https=http://200.73.132.2:8080
+INFO:scholarly:Getting https://scholar.google.com/scholar?hl=en&q=Batarang&as_vis=0&as_sdt=0,33
+INFO:scholarly:Session proxy config is {'http': 'http://200.73.132.2:8080', 'https': 'http://200.73.132.2:8080'}
+INFO:scholarly:Got a captcha request.
+INFO:scholarly:Exception WebDriverException while fetching page: ("'geckodriver' executable needs to be in PATH. ",)
+INFO:scholarly:Retrying with a new session.
+INFO:scholarly:Session proxy config is {'http': 'http://200.73.132.2:8080', 'https': 'http://200.73.132.2:8080'}
+INFO:scholarly:Got a captcha request.
+INFO:scholarly:Exception WebDriverException while fetching page: ("'geckodriver' executable needs to be in PATH. ",)
+INFO:scholarly:Retrying with a new session.
+INFO:scholarly:Session proxy config is {'http': 'http://200.73.132.2:8080', 'https': 'http://200.73.132.2:8080'}
+INFO:scholarly:Got a captcha request.
+INFO:scholarly:Exception WebDriverException while fetching page: ("'geckodriver' executable needs to be in PATH. ",)
+INFO:scholarly:Retrying with a new session.
+INFO:scholarly:Exception ProxyError while fetching page: (MaxRetryError("HTTPSConnectionPool(host='scholar.google.com', port=443): Max retries exceeded with url: /scholar?hl=en&q=Batarang&as_vis=0&as_sdt=0,33 (Caused by ProxyError('Cannot connect to proxy.', timeout('select timed out')))"),)
+INFO:scholarly:Retrying with a new session.
+INFO:scholarly:Timeout Exception ConnectTimeout while fetching page: (MaxRetryError("HTTPSConnectionPool(host='scholar.google.com', port=443): Max retries exceeded with url: /scholar?hl=en&q=Batarang&as_vis=0&as_sdt=0,33 (Caused by ConnectTimeoutError(<urllib3.connection.HTTPSConnection object at 0x000002891AB9DC40>, 'Connection to 200.73.132.2 timed out. (connect timeout=5)'))"),)
+INFO:scholarly:Increasing timeout and retrying within same session.
+INFO:scholarly:Session proxy config is {'http': 'http://200.73.132.2:8080', 'https': 'http://200.73.132.2:8080'}
+INFO:scholarly:Got a captcha request.
+INFO:scholarly:Exception WebDriverException while fetching page: ("'geckodriver' executable needs to be in PATH. ",)
+INFO:scholarly:Retrying with a new session.
+INFO:scholarly:Proxy works!
+INFO:scholarly:Enabling proxies: http=http://45.226.228.235:3128 https=http://45.226.228.235:3128
+INFO:scholarly:Getting https://scholar.google.com/scholar?hl=en&q=Batarang&as_vis=0&as_sdt=0,33
+INFO:scholarly:Session proxy config is {'http': 'http://45.226.228.235:3128', 'https': 'http://45.226.228.235:3128'}
+INFO:scholarly:Getting https://scholar.google.com/scholar?hl=en&q=Batarang&as_vis=0&as_sdt=0,33
 INFO:scholarly:Session proxy config is {}
-INFO:scholarly:Getting https://scholar.googleusercontent.com/scholar.bib?q=info:b2pGeL14LLMJ:scholar.google.com/&output=citation&scisdr=CgXmME46EPL8lIgFyq8:AAGBfm0AAAAAX3MA0q_VoGUsF6GCyo1OaJr8CKrDS11T&scisig=AAGBfm0AAAAAX3MA0quX6lSsL7OePM0ojXdJcXPDn5bS&scisf=4&ct=citation&cd=-1&hl=en
+INFO:scholarly:Response code 429.
+                                    Retrying...
 INFO:scholarly:Session proxy config is {}
-INFO:scholarly:Getting https://scholar.google.com/scholar?cites=12910826986926402159&as_sdt=5,33&sciodt=0,33&hl=en
+INFO:scholarly:Response code 429.
+                                    Retrying...
 INFO:scholarly:Session proxy config is {}
-INFO:scholarly:Getting https://scholar.google.com/scholar?cites=12910826986926402159&as_sdt=5,33&sciodt=0,33&hl=en
+INFO:scholarly:Response code 429.
+                                    Retrying...
 INFO:scholarly:Session proxy config is {}
-INFO:scholarly:Getting https://scholar.google.com/scholar?cites=12910826986926402159&as_sdt=5,33&sciodt=0,33&hl=en
+INFO:scholarly:Response code 429.
+                                    Retrying...
 INFO:scholarly:Session proxy config is {}
-INFO:scholarly:Getting https://scholar.google.com/scholar?cites=12910826986926402159&as_sdt=5,33&sciodt=0,33&hl=en
+INFO:scholarly:Response code 429.
+                                    Retrying...
+INFO:scholarly:Proxy works!
+INFO:scholarly:Enabling proxies: http=http://45.133.182.18:18080 https=http://45.133.182.18:18080
+INFO:scholarly:Getting https://scholar.google.com/scholar?hl=en&q=Batarang&as_vis=0&as_sdt=0,33
+INFO:scholarly:Session proxy config is {'http': 'http://45.133.182.18:18080', 'https': 'http://45.133.182.18:18080'}
+INFO:scholarly:Got a captcha request.
+INFO:scholarly:Exception WebDriverException while fetching page: ("'geckodriver' executable needs to be in PATH. ",)
+INFO:scholarly:Retrying with a new session.
+INFO:scholarly:Session proxy config is {'http': 'http://45.133.182.18:18080', 'https': 'http://45.133.182.18:18080'}
+INFO:scholarly:Got a captcha request.
+INFO:scholarly:Exception WebDriverException while fetching page: ("'geckodriver' executable needs to be in PATH. ",)
+INFO:scholarly:Retrying with a new session.
+INFO:scholarly:Session proxy config is {'http': 'http://45.133.182.18:18080', 'https': 'http://45.133.182.18:18080'}
+INFO:scholarly:Got a captcha request.
+INFO:scholarly:Exception WebDriverException while fetching page: ("'geckodriver' executable needs to be in PATH. ",)
+INFO:scholarly:Retrying with a new session.
+INFO:scholarly:Session proxy config is {'http': 'http://45.133.182.18:18080', 'https': 'http://45.133.182.18:18080'}
+INFO:scholarly:Got a captcha request.
+INFO:scholarly:Exception WebDriverException while fetching page: ("'geckodriver' executable needs to be in PATH. ",)
+INFO:scholarly:Retrying with a new session.
+INFO:scholarly:Getting https://scholar.google.com/scholar?hl=en&q=Batarang&as_vis=0&as_sdt=0,33
 INFO:scholarly:Session proxy config is {}
-INFO:scholarly:Getting https://scholar.google.com/scholar?cites=12910826986926402159&as_sdt=5,33&sciodt=0,33&hl=en
+INFO:scholarly:Response code 429.
+                                    Retrying...
 INFO:scholarly:Session proxy config is {}
-INFO:scholarly:Getting https://scholar.google.com/scholar?cites=12910826986926402159&as_sdt=5,33&sciodt=0,33&hl=en
+INFO:scholarly:Response code 429.
+                                    Retrying...
 INFO:scholarly:Session proxy config is {}
-INFO:scholarly:Getting https://scholar.google.com/scholar?cites=12910826986926402159&as_sdt=5,33&sciodt=0,33&hl=en
+INFO:scholarly:Response code 429.
+                                    Retrying...
 INFO:scholarly:Session proxy config is {}
-INFO:scholarly:Getting https://scholar.google.com/scholar?cites=12910826986926402159&as_sdt=5,33&sciodt=0,33&hl=en
+INFO:scholarly:Response code 429.
+                                    Retrying...
 INFO:scholarly:Session proxy config is {}
-INFO:scholarly:Getting https://scholar.google.com/scholar?cites=12910826986926402159&as_sdt=5,33&sciodt=0,33&hl=en
+INFO:scholarly:Response code 429.
+                                    Retrying...
+INFO:scholarly:Proxy works!
+INFO:scholarly:Enabling proxies: http=http://213.230.69.33:8080 https=http://213.230.69.33:8080
+INFO:scholarly:Getting https://scholar.google.com/scholar?hl=en&q=Batarang&as_vis=0&as_sdt=0,33
+INFO:scholarly:Session proxy config is {'http': 'http://213.230.69.33:8080', 'https': 'http://213.230.69.33:8080'}
+INFO:scholarly:Getting https://scholar.google.com/scholar?hl=en&q=Batarang&as_vis=0&as_sdt=0,33
+INFO:scholarly:Getting https://scholar.google.com/scholar?hl=en&q=Batarang&as_vis=0&as_sdt=0,33
 INFO:scholarly:Session proxy config is {}
-INFO:scholarly:Getting https://scholar.google.com/scholar?hl=en&q=test&as_vis=0&as_sdt=0,33
+INFO:scholarly:Response code 429.
+                                    Retrying...
 INFO:scholarly:Session proxy config is {}
-INFO:scholarly:Getting https://scholar.google.com/scholar?hl=en&q=test&as_vis=0&as_sdt=0,33
+INFO:scholarly:Response code 429.
+                                    Retrying...
 INFO:scholarly:Session proxy config is {}
-INFO:scholarly:Getting https://scholar.google.com/scholar?hl=en&q=Alternative%20to%20mental%20hospital%20treatment%3A%20I.%20Conceptual%20model%2C%20treatment%20program%2C%20and%20clinical%20evaluation&as_vis=0&as_sdt=0,33
+INFO:scholarly:Response code 429.
+                                    Retrying...
 INFO:scholarly:Session proxy config is {}
+INFO:scholarly:Response code 429.
+                                    Retrying...
+INFO:scholarly:Session proxy config is {}
+INFO:scholarly:Response code 429.
+                                    Retrying...
+INFO:scholarly:Proxy works!
+INFO:scholarly:Enabling proxies: http=http://104.215.251.191:25888 https=http://104.215.251.191:25888
+INFO:scholarly:Getting https://scholar.google.com/scholar?hl=en&q=Batarang&as_vis=0&as_sdt=0,33
+INFO:scholarly:Session proxy config is {'http': 'http://104.215.251.191:25888', 'https': 'http://104.215.251.191:25888'}
+INFO:scholarly:Got a captcha request.
+INFO:scholarly:Exception WebDriverException while fetching page: ("'geckodriver' executable needs to be in PATH. ",)
+INFO:scholarly:Retrying with a new session.
+INFO:scholarly:Session proxy config is {'http': 'http://104.215.251.191:25888', 'https': 'http://104.215.251.191:25888'}
+INFO:scholarly:Got a captcha request.
+INFO:scholarly:Exception WebDriverException while fetching page: ("'geckodriver' executable needs to be in PATH. ",)
+INFO:scholarly:Retrying with a new session.
+INFO:scholarly:Session proxy config is {'http': 'http://104.215.251.191:25888', 'https': 'http://104.215.251.191:25888'}
+INFO:scholarly:Got a captcha request.
+INFO:scholarly:Exception WebDriverException while fetching page: ("'geckodriver' executable needs to be in PATH. ",)
+INFO:scholarly:Retrying with a new session.
+INFO:scholarly:Session proxy config is {'http': 'http://104.215.251.191:25888', 'https': 'http://104.215.251.191:25888'}
+INFO:scholarly:Got a captcha request.
+INFO:scholarly:Exception WebDriverException while fetching page: ("'geckodriver' executable needs to be in PATH. ",)
+INFO:scholarly:Retrying with a new session.
+INFO:scholarly:Session proxy config is {'http': 'http://104.215.251.191:25888', 'https': 'http://104.215.251.191:25888'}
+INFO:scholarly:Got a captcha request.
+INFO:scholarly:Exception WebDriverException while fetching page: ("'geckodriver' executable needs to be in PATH. ",)
+INFO:scholarly:Retrying with a new session.
+INFO:scholarly:Proxy http://5.2.72.101:3128 does not seem to work.
+INFO:scholarly:Getting https://scholar.google.com/scholar?hl=en&q=Batarang&as_vis=0&as_sdt=0,33
+INFO:scholarly:Session proxy config is {}
+INFO:scholarly:Response code 429.
+                                    Retrying...
+INFO:scholarly:Session proxy config is {}
+INFO:scholarly:Response code 429.
+                                    Retrying...
+INFO:scholarly:Session proxy config is {}
+INFO:scholarly:Response code 429.
+                                    Retrying...
+INFO:scholarly:Session proxy config is {}
+INFO:scholarly:Response code 429.
+                                    Retrying...
+INFO:scholarly:Session proxy config is {}
+INFO:scholarly:Response code 429.
+                                    Retrying...
+INFO:scholarly:Proxy works!
+INFO:scholarly:Enabling proxies: http=http://213.230.69.33:8080 https=http://213.230.69.33:8080
+INFO:scholarly:Getting https://scholar.google.com/scholar?hl=en&q=Batarang&as_vis=0&as_sdt=0,33
+INFO:scholarly:Session proxy config is {'http': 'http://213.230.69.33:8080', 'https': 'http://213.230.69.33:8080'}
+INFO:scholarly:Getting https://scholar.google.com/scholar?start=10&q=Batarang&hl=en&as_sdt=0,33
+INFO:scholarly:Session proxy config is {'http': 'http://213.230.69.33:8080', 'https': 'http://213.230.69.33:8080'}
+INFO:scholarly:Getting https://scholar.google.com/scholar?start=20&q=Batarang&hl=en&as_sdt=0,33
+INFO:scholarly:Session proxy config is {'http': 'http://213.230.69.33:8080', 'https': 'http://213.230.69.33:8080'}
+INFO:scholarly:Getting https://scholar.google.com/scholar?start=30&q=Batarang&hl=en&as_sdt=0,33
+INFO:scholarly:Session proxy config is {'http': 'http://213.230.69.33:8080', 'https': 'http://213.230.69.33:8080'}
+INFO:scholarly:Getting https://scholar.google.com/scholar?start=40&q=Batarang&hl=en&as_sdt=0,33
+INFO:scholarly:Session proxy config is {'http': 'http://213.230.69.33:8080', 'https': 'http://213.230.69.33:8080'}
+INFO:scholarly:Getting https://scholar.google.com/scholar?start=50&q=Batarang&hl=en&as_sdt=0,33
+INFO:scholarly:Session proxy config is {'http': 'http://213.230.69.33:8080', 'https': 'http://213.230.69.33:8080'}
+INFO:scholarly:Getting https://scholar.google.com/scholar?start=60&q=Batarang&hl=en&as_sdt=0,33
+INFO:scholarly:Session proxy config is {'http': 'http://213.230.69.33:8080', 'https': 'http://213.230.69.33:8080'}
+INFO:scholarly:Getting https://scholar.google.com/scholar?start=70&q=Batarang&hl=en&as_sdt=0,33
+INFO:scholarly:Session proxy config is {'http': 'http://213.230.69.33:8080', 'https': 'http://213.230.69.33:8080'}
+INFO:scholarly:Getting https://scholar.google.com/scholar?start=80&q=Batarang&hl=en&as_sdt=0,33
+INFO:scholarly:Session proxy config is {'http': 'http://213.230.69.33:8080', 'https': 'http://213.230.69.33:8080'}
+INFO:scholarly:Getting https://scholar.google.com/scholar?start=90&q=Batarang&hl=en&as_sdt=0,33
+INFO:scholarly:Session proxy config is {'http': 'http://213.230.69.33:8080', 'https': 'http://213.230.69.33:8080'}
+INFO:scholarly:Getting https://scholar.google.com/scholar?start=100&q=Batarang&hl=en&as_sdt=0,33
+INFO:scholarly:Getting https://scholar.google.com/scholar?hl=en&q=Batarang&as_vis=0&as_sdt=0,33
+INFO:scholarly:Session proxy config is {}
+INFO:scholarly:Response code 429.
+                                    Retrying...
+INFO:scholarly:Session proxy config is {}
+INFO:scholarly:Response code 429.
+                                    Retrying...
+INFO:scholarly:Session proxy config is {}
+INFO:scholarly:Response code 429.
+                                    Retrying...
+INFO:scholarly:Session proxy config is {}
+INFO:scholarly:Response code 429.
+                                    Retrying...
+INFO:scholarly:Session proxy config is {}
+INFO:scholarly:Response code 429.
+                                    Retrying...
+INFO:scholarly:Proxy works!
+INFO:scholarly:Enabling proxies: http=http://45.226.228.235:3128 https=http://45.226.228.235:3128
+INFO:scholarly:Getting https://scholar.google.com/scholar?hl=en&q=Batarang&as_vis=0&as_sdt=0,33
+INFO:scholarly:Session proxy config is {'http': 'http://45.226.228.235:3128', 'https': 'http://45.226.228.235:3128'}
+INFO:scholarly:Getting https://scholar.google.com/scholar?hl=en&q=Batarang&as_vis=0&as_sdt=0,33
+INFO:scholarly:Session proxy config is {}
+INFO:scholarly:Response code 429.
+                                    Retrying...
+INFO:scholarly:Session proxy config is {}
+INFO:scholarly:Response code 429.
+                                    Retrying...
+INFO:scholarly:Session proxy config is {}
+INFO:scholarly:Response code 429.
+                                    Retrying...
+INFO:scholarly:Session proxy config is {}
+INFO:scholarly:Response code 429.
+                                    Retrying...
+INFO:scholarly:Session proxy config is {}
+INFO:scholarly:Response code 429.
+                                    Retrying...
+INFO:scholarly:Proxy works!
+INFO:scholarly:Enabling proxies: http=http://104.215.251.191:25888 https=http://104.215.251.191:25888
+INFO:scholarly:Getting https://scholar.google.com/scholar?hl=en&q=Batarang&as_vis=0&as_sdt=0,33
+INFO:scholarly:Session proxy config is {'http': 'http://104.215.251.191:25888', 'https': 'http://104.215.251.191:25888'}
+INFO:scholarly:Got a captcha request.
+INFO:scholarly:Exception WebDriverException while fetching page: ("'geckodriver' executable needs to be in PATH. ",)
+INFO:scholarly:Retrying with a new session.
+INFO:scholarly:Session proxy config is {'http': 'http://104.215.251.191:25888', 'https': 'http://104.215.251.191:25888'}
+INFO:scholarly:Got a captcha request.
+INFO:scholarly:Exception WebDriverException while fetching page: ("'geckodriver' executable needs to be in PATH. ",)
+INFO:scholarly:Retrying with a new session.
+INFO:scholarly:Session proxy config is {'http': 'http://104.215.251.191:25888', 'https': 'http://104.215.251.191:25888'}
+INFO:scholarly:Got a captcha request.
+INFO:scholarly:Exception WebDriverException while fetching page: ("'geckodriver' executable needs to be in PATH. ",)
+INFO:scholarly:Retrying with a new session.
+INFO:scholarly:Session proxy config is {'http': 'http://104.215.251.191:25888', 'https': 'http://104.215.251.191:25888'}
+INFO:scholarly:Got a captcha request.
+INFO:scholarly:Exception WebDriverException while fetching page: ("'geckodriver' executable needs to be in PATH. ",)
+INFO:scholarly:Retrying with a new session.
+INFO:scholarly:Session proxy config is {'http': 'http://104.215.251.191:25888', 'https': 'http://104.215.251.191:25888'}
+INFO:scholarly:Got a captcha request.
+INFO:scholarly:Exception WebDriverException while fetching page: ("'geckodriver' executable needs to be in PATH. ",)
+INFO:scholarly:Retrying with a new session.
+INFO:scholarly:Proxy http://179.96.28.58:80 does not seem to work.
+INFO:scholarly:Getting https://scholar.google.com/scholar?hl=en&q=Batarang&as_vis=0&as_sdt=0,33
+INFO:scholarly:Session proxy config is {}
+INFO:scholarly:Response code 429.
+                                    Retrying...
+INFO:scholarly:Session proxy config is {}
+INFO:scholarly:Response code 429.
+                                    Retrying...
+INFO:scholarly:Session proxy config is {}
+INFO:scholarly:Response code 429.
+                                    Retrying...
+INFO:scholarly:Session proxy config is {}
+INFO:scholarly:Response code 429.
+                                    Retrying...
+INFO:scholarly:Session proxy config is {}
+INFO:scholarly:Response code 429.
+                                    Retrying...
+INFO:scholarly:Proxy works!
+INFO:scholarly:Enabling proxies: http=http://104.215.251.191:25888 https=http://104.215.251.191:25888
+INFO:scholarly:Getting https://scholar.google.com/scholar?hl=en&q=Batarang&as_vis=0&as_sdt=0,33
+INFO:scholarly:Session proxy config is {'http': 'http://104.215.251.191:25888', 'https': 'http://104.215.251.191:25888'}
+INFO:scholarly:Got a captcha request.
+INFO:scholarly:Exception WebDriverException while fetching page: ("'geckodriver' executable needs to be in PATH. ",)
+INFO:scholarly:Retrying with a new session.
+INFO:scholarly:Session proxy config is {'http': 'http://104.215.251.191:25888', 'https': 'http://104.215.251.191:25888'}
+INFO:scholarly:Got a captcha request.
+INFO:scholarly:Exception WebDriverException while fetching page: ("'geckodriver' executable needs to be in PATH. ",)
+INFO:scholarly:Retrying with a new session.
+INFO:scholarly:Session proxy config is {'http': 'http://104.215.251.191:25888', 'https': 'http://104.215.251.191:25888'}
+INFO:scholarly:Got a captcha request.
+INFO:scholarly:Exception WebDriverException while fetching page: ("'geckodriver' executable needs to be in PATH. ",)
+INFO:scholarly:Retrying with a new session.
+INFO:scholarly:Session proxy config is {'http': 'http://104.215.251.191:25888', 'https': 'http://104.215.251.191:25888'}
+INFO:scholarly:Got a captcha request.
+INFO:scholarly:Exception WebDriverException while fetching page: ("'geckodriver' executable needs to be in PATH. ",)
+INFO:scholarly:Retrying with a new session.
+INFO:scholarly:Session proxy config is {'http': 'http://104.215.251.191:25888', 'https': 'http://104.215.251.191:25888'}
+INFO:scholarly:Got a captcha request.
+INFO:scholarly:Exception WebDriverException while fetching page: ("'geckodriver' executable needs to be in PATH. ",)
+INFO:scholarly:Retrying with a new session.
+INFO:scholarly:Proxy works!
+INFO:scholarly:Enabling proxies: http=http://45.226.228.235:3128 https=http://45.226.228.235:3128
+INFO:scholarly:Getting https://scholar.google.com/scholar?hl=en&q=Batarang&as_vis=0&as_sdt=0,33
+INFO:scholarly:Session proxy config is {'http': 'http://45.226.228.235:3128', 'https': 'http://45.226.228.235:3128'}
+INFO:scholarly:Getting https://scholar.google.com/scholar?start=10&q=Batarang&hl=en&as_sdt=0,33
+INFO:scholarly:Exception ConnectionError while fetching page: (ReadTimeoutError("HTTPSConnectionPool(host='scholar.google.com', port=443): Read timed out."),)
+INFO:scholarly:Retrying with a new session.
+INFO:scholarly:Session proxy config is {'http': 'http://45.226.228.235:3128', 'https': 'http://45.226.228.235:3128'}
+INFO:scholarly:Got a captcha request.
+INFO:scholarly:Exception WebDriverException while fetching page: ("'geckodriver' executable needs to be in PATH. ",)
+INFO:scholarly:Retrying with a new session.
+INFO:scholarly:Session proxy config is {'http': 'http://45.226.228.235:3128', 'https': 'http://45.226.228.235:3128'}
+INFO:scholarly:Got a captcha request.
+INFO:scholarly:Exception WebDriverException while fetching page: ("'geckodriver' executable needs to be in PATH. ",)
+INFO:scholarly:Retrying with a new session.
+INFO:scholarly:Session proxy config is {'http': 'http://45.226.228.235:3128', 'https': 'http://45.226.228.235:3128'}
+INFO:scholarly:Got a captcha request.
+INFO:scholarly:Exception WebDriverException while fetching page: ("'geckodriver' executable needs to be in PATH. ",)
+INFO:scholarly:Retrying with a new session.
+INFO:scholarly:Session proxy config is {'http': 'http://45.226.228.235:3128', 'https': 'http://45.226.228.235:3128'}
+INFO:scholarly:Got a captcha request.
+INFO:scholarly:Exception WebDriverException while fetching page: ("'geckodriver' executable needs to be in PATH. ",)
+INFO:scholarly:Retrying with a new session.
+INFO:scholarly:Getting https://scholar.google.com/scholar?start=10&q=Batarang&hl=en&as_sdt=0,33
+INFO:scholarly:Session proxy config is {'http': 'http://45.226.228.235:3128', 'https': 'http://45.226.228.235:3128'}
+INFO:scholarly:Got a captcha request.
+INFO:scholarly:Exception WebDriverException while fetching page: ("'geckodriver' executable needs to be in PATH. ",)
+INFO:scholarly:Retrying with a new session.
+INFO:scholarly:Session proxy config is {'http': 'http://45.226.228.235:3128', 'https': 'http://45.226.228.235:3128'}
+INFO:scholarly:Got a captcha request.
+INFO:scholarly:Exception WebDriverException while fetching page: ("'geckodriver' executable needs to be in PATH. ",)
+INFO:scholarly:Retrying with a new session.
+INFO:scholarly:Session proxy config is {'http': 'http://45.226.228.235:3128', 'https': 'http://45.226.228.235:3128'}
+INFO:scholarly:Got a captcha request.
+INFO:scholarly:Exception WebDriverException while fetching page: ("'geckodriver' executable needs to be in PATH. ",)
+INFO:scholarly:Retrying with a new session.
+INFO:scholarly:Session proxy config is {'http': 'http://45.226.228.235:3128', 'https': 'http://45.226.228.235:3128'}
+INFO:scholarly:Got a captcha request.
+INFO:scholarly:Exception WebDriverException while fetching page: ("'geckodriver' executable needs to be in PATH. ",)
+INFO:scholarly:Retrying with a new session.
+INFO:scholarly:Session proxy config is {'http': 'http://45.226.228.235:3128', 'https': 'http://45.226.228.235:3128'}
+INFO:scholarly:Got a captcha request.
+INFO:scholarly:Exception WebDriverException while fetching page: ("'geckodriver' executable needs to be in PATH. ",)
+INFO:scholarly:Retrying with a new session.
+INFO:scholarly:Getting https://scholar.google.com/scholar?hl=en&q=Batarang&as_vis=0&as_sdt=0,33
+INFO:scholarly:Session proxy config is {}
+INFO:scholarly:Response code 429.
+                                    Retrying...
+INFO:scholarly:Session proxy config is {}
+INFO:scholarly:Response code 429.
+                                    Retrying...
+INFO:scholarly:Session proxy config is {}
+INFO:scholarly:Response code 429.
+                                    Retrying...
+INFO:scholarly:Session proxy config is {}
+INFO:scholarly:Response code 429.
+                                    Retrying...
+INFO:scholarly:Session proxy config is {}
+INFO:scholarly:Response code 429.
+                                    Retrying...
+INFO:scholarly:Proxy works!
+INFO:scholarly:Enabling proxies: http=http://104.215.251.191:25888 https=http://104.215.251.191:25888
+INFO:scholarly:Getting https://scholar.google.com/scholar?hl=en&q=Batarang&as_vis=0&as_sdt=0,33
+INFO:scholarly:Session proxy config is {'http': 'http://104.215.251.191:25888', 'https': 'http://104.215.251.191:25888'}
+INFO:scholarly:Got a captcha request.
+INFO:scholarly:Exception WebDriverException while fetching page: ("'geckodriver' executable needs to be in PATH. ",)
+INFO:scholarly:Retrying with a new session.
+INFO:scholarly:Session proxy config is {'http': 'http://104.215.251.191:25888', 'https': 'http://104.215.251.191:25888'}
+INFO:scholarly:Got a captcha request.
+INFO:scholarly:Exception WebDriverException while fetching page: ("'geckodriver' executable needs to be in PATH. ",)
+INFO:scholarly:Retrying with a new session.
+INFO:scholarly:Session proxy config is {'http': 'http://104.215.251.191:25888', 'https': 'http://104.215.251.191:25888'}
+INFO:scholarly:Got a captcha request.
+INFO:scholarly:Exception WebDriverException while fetching page: ("'geckodriver' executable needs to be in PATH. ",)
+INFO:scholarly:Retrying with a new session.
+INFO:scholarly:Session proxy config is {'http': 'http://104.215.251.191:25888', 'https': 'http://104.215.251.191:25888'}
+INFO:scholarly:Got a captcha request.
+INFO:scholarly:Exception WebDriverException while fetching page: ("'geckodriver' executable needs to be in PATH. ",)
+INFO:scholarly:Retrying with a new session.
+INFO:scholarly:Session proxy config is {'http': 'http://104.215.251.191:25888', 'https': 'http://104.215.251.191:25888'}
+INFO:scholarly:Got a captcha request.
+INFO:scholarly:Exception WebDriverException while fetching page: ("'geckodriver' executable needs to be in PATH. ",)
+INFO:scholarly:Retrying with a new session.
+INFO:scholarly:Proxy works!
+INFO:scholarly:Enabling proxies: http=http://45.226.228.235:3128 https=http://45.226.228.235:3128
+INFO:scholarly:Getting https://scholar.google.com/scholar?hl=en&q=Batarang&as_vis=0&as_sdt=0,33
+INFO:scholarly:Session proxy config is {'http': 'http://45.226.228.235:3128', 'https': 'http://45.226.228.235:3128'}
+INFO:scholarly:Got a captcha request.
+INFO:scholarly:Exception WebDriverException while fetching page: ("'geckodriver' executable needs to be in PATH. ",)
+INFO:scholarly:Retrying with a new session.
+INFO:scholarly:Session proxy config is {'http': 'http://45.226.228.235:3128', 'https': 'http://45.226.228.235:3128'}
+INFO:scholarly:Got a captcha request.
+INFO:scholarly:Exception WebDriverException while fetching page: ("'geckodriver' executable needs to be in PATH. ",)
+INFO:scholarly:Retrying with a new session.
+INFO:scholarly:Timeout Exception ReadTimeout while fetching page: (ReadTimeoutError("HTTPSConnectionPool(host='www.google.com', port=443): Read timed out. (read timeout=5)"),)
+INFO:scholarly:Increasing timeout and retrying within same session.
+INFO:scholarly:Session proxy config is {'http': 'http://45.226.228.235:3128', 'https': 'http://45.226.228.235:3128'}
+INFO:scholarly:Got a captcha request.
+INFO:scholarly:Exception WebDriverException while fetching page: ("'geckodriver' executable needs to be in PATH. ",)
+INFO:scholarly:Retrying with a new session.
+INFO:scholarly:Session proxy config is {'http': 'http://45.226.228.235:3128', 'https': 'http://45.226.228.235:3128'}
+INFO:scholarly:Got a captcha request.
+INFO:scholarly:Exception WebDriverException while fetching page: ("'geckodriver' executable needs to be in PATH. ",)
+INFO:scholarly:Retrying with a new session.
+INFO:scholarly:Session proxy config is {'http': 'http://45.226.228.235:3128', 'https': 'http://45.226.228.235:3128'}
+INFO:scholarly:Got a captcha request.
+INFO:scholarly:Exception WebDriverException while fetching page: ("'geckodriver' executable needs to be in PATH. ",)
+INFO:scholarly:Retrying with a new session.
+INFO:scholarly:Getting https://scholar.google.com/scholar?hl=en&q=Batarang&as_vis=0&as_sdt=0,33
+INFO:scholarly:Session proxy config is {}
+INFO:scholarly:Response code 429.
+                                    Retrying...
+INFO:scholarly:Session proxy config is {}
+INFO:scholarly:Response code 429.
+                                    Retrying...
+INFO:scholarly:Session proxy config is {}
+INFO:scholarly:Response code 429.
+                                    Retrying...
+INFO:scholarly:Session proxy config is {}
+INFO:scholarly:Response code 429.
+                                    Retrying...
+INFO:scholarly:Session proxy config is {}
+INFO:scholarly:Response code 429.
+                                    Retrying...
+INFO:scholarly:Proxy works!
+INFO:scholarly:Enabling proxies: http=http://35.185.16.35:80 https=http://35.185.16.35:80
+INFO:scholarly:Getting https://scholar.google.com/scholar?hl=en&q=Batarang&as_vis=0&as_sdt=0,33
+INFO:scholarly:Session proxy config is {'http': 'http://35.185.16.35:80', 'https': 'http://35.185.16.35:80'}
+INFO:scholarly:Got a captcha request.
+INFO:scholarly:Exception WebDriverException while fetching page: ("'geckodriver' executable needs to be in PATH. ",)
+INFO:scholarly:Retrying with a new session.
+INFO:scholarly:Session proxy config is {'http': 'http://35.185.16.35:80', 'https': 'http://35.185.16.35:80'}
+INFO:scholarly:Got a captcha request.
+INFO:scholarly:Exception WebDriverException while fetching page: ("'geckodriver' executable needs to be in PATH. ",)
+INFO:scholarly:Retrying with a new session.
+INFO:scholarly:Exception ProxyError while fetching page: (MaxRetryError("HTTPSConnectionPool(host='www.google.com', port=443): Max retries exceeded with url: /sorry/index?continue=https://scholar.google.com/scholar%3Fhl%3Den%26q%3DBatarang%26as_vis%3D0%26as_sdt%3D0,33&hl=en&q=EgQj89-zGIDc5vsFIhkA8aeDS3Jx7a9_cCm7dU5DnEZD9DHn_wwRMgFy (Caused by ProxyError('Cannot connect to proxy.', timeout('timed out')))"),)
+INFO:scholarly:Retrying with a new session.
+INFO:scholarly:Exception ProxyError while fetching page: (MaxRetryError("HTTPSConnectionPool(host='www.google.com', port=443): Max retries exceeded with url: /sorry/index?continue=https://scholar.google.com/scholar%3Fhl%3Den%26q%3DBatarang%26as_vis%3D0%26as_sdt%3D0,33&hl=en&q=EgQj89-zGIzc5vsFIhkA8aeDS3aE-TGThESNvwUwQ5hMEAiCZWqGMgFy (Caused by ProxyError('Cannot connect to proxy.', timeout('timed out')))"),)
+INFO:scholarly:Retrying with a new session.
+INFO:scholarly:Session proxy config is {'http': 'http://35.185.16.35:80', 'https': 'http://35.185.16.35:80'}
+INFO:scholarly:Got a captcha request.
+INFO:scholarly:Exception WebDriverException while fetching page: ("'geckodriver' executable needs to be in PATH. ",)
+INFO:scholarly:Retrying with a new session.
+INFO:scholarly:Proxy works!
+INFO:scholarly:Enabling proxies: http=http://91.121.110.174:3128 https=http://91.121.110.174:3128
+INFO:scholarly:Getting https://scholar.google.com/scholar?hl=en&q=Batarang&as_vis=0&as_sdt=0,33
+INFO:scholarly:Session proxy config is {'http': 'http://91.121.110.174:3128', 'https': 'http://91.121.110.174:3128'}
+INFO:scholarly:Got a captcha request.
+INFO:scholarly:Exception WebDriverException while fetching page: ("'geckodriver' executable needs to be in PATH. ",)
+INFO:scholarly:Retrying with a new session.
+INFO:scholarly:Session proxy config is {'http': 'http://91.121.110.174:3128', 'https': 'http://91.121.110.174:3128'}
+INFO:scholarly:Got a captcha request.
+INFO:scholarly:Exception WebDriverException while fetching page: ("'geckodriver' executable needs to be in PATH. ",)
+INFO:scholarly:Retrying with a new session.
+INFO:scholarly:Session proxy config is {'http': 'http://91.121.110.174:3128', 'https': 'http://91.121.110.174:3128'}
+INFO:scholarly:Got a captcha request.
+INFO:scholarly:Exception WebDriverException while fetching page: ("'geckodriver' executable needs to be in PATH. ",)
+INFO:scholarly:Retrying with a new session.
+INFO:scholarly:Session proxy config is {'http': 'http://91.121.110.174:3128', 'https': 'http://91.121.110.174:3128'}
+INFO:scholarly:Got a captcha request.
+INFO:scholarly:Exception WebDriverException while fetching page: ("'geckodriver' executable needs to be in PATH. ",)
+INFO:scholarly:Retrying with a new session.
+INFO:scholarly:Session proxy config is {'http': 'http://91.121.110.174:3128', 'https': 'http://91.121.110.174:3128'}
+INFO:scholarly:Got a captcha request.
+INFO:scholarly:Exception WebDriverException while fetching page: ("'geckodriver' executable needs to be in PATH. ",)
+INFO:scholarly:Retrying with a new session.
+INFO:scholarly:Proxy http://179.96.28.58:80 does not seem to work.
+INFO:scholarly:Getting https://scholar.google.com/scholar?hl=en&q=Batarang&as_vis=0&as_sdt=0,33
+INFO:scholarly:Session proxy config is {}
+INFO:scholarly:Response code 429.
+                                    Retrying...
+INFO:scholarly:Session proxy config is {}
+INFO:scholarly:Response code 429.
+                                    Retrying...
+INFO:scholarly:Session proxy config is {}
+INFO:scholarly:Response code 429.
+                                    Retrying...
+INFO:scholarly:Session proxy config is {}
+INFO:scholarly:Response code 429.
+                                    Retrying...
+INFO:scholarly:Session proxy config is {}
+INFO:scholarly:Response code 429.
+                                    Retrying...
+INFO:scholarly:Proxy http://179.96.28.58:80 does not seem to work.
+INFO:scholarly:Getting https://scholar.google.com/scholar?hl=en&q=Batarang&as_vis=0&as_sdt=0,33
+INFO:scholarly:Session proxy config is {}
+INFO:scholarly:Response code 429.
+                                    Retrying...
+INFO:scholarly:Session proxy config is {}
+INFO:scholarly:Response code 429.
+                                    Retrying...
+INFO:scholarly:Session proxy config is {}
+INFO:scholarly:Response code 429.
+                                    Retrying...
+INFO:scholarly:Session proxy config is {}
+INFO:scholarly:Response code 429.
+                                    Retrying...
+INFO:scholarly:Session proxy config is {}
+INFO:scholarly:Response code 429.
+                                    Retrying...
+INFO:scholarly:Proxy works!
+INFO:scholarly:Enabling proxies: http=http://213.230.69.33:8080 https=http://213.230.69.33:8080
+INFO:scholarly:Getting https://scholar.google.com/scholar?hl=en&q=Batarang&as_vis=0&as_sdt=0,33
+INFO:scholarly:Session proxy config is {'http': 'http://213.230.69.33:8080', 'https': 'http://213.230.69.33:8080'}
+INFO:scholarly:Getting https://scholar.google.com/scholar?start=10&q=Batarang&hl=en&as_sdt=0,33
+INFO:scholarly:Session proxy config is {'http': 'http://213.230.69.33:8080', 'https': 'http://213.230.69.33:8080'}
+INFO:scholarly:Getting https://scholar.google.com/scholar?start=20&q=Batarang&hl=en&as_sdt=0,33
+INFO:scholarly:Session proxy config is {'http': 'http://213.230.69.33:8080', 'https': 'http://213.230.69.33:8080'}
+INFO:scholarly:Getting https://scholar.google.com/scholar?start=30&q=Batarang&hl=en&as_sdt=0,33
+INFO:scholarly:Session proxy config is {'http': 'http://213.230.69.33:8080', 'https': 'http://213.230.69.33:8080'}
+INFO:scholarly:Getting https://scholar.google.com/scholar?start=40&q=Batarang&hl=en&as_sdt=0,33
+INFO:scholarly:Session proxy config is {'http': 'http://213.230.69.33:8080', 'https': 'http://213.230.69.33:8080'}
+INFO:scholarly:Getting https://scholar.google.com/scholar?start=50&q=Batarang&hl=en&as_sdt=0,33
+INFO:scholarly:Session proxy config is {'http': 'http://213.230.69.33:8080', 'https': 'http://213.230.69.33:8080'}
+INFO:scholarly:Getting https://scholar.google.com/scholar?start=60&q=Batarang&hl=en&as_sdt=0,33
+INFO:scholarly:Session proxy config is {'http': 'http://213.230.69.33:8080', 'https': 'http://213.230.69.33:8080'}
+INFO:scholarly:Getting https://scholar.google.com/scholar?start=70&q=Batarang&hl=en&as_sdt=0,33
+INFO:scholarly:Session proxy config is {'http': 'http://213.230.69.33:8080', 'https': 'http://213.230.69.33:8080'}
+INFO:scholarly:Getting https://scholar.google.com/scholar?start=80&q=Batarang&hl=en&as_sdt=0,33
+INFO:scholarly:Session proxy config is {'http': 'http://213.230.69.33:8080', 'https': 'http://213.230.69.33:8080'}
+INFO:scholarly:Getting https://scholar.google.com/scholar?start=90&q=Batarang&hl=en&as_sdt=0,33
+INFO:scholarly:Session proxy config is {'http': 'http://213.230.69.33:8080', 'https': 'http://213.230.69.33:8080'}
+INFO:scholarly:Getting https://scholar.google.com/scholar?start=100&q=Batarang&hl=en&as_sdt=0,33
+INFO:scholarly:Session proxy config is {'http': 'http://213.230.69.33:8080', 'https': 'http://213.230.69.33:8080'}
+INFO:scholarly:Getting https://scholar.google.com/scholar?start=110&q=Batarang&hl=en&as_sdt=0,33
+INFO:scholarly:Session proxy config is {'http': 'http://213.230.69.33:8080', 'https': 'http://213.230.69.33:8080'}
+INFO:scholarly:Getting https://scholar.google.com/scholar?start=120&q=Batarang&hl=en&as_sdt=0,33
+INFO:scholarly:Session proxy config is {'http': 'http://213.230.69.33:8080', 'https': 'http://213.230.69.33:8080'}
+INFO:scholarly:Getting https://scholar.google.com/scholar?start=130&q=Batarang&hl=en&as_sdt=0,33
+INFO:scholarly:Session proxy config is {'http': 'http://213.230.69.33:8080', 'https': 'http://213.230.69.33:8080'}
+INFO:scholarly:Getting https://scholar.google.com/scholar?start=140&q=Batarang&hl=en&as_sdt=0,33
+INFO:scholarly:Session proxy config is {'http': 'http://213.230.69.33:8080', 'https': 'http://213.230.69.33:8080'}
+INFO:scholarly:Getting https://scholar.google.com/scholar?start=150&q=Batarang&hl=en&as_sdt=0,33
+INFO:scholarly:Session proxy config is {'http': 'http://213.230.69.33:8080', 'https': 'http://213.230.69.33:8080'}
+INFO:scholarly:Getting https://scholar.google.com/scholar?start=160&q=Batarang&hl=en&as_sdt=0,33
+INFO:scholarly:Session proxy config is {'http': 'http://213.230.69.33:8080', 'https': 'http://213.230.69.33:8080'}
+INFO:scholarly:Getting https://scholar.google.com/scholar?start=170&q=Batarang&hl=en&as_sdt=0,33
+INFO:scholarly:Session proxy config is {'http': 'http://213.230.69.33:8080', 'https': 'http://213.230.69.33:8080'}
+INFO:scholarly:Getting https://scholar.google.com/scholar?start=180&q=Batarang&hl=en&as_sdt=0,33
+INFO:scholarly:Session proxy config is {'http': 'http://213.230.69.33:8080', 'https': 'http://213.230.69.33:8080'}
+INFO:scholarly:Getting https://scholar.google.com/scholar?start=190&q=Batarang&hl=en&as_sdt=0,33
+INFO:scholarly:Session proxy config is {'http': 'http://213.230.69.33:8080', 'https': 'http://213.230.69.33:8080'}
+INFO:scholarly:Getting https://scholar.google.com/scholar?start=200&q=Batarang&hl=en&as_sdt=0,33
+INFO:scholarly:Session proxy config is {'http': 'http://213.230.69.33:8080', 'https': 'http://213.230.69.33:8080'}
+INFO:scholarly:Getting https://scholar.google.com/scholar?start=210&q=Batarang&hl=en&as_sdt=0,33
+INFO:scholarly:Session proxy config is {'http': 'http://213.230.69.33:8080', 'https': 'http://213.230.69.33:8080'}
+INFO:scholarly:Getting https://scholar.google.com/scholar?start=220&q=Batarang&hl=en&as_sdt=0,33
+INFO:scholarly:Session proxy config is {'http': 'http://213.230.69.33:8080', 'https': 'http://213.230.69.33:8080'}
+INFO:scholarly:Getting https://scholar.google.com/scholar?start=230&q=Batarang&hl=en&as_sdt=0,33
+INFO:scholarly:Session proxy config is {'http': 'http://213.230.69.33:8080', 'https': 'http://213.230.69.33:8080'}
+INFO:scholarly:Getting https://scholar.google.com/scholar?start=240&q=Batarang&hl=en&as_sdt=0,33
+INFO:scholarly:Session proxy config is {'http': 'http://213.230.69.33:8080', 'https': 'http://213.230.69.33:8080'}
+INFO:scholarly:Getting https://scholar.google.com/scholar?start=250&q=Batarang&hl=en&as_sdt=0,33
+INFO:scholarly:Session proxy config is {'http': 'http://213.230.69.33:8080', 'https': 'http://213.230.69.33:8080'}
+INFO:scholarly:Getting https://scholar.google.com/scholar?start=260&q=Batarang&hl=en&as_sdt=0,33
+INFO:scholarly:Session proxy config is {'http': 'http://213.230.69.33:8080', 'https': 'http://213.230.69.33:8080'}
+INFO:scholarly:Getting https://scholar.google.com/scholar?start=270&q=Batarang&hl=en&as_sdt=0,33
+INFO:scholarly:Session proxy config is {'http': 'http://213.230.69.33:8080', 'https': 'http://213.230.69.33:8080'}
+INFO:scholarly:Getting https://scholar.google.com/scholar?start=280&q=Batarang&hl=en&as_sdt=0,33
+INFO:scholarly:Session proxy config is {'http': 'http://213.230.69.33:8080', 'https': 'http://213.230.69.33:8080'}
+INFO:scholarly:Getting https://scholar.google.com/scholar?start=290&q=Batarang&hl=en&as_sdt=0,33
+INFO:scholarly:Session proxy config is {'http': 'http://213.230.69.33:8080', 'https': 'http://213.230.69.33:8080'}
+INFO:scholarly:Getting https://scholar.google.com/scholar?start=300&q=Batarang&hl=en&as_sdt=0,33
+INFO:scholarly:Session proxy config is {'http': 'http://213.230.69.33:8080', 'https': 'http://213.230.69.33:8080'}
+INFO:scholarly:Getting https://scholar.google.com/scholar?cites=427435061025153175&as_sdt=5,33&sciodt=0,33&hl=en
+INFO:scholarly:Session proxy config is {'http': 'http://213.230.69.33:8080', 'https': 'http://213.230.69.33:8080'}
+INFO:scholarly:Getting https://scholar.google.com/scholar?cites=3946113788550511184&as_sdt=5,33&sciodt=0,33&hl=en
+INFO:scholarly:Session proxy config is {'http': 'http://213.230.69.33:8080', 'https': 'http://213.230.69.33:8080'}
+INFO:scholarly:Getting https://scholar.google.com/scholar?cites=11813599045903534603&as_sdt=5,33&sciodt=0,33&hl=en
+INFO:scholarly:Session proxy config is {'http': 'http://213.230.69.33:8080', 'https': 'http://213.230.69.33:8080'}
+INFO:scholarly:Getting https://scholar.google.com/scholar?cites=4958153256185960353&as_sdt=5,33&sciodt=0,33&hl=en
+INFO:scholarly:Session proxy config is {'http': 'http://213.230.69.33:8080', 'https': 'http://213.230.69.33:8080'}
+INFO:scholarly:Getting https://scholar.google.com/scholar?cites=17713500089532934068&as_sdt=5,33&sciodt=0,33&hl=en
+INFO:scholarly:Session proxy config is {'http': 'http://213.230.69.33:8080', 'https': 'http://213.230.69.33:8080'}
+INFO:scholarly:Getting https://scholar.google.com/scholar?cites=9881307569086818838&as_sdt=5,33&sciodt=0,33&hl=en
+INFO:scholarly:Session proxy config is {'http': 'http://213.230.69.33:8080', 'https': 'http://213.230.69.33:8080'}
+INFO:scholarly:Getting https://scholar.google.com/scholar?cites=11998975877048788794&as_sdt=5,33&sciodt=0,33&hl=en
+INFO:scholarly:Session proxy config is {'http': 'http://213.230.69.33:8080', 'https': 'http://213.230.69.33:8080'}
+INFO:scholarly:Getting https://scholar.google.com/scholar?cites=2649402661571124477&as_sdt=5,33&sciodt=0,33&hl=en
+INFO:scholarly:Session proxy config is {'http': 'http://213.230.69.33:8080', 'https': 'http://213.230.69.33:8080'}
+INFO:scholarly:Getting https://scholar.google.com/scholar?cites=9875695382625535654&as_sdt=5,33&sciodt=0,33&hl=en
+INFO:scholarly:Session proxy config is {'http': 'http://213.230.69.33:8080', 'https': 'http://213.230.69.33:8080'}
+INFO:scholarly:Getting https://scholar.google.com/scholar?cites=14169074124424113442&as_sdt=5,33&sciodt=0,33&hl=en
+INFO:scholarly:Session proxy config is {'http': 'http://213.230.69.33:8080', 'https': 'http://213.230.69.33:8080'}
+INFO:scholarly:Getting https://scholar.google.com/scholar?cites=14371705729175886528&as_sdt=5,33&sciodt=0,33&hl=en
+INFO:scholarly:Session proxy config is {'http': 'http://213.230.69.33:8080', 'https': 'http://213.230.69.33:8080'}
+INFO:scholarly:Getting https://scholar.google.com/scholar?cites=4902896068603365640&as_sdt=5,33&sciodt=0,33&hl=en
+INFO:scholarly:Session proxy config is {'http': 'http://213.230.69.33:8080', 'https': 'http://213.230.69.33:8080'}
+INFO:scholarly:Getting https://scholar.google.com/scholar?cites=6859082480944535195&as_sdt=5,33&sciodt=0,33&hl=en
+INFO:scholarly:Session proxy config is {'http': 'http://213.230.69.33:8080', 'https': 'http://213.230.69.33:8080'}
+INFO:scholarly:Getting https://scholar.google.com/scholar?cites=18092844179980010253&as_sdt=5,33&sciodt=0,33&hl=en
+INFO:scholarly:Session proxy config is {'http': 'http://213.230.69.33:8080', 'https': 'http://213.230.69.33:8080'}
+INFO:scholarly:Getting https://scholar.google.com/scholar?cites=8773406385628815601&as_sdt=5,33&sciodt=0,33&hl=en
+INFO:scholarly:Session proxy config is {'http': 'http://213.230.69.33:8080', 'https': 'http://213.230.69.33:8080'}
+INFO:scholarly:Getting https://scholar.google.com/scholar?cites=12081697336250041764&as_sdt=5,33&sciodt=0,33&hl=en
+INFO:scholarly:Session proxy config is {'http': 'http://213.230.69.33:8080', 'https': 'http://213.230.69.33:8080'}
+INFO:scholarly:Getting https://scholar.google.com/scholar?cites=8575484739248391167&as_sdt=5,33&sciodt=0,33&hl=en
+INFO:scholarly:Session proxy config is {'http': 'http://213.230.69.33:8080', 'https': 'http://213.230.69.33:8080'}
+INFO:scholarly:Getting https://scholar.google.com/scholar?cites=7323078621424006150&as_sdt=5,33&sciodt=0,33&hl=en
+INFO:scholarly:Session proxy config is {'http': 'http://213.230.69.33:8080', 'https': 'http://213.230.69.33:8080'}
+INFO:scholarly:Getting https://scholar.google.com/scholar?cites=12048290733777880973&as_sdt=5,33&sciodt=0,33&hl=en
+INFO:scholarly:Session proxy config is {'http': 'http://213.230.69.33:8080', 'https': 'http://213.230.69.33:8080'}
+INFO:scholarly:Getting https://scholar.google.com/scholar?cites=4852158992262933285&as_sdt=5,33&sciodt=0,33&hl=en
+INFO:scholarly:Session proxy config is {'http': 'http://213.230.69.33:8080', 'https': 'http://213.230.69.33:8080'}
+INFO:scholarly:Getting https://scholar.google.com/scholar?cites=15554573914267322006&as_sdt=5,33&sciodt=0,33&hl=en
+INFO:scholarly:Session proxy config is {'http': 'http://213.230.69.33:8080', 'https': 'http://213.230.69.33:8080'}
+INFO:scholarly:Getting https://scholar.google.com/scholar?cites=3581341441715574575&as_sdt=5,33&sciodt=0,33&hl=en
+INFO:scholarly:Session proxy config is {'http': 'http://213.230.69.33:8080', 'https': 'http://213.230.69.33:8080'}
+INFO:scholarly:Getting https://scholar.google.com/scholar?cites=11705300834579468421&as_sdt=5,33&sciodt=0,33&hl=en
+INFO:scholarly:Session proxy config is {'http': 'http://213.230.69.33:8080', 'https': 'http://213.230.69.33:8080'}
+INFO:scholarly:Getting https://scholar.google.com/scholar?cites=12533780136922163597&as_sdt=5,33&sciodt=0,33&hl=en
+INFO:scholarly:Session proxy config is {'http': 'http://213.230.69.33:8080', 'https': 'http://213.230.69.33:8080'}
+INFO:scholarly:Getting https://scholar.google.com/scholar?cites=9301097805054589832&as_sdt=5,33&sciodt=0,33&hl=en
+INFO:scholarly:Session proxy config is {'http': 'http://213.230.69.33:8080', 'https': 'http://213.230.69.33:8080'}
+INFO:scholarly:Getting https://scholar.google.com/scholar?cites=14797050641007327308&as_sdt=5,33&sciodt=0,33&hl=en
+INFO:scholarly:Session proxy config is {'http': 'http://213.230.69.33:8080', 'https': 'http://213.230.69.33:8080'}
+INFO:scholarly:Getting https://scholar.google.com/scholar?cites=539021182547162002&as_sdt=5,33&sciodt=0,33&hl=en
+INFO:scholarly:Session proxy config is {'http': 'http://213.230.69.33:8080', 'https': 'http://213.230.69.33:8080'}
+INFO:scholarly:Getting https://scholar.google.com/scholar?cites=18335291716727940342&as_sdt=5,33&sciodt=0,33&hl=en
+INFO:scholarly:Session proxy config is {'http': 'http://213.230.69.33:8080', 'https': 'http://213.230.69.33:8080'}
+INFO:scholarly:Getting https://scholar.google.com/scholar?cites=7151183190097265529&as_sdt=5,33&sciodt=0,33&hl=en
+INFO:scholarly:Session proxy config is {'http': 'http://213.230.69.33:8080', 'https': 'http://213.230.69.33:8080'}
+INFO:scholarly:Getting https://scholar.google.com/scholar?cites=7302504562829495084&as_sdt=5,33&sciodt=0,33&hl=en
+INFO:scholarly:Session proxy config is {'http': 'http://213.230.69.33:8080', 'https': 'http://213.230.69.33:8080'}
+INFO:scholarly:Getting https://scholar.google.com/scholar?cites=17780020737050049862&as_sdt=5,33&sciodt=0,33&hl=en
+INFO:scholarly:Session proxy config is {'http': 'http://213.230.69.33:8080', 'https': 'http://213.230.69.33:8080'}
+INFO:scholarly:Getting https://scholar.google.com/scholar?cites=15230969431559654842&as_sdt=5,33&sciodt=0,33&hl=en
+INFO:scholarly:Session proxy config is {'http': 'http://213.230.69.33:8080', 'https': 'http://213.230.69.33:8080'}
+INFO:scholarly:Getting https://scholar.google.com/scholar?cites=11180513461180971966&as_sdt=5,33&sciodt=0,33&hl=en
+INFO:scholarly:Session proxy config is {'http': 'http://213.230.69.33:8080', 'https': 'http://213.230.69.33:8080'}
+INFO:scholarly:Getting https://scholar.google.com/scholar?cites=1001978856511199041&as_sdt=5,33&sciodt=0,33&hl=en
+INFO:scholarly:Session proxy config is {'http': 'http://213.230.69.33:8080', 'https': 'http://213.230.69.33:8080'}
+INFO:scholarly:Getting https://scholar.google.com/scholar?cites=10296119605451726164&as_sdt=5,33&sciodt=0,33&hl=en
+INFO:scholarly:Session proxy config is {'http': 'http://213.230.69.33:8080', 'https': 'http://213.230.69.33:8080'}
+INFO:scholarly:Getting https://scholar.google.com/scholar?cites=10485605109697692032&as_sdt=5,33&sciodt=0,33&hl=en
+INFO:scholarly:Session proxy config is {'http': 'http://213.230.69.33:8080', 'https': 'http://213.230.69.33:8080'}
+INFO:scholarly:Getting https://scholar.google.com/scholar?cites=86220762183348044&as_sdt=5,33&sciodt=0,33&hl=en
+INFO:scholarly:Session proxy config is {'http': 'http://213.230.69.33:8080', 'https': 'http://213.230.69.33:8080'}
+INFO:scholarly:Getting https://scholar.google.com/scholar?cites=16233829473700529518&as_sdt=5,33&sciodt=0,33&hl=en
+INFO:scholarly:Session proxy config is {'http': 'http://213.230.69.33:8080', 'https': 'http://213.230.69.33:8080'}
+INFO:scholarly:Getting https://scholar.google.com/scholar?cites=4891752073879239889&as_sdt=5,33&sciodt=0,33&hl=en
+INFO:scholarly:Session proxy config is {'http': 'http://213.230.69.33:8080', 'https': 'http://213.230.69.33:8080'}
+INFO:scholarly:Getting https://scholar.google.com/scholar?cites=12766575316845721475&as_sdt=5,33&sciodt=0,33&hl=en
+INFO:scholarly:Session proxy config is {'http': 'http://213.230.69.33:8080', 'https': 'http://213.230.69.33:8080'}
+INFO:scholarly:Getting https://scholar.google.com/scholar?cites=9772108151712049025&as_sdt=5,33&sciodt=0,33&hl=en
+INFO:scholarly:Session proxy config is {'http': 'http://213.230.69.33:8080', 'https': 'http://213.230.69.33:8080'}
+INFO:scholarly:Getting https://scholar.google.com/scholar?cites=13244873548978059880&as_sdt=5,33&sciodt=0,33&hl=en
+INFO:scholarly:Session proxy config is {'http': 'http://213.230.69.33:8080', 'https': 'http://213.230.69.33:8080'}
+INFO:scholarly:Getting https://scholar.google.com/scholar?cites=45341496959849328&as_sdt=5,33&sciodt=0,33&hl=en
+INFO:scholarly:Session proxy config is {'http': 'http://213.230.69.33:8080', 'https': 'http://213.230.69.33:8080'}
+INFO:scholarly:Getting https://scholar.google.com/scholar?cites=7707837348323713646&as_sdt=5,33&sciodt=0,33&hl=en
+INFO:scholarly:Session proxy config is {'http': 'http://213.230.69.33:8080', 'https': 'http://213.230.69.33:8080'}
+INFO:scholarly:Getting https://scholar.google.com/scholar?cites=9817098105779086636&as_sdt=5,33&sciodt=0,33&hl=en
+INFO:scholarly:Session proxy config is {'http': 'http://213.230.69.33:8080', 'https': 'http://213.230.69.33:8080'}
+INFO:scholarly:Getting https://scholar.google.com/scholar?cites=16152150045168903639&as_sdt=5,33&sciodt=0,33&hl=en
+INFO:scholarly:Session proxy config is {'http': 'http://213.230.69.33:8080', 'https': 'http://213.230.69.33:8080'}
+INFO:scholarly:Getting https://scholar.google.com/scholar?cites=14830207509842587547&as_sdt=5,33&sciodt=0,33&hl=en
+INFO:scholarly:Session proxy config is {'http': 'http://213.230.69.33:8080', 'https': 'http://213.230.69.33:8080'}
+INFO:scholarly:Getting https://scholar.google.com/scholar?cites=7756740842781475880&as_sdt=5,33&sciodt=0,33&hl=en
+INFO:scholarly:Session proxy config is {'http': 'http://213.230.69.33:8080', 'https': 'http://213.230.69.33:8080'}
+INFO:scholarly:Getting https://scholar.google.com/scholar?cites=12347723491127225100&as_sdt=5,33&sciodt=0,33&hl=en
+INFO:scholarly:Session proxy config is {'http': 'http://213.230.69.33:8080', 'https': 'http://213.230.69.33:8080'}
+INFO:scholarly:Getting https://scholar.google.com/scholar?cites=1612658855591148103&as_sdt=5,33&sciodt=0,33&hl=en
+INFO:scholarly:Session proxy config is {'http': 'http://213.230.69.33:8080', 'https': 'http://213.230.69.33:8080'}
+INFO:scholarly:Getting https://scholar.google.com/scholar?cites=12860978464574504218&as_sdt=5,33&sciodt=0,33&hl=en
+INFO:scholarly:Session proxy config is {'http': 'http://213.230.69.33:8080', 'https': 'http://213.230.69.33:8080'}
+INFO:scholarly:Getting https://scholar.google.com/scholar?cites=16339617147732628967&as_sdt=5,33&sciodt=0,33&hl=en
+INFO:scholarly:Session proxy config is {'http': 'http://213.230.69.33:8080', 'https': 'http://213.230.69.33:8080'}
+INFO:scholarly:Getting https://scholar.google.com/scholar?cites=12974074850055234497&as_sdt=5,33&sciodt=0,33&hl=en
+INFO:scholarly:Session proxy config is {'http': 'http://213.230.69.33:8080', 'https': 'http://213.230.69.33:8080'}
+INFO:scholarly:Getting https://scholar.google.com/scholar?cites=7935609836317309042&as_sdt=5,33&sciodt=0,33&hl=en
+INFO:scholarly:Session proxy config is {'http': 'http://213.230.69.33:8080', 'https': 'http://213.230.69.33:8080'}
+INFO:scholarly:Getting https://scholar.google.com/scholar?cites=5092315620635185189&as_sdt=5,33&sciodt=0,33&hl=en
+INFO:scholarly:Session proxy config is {'http': 'http://213.230.69.33:8080', 'https': 'http://213.230.69.33:8080'}
+INFO:scholarly:Getting https://scholar.google.com/scholar?cites=9093542874415277548&as_sdt=5,33&sciodt=0,33&hl=en
+INFO:scholarly:Session proxy config is {'http': 'http://213.230.69.33:8080', 'https': 'http://213.230.69.33:8080'}
+INFO:scholarly:Getting https://scholar.google.com/scholar?cites=17253358960929318056&as_sdt=5,33&sciodt=0,33&hl=en
+INFO:scholarly:Session proxy config is {'http': 'http://213.230.69.33:8080', 'https': 'http://213.230.69.33:8080'}
+INFO:scholarly:Getting https://scholar.google.com/scholar?cites=16979737889093076823&as_sdt=5,33&sciodt=0,33&hl=en
+INFO:scholarly:Session proxy config is {'http': 'http://213.230.69.33:8080', 'https': 'http://213.230.69.33:8080'}
+INFO:scholarly:Getting https://scholar.google.com/scholar?cites=11313996972685919934&as_sdt=5,33&sciodt=0,33&hl=en
+INFO:scholarly:Session proxy config is {'http': 'http://213.230.69.33:8080', 'https': 'http://213.230.69.33:8080'}
+INFO:scholarly:Getting https://scholar.google.com/scholar?cites=8749452024819133412&as_sdt=5,33&sciodt=0,33&hl=en
+INFO:scholarly:Session proxy config is {'http': 'http://213.230.69.33:8080', 'https': 'http://213.230.69.33:8080'}
+INFO:scholarly:Getting https://scholar.google.com/scholar?cites=11949800260220676670&as_sdt=5,33&sciodt=0,33&hl=en
+INFO:scholarly:Session proxy config is {'http': 'http://213.230.69.33:8080', 'https': 'http://213.230.69.33:8080'}
+INFO:scholarly:Getting https://scholar.google.com/scholar?cites=9907177278755814175&as_sdt=5,33&sciodt=0,33&hl=en
+INFO:scholarly:Session proxy config is {'http': 'http://213.230.69.33:8080', 'https': 'http://213.230.69.33:8080'}
+INFO:scholarly:Getting https://scholar.google.com/scholar?cites=5066686424457299150&as_sdt=5,33&sciodt=0,33&hl=en
+INFO:scholarly:Session proxy config is {'http': 'http://213.230.69.33:8080', 'https': 'http://213.230.69.33:8080'}
+INFO:scholarly:Getting https://scholar.google.com/scholar?cites=8357125060879869082&as_sdt=5,33&sciodt=0,33&hl=en
+INFO:scholarly:Session proxy config is {'http': 'http://213.230.69.33:8080', 'https': 'http://213.230.69.33:8080'}
+INFO:scholarly:Getting https://scholar.google.com/scholar?cites=6446463817434795317&as_sdt=5,33&sciodt=0,33&hl=en
+INFO:scholarly:Session proxy config is {'http': 'http://213.230.69.33:8080', 'https': 'http://213.230.69.33:8080'}
+INFO:scholarly:Getting https://scholar.google.com/scholar?cites=16134044328034734594&as_sdt=5,33&sciodt=0,33&hl=en
+INFO:scholarly:Session proxy config is {'http': 'http://213.230.69.33:8080', 'https': 'http://213.230.69.33:8080'}
+INFO:scholarly:Getting https://scholar.google.com/scholar?cites=12025813341097054677&as_sdt=5,33&sciodt=0,33&hl=en
+INFO:scholarly:Session proxy config is {'http': 'http://213.230.69.33:8080', 'https': 'http://213.230.69.33:8080'}
+INFO:scholarly:Getting https://scholar.google.com/scholar?cites=14608917384802795538&as_sdt=5,33&sciodt=0,33&hl=en
+INFO:scholarly:Session proxy config is {'http': 'http://213.230.69.33:8080', 'https': 'http://213.230.69.33:8080'}
+INFO:scholarly:Getting https://scholar.google.com/scholar?cites=12351376331454174234&as_sdt=5,33&sciodt=0,33&hl=en
+INFO:scholarly:Session proxy config is {'http': 'http://213.230.69.33:8080', 'https': 'http://213.230.69.33:8080'}
+INFO:scholarly:Getting https://scholar.google.com/scholar?cites=17849568883687930289&as_sdt=5,33&sciodt=0,33&hl=en
+INFO:scholarly:Session proxy config is {'http': 'http://213.230.69.33:8080', 'https': 'http://213.230.69.33:8080'}
+INFO:scholarly:Getting https://scholar.google.com/scholar?cites=2240768201737509334&as_sdt=5,33&sciodt=0,33&hl=en
+INFO:scholarly:Session proxy config is {'http': 'http://213.230.69.33:8080', 'https': 'http://213.230.69.33:8080'}
+INFO:scholarly:Getting https://scholar.google.com/scholar?cites=4187697322532754455&as_sdt=5,33&sciodt=0,33&hl=en
+INFO:scholarly:Session proxy config is {'http': 'http://213.230.69.33:8080', 'https': 'http://213.230.69.33:8080'}
+INFO:scholarly:Getting https://scholar.google.com/scholar?cites=2767990649156525785&as_sdt=5,33&sciodt=0,33&hl=en
+INFO:scholarly:Session proxy config is {'http': 'http://213.230.69.33:8080', 'https': 'http://213.230.69.33:8080'}
+INFO:scholarly:Getting https://scholar.google.com/scholar?cites=2043570391273096608&as_sdt=5,33&sciodt=0,33&hl=en
+INFO:scholarly:Session proxy config is {'http': 'http://213.230.69.33:8080', 'https': 'http://213.230.69.33:8080'}
+INFO:scholarly:Getting https://scholar.google.com/scholar?cites=1456556139342425670&as_sdt=5,33&sciodt=0,33&hl=en
+INFO:scholarly:Session proxy config is {'http': 'http://213.230.69.33:8080', 'https': 'http://213.230.69.33:8080'}
+INFO:scholarly:Getting https://scholar.google.com/scholar?cites=11923331389595442818&as_sdt=5,33&sciodt=0,33&hl=en
+INFO:scholarly:Session proxy config is {'http': 'http://213.230.69.33:8080', 'https': 'http://213.230.69.33:8080'}
+INFO:scholarly:Getting https://scholar.google.com/scholar?cites=1672746253473931491&as_sdt=5,33&sciodt=0,33&hl=en
+INFO:scholarly:Session proxy config is {'http': 'http://213.230.69.33:8080', 'https': 'http://213.230.69.33:8080'}
+INFO:scholarly:Getting https://scholar.google.com/scholar?cites=1855664994406270309&as_sdt=5,33&sciodt=0,33&hl=en
+INFO:scholarly:Session proxy config is {'http': 'http://213.230.69.33:8080', 'https': 'http://213.230.69.33:8080'}
+INFO:scholarly:Getting https://scholar.google.com/scholar?cites=6570336692184532664&as_sdt=5,33&sciodt=0,33&hl=en
+INFO:scholarly:Session proxy config is {'http': 'http://213.230.69.33:8080', 'https': 'http://213.230.69.33:8080'}
+INFO:scholarly:Getting https://scholar.google.com/scholar?cites=5631736526344692419&as_sdt=5,33&sciodt=0,33&hl=en
+INFO:scholarly:Session proxy config is {'http': 'http://213.230.69.33:8080', 'https': 'http://213.230.69.33:8080'}
+INFO:scholarly:Getting https://scholar.google.com/scholar?cites=14642620653304020760&as_sdt=5,33&sciodt=0,33&hl=en
+INFO:scholarly:Session proxy config is {'http': 'http://213.230.69.33:8080', 'https': 'http://213.230.69.33:8080'}
+INFO:scholarly:Getting https://scholar.google.com/scholar?cites=7933485191142885829&as_sdt=5,33&sciodt=0,33&hl=en
+INFO:scholarly:Session proxy config is {'http': 'http://213.230.69.33:8080', 'https': 'http://213.230.69.33:8080'}
+INFO:scholarly:Getting https://scholar.google.com/scholar?cites=8103820573509729083&as_sdt=5,33&sciodt=0,33&hl=en
+INFO:scholarly:Session proxy config is {'http': 'http://213.230.69.33:8080', 'https': 'http://213.230.69.33:8080'}
+INFO:scholarly:Getting https://scholar.google.com/scholar?cites=9007625616159715879&as_sdt=5,33&sciodt=0,33&hl=en
+INFO:scholarly:Session proxy config is {'http': 'http://213.230.69.33:8080', 'https': 'http://213.230.69.33:8080'}
+INFO:scholarly:Getting https://scholar.google.com/scholar?cites=3472146154521088961&as_sdt=5,33&sciodt=0,33&hl=en
+INFO:scholarly:Session proxy config is {'http': 'http://213.230.69.33:8080', 'https': 'http://213.230.69.33:8080'}
+INFO:scholarly:Getting https://scholar.google.com/scholar?cites=17265113078329771243&as_sdt=5,33&sciodt=0,33&hl=en
+INFO:scholarly:Session proxy config is {'http': 'http://213.230.69.33:8080', 'https': 'http://213.230.69.33:8080'}
+INFO:scholarly:Getting https://scholar.google.com/scholar?cites=12975061719334618498&as_sdt=5,33&sciodt=0,33&hl=en
+INFO:scholarly:Timeout Exception ReadTimeout while fetching page: (ReadTimeoutError("HTTPSConnectionPool(host='scholar.google.com', port=443): Read timed out. (read timeout=5)"),)
+INFO:scholarly:Increasing timeout and retrying within same session.
+INFO:scholarly:Timeout Exception ConnectTimeout while fetching page: (MaxRetryError("HTTPSConnectionPool(host='scholar.google.com', port=443): Max retries exceeded with url: /scholar?cites=12975061719334618498&as_sdt=5,33&sciodt=0,33&hl=en (Caused by ConnectTimeoutError(<urllib3.connection.HTTPSConnection object at 0x000002B9C42F4580>, 'Connection to 213.230.69.33 timed out. (connect timeout=10)'))"),)
+INFO:scholarly:Increasing timeout and retrying within same session.
+INFO:scholarly:Exception ProxyError while fetching page: (MaxRetryError("HTTPSConnectionPool(host='scholar.google.com', port=443): Max retries exceeded with url: /scholar?cites=12975061719334618498&as_sdt=5,33&sciodt=0,33&hl=en (Caused by ProxyError('Cannot connect to proxy.', NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x000002B9C42F48E0>: Failed to establish a new connection: [WinError 10065] A socket operation was attempted to an unreachable host')))"),)
+INFO:scholarly:Retrying with a new session.
+INFO:scholarly:Session proxy config is {'http': 'http://213.230.69.33:8080', 'https': 'http://213.230.69.33:8080'}
+INFO:scholarly:Getting https://scholar.google.com/scholar?cites=17892960090172330901&as_sdt=5,33&sciodt=0,33&hl=en
+INFO:scholarly:Session proxy config is {'http': 'http://213.230.69.33:8080', 'https': 'http://213.230.69.33:8080'}
+INFO:scholarly:Getting https://scholar.google.com/scholar?cites=13378270872630069739&as_sdt=5,33&sciodt=0,33&hl=en
+INFO:scholarly:Session proxy config is {'http': 'http://213.230.69.33:8080', 'https': 'http://213.230.69.33:8080'}
+INFO:scholarly:Getting https://scholar.google.com/scholar?cites=14350128456307990794&as_sdt=5,33&sciodt=0,33&hl=en
+INFO:scholarly:Session proxy config is {'http': 'http://213.230.69.33:8080', 'https': 'http://213.230.69.33:8080'}
+INFO:scholarly:Getting https://scholar.google.com/scholar?cites=14399206250678632556&as_sdt=5,33&sciodt=0,33&hl=en
+INFO:scholarly:Session proxy config is {'http': 'http://213.230.69.33:8080', 'https': 'http://213.230.69.33:8080'}
+INFO:scholarly:Getting https://scholar.google.com/scholar?cites=6645674425519044269&as_sdt=5,33&sciodt=0,33&hl=en
+INFO:scholarly:Session proxy config is {'http': 'http://213.230.69.33:8080', 'https': 'http://213.230.69.33:8080'}
+INFO:scholarly:Getting https://scholar.google.com/scholar?cites=10554033328663630060&as_sdt=5,33&sciodt=0,33&hl=en
+INFO:scholarly:Session proxy config is {'http': 'http://213.230.69.33:8080', 'https': 'http://213.230.69.33:8080'}
+INFO:scholarly:Getting https://scholar.google.com/scholar?cites=10663752735295458348&as_sdt=5,33&sciodt=0,33&hl=en
+INFO:scholarly:Session proxy config is {'http': 'http://213.230.69.33:8080', 'https': 'http://213.230.69.33:8080'}
+INFO:scholarly:Getting https://scholar.google.com/scholar?cites=11514142961038241390&as_sdt=5,33&sciodt=0,33&hl=en
+INFO:scholarly:Session proxy config is {'http': 'http://213.230.69.33:8080', 'https': 'http://213.230.69.33:8080'}
+INFO:scholarly:Getting https://scholar.google.com/scholar?cites=1327151999188184810&as_sdt=5,33&sciodt=0,33&hl=en
+INFO:scholarly:Session proxy config is {'http': 'http://213.230.69.33:8080', 'https': 'http://213.230.69.33:8080'}
+INFO:scholarly:Getting https://scholar.google.com/scholar?cites=17188267245845133098&as_sdt=5,33&sciodt=0,33&hl=en
+INFO:scholarly:Session proxy config is {'http': 'http://213.230.69.33:8080', 'https': 'http://213.230.69.33:8080'}
+INFO:scholarly:Getting https://scholar.google.com/scholar?cites=3675884755790561374&as_sdt=5,33&sciodt=0,33&hl=en
+INFO:scholarly:Session proxy config is {'http': 'http://213.230.69.33:8080', 'https': 'http://213.230.69.33:8080'}
+INFO:scholarly:Getting https://scholar.google.com/scholar?cites=13971277165565846454&as_sdt=5,33&sciodt=0,33&hl=en
+INFO:scholarly:Session proxy config is {'http': 'http://213.230.69.33:8080', 'https': 'http://213.230.69.33:8080'}
+INFO:scholarly:Getting https://scholar.google.com/scholar?cites=10118760710862764434&as_sdt=5,33&sciodt=0,33&hl=en
+INFO:scholarly:Session proxy config is {'http': 'http://213.230.69.33:8080', 'https': 'http://213.230.69.33:8080'}
+INFO:scholarly:Getting https://scholar.google.com/scholar?cites=1590610694873849055&as_sdt=5,33&sciodt=0,33&hl=en
+INFO:scholarly:Session proxy config is {'http': 'http://213.230.69.33:8080', 'https': 'http://213.230.69.33:8080'}
+INFO:scholarly:Getting https://scholar.google.com/scholar?cites=735391847318518325&as_sdt=5,33&sciodt=0,33&hl=en
+INFO:scholarly:Session proxy config is {'http': 'http://213.230.69.33:8080', 'https': 'http://213.230.69.33:8080'}
+INFO:scholarly:Getting https://scholar.google.com/scholar?cites=14430535729293972202&as_sdt=5,33&sciodt=0,33&hl=en
+INFO:scholarly:Session proxy config is {'http': 'http://213.230.69.33:8080', 'https': 'http://213.230.69.33:8080'}
+INFO:scholarly:Getting https://scholar.google.com/scholar?cites=4040905750053845173&as_sdt=5,33&sciodt=0,33&hl=en
+INFO:scholarly:Session proxy config is {'http': 'http://213.230.69.33:8080', 'https': 'http://213.230.69.33:8080'}
+INFO:scholarly:Getting https://scholar.google.com/scholar?cites=9498120119385099107&as_sdt=5,33&sciodt=0,33&hl=en
+INFO:scholarly:Session proxy config is {'http': 'http://213.230.69.33:8080', 'https': 'http://213.230.69.33:8080'}
+INFO:scholarly:Getting https://scholar.google.com/scholar?cites=4014820138096159966&as_sdt=5,33&sciodt=0,33&hl=en
+INFO:scholarly:Session proxy config is {'http': 'http://213.230.69.33:8080', 'https': 'http://213.230.69.33:8080'}
+INFO:scholarly:Getting https://scholar.google.com/scholar?cites=11669441980226935642&as_sdt=5,33&sciodt=0,33&hl=en
+INFO:scholarly:Session proxy config is {'http': 'http://213.230.69.33:8080', 'https': 'http://213.230.69.33:8080'}
+INFO:scholarly:Getting https://scholar.google.com/scholar?cites=8433822619287810887&as_sdt=5,33&sciodt=0,33&hl=en
+INFO:scholarly:Session proxy config is {'http': 'http://213.230.69.33:8080', 'https': 'http://213.230.69.33:8080'}
+INFO:scholarly:Getting https://scholar.google.com/scholar?cites=5467401903456109327&as_sdt=5,33&sciodt=0,33&hl=en
+INFO:scholarly:Session proxy config is {'http': 'http://213.230.69.33:8080', 'https': 'http://213.230.69.33:8080'}
+INFO:scholarly:Getting https://scholar.google.com/scholar?cites=2806471578651944648&as_sdt=5,33&sciodt=0,33&hl=en
+INFO:scholarly:Session proxy config is {'http': 'http://213.230.69.33:8080', 'https': 'http://213.230.69.33:8080'}
+INFO:scholarly:Getting https://scholar.google.com/scholar?cites=6719525498811791961&as_sdt=5,33&sciodt=0,33&hl=en
+INFO:scholarly:Session proxy config is {'http': 'http://213.230.69.33:8080', 'https': 'http://213.230.69.33:8080'}
+INFO:scholarly:Getting https://scholar.google.com/scholar?cites=6877574748617581566&as_sdt=5,33&sciodt=0,33&hl=en
+INFO:scholarly:Session proxy config is {'http': 'http://213.230.69.33:8080', 'https': 'http://213.230.69.33:8080'}
+INFO:scholarly:Getting https://scholar.google.com/scholar?cites=774203504550964440&as_sdt=5,33&sciodt=0,33&hl=en
+INFO:scholarly:Session proxy config is {'http': 'http://213.230.69.33:8080', 'https': 'http://213.230.69.33:8080'}
+INFO:scholarly:Getting https://scholar.google.com/scholar?cites=2809395992203302063&as_sdt=5,33&sciodt=0,33&hl=en
+INFO:scholarly:Session proxy config is {'http': 'http://213.230.69.33:8080', 'https': 'http://213.230.69.33:8080'}
+INFO:scholarly:Getting https://scholar.google.com/scholar?cites=11561528061697584213&as_sdt=5,33&sciodt=0,33&hl=en
+INFO:scholarly:Session proxy config is {'http': 'http://213.230.69.33:8080', 'https': 'http://213.230.69.33:8080'}
+INFO:scholarly:Getting https://scholar.google.com/scholar?cites=16645900523101682600&as_sdt=5,33&sciodt=0,33&hl=en
+INFO:scholarly:Session proxy config is {'http': 'http://213.230.69.33:8080', 'https': 'http://213.230.69.33:8080'}
+INFO:scholarly:Getting https://scholar.google.com/scholar?cites=6013554263225717037&as_sdt=5,33&sciodt=0,33&hl=en
+INFO:scholarly:Session proxy config is {'http': 'http://213.230.69.33:8080', 'https': 'http://213.230.69.33:8080'}
+INFO:scholarly:Getting https://scholar.google.com/scholar?cites=13522593272747859987&as_sdt=5,33&sciodt=0,33&hl=en
+INFO:scholarly:Session proxy config is {'http': 'http://213.230.69.33:8080', 'https': 'http://213.230.69.33:8080'}
+INFO:scholarly:Getting https://scholar.google.com/scholar?cites=11821678516614128748&as_sdt=5,33&sciodt=0,33&hl=en
+INFO:scholarly:Session proxy config is {'http': 'http://213.230.69.33:8080', 'https': 'http://213.230.69.33:8080'}
+INFO:scholarly:Getting https://scholar.google.com/scholar?cites=9873613876134546477&as_sdt=5,33&sciodt=0,33&hl=en
+INFO:scholarly:Session proxy config is {'http': 'http://213.230.69.33:8080', 'https': 'http://213.230.69.33:8080'}
+INFO:scholarly:Getting https://scholar.google.com/scholar?cites=7504417714481304768&as_sdt=5,33&sciodt=0,33&hl=en
+INFO:scholarly:Session proxy config is {'http': 'http://213.230.69.33:8080', 'https': 'http://213.230.69.33:8080'}
+INFO:scholarly:Getting https://scholar.google.com/scholar?cites=16457428471997576333&as_sdt=5,33&sciodt=0,33&hl=en
+INFO:scholarly:Session proxy config is {'http': 'http://213.230.69.33:8080', 'https': 'http://213.230.69.33:8080'}
+INFO:scholarly:Getting https://scholar.google.com/scholar?cites=684323740914688067&as_sdt=5,33&sciodt=0,33&hl=en
+INFO:scholarly:Session proxy config is {'http': 'http://213.230.69.33:8080', 'https': 'http://213.230.69.33:8080'}
+INFO:scholarly:Getting https://scholar.google.com/scholar?cites=3123392187471098916&as_sdt=5,33&sciodt=0,33&hl=en
+INFO:scholarly:Session proxy config is {'http': 'http://213.230.69.33:8080', 'https': 'http://213.230.69.33:8080'}
+INFO:scholarly:Getting https://scholar.google.com/scholar?cites=2561118866719211158&as_sdt=5,33&sciodt=0,33&hl=en
+INFO:scholarly:Session proxy config is {'http': 'http://213.230.69.33:8080', 'https': 'http://213.230.69.33:8080'}
+INFO:scholarly:Getting https://scholar.google.com/scholar?cites=12337245127772120796&as_sdt=5,33&sciodt=0,33&hl=en
+INFO:scholarly:Session proxy config is {'http': 'http://213.230.69.33:8080', 'https': 'http://213.230.69.33:8080'}
+INFO:scholarly:Getting https://scholar.google.com/scholar?cites=12975132716055238048&as_sdt=5,33&sciodt=0,33&hl=en
+INFO:scholarly:Session proxy config is {'http': 'http://213.230.69.33:8080', 'https': 'http://213.230.69.33:8080'}
+INFO:scholarly:Getting https://scholar.google.com/scholar?cites=6523309320259469678&as_sdt=5,33&sciodt=0,33&hl=en
+INFO:scholarly:Session proxy config is {'http': 'http://213.230.69.33:8080', 'https': 'http://213.230.69.33:8080'}
+INFO:scholarly:Getting https://scholar.google.com/scholar?cites=18892937582223833&as_sdt=5,33&sciodt=0,33&hl=en
+INFO:scholarly:Session proxy config is {'http': 'http://213.230.69.33:8080', 'https': 'http://213.230.69.33:8080'}
+INFO:scholarly:Getting https://scholar.google.com/scholar?cites=7746096503309898353&as_sdt=5,33&sciodt=0,33&hl=en
+INFO:scholarly:Session proxy config is {'http': 'http://213.230.69.33:8080', 'https': 'http://213.230.69.33:8080'}
+INFO:scholarly:Getting https://scholar.google.com/scholar?cites=3202564151429175466&as_sdt=5,33&sciodt=0,33&hl=en
+INFO:scholarly:Session proxy config is {'http': 'http://213.230.69.33:8080', 'https': 'http://213.230.69.33:8080'}
+INFO:scholarly:Getting https://scholar.google.com/scholar?cites=1141393986251642144&as_sdt=5,33&sciodt=0,33&hl=en
+INFO:scholarly:Session proxy config is {'http': 'http://213.230.69.33:8080', 'https': 'http://213.230.69.33:8080'}
+INFO:scholarly:Getting https://scholar.google.com/scholar?cites=6565103359338980066&as_sdt=5,33&sciodt=0,33&hl=en
+INFO:scholarly:Session proxy config is {'http': 'http://213.230.69.33:8080', 'https': 'http://213.230.69.33:8080'}
+INFO:scholarly:Getting https://scholar.google.com/scholar?cites=11456122367007286700&as_sdt=5,33&sciodt=0,33&hl=en
+INFO:scholarly:Session proxy config is {'http': 'http://213.230.69.33:8080', 'https': 'http://213.230.69.33:8080'}
+INFO:scholarly:Getting https://scholar.google.com/scholar?cites=9127392570033298226&as_sdt=5,33&sciodt=0,33&hl=en
+INFO:scholarly:Session proxy config is {'http': 'http://213.230.69.33:8080', 'https': 'http://213.230.69.33:8080'}
+INFO:scholarly:Getting https://scholar.google.com/scholar?cites=10363403548221544114&as_sdt=5,33&sciodt=0,33&hl=en
+INFO:scholarly:Session proxy config is {'http': 'http://213.230.69.33:8080', 'https': 'http://213.230.69.33:8080'}
+INFO:scholarly:Getting https://scholar.google.com/scholar?cites=8581647177093081579&as_sdt=5,33&sciodt=0,33&hl=en
+INFO:scholarly:Session proxy config is {'http': 'http://213.230.69.33:8080', 'https': 'http://213.230.69.33:8080'}
+INFO:scholarly:Getting https://scholar.google.com/scholar?cites=8678082167588305991&as_sdt=5,33&sciodt=0,33&hl=en
+INFO:scholarly:Session proxy config is {'http': 'http://213.230.69.33:8080', 'https': 'http://213.230.69.33:8080'}
+INFO:scholarly:Getting https://scholar.google.com/scholar?start=10&hl=en&as_sdt=5,33&sciodt=0,33&cites=427435061025153175&scipsc=
+INFO:scholarly:Session proxy config is {'http': 'http://213.230.69.33:8080', 'https': 'http://213.230.69.33:8080'}
+INFO:scholarly:Getting https://scholar.google.com/scholar?start=20&hl=en&as_sdt=5,33&sciodt=0,33&cites=427435061025153175&scipsc=
+INFO:scholarly:Session proxy config is {'http': 'http://213.230.69.33:8080', 'https': 'http://213.230.69.33:8080'}
+INFO:scholarly:Getting https://scholar.google.com/scholar?start=30&hl=en&as_sdt=5,33&sciodt=0,33&cites=427435061025153175&scipsc=
+INFO:scholarly:Session proxy config is {'http': 'http://213.230.69.33:8080', 'https': 'http://213.230.69.33:8080'}
+INFO:scholarly:Getting https://scholar.google.com/scholar?start=40&hl=en&as_sdt=5,33&sciodt=0,33&cites=427435061025153175&scipsc=
+INFO:scholarly:Session proxy config is {'http': 'http://213.230.69.33:8080', 'https': 'http://213.230.69.33:8080'}
+INFO:scholarly:Getting https://scholar.google.com/scholar?start=50&hl=en&as_sdt=5,33&sciodt=0,33&cites=427435061025153175&scipsc=
+INFO:scholarly:Session proxy config is {'http': 'http://213.230.69.33:8080', 'https': 'http://213.230.69.33:8080'}
+INFO:scholarly:Getting https://scholar.google.com/scholar?start=60&hl=en&as_sdt=5,33&sciodt=0,33&cites=427435061025153175&scipsc=
+INFO:scholarly:Session proxy config is {'http': 'http://213.230.69.33:8080', 'https': 'http://213.230.69.33:8080'}
+INFO:scholarly:Getting https://scholar.google.com/scholar?start=10&hl=en&as_sdt=5,33&sciodt=0,33&cites=11813599045903534603&scipsc=
+INFO:scholarly:Session proxy config is {'http': 'http://213.230.69.33:8080', 'https': 'http://213.230.69.33:8080'}
+INFO:scholarly:Getting https://scholar.google.com/scholar?start=10&hl=en&as_sdt=5,33&sciodt=0,33&cites=9881307569086818838&scipsc=
+INFO:scholarly:Session proxy config is {'http': 'http://213.230.69.33:8080', 'https': 'http://213.230.69.33:8080'}
+INFO:scholarly:Getting https://scholar.google.com/scholar?start=20&hl=en&as_sdt=5,33&sciodt=0,33&cites=9881307569086818838&scipsc=
+INFO:scholarly:Session proxy config is {'http': 'http://213.230.69.33:8080', 'https': 'http://213.230.69.33:8080'}
+INFO:scholarly:Getting https://scholar.google.com/scholar?start=10&hl=en&as_sdt=5,33&sciodt=0,33&cites=11998975877048788794&scipsc=
+INFO:scholarly:Session proxy config is {'http': 'http://213.230.69.33:8080', 'https': 'http://213.230.69.33:8080'}
+INFO:scholarly:Getting https://scholar.google.com/scholar?start=10&hl=en&as_sdt=5,33&sciodt=0,33&cites=14169074124424113442&scipsc=
+INFO:scholarly:Session proxy config is {'http': 'http://213.230.69.33:8080', 'https': 'http://213.230.69.33:8080'}
+INFO:scholarly:Getting https://scholar.google.com/scholar?start=10&hl=en&as_sdt=5,33&sciodt=0,33&cites=14371705729175886528&scipsc=
+INFO:scholarly:Session proxy config is {'http': 'http://213.230.69.33:8080', 'https': 'http://213.230.69.33:8080'}
+INFO:scholarly:Getting https://scholar.google.com/scholar?start=10&hl=en&as_sdt=5,33&sciodt=0,33&cites=6859082480944535195&scipsc=
+INFO:scholarly:Session proxy config is {'http': 'http://213.230.69.33:8080', 'https': 'http://213.230.69.33:8080'}
+INFO:scholarly:Getting https://scholar.google.com/scholar?start=20&hl=en&as_sdt=5,33&sciodt=0,33&cites=6859082480944535195&scipsc=
+INFO:scholarly:Session proxy config is {'http': 'http://213.230.69.33:8080', 'https': 'http://213.230.69.33:8080'}
+INFO:scholarly:Getting https://scholar.google.com/scholar?start=30&hl=en&as_sdt=5,33&sciodt=0,33&cites=6859082480944535195&scipsc=
+INFO:scholarly:Session proxy config is {'http': 'http://213.230.69.33:8080', 'https': 'http://213.230.69.33:8080'}
+INFO:scholarly:Getting https://scholar.google.com/scholar?start=10&hl=en&as_sdt=5,33&sciodt=0,33&cites=18092844179980010253&scipsc=
+INFO:scholarly:Session proxy config is {'http': 'http://213.230.69.33:8080', 'https': 'http://213.230.69.33:8080'}
+INFO:scholarly:Getting https://scholar.google.com/scholar?start=10&hl=en&as_sdt=5,33&sciodt=0,33&cites=8773406385628815601&scipsc=
+INFO:scholarly:Session proxy config is {'http': 'http://213.230.69.33:8080', 'https': 'http://213.230.69.33:8080'}
+INFO:scholarly:Getting https://scholar.google.com/scholar?start=20&hl=en&as_sdt=5,33&sciodt=0,33&cites=8773406385628815601&scipsc=
+INFO:scholarly:Session proxy config is {'http': 'http://213.230.69.33:8080', 'https': 'http://213.230.69.33:8080'}
+INFO:scholarly:Getting https://scholar.google.com/scholar?start=30&hl=en&as_sdt=5,33&sciodt=0,33&cites=8773406385628815601&scipsc=
+INFO:scholarly:Session proxy config is {'http': 'http://213.230.69.33:8080', 'https': 'http://213.230.69.33:8080'}
+INFO:scholarly:Getting https://scholar.google.com/scholar?start=40&hl=en&as_sdt=5,33&sciodt=0,33&cites=8773406385628815601&scipsc=
+INFO:scholarly:Session proxy config is {'http': 'http://213.230.69.33:8080', 'https': 'http://213.230.69.33:8080'}
+INFO:scholarly:Getting https://scholar.google.com/scholar?start=50&hl=en&as_sdt=5,33&sciodt=0,33&cites=8773406385628815601&scipsc=
+INFO:scholarly:Session proxy config is {'http': 'http://213.230.69.33:8080', 'https': 'http://213.230.69.33:8080'}
+INFO:scholarly:Getting https://scholar.google.com/scholar?start=10&hl=en&as_sdt=5,33&sciodt=0,33&cites=8575484739248391167&scipsc=
+INFO:scholarly:Session proxy config is {'http': 'http://213.230.69.33:8080', 'https': 'http://213.230.69.33:8080'}
+INFO:scholarly:Getting https://scholar.google.com/scholar?start=20&hl=en&as_sdt=5,33&sciodt=0,33&cites=8575484739248391167&scipsc=
+INFO:scholarly:Session proxy config is {'http': 'http://213.230.69.33:8080', 'https': 'http://213.230.69.33:8080'}
+INFO:scholarly:Getting https://scholar.google.com/scholar?start=10&hl=en&as_sdt=5,33&sciodt=0,33&cites=7323078621424006150&scipsc=
+INFO:scholarly:Session proxy config is {'http': 'http://213.230.69.33:8080', 'https': 'http://213.230.69.33:8080'}
+INFO:scholarly:Getting https://scholar.google.com/scholar?start=10&hl=en&as_sdt=5,33&sciodt=0,33&cites=12048290733777880973&scipsc=
+INFO:scholarly:Session proxy config is {'http': 'http://213.230.69.33:8080', 'https': 'http://213.230.69.33:8080'}
+INFO:scholarly:Getting https://scholar.google.com/scholar?start=20&hl=en&as_sdt=5,33&sciodt=0,33&cites=12048290733777880973&scipsc=
+INFO:scholarly:Session proxy config is {'http': 'http://213.230.69.33:8080', 'https': 'http://213.230.69.33:8080'}
+INFO:scholarly:Getting https://scholar.google.com/scholar?start=30&hl=en&as_sdt=5,33&sciodt=0,33&cites=12048290733777880973&scipsc=
+INFO:scholarly:Session proxy config is {'http': 'http://213.230.69.33:8080', 'https': 'http://213.230.69.33:8080'}
+INFO:scholarly:Getting https://scholar.google.com/scholar?start=40&hl=en&as_sdt=5,33&sciodt=0,33&cites=12048290733777880973&scipsc=
+INFO:scholarly:Session proxy config is {'http': 'http://213.230.69.33:8080', 'https': 'http://213.230.69.33:8080'}
+INFO:scholarly:Got a captcha request.
+INFO:scholarly:Exception WebDriverException while fetching page: ("'geckodriver' executable needs to be in PATH. ",)
+INFO:scholarly:Retrying with a new session.
+INFO:scholarly:Session proxy config is {'http': 'http://213.230.69.33:8080', 'https': 'http://213.230.69.33:8080'}
+INFO:scholarly:Getting https://scholar.google.com/scholar?start=10&hl=en&as_sdt=5,33&sciodt=0,33&cites=4852158992262933285&scipsc=
+INFO:scholarly:Session proxy config is {'http': 'http://213.230.69.33:8080', 'https': 'http://213.230.69.33:8080'}
+INFO:scholarly:Got a captcha request.
+INFO:scholarly:Exception WebDriverException while fetching page: ("'geckodriver' executable needs to be in PATH. ",)
+INFO:scholarly:Retrying with a new session.
+INFO:scholarly:Session proxy config is {'http': 'http://213.230.69.33:8080', 'https': 'http://213.230.69.33:8080'}
+INFO:scholarly:Getting https://scholar.google.com/scholar?start=10&hl=en&as_sdt=5,33&sciodt=0,33&cites=3581341441715574575&scipsc=
+INFO:scholarly:Session proxy config is {'http': 'http://213.230.69.33:8080', 'https': 'http://213.230.69.33:8080'}
+INFO:scholarly:Got a captcha request.
+INFO:scholarly:Exception WebDriverException while fetching page: ("'geckodriver' executable needs to be in PATH. ",)
+INFO:scholarly:Retrying with a new session.
+INFO:scholarly:Session proxy config is {'http': 'http://213.230.69.33:8080', 'https': 'http://213.230.69.33:8080'}
+INFO:scholarly:Getting https://scholar.google.com/scholar?start=20&hl=en&as_sdt=5,33&sciodt=0,33&cites=3581341441715574575&scipsc=
+INFO:scholarly:Session proxy config is {'http': 'http://213.230.69.33:8080', 'https': 'http://213.230.69.33:8080'}
+INFO:scholarly:Got a captcha request.
+INFO:scholarly:Exception WebDriverException while fetching page: ("'geckodriver' executable needs to be in PATH. ",)
+INFO:scholarly:Retrying with a new session.
+INFO:scholarly:Session proxy config is {'http': 'http://213.230.69.33:8080', 'https': 'http://213.230.69.33:8080'}
+INFO:scholarly:Getting https://scholar.google.com/scholar?start=10&hl=en&as_sdt=5,33&sciodt=0,33&cites=12533780136922163597&scipsc=
+INFO:scholarly:Session proxy config is {'http': 'http://213.230.69.33:8080', 'https': 'http://213.230.69.33:8080'}
+INFO:scholarly:Got a captcha request.
+INFO:scholarly:Exception WebDriverException while fetching page: ("'geckodriver' executable needs to be in PATH. ",)
+INFO:scholarly:Retrying with a new session.
+INFO:scholarly:Session proxy config is {'http': 'http://213.230.69.33:8080', 'https': 'http://213.230.69.33:8080'}
+INFO:scholarly:Getting https://scholar.google.com/scholar?start=20&hl=en&as_sdt=5,33&sciodt=0,33&cites=12533780136922163597&scipsc=
+INFO:scholarly:Session proxy config is {'http': 'http://213.230.69.33:8080', 'https': 'http://213.230.69.33:8080'}
+INFO:scholarly:Got a captcha request.
+INFO:scholarly:Exception WebDriverException while fetching page: ("'geckodriver' executable needs to be in PATH. ",)
+INFO:scholarly:Retrying with a new session.
+INFO:scholarly:Session proxy config is {'http': 'http://213.230.69.33:8080', 'https': 'http://213.230.69.33:8080'}
+INFO:scholarly:Getting https://scholar.google.com/scholar?start=10&hl=en&as_sdt=5,33&sciodt=0,33&cites=539021182547162002&scipsc=
+INFO:scholarly:Session proxy config is {'http': 'http://213.230.69.33:8080', 'https': 'http://213.230.69.33:8080'}
+INFO:scholarly:Got a captcha request.
+INFO:scholarly:Exception WebDriverException while fetching page: ("'geckodriver' executable needs to be in PATH. ",)
+INFO:scholarly:Retrying with a new session.
+INFO:scholarly:Session proxy config is {'http': 'http://213.230.69.33:8080', 'https': 'http://213.230.69.33:8080'}
+INFO:scholarly:Getting https://scholar.google.com/scholar?start=20&hl=en&as_sdt=5,33&sciodt=0,33&cites=539021182547162002&scipsc=
+INFO:scholarly:Session proxy config is {'http': 'http://213.230.69.33:8080', 'https': 'http://213.230.69.33:8080'}
+INFO:scholarly:Got a captcha request.
+INFO:scholarly:Exception WebDriverException while fetching page: ("'geckodriver' executable needs to be in PATH. ",)
+INFO:scholarly:Retrying with a new session.
+INFO:scholarly:Session proxy config is {'http': 'http://213.230.69.33:8080', 'https': 'http://213.230.69.33:8080'}
+INFO:scholarly:Getting https://scholar.google.com/scholar?start=30&hl=en&as_sdt=5,33&sciodt=0,33&cites=539021182547162002&scipsc=
+INFO:scholarly:Session proxy config is {'http': 'http://213.230.69.33:8080', 'https': 'http://213.230.69.33:8080'}
+INFO:scholarly:Got a captcha request.
+INFO:scholarly:Exception WebDriverException while fetching page: ("'geckodriver' executable needs to be in PATH. ",)
+INFO:scholarly:Retrying with a new session.
+INFO:scholarly:Session proxy config is {'http': 'http://213.230.69.33:8080', 'https': 'http://213.230.69.33:8080'}
+INFO:scholarly:Getting https://scholar.google.com/scholar?start=40&hl=en&as_sdt=5,33&sciodt=0,33&cites=539021182547162002&scipsc=
+INFO:scholarly:Session proxy config is {'http': 'http://213.230.69.33:8080', 'https': 'http://213.230.69.33:8080'}
+INFO:scholarly:Got a captcha request.
+INFO:scholarly:Exception WebDriverException while fetching page: ("'geckodriver' executable needs to be in PATH. ",)
+INFO:scholarly:Retrying with a new session.
+INFO:scholarly:Session proxy config is {'http': 'http://213.230.69.33:8080', 'https': 'http://213.230.69.33:8080'}
+INFO:scholarly:Getting https://scholar.google.com/scholar?start=50&hl=en&as_sdt=5,33&sciodt=0,33&cites=539021182547162002&scipsc=
+INFO:scholarly:Session proxy config is {'http': 'http://213.230.69.33:8080', 'https': 'http://213.230.69.33:8080'}
+INFO:scholarly:Got a captcha request.
+INFO:scholarly:Exception WebDriverException while fetching page: ("'geckodriver' executable needs to be in PATH. ",)
+INFO:scholarly:Retrying with a new session.
+INFO:scholarly:Session proxy config is {'http': 'http://213.230.69.33:8080', 'https': 'http://213.230.69.33:8080'}
+INFO:scholarly:Getting https://scholar.google.com/scholar?start=60&hl=en&as_sdt=5,33&sciodt=0,33&cites=539021182547162002&scipsc=
+INFO:scholarly:Session proxy config is {'http': 'http://213.230.69.33:8080', 'https': 'http://213.230.69.33:8080'}
+INFO:scholarly:Got a captcha request.
+INFO:scholarly:Exception WebDriverException while fetching page: ("'geckodriver' executable needs to be in PATH. ",)
+INFO:scholarly:Retrying with a new session.
+INFO:scholarly:Session proxy config is {'http': 'http://213.230.69.33:8080', 'https': 'http://213.230.69.33:8080'}
+INFO:scholarly:Getting https://scholar.google.com/scholar?start=10&hl=en&as_sdt=5,33&sciodt=0,33&cites=7151183190097265529&scipsc=
+INFO:scholarly:Session proxy config is {'http': 'http://213.230.69.33:8080', 'https': 'http://213.230.69.33:8080'}
+INFO:scholarly:Got a captcha request.
+INFO:scholarly:Exception WebDriverException while fetching page: ("'geckodriver' executable needs to be in PATH. ",)
+INFO:scholarly:Retrying with a new session.
+INFO:scholarly:Session proxy config is {'http': 'http://213.230.69.33:8080', 'https': 'http://213.230.69.33:8080'}
+INFO:scholarly:Getting https://scholar.google.com/scholar?start=20&hl=en&as_sdt=5,33&sciodt=0,33&cites=7151183190097265529&scipsc=
+INFO:scholarly:Session proxy config is {'http': 'http://213.230.69.33:8080', 'https': 'http://213.230.69.33:8080'}
+INFO:scholarly:Got a captcha request.
+INFO:scholarly:Exception WebDriverException while fetching page: ("'geckodriver' executable needs to be in PATH. ",)
+INFO:scholarly:Retrying with a new session.
+INFO:scholarly:Session proxy config is {'http': 'http://213.230.69.33:8080', 'https': 'http://213.230.69.33:8080'}
+INFO:scholarly:Getting https://scholar.google.com/scholar?start=30&hl=en&as_sdt=5,33&sciodt=0,33&cites=7151183190097265529&scipsc=
+INFO:scholarly:Session proxy config is {'http': 'http://213.230.69.33:8080', 'https': 'http://213.230.69.33:8080'}
+INFO:scholarly:Got a captcha request.
+INFO:scholarly:Exception WebDriverException while fetching page: ("'geckodriver' executable needs to be in PATH. ",)
+INFO:scholarly:Retrying with a new session.
+INFO:scholarly:Session proxy config is {'http': 'http://213.230.69.33:8080', 'https': 'http://213.230.69.33:8080'}
+INFO:scholarly:Getting https://scholar.google.com/scholar?start=10&hl=en&as_sdt=5,33&sciodt=0,33&cites=15230969431559654842&scipsc=
+INFO:scholarly:Session proxy config is {'http': 'http://213.230.69.33:8080', 'https': 'http://213.230.69.33:8080'}
+INFO:scholarly:Got a captcha request.
+INFO:scholarly:Exception WebDriverException while fetching page: ("'geckodriver' executable needs to be in PATH. ",)
+INFO:scholarly:Retrying with a new session.
+INFO:scholarly:Session proxy config is {'http': 'http://213.230.69.33:8080', 'https': 'http://213.230.69.33:8080'}
+INFO:scholarly:Getting https://scholar.google.com/scholar?start=10&hl=en&as_sdt=5,33&sciodt=0,33&cites=10296119605451726164&scipsc=
+INFO:scholarly:Session proxy config is {'http': 'http://213.230.69.33:8080', 'https': 'http://213.230.69.33:8080'}
+INFO:scholarly:Got a captcha request.
+INFO:scholarly:Exception WebDriverException while fetching page: ("'geckodriver' executable needs to be in PATH. ",)
+INFO:scholarly:Retrying with a new session.
+INFO:scholarly:Session proxy config is {'http': 'http://213.230.69.33:8080', 'https': 'http://213.230.69.33:8080'}
+INFO:scholarly:Getting https://scholar.google.com/scholar?start=10&hl=en&as_sdt=5,33&sciodt=0,33&cites=9772108151712049025&scipsc=
+INFO:scholarly:Session proxy config is {'http': 'http://213.230.69.33:8080', 'https': 'http://213.230.69.33:8080'}
+INFO:scholarly:Got a captcha request.
+INFO:scholarly:Exception WebDriverException while fetching page: ("'geckodriver' executable needs to be in PATH. ",)
+INFO:scholarly:Retrying with a new session.
+INFO:scholarly:Session proxy config is {'http': 'http://213.230.69.33:8080', 'https': 'http://213.230.69.33:8080'}
+INFO:scholarly:Getting https://scholar.google.com/scholar?start=20&hl=en&as_sdt=5,33&sciodt=0,33&cites=9772108151712049025&scipsc=
+INFO:scholarly:Session proxy config is {'http': 'http://213.230.69.33:8080', 'https': 'http://213.230.69.33:8080'}
+INFO:scholarly:Got a captcha request.
+INFO:scholarly:Exception WebDriverException while fetching page: ("'geckodriver' executable needs to be in PATH. ",)
+INFO:scholarly:Retrying with a new session.
+INFO:scholarly:Session proxy config is {'http': 'http://213.230.69.33:8080', 'https': 'http://213.230.69.33:8080'}
+INFO:scholarly:Getting https://scholar.google.com/scholar?start=30&hl=en&as_sdt=5,33&sciodt=0,33&cites=9772108151712049025&scipsc=
+INFO:scholarly:Session proxy config is {'http': 'http://213.230.69.33:8080', 'https': 'http://213.230.69.33:8080'}
+INFO:scholarly:Got a captcha request.
+INFO:scholarly:Exception WebDriverException while fetching page: ("'geckodriver' executable needs to be in PATH. ",)
+INFO:scholarly:Retrying with a new session.
+INFO:scholarly:Session proxy config is {'http': 'http://213.230.69.33:8080', 'https': 'http://213.230.69.33:8080'}
+INFO:scholarly:Getting https://scholar.google.com/scholar?start=40&hl=en&as_sdt=5,33&sciodt=0,33&cites=9772108151712049025&scipsc=
+INFO:scholarly:Session proxy config is {'http': 'http://213.230.69.33:8080', 'https': 'http://213.230.69.33:8080'}
+INFO:scholarly:Got a captcha request.
+INFO:scholarly:Exception WebDriverException while fetching page: ("'geckodriver' executable needs to be in PATH. ",)
+INFO:scholarly:Retrying with a new session.
+INFO:scholarly:Session proxy config is {'http': 'http://213.230.69.33:8080', 'https': 'http://213.230.69.33:8080'}
+INFO:scholarly:Getting https://scholar.google.com/scholar?start=50&hl=en&as_sdt=5,33&sciodt=0,33&cites=9772108151712049025&scipsc=
+INFO:scholarly:Session proxy config is {'http': 'http://213.230.69.33:8080', 'https': 'http://213.230.69.33:8080'}
+INFO:scholarly:Got a captcha request.
+INFO:scholarly:Exception WebDriverException while fetching page: ("'geckodriver' executable needs to be in PATH. ",)
+INFO:scholarly:Retrying with a new session.
+INFO:scholarly:Session proxy config is {'http': 'http://213.230.69.33:8080', 'https': 'http://213.230.69.33:8080'}
+INFO:scholarly:Getting https://scholar.google.com/scholar?start=60&hl=en&as_sdt=5,33&sciodt=0,33&cites=9772108151712049025&scipsc=
+INFO:scholarly:Session proxy config is {'http': 'http://213.230.69.33:8080', 'https': 'http://213.230.69.33:8080'}
+INFO:scholarly:Got a captcha request.
+INFO:scholarly:Exception WebDriverException while fetching page: ("'geckodriver' executable needs to be in PATH. ",)
+INFO:scholarly:Retrying with a new session.
+INFO:scholarly:Session proxy config is {'http': 'http://213.230.69.33:8080', 'https': 'http://213.230.69.33:8080'}
+INFO:scholarly:Getting https://scholar.google.com/scholar?start=70&hl=en&as_sdt=5,33&sciodt=0,33&cites=9772108151712049025&scipsc=
+INFO:scholarly:Session proxy config is {'http': 'http://213.230.69.33:8080', 'https': 'http://213.230.69.33:8080'}
+INFO:scholarly:Got a captcha request.
+INFO:scholarly:Exception WebDriverException while fetching page: ("'geckodriver' executable needs to be in PATH. ",)
+INFO:scholarly:Retrying with a new session.
+INFO:scholarly:Session proxy config is {'http': 'http://213.230.69.33:8080', 'https': 'http://213.230.69.33:8080'}
+INFO:scholarly:Getting https://scholar.google.com/scholar?start=80&hl=en&as_sdt=5,33&sciodt=0,33&cites=9772108151712049025&scipsc=
+INFO:scholarly:Session proxy config is {'http': 'http://213.230.69.33:8080', 'https': 'http://213.230.69.33:8080'}
+INFO:scholarly:Got a captcha request.
+INFO:scholarly:Exception WebDriverException while fetching page: ("'geckodriver' executable needs to be in PATH. ",)
+INFO:scholarly:Retrying with a new session.
+INFO:scholarly:Session proxy config is {'http': 'http://213.230.69.33:8080', 'https': 'http://213.230.69.33:8080'}
+INFO:scholarly:Getting https://scholar.google.com/scholar?start=10&hl=en&as_sdt=5,33&sciodt=0,33&cites=12347723491127225100&scipsc=
+INFO:scholarly:Session proxy config is {'http': 'http://213.230.69.33:8080', 'https': 'http://213.230.69.33:8080'}
+INFO:scholarly:Got a captcha request.
+INFO:scholarly:Exception WebDriverException while fetching page: ("'geckodriver' executable needs to be in PATH. ",)
+INFO:scholarly:Retrying with a new session.
+INFO:scholarly:Session proxy config is {'http': 'http://213.230.69.33:8080', 'https': 'http://213.230.69.33:8080'}
+INFO:scholarly:Getting https://scholar.google.com/scholar?start=10&hl=en&as_sdt=5,33&sciodt=0,33&cites=16339617147732628967&scipsc=
+INFO:scholarly:Session proxy config is {'http': 'http://213.230.69.33:8080', 'https': 'http://213.230.69.33:8080'}
+INFO:scholarly:Got a captcha request.
+INFO:scholarly:Exception WebDriverException while fetching page: ("'geckodriver' executable needs to be in PATH. ",)
+INFO:scholarly:Retrying with a new session.
+INFO:scholarly:Session proxy config is {'http': 'http://213.230.69.33:8080', 'https': 'http://213.230.69.33:8080'}
+INFO:scholarly:Getting https://scholar.google.com/scholar?start=10&hl=en&as_sdt=5,33&sciodt=0,33&cites=7935609836317309042&scipsc=
+INFO:scholarly:Session proxy config is {'http': 'http://213.230.69.33:8080', 'https': 'http://213.230.69.33:8080'}
+INFO:scholarly:Got a captcha request.
+INFO:scholarly:Exception WebDriverException while fetching page: ("'geckodriver' executable needs to be in PATH. ",)
+INFO:scholarly:Retrying with a new session.
+INFO:scholarly:Session proxy config is {'http': 'http://213.230.69.33:8080', 'https': 'http://213.230.69.33:8080'}
+INFO:scholarly:Getting https://scholar.google.com/scholar?start=20&hl=en&as_sdt=5,33&sciodt=0,33&cites=7935609836317309042&scipsc=
+INFO:scholarly:Session proxy config is {'http': 'http://213.230.69.33:8080', 'https': 'http://213.230.69.33:8080'}
+INFO:scholarly:Got a captcha request.
+INFO:scholarly:Exception WebDriverException while fetching page: ("'geckodriver' executable needs to be in PATH. ",)
+INFO:scholarly:Retrying with a new session.
+INFO:scholarly:Session proxy config is {'http': 'http://213.230.69.33:8080', 'https': 'http://213.230.69.33:8080'}
+INFO:scholarly:Getting https://scholar.google.com/scholar?start=30&hl=en&as_sdt=5,33&sciodt=0,33&cites=7935609836317309042&scipsc=
+INFO:scholarly:Session proxy config is {'http': 'http://213.230.69.33:8080', 'https': 'http://213.230.69.33:8080'}
+INFO:scholarly:Got a captcha request.
+INFO:scholarly:Exception WebDriverException while fetching page: ("'geckodriver' executable needs to be in PATH. ",)
+INFO:scholarly:Retrying with a new session.
+INFO:scholarly:Session proxy config is {'http': 'http://213.230.69.33:8080', 'https': 'http://213.230.69.33:8080'}
+INFO:scholarly:Getting https://scholar.google.com/scholar?start=40&hl=en&as_sdt=5,33&sciodt=0,33&cites=7935609836317309042&scipsc=
+INFO:scholarly:Session proxy config is {'http': 'http://213.230.69.33:8080', 'https': 'http://213.230.69.33:8080'}
+INFO:scholarly:Got a captcha request.
+INFO:scholarly:Exception WebDriverException while fetching page: ("'geckodriver' executable needs to be in PATH. ",)
+INFO:scholarly:Retrying with a new session.
+INFO:scholarly:Session proxy config is {'http': 'http://213.230.69.33:8080', 'https': 'http://213.230.69.33:8080'}
+INFO:scholarly:Getting https://scholar.google.com/scholar?start=50&hl=en&as_sdt=5,33&sciodt=0,33&cites=7935609836317309042&scipsc=
+INFO:scholarly:Session proxy config is {'http': 'http://213.230.69.33:8080', 'https': 'http://213.230.69.33:8080'}
+INFO:scholarly:Got a captcha request.
+INFO:scholarly:Exception WebDriverException while fetching page: ("'geckodriver' executable needs to be in PATH. ",)
+INFO:scholarly:Retrying with a new session.
+INFO:scholarly:Session proxy config is {'http': 'http://213.230.69.33:8080', 'https': 'http://213.230.69.33:8080'}
+INFO:scholarly:Getting https://scholar.google.com/scholar?start=60&hl=en&as_sdt=5,33&sciodt=0,33&cites=7935609836317309042&scipsc=
+INFO:scholarly:Session proxy config is {'http': 'http://213.230.69.33:8080', 'https': 'http://213.230.69.33:8080'}
+INFO:scholarly:Got a captcha request.
+INFO:scholarly:Exception WebDriverException while fetching page: ("'geckodriver' executable needs to be in PATH. ",)
+INFO:scholarly:Retrying with a new session.
+INFO:scholarly:Session proxy config is {'http': 'http://213.230.69.33:8080', 'https': 'http://213.230.69.33:8080'}
+INFO:scholarly:Getting https://scholar.google.com/scholar?start=70&hl=en&as_sdt=5,33&sciodt=0,33&cites=7935609836317309042&scipsc=
+INFO:scholarly:Session proxy config is {'http': 'http://213.230.69.33:8080', 'https': 'http://213.230.69.33:8080'}
+INFO:scholarly:Got a captcha request.
+INFO:scholarly:Exception WebDriverException while fetching page: ("'geckodriver' executable needs to be in PATH. ",)
+INFO:scholarly:Retrying with a new session.
+INFO:scholarly:Session proxy config is {'http': 'http://213.230.69.33:8080', 'https': 'http://213.230.69.33:8080'}
+INFO:scholarly:Getting https://scholar.google.com/scholar?start=80&hl=en&as_sdt=5,33&sciodt=0,33&cites=7935609836317309042&scipsc=
+INFO:scholarly:Session proxy config is {'http': 'http://213.230.69.33:8080', 'https': 'http://213.230.69.33:8080'}
+INFO:scholarly:Got a captcha request.
+INFO:scholarly:Exception WebDriverException while fetching page: ("'geckodriver' executable needs to be in PATH. ",)
+INFO:scholarly:Retrying with a new session.
+INFO:scholarly:Session proxy config is {'http': 'http://213.230.69.33:8080', 'https': 'http://213.230.69.33:8080'}
+INFO:scholarly:Getting https://scholar.google.com/scholar?start=90&hl=en&as_sdt=5,33&sciodt=0,33&cites=7935609836317309042&scipsc=
+INFO:scholarly:Session proxy config is {'http': 'http://213.230.69.33:8080', 'https': 'http://213.230.69.33:8080'}
+INFO:scholarly:Got a captcha request.
+INFO:scholarly:Exception WebDriverException while fetching page: ("'geckodriver' executable needs to be in PATH. ",)
+INFO:scholarly:Retrying with a new session.
+INFO:scholarly:Session proxy config is {'http': 'http://213.230.69.33:8080', 'https': 'http://213.230.69.33:8080'}
+INFO:scholarly:Getting https://scholar.google.com/scholar?start=100&hl=en&as_sdt=5,33&sciodt=0,33&cites=7935609836317309042&scipsc=
+INFO:scholarly:Session proxy config is {'http': 'http://213.230.69.33:8080', 'https': 'http://213.230.69.33:8080'}
+INFO:scholarly:Got a captcha request.
+INFO:scholarly:Exception WebDriverException while fetching page: ("'geckodriver' executable needs to be in PATH. ",)
+INFO:scholarly:Retrying with a new session.
+INFO:scholarly:Session proxy config is {'http': 'http://213.230.69.33:8080', 'https': 'http://213.230.69.33:8080'}
+INFO:scholarly:Getting https://scholar.google.com/scholar?start=110&hl=en&as_sdt=5,33&sciodt=0,33&cites=7935609836317309042&scipsc=
+INFO:scholarly:Session proxy config is {'http': 'http://213.230.69.33:8080', 'https': 'http://213.230.69.33:8080'}
+INFO:scholarly:Got a captcha request.
+INFO:scholarly:Exception WebDriverException while fetching page: ("'geckodriver' executable needs to be in PATH. ",)
+INFO:scholarly:Retrying with a new session.
+INFO:scholarly:Session proxy config is {'http': 'http://213.230.69.33:8080', 'https': 'http://213.230.69.33:8080'}
+INFO:scholarly:Getting https://scholar.google.com/scholar?start=120&hl=en&as_sdt=5,33&sciodt=0,33&cites=7935609836317309042&scipsc=
+INFO:scholarly:Session proxy config is {'http': 'http://213.230.69.33:8080', 'https': 'http://213.230.69.33:8080'}
+INFO:scholarly:Got a captcha request.
+INFO:scholarly:Exception WebDriverException while fetching page: ("'geckodriver' executable needs to be in PATH. ",)
+INFO:scholarly:Retrying with a new session.
+INFO:scholarly:Session proxy config is {'http': 'http://213.230.69.33:8080', 'https': 'http://213.230.69.33:8080'}
+INFO:scholarly:Getting https://scholar.google.com/scholar?start=130&hl=en&as_sdt=5,33&sciodt=0,33&cites=7935609836317309042&scipsc=
+INFO:scholarly:Session proxy config is {'http': 'http://213.230.69.33:8080', 'https': 'http://213.230.69.33:8080'}
+INFO:scholarly:Got a captcha request.
+INFO:scholarly:Exception WebDriverException while fetching page: ("'geckodriver' executable needs to be in PATH. ",)
+INFO:scholarly:Retrying with a new session.
+INFO:scholarly:Session proxy config is {'http': 'http://213.230.69.33:8080', 'https': 'http://213.230.69.33:8080'}
+INFO:scholarly:Getting https://scholar.google.com/scholar?start=140&hl=en&as_sdt=5,33&sciodt=0,33&cites=7935609836317309042&scipsc=
+INFO:scholarly:Session proxy config is {'http': 'http://213.230.69.33:8080', 'https': 'http://213.230.69.33:8080'}
+INFO:scholarly:Got a captcha request.
+INFO:scholarly:Exception WebDriverException while fetching page: ("'geckodriver' executable needs to be in PATH. ",)
+INFO:scholarly:Retrying with a new session.
+INFO:scholarly:Session proxy config is {'http': 'http://213.230.69.33:8080', 'https': 'http://213.230.69.33:8080'}
+INFO:scholarly:Getting https://scholar.google.com/scholar?start=150&hl=en&as_sdt=5,33&sciodt=0,33&cites=7935609836317309042&scipsc=
+INFO:scholarly:Session proxy config is {'http': 'http://213.230.69.33:8080', 'https': 'http://213.230.69.33:8080'}
+INFO:scholarly:Got a captcha request.
+INFO:scholarly:Exception WebDriverException while fetching page: ("'geckodriver' executable needs to be in PATH. ",)
+INFO:scholarly:Retrying with a new session.
+INFO:scholarly:Session proxy config is {'http': 'http://213.230.69.33:8080', 'https': 'http://213.230.69.33:8080'}
+INFO:scholarly:Getting https://scholar.google.com/scholar?start=160&hl=en&as_sdt=5,33&sciodt=0,33&cites=7935609836317309042&scipsc=
+INFO:scholarly:Session proxy config is {'http': 'http://213.230.69.33:8080', 'https': 'http://213.230.69.33:8080'}
+INFO:scholarly:Got a captcha request.
+INFO:scholarly:Exception WebDriverException while fetching page: ("'geckodriver' executable needs to be in PATH. ",)
+INFO:scholarly:Retrying with a new session.
+INFO:scholarly:Session proxy config is {'http': 'http://213.230.69.33:8080', 'https': 'http://213.230.69.33:8080'}
+INFO:scholarly:Getting https://scholar.google.com/scholar?start=170&hl=en&as_sdt=5,33&sciodt=0,33&cites=7935609836317309042&scipsc=
+INFO:scholarly:Session proxy config is {'http': 'http://213.230.69.33:8080', 'https': 'http://213.230.69.33:8080'}
+INFO:scholarly:Got a captcha request.
+INFO:scholarly:Exception WebDriverException while fetching page: ("'geckodriver' executable needs to be in PATH. ",)
+INFO:scholarly:Retrying with a new session.
+INFO:scholarly:Session proxy config is {'http': 'http://213.230.69.33:8080', 'https': 'http://213.230.69.33:8080'}
+INFO:scholarly:Getting https://scholar.google.com/scholar?start=180&hl=en&as_sdt=5,33&sciodt=0,33&cites=7935609836317309042&scipsc=
+INFO:scholarly:Session proxy config is {'http': 'http://213.230.69.33:8080', 'https': 'http://213.230.69.33:8080'}
+INFO:scholarly:Got a captcha request.
+INFO:scholarly:Exception WebDriverException while fetching page: ("'geckodriver' executable needs to be in PATH. ",)
+INFO:scholarly:Retrying with a new session.
+INFO:scholarly:Session proxy config is {'http': 'http://213.230.69.33:8080', 'https': 'http://213.230.69.33:8080'}
+INFO:scholarly:Getting https://scholar.google.com/scholar?start=190&hl=en&as_sdt=5,33&sciodt=0,33&cites=7935609836317309042&scipsc=
+INFO:scholarly:Session proxy config is {'http': 'http://213.230.69.33:8080', 'https': 'http://213.230.69.33:8080'}
+INFO:scholarly:Got a captcha request.
+INFO:scholarly:Exception WebDriverException while fetching page: ("'geckodriver' executable needs to be in PATH. ",)
+INFO:scholarly:Retrying with a new session.
+INFO:scholarly:Session proxy config is {'http': 'http://213.230.69.33:8080', 'https': 'http://213.230.69.33:8080'}
+INFO:scholarly:Getting https://scholar.google.com/scholar?start=200&hl=en&as_sdt=5,33&sciodt=0,33&cites=7935609836317309042&scipsc=
+INFO:scholarly:Session proxy config is {'http': 'http://213.230.69.33:8080', 'https': 'http://213.230.69.33:8080'}
+INFO:scholarly:Got a captcha request.
+INFO:scholarly:Exception WebDriverException while fetching page: ("'geckodriver' executable needs to be in PATH. ",)
+INFO:scholarly:Retrying with a new session.
+INFO:scholarly:Session proxy config is {'http': 'http://213.230.69.33:8080', 'https': 'http://213.230.69.33:8080'}
+INFO:scholarly:Getting https://scholar.google.com/scholar?start=210&hl=en&as_sdt=5,33&sciodt=0,33&cites=7935609836317309042&scipsc=
+INFO:scholarly:Session proxy config is {'http': 'http://213.230.69.33:8080', 'https': 'http://213.230.69.33:8080'}
+INFO:scholarly:Got a captcha request.
+INFO:scholarly:Exception WebDriverException while fetching page: ("'geckodriver' executable needs to be in PATH. ",)
+INFO:scholarly:Retrying with a new session.
+INFO:scholarly:Session proxy config is {'http': 'http://213.230.69.33:8080', 'https': 'http://213.230.69.33:8080'}
+INFO:scholarly:Getting https://scholar.google.com/scholar?start=220&hl=en&as_sdt=5,33&sciodt=0,33&cites=7935609836317309042&scipsc=
+INFO:scholarly:Session proxy config is {'http': 'http://213.230.69.33:8080', 'https': 'http://213.230.69.33:8080'}
+INFO:scholarly:Got a captcha request.
+INFO:scholarly:Exception WebDriverException while fetching page: ("'geckodriver' executable needs to be in PATH. ",)
+INFO:scholarly:Retrying with a new session.
+INFO:scholarly:Session proxy config is {'http': 'http://213.230.69.33:8080', 'https': 'http://213.230.69.33:8080'}
+INFO:scholarly:Getting https://scholar.google.com/scholar?start=230&hl=en&as_sdt=5,33&sciodt=0,33&cites=7935609836317309042&scipsc=
+INFO:scholarly:Session proxy config is {'http': 'http://213.230.69.33:8080', 'https': 'http://213.230.69.33:8080'}
+INFO:scholarly:Got a captcha request.
+INFO:scholarly:Exception WebDriverException while fetching page: ("'geckodriver' executable needs to be in PATH. ",)
+INFO:scholarly:Retrying with a new session.
+INFO:scholarly:Session proxy config is {'http': 'http://213.230.69.33:8080', 'https': 'http://213.230.69.33:8080'}
+INFO:scholarly:Getting https://scholar.google.com/scholar?start=240&hl=en&as_sdt=5,33&sciodt=0,33&cites=7935609836317309042&scipsc=
+INFO:scholarly:Session proxy config is {'http': 'http://213.230.69.33:8080', 'https': 'http://213.230.69.33:8080'}
+INFO:scholarly:Got a captcha request.
+INFO:scholarly:Exception WebDriverException while fetching page: ("'geckodriver' executable needs to be in PATH. ",)
+INFO:scholarly:Retrying with a new session.
+INFO:scholarly:Session proxy config is {'http': 'http://213.230.69.33:8080', 'https': 'http://213.230.69.33:8080'}
+INFO:scholarly:Getting https://scholar.google.com/scholar?start=250&hl=en&as_sdt=5,33&sciodt=0,33&cites=7935609836317309042&scipsc=
+INFO:scholarly:Session proxy config is {'http': 'http://213.230.69.33:8080', 'https': 'http://213.230.69.33:8080'}
+INFO:scholarly:Got a captcha request.
+INFO:scholarly:Exception WebDriverException while fetching page: ("'geckodriver' executable needs to be in PATH. ",)
+INFO:scholarly:Retrying with a new session.
+INFO:scholarly:Session proxy config is {'http': 'http://213.230.69.33:8080', 'https': 'http://213.230.69.33:8080'}
+INFO:scholarly:Getting https://scholar.google.com/scholar?start=260&hl=en&as_sdt=5,33&sciodt=0,33&cites=7935609836317309042&scipsc=
+INFO:scholarly:Session proxy config is {'http': 'http://213.230.69.33:8080', 'https': 'http://213.230.69.33:8080'}
+INFO:scholarly:Got a captcha request.
+INFO:scholarly:Exception WebDriverException while fetching page: ("'geckodriver' executable needs to be in PATH. ",)
+INFO:scholarly:Retrying with a new session.
+INFO:scholarly:Session proxy config is {'http': 'http://213.230.69.33:8080', 'https': 'http://213.230.69.33:8080'}
+INFO:scholarly:Getting https://scholar.google.com/scholar?start=270&hl=en&as_sdt=5,33&sciodt=0,33&cites=7935609836317309042&scipsc=
+INFO:scholarly:Session proxy config is {'http': 'http://213.230.69.33:8080', 'https': 'http://213.230.69.33:8080'}
+INFO:scholarly:Got a captcha request.
+INFO:scholarly:Exception WebDriverException while fetching page: ("'geckodriver' executable needs to be in PATH. ",)
+INFO:scholarly:Retrying with a new session.
+INFO:scholarly:Session proxy config is {'http': 'http://213.230.69.33:8080', 'https': 'http://213.230.69.33:8080'}
+INFO:scholarly:Getting https://scholar.google.com/scholar?start=280&hl=en&as_sdt=5,33&sciodt=0,33&cites=7935609836317309042&scipsc=
+INFO:scholarly:Session proxy config is {'http': 'http://213.230.69.33:8080', 'https': 'http://213.230.69.33:8080'}
+INFO:scholarly:Got a captcha request.
+INFO:scholarly:Exception WebDriverException while fetching page: ("'geckodriver' executable needs to be in PATH. ",)
+INFO:scholarly:Retrying with a new session.
+INFO:scholarly:Session proxy config is {'http': 'http://213.230.69.33:8080', 'https': 'http://213.230.69.33:8080'}
+INFO:scholarly:Getting https://scholar.google.com/scholar?start=290&hl=en&as_sdt=5,33&sciodt=0,33&cites=7935609836317309042&scipsc=
+INFO:scholarly:Session proxy config is {'http': 'http://213.230.69.33:8080', 'https': 'http://213.230.69.33:8080'}
+INFO:scholarly:Got a captcha request.
+INFO:scholarly:Exception WebDriverException while fetching page: ("'geckodriver' executable needs to be in PATH. ",)
+INFO:scholarly:Retrying with a new session.
+INFO:scholarly:Session proxy config is {'http': 'http://213.230.69.33:8080', 'https': 'http://213.230.69.33:8080'}
+INFO:scholarly:Getting https://scholar.google.com/scholar?start=300&hl=en&as_sdt=5,33&sciodt=0,33&cites=7935609836317309042&scipsc=
+INFO:scholarly:Session proxy config is {'http': 'http://213.230.69.33:8080', 'https': 'http://213.230.69.33:8080'}
+INFO:scholarly:Got a captcha request.
+INFO:scholarly:Exception WebDriverException while fetching page: ("'geckodriver' executable needs to be in PATH. ",)
+INFO:scholarly:Retrying with a new session.
+INFO:scholarly:Session proxy config is {'http': 'http://213.230.69.33:8080', 'https': 'http://213.230.69.33:8080'}
+INFO:scholarly:Getting https://scholar.google.com/scholar?start=310&hl=en&as_sdt=5,33&sciodt=0,33&cites=7935609836317309042&scipsc=
+INFO:scholarly:Session proxy config is {'http': 'http://213.230.69.33:8080', 'https': 'http://213.230.69.33:8080'}
+INFO:scholarly:Got a captcha request.
+INFO:scholarly:Exception WebDriverException while fetching page: ("'geckodriver' executable needs to be in PATH. ",)
+INFO:scholarly:Retrying with a new session.
+INFO:scholarly:Session proxy config is {'http': 'http://213.230.69.33:8080', 'https': 'http://213.230.69.33:8080'}
+INFO:scholarly:Getting https://scholar.google.com/scholar?start=320&hl=en&as_sdt=5,33&sciodt=0,33&cites=7935609836317309042&scipsc=
+INFO:scholarly:Session proxy config is {'http': 'http://213.230.69.33:8080', 'https': 'http://213.230.69.33:8080'}
+INFO:scholarly:Got a captcha request.
+INFO:scholarly:Exception WebDriverException while fetching page: ("'geckodriver' executable needs to be in PATH. ",)
+INFO:scholarly:Retrying with a new session.
+INFO:scholarly:Session proxy config is {'http': 'http://213.230.69.33:8080', 'https': 'http://213.230.69.33:8080'}
+INFO:scholarly:Getting https://scholar.google.com/scholar?start=330&hl=en&as_sdt=5,33&sciodt=0,33&cites=7935609836317309042&scipsc=
+INFO:scholarly:Session proxy config is {'http': 'http://213.230.69.33:8080', 'https': 'http://213.230.69.33:8080'}
+INFO:scholarly:Got a captcha request.
+INFO:scholarly:Exception WebDriverException while fetching page: ("'geckodriver' executable needs to be in PATH. ",)
+INFO:scholarly:Retrying with a new session.
+INFO:scholarly:Session proxy config is {'http': 'http://213.230.69.33:8080', 'https': 'http://213.230.69.33:8080'}
+INFO:scholarly:Getting https://scholar.google.com/scholar?start=10&hl=en&as_sdt=5,33&sciodt=0,33&cites=17849568883687930289&scipsc=
+INFO:scholarly:Session proxy config is {'http': 'http://213.230.69.33:8080', 'https': 'http://213.230.69.33:8080'}
+INFO:scholarly:Got a captcha request.
+INFO:scholarly:Exception WebDriverException while fetching page: ("'geckodriver' executable needs to be in PATH. ",)
+INFO:scholarly:Retrying with a new session.
+INFO:scholarly:Session proxy config is {'http': 'http://213.230.69.33:8080', 'https': 'http://213.230.69.33:8080'}
+INFO:scholarly:Getting https://scholar.google.com/scholar?start=20&hl=en&as_sdt=5,33&sciodt=0,33&cites=17849568883687930289&scipsc=
+INFO:scholarly:Session proxy config is {'http': 'http://213.230.69.33:8080', 'https': 'http://213.230.69.33:8080'}
+INFO:scholarly:Got a captcha request.
+INFO:scholarly:Exception WebDriverException while fetching page: ("'geckodriver' executable needs to be in PATH. ",)
+INFO:scholarly:Retrying with a new session.
+INFO:scholarly:Session proxy config is {'http': 'http://213.230.69.33:8080', 'https': 'http://213.230.69.33:8080'}
+INFO:scholarly:Getting https://scholar.google.com/scholar?start=30&hl=en&as_sdt=5,33&sciodt=0,33&cites=17849568883687930289&scipsc=
+INFO:scholarly:Session proxy config is {'http': 'http://213.230.69.33:8080', 'https': 'http://213.230.69.33:8080'}
+INFO:scholarly:Got a captcha request.
+INFO:scholarly:Exception WebDriverException while fetching page: ("'geckodriver' executable needs to be in PATH. ",)
+INFO:scholarly:Retrying with a new session.
+INFO:scholarly:Session proxy config is {'http': 'http://213.230.69.33:8080', 'https': 'http://213.230.69.33:8080'}
+INFO:scholarly:Getting https://scholar.google.com/scholar?start=10&hl=en&as_sdt=5,33&sciodt=0,33&cites=1672746253473931491&scipsc=
+INFO:scholarly:Session proxy config is {'http': 'http://213.230.69.33:8080', 'https': 'http://213.230.69.33:8080'}
+INFO:scholarly:Got a captcha request.
+INFO:scholarly:Exception WebDriverException while fetching page: ("'geckodriver' executable needs to be in PATH. ",)
+INFO:scholarly:Retrying with a new session.
+INFO:scholarly:Session proxy config is {'http': 'http://213.230.69.33:8080', 'https': 'http://213.230.69.33:8080'}
+INFO:scholarly:Getting https://scholar.google.com/scholar?start=10&hl=en&as_sdt=5,33&sciodt=0,33&cites=1855664994406270309&scipsc=
+INFO:scholarly:Session proxy config is {'http': 'http://213.230.69.33:8080', 'https': 'http://213.230.69.33:8080'}
+INFO:scholarly:Got a captcha request.
+INFO:scholarly:Exception WebDriverException while fetching page: ("'geckodriver' executable needs to be in PATH. ",)
+INFO:scholarly:Retrying with a new session.
+INFO:scholarly:Session proxy config is {'http': 'http://213.230.69.33:8080', 'https': 'http://213.230.69.33:8080'}
+INFO:scholarly:Getting https://scholar.google.com/scholar?start=10&hl=en&as_sdt=5,33&sciodt=0,33&cites=6570336692184532664&scipsc=
+INFO:scholarly:Session proxy config is {'http': 'http://213.230.69.33:8080', 'https': 'http://213.230.69.33:8080'}
+INFO:scholarly:Got a captcha request.
+INFO:scholarly:Exception WebDriverException while fetching page: ("'geckodriver' executable needs to be in PATH. ",)
+INFO:scholarly:Retrying with a new session.
+INFO:scholarly:Session proxy config is {'http': 'http://213.230.69.33:8080', 'https': 'http://213.230.69.33:8080'}
+INFO:scholarly:Getting https://scholar.google.com/scholar?start=10&hl=en&as_sdt=5,33&sciodt=0,33&cites=14642620653304020760&scipsc=
+INFO:scholarly:Session proxy config is {'http': 'http://213.230.69.33:8080', 'https': 'http://213.230.69.33:8080'}
+INFO:scholarly:Got a captcha request.
+INFO:scholarly:Exception WebDriverException while fetching page: ("'geckodriver' executable needs to be in PATH. ",)
+INFO:scholarly:Retrying with a new session.
+INFO:scholarly:Session proxy config is {'http': 'http://213.230.69.33:8080', 'https': 'http://213.230.69.33:8080'}
+INFO:scholarly:Getting https://scholar.google.com/scholar?start=20&hl=en&as_sdt=5,33&sciodt=0,33&cites=14642620653304020760&scipsc=
+INFO:scholarly:Session proxy config is {'http': 'http://213.230.69.33:8080', 'https': 'http://213.230.69.33:8080'}
+INFO:scholarly:Got a captcha request.
+INFO:scholarly:Exception WebDriverException while fetching page: ("'geckodriver' executable needs to be in PATH. ",)
+INFO:scholarly:Retrying with a new session.
+INFO:scholarly:Session proxy config is {'http': 'http://213.230.69.33:8080', 'https': 'http://213.230.69.33:8080'}
+INFO:scholarly:Getting https://scholar.google.com/scholar?start=30&hl=en&as_sdt=5,33&sciodt=0,33&cites=14642620653304020760&scipsc=
+INFO:scholarly:Session proxy config is {'http': 'http://213.230.69.33:8080', 'https': 'http://213.230.69.33:8080'}
+INFO:scholarly:Got a captcha request.
+INFO:scholarly:Exception WebDriverException while fetching page: ("'geckodriver' executable needs to be in PATH. ",)
+INFO:scholarly:Retrying with a new session.
+INFO:scholarly:Session proxy config is {'http': 'http://213.230.69.33:8080', 'https': 'http://213.230.69.33:8080'}
+INFO:scholarly:Getting https://scholar.google.com/scholar?start=40&hl=en&as_sdt=5,33&sciodt=0,33&cites=14642620653304020760&scipsc=
+INFO:scholarly:Session proxy config is {'http': 'http://213.230.69.33:8080', 'https': 'http://213.230.69.33:8080'}
+INFO:scholarly:Got a captcha request.
+INFO:scholarly:Exception WebDriverException while fetching page: ("'geckodriver' executable needs to be in PATH. ",)
+INFO:scholarly:Retrying with a new session.
+INFO:scholarly:Session proxy config is {'http': 'http://213.230.69.33:8080', 'https': 'http://213.230.69.33:8080'}
+INFO:scholarly:Getting https://scholar.google.com/scholar?start=50&hl=en&as_sdt=5,33&sciodt=0,33&cites=14642620653304020760&scipsc=
+INFO:scholarly:Session proxy config is {'http': 'http://213.230.69.33:8080', 'https': 'http://213.230.69.33:8080'}
+INFO:scholarly:Got a captcha request.
+INFO:scholarly:Exception WebDriverException while fetching page: ("'geckodriver' executable needs to be in PATH. ",)
+INFO:scholarly:Retrying with a new session.
+INFO:scholarly:Session proxy config is {'http': 'http://213.230.69.33:8080', 'https': 'http://213.230.69.33:8080'}
+INFO:scholarly:Getting https://scholar.google.com/scholar?start=60&hl=en&as_sdt=5,33&sciodt=0,33&cites=14642620653304020760&scipsc=
+INFO:scholarly:Session proxy config is {'http': 'http://213.230.69.33:8080', 'https': 'http://213.230.69.33:8080'}
+INFO:scholarly:Got a captcha request.
+INFO:scholarly:Exception WebDriverException while fetching page: ("'geckodriver' executable needs to be in PATH. ",)
+INFO:scholarly:Retrying with a new session.
+INFO:scholarly:Session proxy config is {'http': 'http://213.230.69.33:8080', 'https': 'http://213.230.69.33:8080'}
+INFO:scholarly:Getting https://scholar.google.com/scholar?start=70&hl=en&as_sdt=5,33&sciodt=0,33&cites=14642620653304020760&scipsc=
+INFO:scholarly:Session proxy config is {'http': 'http://213.230.69.33:8080', 'https': 'http://213.230.69.33:8080'}
+INFO:scholarly:Got a captcha request.
+INFO:scholarly:Exception WebDriverException while fetching page: ("'geckodriver' executable needs to be in PATH. ",)
+INFO:scholarly:Retrying with a new session.
+INFO:scholarly:Session proxy config is {'http': 'http://213.230.69.33:8080', 'https': 'http://213.230.69.33:8080'}
+INFO:scholarly:Getting https://scholar.google.com/scholar?start=80&hl=en&as_sdt=5,33&sciodt=0,33&cites=14642620653304020760&scipsc=
+INFO:scholarly:Session proxy config is {'http': 'http://213.230.69.33:8080', 'https': 'http://213.230.69.33:8080'}
+INFO:scholarly:Got a captcha request.
+INFO:scholarly:Exception WebDriverException while fetching page: ("'geckodriver' executable needs to be in PATH. ",)
+INFO:scholarly:Retrying with a new session.
+INFO:scholarly:Session proxy config is {'http': 'http://213.230.69.33:8080', 'https': 'http://213.230.69.33:8080'}
+INFO:scholarly:Getting https://scholar.google.com/scholar?start=90&hl=en&as_sdt=5,33&sciodt=0,33&cites=14642620653304020760&scipsc=
+INFO:scholarly:Session proxy config is {'http': 'http://213.230.69.33:8080', 'https': 'http://213.230.69.33:8080'}
+INFO:scholarly:Got a captcha request.
+INFO:scholarly:Exception WebDriverException while fetching page: ("'geckodriver' executable needs to be in PATH. ",)
+INFO:scholarly:Retrying with a new session.
+INFO:scholarly:Session proxy config is {'http': 'http://213.230.69.33:8080', 'https': 'http://213.230.69.33:8080'}
+INFO:scholarly:Getting https://scholar.google.com/scholar?start=100&hl=en&as_sdt=5,33&sciodt=0,33&cites=14642620653304020760&scipsc=
+INFO:scholarly:Session proxy config is {'http': 'http://213.230.69.33:8080', 'https': 'http://213.230.69.33:8080'}
+INFO:scholarly:Got a captcha request.
+INFO:scholarly:Exception WebDriverException while fetching page: ("'geckodriver' executable needs to be in PATH. ",)
+INFO:scholarly:Retrying with a new session.
+INFO:scholarly:Session proxy config is {'http': 'http://213.230.69.33:8080', 'https': 'http://213.230.69.33:8080'}
+INFO:scholarly:Getting https://scholar.google.com/scholar?start=110&hl=en&as_sdt=5,33&sciodt=0,33&cites=14642620653304020760&scipsc=
+INFO:scholarly:Session proxy config is {'http': 'http://213.230.69.33:8080', 'https': 'http://213.230.69.33:8080'}
+INFO:scholarly:Got a captcha request.
+INFO:scholarly:Exception WebDriverException while fetching page: ("'geckodriver' executable needs to be in PATH. ",)
+INFO:scholarly:Retrying with a new session.
+INFO:scholarly:Session proxy config is {'http': 'http://213.230.69.33:8080', 'https': 'http://213.230.69.33:8080'}
+INFO:scholarly:Getting https://scholar.google.com/scholar?start=120&hl=en&as_sdt=5,33&sciodt=0,33&cites=14642620653304020760&scipsc=
+INFO:scholarly:Session proxy config is {'http': 'http://213.230.69.33:8080', 'https': 'http://213.230.69.33:8080'}
+INFO:scholarly:Got a captcha request.
+INFO:scholarly:Exception WebDriverException while fetching page: ("'geckodriver' executable needs to be in PATH. ",)
+INFO:scholarly:Retrying with a new session.
+INFO:scholarly:Timeout Exception ReadTimeout while fetching page: (ReadTimeoutError("HTTPSConnectionPool(host='scholar.google.com', port=443): Read timed out. (read timeout=5)"),)
+INFO:scholarly:Increasing timeout and retrying within same session.
+INFO:scholarly:Session proxy config is {'http': 'http://213.230.69.33:8080', 'https': 'http://213.230.69.33:8080'}
+INFO:scholarly:Getting https://scholar.google.com/scholar?start=130&hl=en&as_sdt=5,33&sciodt=0,33&cites=14642620653304020760&scipsc=
+INFO:scholarly:Session proxy config is {'http': 'http://213.230.69.33:8080', 'https': 'http://213.230.69.33:8080'}
+INFO:scholarly:Got a captcha request.
+INFO:scholarly:Exception WebDriverException while fetching page: ("'geckodriver' executable needs to be in PATH. ",)
+INFO:scholarly:Retrying with a new session.
+INFO:scholarly:Session proxy config is {'http': 'http://213.230.69.33:8080', 'https': 'http://213.230.69.33:8080'}
+INFO:scholarly:Getting https://scholar.google.com/scholar?start=140&hl=en&as_sdt=5,33&sciodt=0,33&cites=14642620653304020760&scipsc=
+INFO:scholarly:Session proxy config is {'http': 'http://213.230.69.33:8080', 'https': 'http://213.230.69.33:8080'}
+INFO:scholarly:Got a captcha request.
+INFO:scholarly:Exception WebDriverException while fetching page: ("'geckodriver' executable needs to be in PATH. ",)
+INFO:scholarly:Retrying with a new session.
+INFO:scholarly:Session proxy config is {'http': 'http://213.230.69.33:8080', 'https': 'http://213.230.69.33:8080'}
+INFO:scholarly:Getting https://scholar.google.com/scholar?start=150&hl=en&as_sdt=5,33&sciodt=0,33&cites=14642620653304020760&scipsc=
+INFO:scholarly:Session proxy config is {'http': 'http://213.230.69.33:8080', 'https': 'http://213.230.69.33:8080'}
+INFO:scholarly:Got a captcha request.
+INFO:scholarly:Exception WebDriverException while fetching page: ("'geckodriver' executable needs to be in PATH. ",)
+INFO:scholarly:Retrying with a new session.
+INFO:scholarly:Session proxy config is {'http': 'http://213.230.69.33:8080', 'https': 'http://213.230.69.33:8080'}
+INFO:scholarly:Getting https://scholar.google.com/scholar?start=160&hl=en&as_sdt=5,33&sciodt=0,33&cites=14642620653304020760&scipsc=
+INFO:scholarly:Session proxy config is {'http': 'http://213.230.69.33:8080', 'https': 'http://213.230.69.33:8080'}
+INFO:scholarly:Got a captcha request.
+INFO:scholarly:Exception WebDriverException while fetching page: ("'geckodriver' executable needs to be in PATH. ",)
+INFO:scholarly:Retrying with a new session.
+INFO:scholarly:Session proxy config is {'http': 'http://213.230.69.33:8080', 'https': 'http://213.230.69.33:8080'}
+INFO:scholarly:Getting https://scholar.google.com/scholar?start=170&hl=en&as_sdt=5,33&sciodt=0,33&cites=14642620653304020760&scipsc=
+INFO:scholarly:Session proxy config is {'http': 'http://213.230.69.33:8080', 'https': 'http://213.230.69.33:8080'}
+INFO:scholarly:Got a captcha request.
+INFO:scholarly:Exception WebDriverException while fetching page: ("'geckodriver' executable needs to be in PATH. ",)
+INFO:scholarly:Retrying with a new session.
+INFO:scholarly:Session proxy config is {'http': 'http://213.230.69.33:8080', 'https': 'http://213.230.69.33:8080'}
+INFO:scholarly:Getting https://scholar.google.com/scholar?start=180&hl=en&as_sdt=5,33&sciodt=0,33&cites=14642620653304020760&scipsc=
+INFO:scholarly:Session proxy config is {'http': 'http://213.230.69.33:8080', 'https': 'http://213.230.69.33:8080'}
+INFO:scholarly:Got a captcha request.
+INFO:scholarly:Exception WebDriverException while fetching page: ("'geckodriver' executable needs to be in PATH. ",)
+INFO:scholarly:Retrying with a new session.
+INFO:scholarly:Session proxy config is {'http': 'http://213.230.69.33:8080', 'https': 'http://213.230.69.33:8080'}
+INFO:scholarly:Getting https://scholar.google.com/scholar?start=190&hl=en&as_sdt=5,33&sciodt=0,33&cites=14642620653304020760&scipsc=
+INFO:scholarly:Session proxy config is {'http': 'http://213.230.69.33:8080', 'https': 'http://213.230.69.33:8080'}
+INFO:scholarly:Got a captcha request.
+INFO:scholarly:Exception WebDriverException while fetching page: ("'geckodriver' executable needs to be in PATH. ",)
+INFO:scholarly:Retrying with a new session.
+INFO:scholarly:Session proxy config is {'http': 'http://213.230.69.33:8080', 'https': 'http://213.230.69.33:8080'}
+INFO:scholarly:Getting https://scholar.google.com/scholar?start=200&hl=en&as_sdt=5,33&sciodt=0,33&cites=14642620653304020760&scipsc=
+INFO:scholarly:Session proxy config is {'http': 'http://213.230.69.33:8080', 'https': 'http://213.230.69.33:8080'}
+INFO:scholarly:Got a captcha request.
+INFO:scholarly:Exception WebDriverException while fetching page: ("'geckodriver' executable needs to be in PATH. ",)
+INFO:scholarly:Retrying with a new session.
+INFO:scholarly:Session proxy config is {'http': 'http://213.230.69.33:8080', 'https': 'http://213.230.69.33:8080'}
+INFO:scholarly:Getting https://scholar.google.com/scholar?start=210&hl=en&as_sdt=5,33&sciodt=0,33&cites=14642620653304020760&scipsc=
+INFO:scholarly:Session proxy config is {'http': 'http://213.230.69.33:8080', 'https': 'http://213.230.69.33:8080'}
+INFO:scholarly:Got a captcha request.
+INFO:scholarly:Exception WebDriverException while fetching page: ("'geckodriver' executable needs to be in PATH. ",)
+INFO:scholarly:Retrying with a new session.
+INFO:scholarly:Session proxy config is {'http': 'http://213.230.69.33:8080', 'https': 'http://213.230.69.33:8080'}
+INFO:scholarly:Getting https://scholar.google.com/scholar?start=10&hl=en&as_sdt=5,33&sciodt=0,33&cites=8103820573509729083&scipsc=
+INFO:scholarly:Session proxy config is {'http': 'http://213.230.69.33:8080', 'https': 'http://213.230.69.33:8080'}
+INFO:scholarly:Got a captcha request.
+INFO:scholarly:Exception WebDriverException while fetching page: ("'geckodriver' executable needs to be in PATH. ",)
+INFO:scholarly:Retrying with a new session.
+INFO:scholarly:Session proxy config is {'http': 'http://213.230.69.33:8080', 'https': 'http://213.230.69.33:8080'}
+INFO:scholarly:Getting https://scholar.google.com/scholar?start=20&hl=en&as_sdt=5,33&sciodt=0,33&cites=8103820573509729083&scipsc=
+INFO:scholarly:Session proxy config is {'http': 'http://213.230.69.33:8080', 'https': 'http://213.230.69.33:8080'}
+INFO:scholarly:Got a captcha request.
+INFO:scholarly:Exception WebDriverException while fetching page: ("'geckodriver' executable needs to be in PATH. ",)
+INFO:scholarly:Retrying with a new session.
+INFO:scholarly:Session proxy config is {'http': 'http://213.230.69.33:8080', 'https': 'http://213.230.69.33:8080'}
+INFO:scholarly:Getting https://scholar.google.com/scholar?start=30&hl=en&as_sdt=5,33&sciodt=0,33&cites=8103820573509729083&scipsc=
+INFO:scholarly:Session proxy config is {'http': 'http://213.230.69.33:8080', 'https': 'http://213.230.69.33:8080'}
+INFO:scholarly:Got a captcha request.
+INFO:scholarly:Exception WebDriverException while fetching page: ("'geckodriver' executable needs to be in PATH. ",)
+INFO:scholarly:Retrying with a new session.
+INFO:scholarly:Session proxy config is {'http': 'http://213.230.69.33:8080', 'https': 'http://213.230.69.33:8080'}
+INFO:scholarly:Getting https://scholar.google.com/scholar?start=40&hl=en&as_sdt=5,33&sciodt=0,33&cites=8103820573509729083&scipsc=
+INFO:scholarly:Session proxy config is {'http': 'http://213.230.69.33:8080', 'https': 'http://213.230.69.33:8080'}
+INFO:scholarly:Got a captcha request.
+INFO:scholarly:Exception WebDriverException while fetching page: ("'geckodriver' executable needs to be in PATH. ",)
+INFO:scholarly:Retrying with a new session.
+INFO:scholarly:Session proxy config is {'http': 'http://213.230.69.33:8080', 'https': 'http://213.230.69.33:8080'}
+INFO:scholarly:Getting https://scholar.google.com/scholar?start=50&hl=en&as_sdt=5,33&sciodt=0,33&cites=8103820573509729083&scipsc=
+INFO:scholarly:Session proxy config is {'http': 'http://213.230.69.33:8080', 'https': 'http://213.230.69.33:8080'}
+INFO:scholarly:Got a captcha request.
+INFO:scholarly:Exception WebDriverException while fetching page: ("'geckodriver' executable needs to be in PATH. ",)
+INFO:scholarly:Retrying with a new session.
+INFO:scholarly:Session proxy config is {'http': 'http://213.230.69.33:8080', 'https': 'http://213.230.69.33:8080'}
+INFO:scholarly:Getting https://scholar.google.com/scholar?start=60&hl=en&as_sdt=5,33&sciodt=0,33&cites=8103820573509729083&scipsc=
+INFO:scholarly:Session proxy config is {'http': 'http://213.230.69.33:8080', 'https': 'http://213.230.69.33:8080'}
+INFO:scholarly:Got a captcha request.
+INFO:scholarly:Exception WebDriverException while fetching page: ("'geckodriver' executable needs to be in PATH. ",)
+INFO:scholarly:Retrying with a new session.
+INFO:scholarly:Session proxy config is {'http': 'http://213.230.69.33:8080', 'https': 'http://213.230.69.33:8080'}
+INFO:scholarly:Getting https://scholar.google.com/scholar?start=70&hl=en&as_sdt=5,33&sciodt=0,33&cites=8103820573509729083&scipsc=
+INFO:scholarly:Session proxy config is {'http': 'http://213.230.69.33:8080', 'https': 'http://213.230.69.33:8080'}
+INFO:scholarly:Got a captcha request.
+INFO:scholarly:Exception WebDriverException while fetching page: ("'geckodriver' executable needs to be in PATH. ",)
+INFO:scholarly:Retrying with a new session.
+INFO:scholarly:Session proxy config is {'http': 'http://213.230.69.33:8080', 'https': 'http://213.230.69.33:8080'}
+INFO:scholarly:Getting https://scholar.google.com/scholar?start=80&hl=en&as_sdt=5,33&sciodt=0,33&cites=8103820573509729083&scipsc=
+INFO:scholarly:Session proxy config is {'http': 'http://213.230.69.33:8080', 'https': 'http://213.230.69.33:8080'}
+INFO:scholarly:Got a captcha request.
+INFO:scholarly:Exception WebDriverException while fetching page: ("'geckodriver' executable needs to be in PATH. ",)
+INFO:scholarly:Retrying with a new session.
+INFO:scholarly:Session proxy config is {'http': 'http://213.230.69.33:8080', 'https': 'http://213.230.69.33:8080'}
+INFO:scholarly:Getting https://scholar.google.com/scholar?start=90&hl=en&as_sdt=5,33&sciodt=0,33&cites=8103820573509729083&scipsc=
+INFO:scholarly:Session proxy config is {'http': 'http://213.230.69.33:8080', 'https': 'http://213.230.69.33:8080'}
+INFO:scholarly:Got a captcha request.
+INFO:scholarly:Exception WebDriverException while fetching page: ("'geckodriver' executable needs to be in PATH. ",)
+INFO:scholarly:Retrying with a new session.
+INFO:scholarly:Session proxy config is {'http': 'http://213.230.69.33:8080', 'https': 'http://213.230.69.33:8080'}
+INFO:scholarly:Getting https://scholar.google.com/scholar?start=100&hl=en&as_sdt=5,33&sciodt=0,33&cites=8103820573509729083&scipsc=
+INFO:scholarly:Session proxy config is {'http': 'http://213.230.69.33:8080', 'https': 'http://213.230.69.33:8080'}
+INFO:scholarly:Got a captcha request.
+INFO:scholarly:Exception WebDriverException while fetching page: ("'geckodriver' executable needs to be in PATH. ",)
+INFO:scholarly:Retrying with a new session.
+INFO:scholarly:Session proxy config is {'http': 'http://213.230.69.33:8080', 'https': 'http://213.230.69.33:8080'}
+INFO:scholarly:Getting https://scholar.google.com/scholar?start=110&hl=en&as_sdt=5,33&sciodt=0,33&cites=8103820573509729083&scipsc=
+INFO:scholarly:Session proxy config is {'http': 'http://213.230.69.33:8080', 'https': 'http://213.230.69.33:8080'}
+INFO:scholarly:Got a captcha request.
+INFO:scholarly:Exception WebDriverException while fetching page: ("'geckodriver' executable needs to be in PATH. ",)
+INFO:scholarly:Retrying with a new session.
+INFO:scholarly:Session proxy config is {'http': 'http://213.230.69.33:8080', 'https': 'http://213.230.69.33:8080'}
+INFO:scholarly:Getting https://scholar.google.com/scholar?start=10&hl=en&as_sdt=5,33&sciodt=0,33&cites=14350128456307990794&scipsc=
+INFO:scholarly:Session proxy config is {'http': 'http://213.230.69.33:8080', 'https': 'http://213.230.69.33:8080'}
+INFO:scholarly:Got a captcha request.
+INFO:scholarly:Exception WebDriverException while fetching page: ("'geckodriver' executable needs to be in PATH. ",)
+INFO:scholarly:Retrying with a new session.
+INFO:scholarly:Session proxy config is {'http': 'http://213.230.69.33:8080', 'https': 'http://213.230.69.33:8080'}
+INFO:scholarly:Getting https://scholar.google.com/scholar?start=20&hl=en&as_sdt=5,33&sciodt=0,33&cites=14350128456307990794&scipsc=
+INFO:scholarly:Session proxy config is {'http': 'http://213.230.69.33:8080', 'https': 'http://213.230.69.33:8080'}
+INFO:scholarly:Got a captcha request.
+INFO:scholarly:Exception WebDriverException while fetching page: ("'geckodriver' executable needs to be in PATH. ",)
+INFO:scholarly:Retrying with a new session.
+INFO:scholarly:Session proxy config is {'http': 'http://213.230.69.33:8080', 'https': 'http://213.230.69.33:8080'}
+INFO:scholarly:Getting https://scholar.google.com/scholar?start=30&hl=en&as_sdt=5,33&sciodt=0,33&cites=14350128456307990794&scipsc=
+INFO:scholarly:Session proxy config is {'http': 'http://213.230.69.33:8080', 'https': 'http://213.230.69.33:8080'}
+INFO:scholarly:Got a captcha request.
+INFO:scholarly:Exception WebDriverException while fetching page: ("'geckodriver' executable needs to be in PATH. ",)
+INFO:scholarly:Retrying with a new session.
+INFO:scholarly:Session proxy config is {'http': 'http://213.230.69.33:8080', 'https': 'http://213.230.69.33:8080'}
+INFO:scholarly:Getting https://scholar.google.com/scholar?start=40&hl=en&as_sdt=5,33&sciodt=0,33&cites=14350128456307990794&scipsc=
+INFO:scholarly:Session proxy config is {'http': 'http://213.230.69.33:8080', 'https': 'http://213.230.69.33:8080'}
+INFO:scholarly:Got a captcha request.
+INFO:scholarly:Exception WebDriverException while fetching page: ("'geckodriver' executable needs to be in PATH. ",)
+INFO:scholarly:Retrying with a new session.
+INFO:scholarly:Session proxy config is {'http': 'http://213.230.69.33:8080', 'https': 'http://213.230.69.33:8080'}
+INFO:scholarly:Getting https://scholar.google.com/scholar?start=50&hl=en&as_sdt=5,33&sciodt=0,33&cites=14350128456307990794&scipsc=
+INFO:scholarly:Session proxy config is {'http': 'http://213.230.69.33:8080', 'https': 'http://213.230.69.33:8080'}
+INFO:scholarly:Got a captcha request.
+INFO:scholarly:Exception WebDriverException while fetching page: ("'geckodriver' executable needs to be in PATH. ",)
+INFO:scholarly:Retrying with a new session.
+INFO:scholarly:Session proxy config is {'http': 'http://213.230.69.33:8080', 'https': 'http://213.230.69.33:8080'}
+INFO:scholarly:Getting https://scholar.google.com/scholar?start=60&hl=en&as_sdt=5,33&sciodt=0,33&cites=14350128456307990794&scipsc=
+INFO:scholarly:Session proxy config is {'http': 'http://213.230.69.33:8080', 'https': 'http://213.230.69.33:8080'}
+INFO:scholarly:Got a captcha request.
+INFO:scholarly:Exception WebDriverException while fetching page: ("'geckodriver' executable needs to be in PATH. ",)
+INFO:scholarly:Retrying with a new session.
+INFO:scholarly:Session proxy config is {'http': 'http://213.230.69.33:8080', 'https': 'http://213.230.69.33:8080'}
+INFO:scholarly:Getting https://scholar.google.com/scholar?start=70&hl=en&as_sdt=5,33&sciodt=0,33&cites=14350128456307990794&scipsc=
+INFO:scholarly:Session proxy config is {'http': 'http://213.230.69.33:8080', 'https': 'http://213.230.69.33:8080'}
+INFO:scholarly:Got a captcha request.
+INFO:scholarly:Exception WebDriverException while fetching page: ("'geckodriver' executable needs to be in PATH. ",)
+INFO:scholarly:Retrying with a new session.
+INFO:scholarly:Session proxy config is {'http': 'http://213.230.69.33:8080', 'https': 'http://213.230.69.33:8080'}
+INFO:scholarly:Getting https://scholar.google.com/scholar?start=80&hl=en&as_sdt=5,33&sciodt=0,33&cites=14350128456307990794&scipsc=
+INFO:scholarly:Session proxy config is {'http': 'http://213.230.69.33:8080', 'https': 'http://213.230.69.33:8080'}
+INFO:scholarly:Got a captcha request.
+INFO:scholarly:Exception WebDriverException while fetching page: ("'geckodriver' executable needs to be in PATH. ",)
+INFO:scholarly:Retrying with a new session.
+INFO:scholarly:Session proxy config is {'http': 'http://213.230.69.33:8080', 'https': 'http://213.230.69.33:8080'}
+INFO:scholarly:Getting https://scholar.google.com/scholar?start=10&hl=en&as_sdt=5,33&sciodt=0,33&cites=6645674425519044269&scipsc=
+INFO:scholarly:Session proxy config is {'http': 'http://213.230.69.33:8080', 'https': 'http://213.230.69.33:8080'}
+INFO:scholarly:Got a captcha request.
+INFO:scholarly:Exception WebDriverException while fetching page: ("'geckodriver' executable needs to be in PATH. ",)
+INFO:scholarly:Retrying with a new session.
+INFO:scholarly:Session proxy config is {'http': 'http://213.230.69.33:8080', 'https': 'http://213.230.69.33:8080'}
+INFO:scholarly:Getting https://scholar.google.com/scholar?start=20&hl=en&as_sdt=5,33&sciodt=0,33&cites=6645674425519044269&scipsc=
+INFO:scholarly:Session proxy config is {'http': 'http://213.230.69.33:8080', 'https': 'http://213.230.69.33:8080'}
+INFO:scholarly:Got a captcha request.
+INFO:scholarly:Exception WebDriverException while fetching page: ("'geckodriver' executable needs to be in PATH. ",)
+INFO:scholarly:Retrying with a new session.
+INFO:scholarly:Session proxy config is {'http': 'http://213.230.69.33:8080', 'https': 'http://213.230.69.33:8080'}
+INFO:scholarly:Getting https://scholar.google.com/scholar?start=30&hl=en&as_sdt=5,33&sciodt=0,33&cites=6645674425519044269&scipsc=
+INFO:scholarly:Session proxy config is {'http': 'http://213.230.69.33:8080', 'https': 'http://213.230.69.33:8080'}
+INFO:scholarly:Got a captcha request.
+INFO:scholarly:Exception WebDriverException while fetching page: ("'geckodriver' executable needs to be in PATH. ",)
+INFO:scholarly:Retrying with a new session.
+INFO:scholarly:Session proxy config is {'http': 'http://213.230.69.33:8080', 'https': 'http://213.230.69.33:8080'}
+INFO:scholarly:Getting https://scholar.google.com/scholar?start=40&hl=en&as_sdt=5,33&sciodt=0,33&cites=6645674425519044269&scipsc=
+INFO:scholarly:Session proxy config is {'http': 'http://213.230.69.33:8080', 'https': 'http://213.230.69.33:8080'}
+INFO:scholarly:Got a captcha request.
+INFO:scholarly:Exception WebDriverException while fetching page: ("'geckodriver' executable needs to be in PATH. ",)
+INFO:scholarly:Retrying with a new session.
+INFO:scholarly:Session proxy config is {'http': 'http://213.230.69.33:8080', 'https': 'http://213.230.69.33:8080'}
+INFO:scholarly:Getting https://scholar.google.com/scholar?start=50&hl=en&as_sdt=5,33&sciodt=0,33&cites=6645674425519044269&scipsc=
+INFO:scholarly:Session proxy config is {'http': 'http://213.230.69.33:8080', 'https': 'http://213.230.69.33:8080'}
+INFO:scholarly:Got a captcha request.
+INFO:scholarly:Exception WebDriverException while fetching page: ("'geckodriver' executable needs to be in PATH. ",)
+INFO:scholarly:Retrying with a new session.
+INFO:scholarly:Session proxy config is {'http': 'http://213.230.69.33:8080', 'https': 'http://213.230.69.33:8080'}
+INFO:scholarly:Getting https://scholar.google.com/scholar?start=60&hl=en&as_sdt=5,33&sciodt=0,33&cites=6645674425519044269&scipsc=
+INFO:scholarly:Session proxy config is {'http': 'http://213.230.69.33:8080', 'https': 'http://213.230.69.33:8080'}
+INFO:scholarly:Got a captcha request.
+INFO:scholarly:Exception WebDriverException while fetching page: ("'geckodriver' executable needs to be in PATH. ",)
+INFO:scholarly:Retrying with a new session.
+INFO:scholarly:Session proxy config is {'http': 'http://213.230.69.33:8080', 'https': 'http://213.230.69.33:8080'}
+INFO:scholarly:Getting https://scholar.google.com/scholar?start=10&hl=en&as_sdt=5,33&sciodt=0,33&cites=11514142961038241390&scipsc=
+INFO:scholarly:Session proxy config is {'http': 'http://213.230.69.33:8080', 'https': 'http://213.230.69.33:8080'}
+INFO:scholarly:Got a captcha request.
+INFO:scholarly:Exception WebDriverException while fetching page: ("'geckodriver' executable needs to be in PATH. ",)
+INFO:scholarly:Retrying with a new session.
+INFO:scholarly:Session proxy config is {'http': 'http://213.230.69.33:8080', 'https': 'http://213.230.69.33:8080'}
+INFO:scholarly:Getting https://scholar.google.com/scholar?start=10&hl=en&as_sdt=5,33&sciodt=0,33&cites=3675884755790561374&scipsc=
+INFO:scholarly:Session proxy config is {'http': 'http://213.230.69.33:8080', 'https': 'http://213.230.69.33:8080'}
+INFO:scholarly:Got a captcha request.
+INFO:scholarly:Exception WebDriverException while fetching page: ("'geckodriver' executable needs to be in PATH. ",)
+INFO:scholarly:Retrying with a new session.
+INFO:scholarly:Session proxy config is {'http': 'http://213.230.69.33:8080', 'https': 'http://213.230.69.33:8080'}
+INFO:scholarly:Getting https://scholar.google.com/scholar?start=20&hl=en&as_sdt=5,33&sciodt=0,33&cites=3675884755790561374&scipsc=
+INFO:scholarly:Session proxy config is {'http': 'http://213.230.69.33:8080', 'https': 'http://213.230.69.33:8080'}
+INFO:scholarly:Got a captcha request.
+INFO:scholarly:Exception WebDriverException while fetching page: ("'geckodriver' executable needs to be in PATH. ",)
+INFO:scholarly:Retrying with a new session.
+INFO:scholarly:Session proxy config is {'http': 'http://213.230.69.33:8080', 'https': 'http://213.230.69.33:8080'}
+INFO:scholarly:Getting https://scholar.google.com/scholar?start=30&hl=en&as_sdt=5,33&sciodt=0,33&cites=3675884755790561374&scipsc=
+INFO:scholarly:Session proxy config is {'http': 'http://213.230.69.33:8080', 'https': 'http://213.230.69.33:8080'}
+INFO:scholarly:Got a captcha request.
+INFO:scholarly:Exception WebDriverException while fetching page: ("'geckodriver' executable needs to be in PATH. ",)
+INFO:scholarly:Retrying with a new session.
+INFO:scholarly:Session proxy config is {'http': 'http://213.230.69.33:8080', 'https': 'http://213.230.69.33:8080'}
+INFO:scholarly:Getting https://scholar.google.com/scholar?start=40&hl=en&as_sdt=5,33&sciodt=0,33&cites=3675884755790561374&scipsc=
+INFO:scholarly:Session proxy config is {'http': 'http://213.230.69.33:8080', 'https': 'http://213.230.69.33:8080'}
+INFO:scholarly:Got a captcha request.
+INFO:scholarly:Exception WebDriverException while fetching page: ("'geckodriver' executable needs to be in PATH. ",)
+INFO:scholarly:Retrying with a new session.
+INFO:scholarly:Session proxy config is {'http': 'http://213.230.69.33:8080', 'https': 'http://213.230.69.33:8080'}
+INFO:scholarly:Getting https://scholar.google.com/scholar?start=50&hl=en&as_sdt=5,33&sciodt=0,33&cites=3675884755790561374&scipsc=
+INFO:scholarly:Session proxy config is {'http': 'http://213.230.69.33:8080', 'https': 'http://213.230.69.33:8080'}
+INFO:scholarly:Got a captcha request.
+INFO:scholarly:Exception WebDriverException while fetching page: ("'geckodriver' executable needs to be in PATH. ",)
+INFO:scholarly:Retrying with a new session.
+INFO:scholarly:Session proxy config is {'http': 'http://213.230.69.33:8080', 'https': 'http://213.230.69.33:8080'}
+INFO:scholarly:Getting https://scholar.google.com/scholar?start=60&hl=en&as_sdt=5,33&sciodt=0,33&cites=3675884755790561374&scipsc=
+INFO:scholarly:Session proxy config is {'http': 'http://213.230.69.33:8080', 'https': 'http://213.230.69.33:8080'}
+INFO:scholarly:Got a captcha request.
+INFO:scholarly:Exception WebDriverException while fetching page: ("'geckodriver' executable needs to be in PATH. ",)
+INFO:scholarly:Retrying with a new session.
+INFO:scholarly:Session proxy config is {'http': 'http://213.230.69.33:8080', 'https': 'http://213.230.69.33:8080'}
+INFO:scholarly:Getting https://scholar.google.com/scholar?start=70&hl=en&as_sdt=5,33&sciodt=0,33&cites=3675884755790561374&scipsc=
+INFO:scholarly:Session proxy config is {'http': 'http://213.230.69.33:8080', 'https': 'http://213.230.69.33:8080'}
+INFO:scholarly:Got a captcha request.
+INFO:scholarly:Exception WebDriverException while fetching page: ("'geckodriver' executable needs to be in PATH. ",)
+INFO:scholarly:Retrying with a new session.
+INFO:scholarly:Session proxy config is {'http': 'http://213.230.69.33:8080', 'https': 'http://213.230.69.33:8080'}
+INFO:scholarly:Getting https://scholar.google.com/scholar?start=80&hl=en&as_sdt=5,33&sciodt=0,33&cites=3675884755790561374&scipsc=
+INFO:scholarly:Session proxy config is {'http': 'http://213.230.69.33:8080', 'https': 'http://213.230.69.33:8080'}
+INFO:scholarly:Got a captcha request.
+INFO:scholarly:Exception WebDriverException while fetching page: ("'geckodriver' executable needs to be in PATH. ",)
+INFO:scholarly:Retrying with a new session.
+INFO:scholarly:Session proxy config is {'http': 'http://213.230.69.33:8080', 'https': 'http://213.230.69.33:8080'}
+INFO:scholarly:Getting https://scholar.google.com/scholar?start=90&hl=en&as_sdt=5,33&sciodt=0,33&cites=3675884755790561374&scipsc=
+INFO:scholarly:Session proxy config is {'http': 'http://213.230.69.33:8080', 'https': 'http://213.230.69.33:8080'}
+INFO:scholarly:Got a captcha request.
+INFO:scholarly:Exception WebDriverException while fetching page: ("'geckodriver' executable needs to be in PATH. ",)
+INFO:scholarly:Retrying with a new session.
+INFO:scholarly:Session proxy config is {'http': 'http://213.230.69.33:8080', 'https': 'http://213.230.69.33:8080'}
+INFO:scholarly:Getting https://scholar.google.com/scholar?start=100&hl=en&as_sdt=5,33&sciodt=0,33&cites=3675884755790561374&scipsc=
+INFO:scholarly:Session proxy config is {'http': 'http://213.230.69.33:8080', 'https': 'http://213.230.69.33:8080'}
+INFO:scholarly:Got a captcha request.
+INFO:scholarly:Exception WebDriverException while fetching page: ("'geckodriver' executable needs to be in PATH. ",)
+INFO:scholarly:Retrying with a new session.
+INFO:scholarly:Session proxy config is {'http': 'http://213.230.69.33:8080', 'https': 'http://213.230.69.33:8080'}
+INFO:scholarly:Getting https://scholar.google.com/scholar?start=110&hl=en&as_sdt=5,33&sciodt=0,33&cites=3675884755790561374&scipsc=
+INFO:scholarly:Session proxy config is {'http': 'http://213.230.69.33:8080', 'https': 'http://213.230.69.33:8080'}
+INFO:scholarly:Got a captcha request.
+INFO:scholarly:Exception WebDriverException while fetching page: ("'geckodriver' executable needs to be in PATH. ",)
+INFO:scholarly:Retrying with a new session.
+INFO:scholarly:Session proxy config is {'http': 'http://213.230.69.33:8080', 'https': 'http://213.230.69.33:8080'}
+INFO:scholarly:Getting https://scholar.google.com/scholar?start=120&hl=en&as_sdt=5,33&sciodt=0,33&cites=3675884755790561374&scipsc=
+INFO:scholarly:Session proxy config is {'http': 'http://213.230.69.33:8080', 'https': 'http://213.230.69.33:8080'}
+INFO:scholarly:Got a captcha request.
+INFO:scholarly:Exception WebDriverException while fetching page: ("'geckodriver' executable needs to be in PATH. ",)
+INFO:scholarly:Retrying with a new session.
+INFO:scholarly:Session proxy config is {'http': 'http://213.230.69.33:8080', 'https': 'http://213.230.69.33:8080'}
+INFO:scholarly:Getting https://scholar.google.com/scholar?start=130&hl=en&as_sdt=5,33&sciodt=0,33&cites=3675884755790561374&scipsc=
+INFO:scholarly:Session proxy config is {'http': 'http://213.230.69.33:8080', 'https': 'http://213.230.69.33:8080'}
+INFO:scholarly:Got a captcha request.
+INFO:scholarly:Exception WebDriverException while fetching page: ("'geckodriver' executable needs to be in PATH. ",)
+INFO:scholarly:Retrying with a new session.
+INFO:scholarly:Session proxy config is {'http': 'http://213.230.69.33:8080', 'https': 'http://213.230.69.33:8080'}
+INFO:scholarly:Getting https://scholar.google.com/scholar?start=140&hl=en&as_sdt=5,33&sciodt=0,33&cites=3675884755790561374&scipsc=
+INFO:scholarly:Session proxy config is {'http': 'http://213.230.69.33:8080', 'https': 'http://213.230.69.33:8080'}
+INFO:scholarly:Got a captcha request.
+INFO:scholarly:Exception WebDriverException while fetching page: ("'geckodriver' executable needs to be in PATH. ",)
+INFO:scholarly:Retrying with a new session.
+INFO:scholarly:Session proxy config is {'http': 'http://213.230.69.33:8080', 'https': 'http://213.230.69.33:8080'}
+INFO:scholarly:Getting https://scholar.google.com/scholar?start=150&hl=en&as_sdt=5,33&sciodt=0,33&cites=3675884755790561374&scipsc=
+INFO:scholarly:Session proxy config is {'http': 'http://213.230.69.33:8080', 'https': 'http://213.230.69.33:8080'}
+INFO:scholarly:Got a captcha request.
+INFO:scholarly:Exception WebDriverException while fetching page: ("'geckodriver' executable needs to be in PATH. ",)
+INFO:scholarly:Retrying with a new session.
+INFO:scholarly:Session proxy config is {'http': 'http://213.230.69.33:8080', 'https': 'http://213.230.69.33:8080'}
+INFO:scholarly:Getting https://scholar.google.com/scholar?start=160&hl=en&as_sdt=5,33&sciodt=0,33&cites=3675884755790561374&scipsc=
+INFO:scholarly:Session proxy config is {'http': 'http://213.230.69.33:8080', 'https': 'http://213.230.69.33:8080'}
+INFO:scholarly:Got a captcha request.
+INFO:scholarly:Exception WebDriverException while fetching page: ("'geckodriver' executable needs to be in PATH. ",)
+INFO:scholarly:Retrying with a new session.
+INFO:scholarly:Session proxy config is {'http': 'http://213.230.69.33:8080', 'https': 'http://213.230.69.33:8080'}
+INFO:scholarly:Getting https://scholar.google.com/scholar?start=170&hl=en&as_sdt=5,33&sciodt=0,33&cites=3675884755790561374&scipsc=
+INFO:scholarly:Session proxy config is {'http': 'http://213.230.69.33:8080', 'https': 'http://213.230.69.33:8080'}
+INFO:scholarly:Got a captcha request.
+INFO:scholarly:Exception WebDriverException while fetching page: ("'geckodriver' executable needs to be in PATH. ",)
+INFO:scholarly:Retrying with a new session.
+INFO:scholarly:Session proxy config is {'http': 'http://213.230.69.33:8080', 'https': 'http://213.230.69.33:8080'}
+INFO:scholarly:Getting https://scholar.google.com/scholar?start=180&hl=en&as_sdt=5,33&sciodt=0,33&cites=3675884755790561374&scipsc=
+INFO:scholarly:Session proxy config is {'http': 'http://213.230.69.33:8080', 'https': 'http://213.230.69.33:8080'}
+INFO:scholarly:Got a captcha request.
+INFO:scholarly:Exception WebDriverException while fetching page: ("'geckodriver' executable needs to be in PATH. ",)
+INFO:scholarly:Retrying with a new session.
+INFO:scholarly:Session proxy config is {'http': 'http://213.230.69.33:8080', 'https': 'http://213.230.69.33:8080'}
+INFO:scholarly:Getting https://scholar.google.com/scholar?start=190&hl=en&as_sdt=5,33&sciodt=0,33&cites=3675884755790561374&scipsc=
+INFO:scholarly:Session proxy config is {'http': 'http://213.230.69.33:8080', 'https': 'http://213.230.69.33:8080'}
+INFO:scholarly:Got a captcha request.
+INFO:scholarly:Exception WebDriverException while fetching page: ("'geckodriver' executable needs to be in PATH. ",)
+INFO:scholarly:Retrying with a new session.
+INFO:scholarly:Session proxy config is {'http': 'http://213.230.69.33:8080', 'https': 'http://213.230.69.33:8080'}
+INFO:scholarly:Getting https://scholar.google.com/scholar?start=200&hl=en&as_sdt=5,33&sciodt=0,33&cites=3675884755790561374&scipsc=
+INFO:scholarly:Session proxy config is {'http': 'http://213.230.69.33:8080', 'https': 'http://213.230.69.33:8080'}
+INFO:scholarly:Got a captcha request.
+INFO:scholarly:Exception WebDriverException while fetching page: ("'geckodriver' executable needs to be in PATH. ",)
+INFO:scholarly:Retrying with a new session.
+INFO:scholarly:Session proxy config is {'http': 'http://213.230.69.33:8080', 'https': 'http://213.230.69.33:8080'}
+INFO:scholarly:Getting https://scholar.google.com/scholar?start=210&hl=en&as_sdt=5,33&sciodt=0,33&cites=3675884755790561374&scipsc=
+INFO:scholarly:Session proxy config is {'http': 'http://213.230.69.33:8080', 'https': 'http://213.230.69.33:8080'}
+INFO:scholarly:Got a captcha request.
+INFO:scholarly:Exception WebDriverException while fetching page: ("'geckodriver' executable needs to be in PATH. ",)
+INFO:scholarly:Retrying with a new session.
+INFO:scholarly:Session proxy config is {'http': 'http://213.230.69.33:8080', 'https': 'http://213.230.69.33:8080'}
+INFO:scholarly:Getting https://scholar.google.com/scholar?start=220&hl=en&as_sdt=5,33&sciodt=0,33&cites=3675884755790561374&scipsc=
+INFO:scholarly:Session proxy config is {'http': 'http://213.230.69.33:8080', 'https': 'http://213.230.69.33:8080'}
+INFO:scholarly:Got a captcha request.
+INFO:scholarly:Exception WebDriverException while fetching page: ("'geckodriver' executable needs to be in PATH. ",)
+INFO:scholarly:Retrying with a new session.
+INFO:scholarly:Session proxy config is {'http': 'http://213.230.69.33:8080', 'https': 'http://213.230.69.33:8080'}
+INFO:scholarly:Getting https://scholar.google.com/scholar?start=230&hl=en&as_sdt=5,33&sciodt=0,33&cites=3675884755790561374&scipsc=
+INFO:scholarly:Session proxy config is {'http': 'http://213.230.69.33:8080', 'https': 'http://213.230.69.33:8080'}
+INFO:scholarly:Got a captcha request.
+INFO:scholarly:Exception WebDriverException while fetching page: ("'geckodriver' executable needs to be in PATH. ",)
+INFO:scholarly:Retrying with a new session.
+INFO:scholarly:Session proxy config is {'http': 'http://213.230.69.33:8080', 'https': 'http://213.230.69.33:8080'}
+INFO:scholarly:Getting https://scholar.google.com/scholar?start=240&hl=en&as_sdt=5,33&sciodt=0,33&cites=3675884755790561374&scipsc=
+INFO:scholarly:Session proxy config is {'http': 'http://213.230.69.33:8080', 'https': 'http://213.230.69.33:8080'}
+INFO:scholarly:Got a captcha request.
+INFO:scholarly:Exception WebDriverException while fetching page: ("'geckodriver' executable needs to be in PATH. ",)
+INFO:scholarly:Retrying with a new session.
+INFO:scholarly:Session proxy config is {'http': 'http://213.230.69.33:8080', 'https': 'http://213.230.69.33:8080'}
+INFO:scholarly:Getting https://scholar.google.com/scholar?start=250&hl=en&as_sdt=5,33&sciodt=0,33&cites=3675884755790561374&scipsc=
+INFO:scholarly:Session proxy config is {'http': 'http://213.230.69.33:8080', 'https': 'http://213.230.69.33:8080'}
+INFO:scholarly:Got a captcha request.
+INFO:scholarly:Exception WebDriverException while fetching page: ("'geckodriver' executable needs to be in PATH. ",)
+INFO:scholarly:Retrying with a new session.
+INFO:scholarly:Session proxy config is {'http': 'http://213.230.69.33:8080', 'https': 'http://213.230.69.33:8080'}
+INFO:scholarly:Getting https://scholar.google.com/scholar?start=260&hl=en&as_sdt=5,33&sciodt=0,33&cites=3675884755790561374&scipsc=
+INFO:scholarly:Session proxy config is {'http': 'http://213.230.69.33:8080', 'https': 'http://213.230.69.33:8080'}
+INFO:scholarly:Got a captcha request.
+INFO:scholarly:Exception WebDriverException while fetching page: ("'geckodriver' executable needs to be in PATH. ",)
+INFO:scholarly:Retrying with a new session.
+INFO:scholarly:Session proxy config is {'http': 'http://213.230.69.33:8080', 'https': 'http://213.230.69.33:8080'}
+INFO:scholarly:Getting https://scholar.google.com/scholar?start=270&hl=en&as_sdt=5,33&sciodt=0,33&cites=3675884755790561374&scipsc=
+INFO:scholarly:Session proxy config is {'http': 'http://213.230.69.33:8080', 'https': 'http://213.230.69.33:8080'}
+INFO:scholarly:Got a captcha request.
+INFO:scholarly:Exception WebDriverException while fetching page: ("'geckodriver' executable needs to be in PATH. ",)
+INFO:scholarly:Retrying with a new session.
+INFO:scholarly:Session proxy config is {'http': 'http://213.230.69.33:8080', 'https': 'http://213.230.69.33:8080'}
+INFO:scholarly:Getting https://scholar.google.com/scholar?start=280&hl=en&as_sdt=5,33&sciodt=0,33&cites=3675884755790561374&scipsc=
+INFO:scholarly:Session proxy config is {'http': 'http://213.230.69.33:8080', 'https': 'http://213.230.69.33:8080'}
+INFO:scholarly:Got a captcha request.
+INFO:scholarly:Exception WebDriverException while fetching page: ("'geckodriver' executable needs to be in PATH. ",)
+INFO:scholarly:Retrying with a new session.
+INFO:scholarly:Session proxy config is {'http': 'http://213.230.69.33:8080', 'https': 'http://213.230.69.33:8080'}
+INFO:scholarly:Getting https://scholar.google.com/scholar?start=290&hl=en&as_sdt=5,33&sciodt=0,33&cites=3675884755790561374&scipsc=
+INFO:scholarly:Session proxy config is {'http': 'http://213.230.69.33:8080', 'https': 'http://213.230.69.33:8080'}
+INFO:scholarly:Got a captcha request.
+INFO:scholarly:Exception WebDriverException while fetching page: ("'geckodriver' executable needs to be in PATH. ",)
+INFO:scholarly:Retrying with a new session.
+INFO:scholarly:Session proxy config is {'http': 'http://213.230.69.33:8080', 'https': 'http://213.230.69.33:8080'}
+INFO:scholarly:Getting https://scholar.google.com/scholar?start=300&hl=en&as_sdt=5,33&sciodt=0,33&cites=3675884755790561374&scipsc=
+INFO:scholarly:Session proxy config is {'http': 'http://213.230.69.33:8080', 'https': 'http://213.230.69.33:8080'}
+INFO:scholarly:Got a captcha request.
+INFO:scholarly:Exception WebDriverException while fetching page: ("'geckodriver' executable needs to be in PATH. ",)
+INFO:scholarly:Retrying with a new session.
+INFO:scholarly:Session proxy config is {'http': 'http://213.230.69.33:8080', 'https': 'http://213.230.69.33:8080'}
+INFO:scholarly:Getting https://scholar.google.com/scholar?start=310&hl=en&as_sdt=5,33&sciodt=0,33&cites=3675884755790561374&scipsc=
+INFO:scholarly:Session proxy config is {'http': 'http://213.230.69.33:8080', 'https': 'http://213.230.69.33:8080'}
+INFO:scholarly:Got a captcha request.
+INFO:scholarly:Exception WebDriverException while fetching page: ("'geckodriver' executable needs to be in PATH. ",)
+INFO:scholarly:Retrying with a new session.
+INFO:scholarly:Session proxy config is {'http': 'http://213.230.69.33:8080', 'https': 'http://213.230.69.33:8080'}
+INFO:scholarly:Getting https://scholar.google.com/scholar?start=320&hl=en&as_sdt=5,33&sciodt=0,33&cites=3675884755790561374&scipsc=
+INFO:scholarly:Session proxy config is {'http': 'http://213.230.69.33:8080', 'https': 'http://213.230.69.33:8080'}
+INFO:scholarly:Got a captcha request.
+INFO:scholarly:Exception WebDriverException while fetching page: ("'geckodriver' executable needs to be in PATH. ",)
+INFO:scholarly:Retrying with a new session.
+INFO:scholarly:Session proxy config is {'http': 'http://213.230.69.33:8080', 'https': 'http://213.230.69.33:8080'}
+INFO:scholarly:Getting https://scholar.google.com/scholar?start=330&hl=en&as_sdt=5,33&sciodt=0,33&cites=3675884755790561374&scipsc=
+INFO:scholarly:Session proxy config is {'http': 'http://213.230.69.33:8080', 'https': 'http://213.230.69.33:8080'}
+INFO:scholarly:Got a captcha request.
+INFO:scholarly:Exception WebDriverException while fetching page: ("'geckodriver' executable needs to be in PATH. ",)
+INFO:scholarly:Retrying with a new session.
+INFO:scholarly:Session proxy config is {'http': 'http://213.230.69.33:8080', 'https': 'http://213.230.69.33:8080'}
+INFO:scholarly:Getting https://scholar.google.com/scholar?start=340&hl=en&as_sdt=5,33&sciodt=0,33&cites=3675884755790561374&scipsc=
+INFO:scholarly:Session proxy config is {'http': 'http://213.230.69.33:8080', 'https': 'http://213.230.69.33:8080'}
+INFO:scholarly:Got a captcha request.
+INFO:scholarly:Exception WebDriverException while fetching page: ("'geckodriver' executable needs to be in PATH. ",)
+INFO:scholarly:Retrying with a new session.
+INFO:scholarly:Session proxy config is {'http': 'http://213.230.69.33:8080', 'https': 'http://213.230.69.33:8080'}
+INFO:scholarly:Getting https://scholar.google.com/scholar?start=350&hl=en&as_sdt=5,33&sciodt=0,33&cites=3675884755790561374&scipsc=
+INFO:scholarly:Session proxy config is {'http': 'http://213.230.69.33:8080', 'https': 'http://213.230.69.33:8080'}
+INFO:scholarly:Got a captcha request.
+INFO:scholarly:Exception WebDriverException while fetching page: ("'geckodriver' executable needs to be in PATH. ",)
+INFO:scholarly:Retrying with a new session.
+INFO:scholarly:Session proxy config is {'http': 'http://213.230.69.33:8080', 'https': 'http://213.230.69.33:8080'}
+INFO:scholarly:Getting https://scholar.google.com/scholar?start=360&hl=en&as_sdt=5,33&sciodt=0,33&cites=3675884755790561374&scipsc=
+INFO:scholarly:Session proxy config is {'http': 'http://213.230.69.33:8080', 'https': 'http://213.230.69.33:8080'}
+INFO:scholarly:Got a captcha request.
+INFO:scholarly:Exception WebDriverException while fetching page: ("'geckodriver' executable needs to be in PATH. ",)
+INFO:scholarly:Retrying with a new session.
+INFO:scholarly:Session proxy config is {'http': 'http://213.230.69.33:8080', 'https': 'http://213.230.69.33:8080'}
+INFO:scholarly:Getting https://scholar.google.com/scholar?start=10&hl=en&as_sdt=5,33&sciodt=0,33&cites=10118760710862764434&scipsc=
+INFO:scholarly:Session proxy config is {'http': 'http://213.230.69.33:8080', 'https': 'http://213.230.69.33:8080'}
+INFO:scholarly:Got a captcha request.
+INFO:scholarly:Exception WebDriverException while fetching page: ("'geckodriver' executable needs to be in PATH. ",)
+INFO:scholarly:Retrying with a new session.
+INFO:scholarly:Session proxy config is {'http': 'http://213.230.69.33:8080', 'https': 'http://213.230.69.33:8080'}
+INFO:scholarly:Getting https://scholar.google.com/scholar?start=20&hl=en&as_sdt=5,33&sciodt=0,33&cites=10118760710862764434&scipsc=
+INFO:scholarly:Session proxy config is {'http': 'http://213.230.69.33:8080', 'https': 'http://213.230.69.33:8080'}
+INFO:scholarly:Got a captcha request.
+INFO:scholarly:Exception WebDriverException while fetching page: ("'geckodriver' executable needs to be in PATH. ",)
+INFO:scholarly:Retrying with a new session.
+INFO:scholarly:Session proxy config is {'http': 'http://213.230.69.33:8080', 'https': 'http://213.230.69.33:8080'}
+INFO:scholarly:Getting https://scholar.google.com/scholar?start=30&hl=en&as_sdt=5,33&sciodt=0,33&cites=10118760710862764434&scipsc=
+INFO:scholarly:Session proxy config is {'http': 'http://213.230.69.33:8080', 'https': 'http://213.230.69.33:8080'}
+INFO:scholarly:Got a captcha request.
+INFO:scholarly:Exception WebDriverException while fetching page: ("'geckodriver' executable needs to be in PATH. ",)
+INFO:scholarly:Retrying with a new session.
+INFO:scholarly:Session proxy config is {'http': 'http://213.230.69.33:8080', 'https': 'http://213.230.69.33:8080'}
+INFO:scholarly:Getting https://scholar.google.com/scholar?start=40&hl=en&as_sdt=5,33&sciodt=0,33&cites=10118760710862764434&scipsc=
+INFO:scholarly:Session proxy config is {'http': 'http://213.230.69.33:8080', 'https': 'http://213.230.69.33:8080'}
+INFO:scholarly:Got a captcha request.
+INFO:scholarly:Exception WebDriverException while fetching page: ("'geckodriver' executable needs to be in PATH. ",)
+INFO:scholarly:Retrying with a new session.
+INFO:scholarly:Session proxy config is {'http': 'http://213.230.69.33:8080', 'https': 'http://213.230.69.33:8080'}
+INFO:scholarly:Getting https://scholar.google.com/scholar?start=50&hl=en&as_sdt=5,33&sciodt=0,33&cites=10118760710862764434&scipsc=
+INFO:scholarly:Session proxy config is {'http': 'http://213.230.69.33:8080', 'https': 'http://213.230.69.33:8080'}
+INFO:scholarly:Got a captcha request.
+INFO:scholarly:Exception WebDriverException while fetching page: ("'geckodriver' executable needs to be in PATH. ",)
+INFO:scholarly:Retrying with a new session.
+INFO:scholarly:Session proxy config is {'http': 'http://213.230.69.33:8080', 'https': 'http://213.230.69.33:8080'}
+INFO:scholarly:Getting https://scholar.google.com/scholar?start=60&hl=en&as_sdt=5,33&sciodt=0,33&cites=10118760710862764434&scipsc=
+INFO:scholarly:Session proxy config is {'http': 'http://213.230.69.33:8080', 'https': 'http://213.230.69.33:8080'}
+INFO:scholarly:Got a captcha request.
+INFO:scholarly:Exception WebDriverException while fetching page: ("'geckodriver' executable needs to be in PATH. ",)
+INFO:scholarly:Retrying with a new session.
+INFO:scholarly:Session proxy config is {'http': 'http://213.230.69.33:8080', 'https': 'http://213.230.69.33:8080'}
+INFO:scholarly:Getting https://scholar.google.com/scholar?start=70&hl=en&as_sdt=5,33&sciodt=0,33&cites=10118760710862764434&scipsc=
+INFO:scholarly:Session proxy config is {'http': 'http://213.230.69.33:8080', 'https': 'http://213.230.69.33:8080'}
+INFO:scholarly:Got a captcha request.
+INFO:scholarly:Exception WebDriverException while fetching page: ("'geckodriver' executable needs to be in PATH. ",)
+INFO:scholarly:Retrying with a new session.
+INFO:scholarly:Session proxy config is {'http': 'http://213.230.69.33:8080', 'https': 'http://213.230.69.33:8080'}
+INFO:scholarly:Getting https://scholar.google.com/scholar?start=80&hl=en&as_sdt=5,33&sciodt=0,33&cites=10118760710862764434&scipsc=
+INFO:scholarly:Session proxy config is {'http': 'http://213.230.69.33:8080', 'https': 'http://213.230.69.33:8080'}
+INFO:scholarly:Got a captcha request.
+INFO:scholarly:Exception WebDriverException while fetching page: ("'geckodriver' executable needs to be in PATH. ",)
+INFO:scholarly:Retrying with a new session.
+INFO:scholarly:Session proxy config is {'http': 'http://213.230.69.33:8080', 'https': 'http://213.230.69.33:8080'}
+INFO:scholarly:Getting https://scholar.google.com/scholar?start=90&hl=en&as_sdt=5,33&sciodt=0,33&cites=10118760710862764434&scipsc=
+INFO:scholarly:Session proxy config is {'http': 'http://213.230.69.33:8080', 'https': 'http://213.230.69.33:8080'}
+INFO:scholarly:Got a captcha request.
+INFO:scholarly:Exception WebDriverException while fetching page: ("'geckodriver' executable needs to be in PATH. ",)
+INFO:scholarly:Retrying with a new session.
+INFO:scholarly:Session proxy config is {'http': 'http://213.230.69.33:8080', 'https': 'http://213.230.69.33:8080'}
+INFO:scholarly:Getting https://scholar.google.com/scholar?start=100&hl=en&as_sdt=5,33&sciodt=0,33&cites=10118760710862764434&scipsc=
+INFO:scholarly:Session proxy config is {'http': 'http://213.230.69.33:8080', 'https': 'http://213.230.69.33:8080'}
+INFO:scholarly:Got a captcha request.
+INFO:scholarly:Exception WebDriverException while fetching page: ("'geckodriver' executable needs to be in PATH. ",)
+INFO:scholarly:Retrying with a new session.
+INFO:scholarly:Session proxy config is {'http': 'http://213.230.69.33:8080', 'https': 'http://213.230.69.33:8080'}
+INFO:scholarly:Getting https://scholar.google.com/scholar?start=10&hl=en&as_sdt=5,33&sciodt=0,33&cites=735391847318518325&scipsc=
+INFO:scholarly:Session proxy config is {'http': 'http://213.230.69.33:8080', 'https': 'http://213.230.69.33:8080'}
+INFO:scholarly:Got a captcha request.
+INFO:scholarly:Exception WebDriverException while fetching page: ("'geckodriver' executable needs to be in PATH. ",)
+INFO:scholarly:Retrying with a new session.
+INFO:scholarly:Session proxy config is {'http': 'http://213.230.69.33:8080', 'https': 'http://213.230.69.33:8080'}
+INFO:scholarly:Getting https://scholar.google.com/scholar?start=20&hl=en&as_sdt=5,33&sciodt=0,33&cites=735391847318518325&scipsc=
+INFO:scholarly:Session proxy config is {'http': 'http://213.230.69.33:8080', 'https': 'http://213.230.69.33:8080'}
+INFO:scholarly:Got a captcha request.
+INFO:scholarly:Exception WebDriverException while fetching page: ("'geckodriver' executable needs to be in PATH. ",)
+INFO:scholarly:Retrying with a new session.
+INFO:scholarly:Session proxy config is {'http': 'http://213.230.69.33:8080', 'https': 'http://213.230.69.33:8080'}
+INFO:scholarly:Getting https://scholar.google.com/scholar?start=10&hl=en&as_sdt=5,33&sciodt=0,33&cites=4014820138096159966&scipsc=
+INFO:scholarly:Session proxy config is {'http': 'http://213.230.69.33:8080', 'https': 'http://213.230.69.33:8080'}
+INFO:scholarly:Got a captcha request.
+INFO:scholarly:Exception WebDriverException while fetching page: ("'geckodriver' executable needs to be in PATH. ",)
+INFO:scholarly:Retrying with a new session.
+INFO:scholarly:Session proxy config is {'http': 'http://213.230.69.33:8080', 'https': 'http://213.230.69.33:8080'}
+INFO:scholarly:Getting https://scholar.google.com/scholar?start=10&hl=en&as_sdt=5,33&sciodt=0,33&cites=6877574748617581566&scipsc=
+INFO:scholarly:Session proxy config is {'http': 'http://213.230.69.33:8080', 'https': 'http://213.230.69.33:8080'}
+INFO:scholarly:Got a captcha request.
+INFO:scholarly:Exception WebDriverException while fetching page: ("'geckodriver' executable needs to be in PATH. ",)
+INFO:scholarly:Retrying with a new session.
+INFO:scholarly:Session proxy config is {'http': 'http://213.230.69.33:8080', 'https': 'http://213.230.69.33:8080'}
+INFO:scholarly:Getting https://scholar.google.com/scholar?start=10&hl=en&as_sdt=5,33&sciodt=0,33&cites=11561528061697584213&scipsc=
+INFO:scholarly:Session proxy config is {'http': 'http://213.230.69.33:8080', 'https': 'http://213.230.69.33:8080'}
+INFO:scholarly:Got a captcha request.
+INFO:scholarly:Exception WebDriverException while fetching page: ("'geckodriver' executable needs to be in PATH. ",)
+INFO:scholarly:Retrying with a new session.
+INFO:scholarly:Session proxy config is {'http': 'http://213.230.69.33:8080', 'https': 'http://213.230.69.33:8080'}
+INFO:scholarly:Getting https://scholar.google.com/scholar?start=20&hl=en&as_sdt=5,33&sciodt=0,33&cites=11561528061697584213&scipsc=
+INFO:scholarly:Session proxy config is {'http': 'http://213.230.69.33:8080', 'https': 'http://213.230.69.33:8080'}
+INFO:scholarly:Got a captcha request.
+INFO:scholarly:Exception WebDriverException while fetching page: ("'geckodriver' executable needs to be in PATH. ",)
+INFO:scholarly:Retrying with a new session.
+INFO:scholarly:Session proxy config is {'http': 'http://213.230.69.33:8080', 'https': 'http://213.230.69.33:8080'}
+INFO:scholarly:Getting https://scholar.google.com/scholar?start=30&hl=en&as_sdt=5,33&sciodt=0,33&cites=11561528061697584213&scipsc=
+INFO:scholarly:Session proxy config is {'http': 'http://213.230.69.33:8080', 'https': 'http://213.230.69.33:8080'}
+INFO:scholarly:Got a captcha request.
+INFO:scholarly:Exception WebDriverException while fetching page: ("'geckodriver' executable needs to be in PATH. ",)
+INFO:scholarly:Retrying with a new session.
+INFO:scholarly:Session proxy config is {'http': 'http://213.230.69.33:8080', 'https': 'http://213.230.69.33:8080'}
+INFO:scholarly:Getting https://scholar.google.com/scholar?start=40&hl=en&as_sdt=5,33&sciodt=0,33&cites=11561528061697584213&scipsc=
+INFO:scholarly:Session proxy config is {'http': 'http://213.230.69.33:8080', 'https': 'http://213.230.69.33:8080'}
+INFO:scholarly:Got a captcha request.
+INFO:scholarly:Exception WebDriverException while fetching page: ("'geckodriver' executable needs to be in PATH. ",)
+INFO:scholarly:Retrying with a new session.
+INFO:scholarly:Session proxy config is {'http': 'http://213.230.69.33:8080', 'https': 'http://213.230.69.33:8080'}
+INFO:scholarly:Getting https://scholar.google.com/scholar?start=50&hl=en&as_sdt=5,33&sciodt=0,33&cites=11561528061697584213&scipsc=
+INFO:scholarly:Session proxy config is {'http': 'http://213.230.69.33:8080', 'https': 'http://213.230.69.33:8080'}
+INFO:scholarly:Got a captcha request.
+INFO:scholarly:Exception WebDriverException while fetching page: ("'geckodriver' executable needs to be in PATH. ",)
+INFO:scholarly:Retrying with a new session.
+INFO:scholarly:Session proxy config is {'http': 'http://213.230.69.33:8080', 'https': 'http://213.230.69.33:8080'}
+INFO:scholarly:Got a captcha request.
+INFO:scholarly:Exception WebDriverException while fetching page: ("'geckodriver' executable needs to be in PATH. ",)
+INFO:scholarly:Retrying with a new session.
+INFO:scholarly:Session proxy config is {'http': 'http://213.230.69.33:8080', 'https': 'http://213.230.69.33:8080'}
+INFO:scholarly:Got a captcha request.
+INFO:scholarly:Exception WebDriverException while fetching page: ("'geckodriver' executable needs to be in PATH. ",)
+INFO:scholarly:Retrying with a new session.
+INFO:scholarly:Session proxy config is {'http': 'http://213.230.69.33:8080', 'https': 'http://213.230.69.33:8080'}
+INFO:scholarly:Got a captcha request.
+INFO:scholarly:Exception WebDriverException while fetching page: ("'geckodriver' executable needs to be in PATH. ",)
+INFO:scholarly:Retrying with a new session.
+INFO:scholarly:Session proxy config is {'http': 'http://213.230.69.33:8080', 'https': 'http://213.230.69.33:8080'}
+INFO:scholarly:Got a captcha request.
+INFO:scholarly:Exception WebDriverException while fetching page: ("'geckodriver' executable needs to be in PATH. ",)
+INFO:scholarly:Retrying with a new session.
