@@ -1,14 +1,35 @@
-import gscholar
 from scholarly import scholarly
+from scholarly import scholarly, ProxyGenerator
+from fp.fp import FreeProxy
+
+
+
+def set_new_proxy():
+    proxy = FreeProxy(rand=True, timeout=1).get()
+    pg = ProxyGenerator()
+    pg.SingleProxy(http=proxy, https=proxy)
+    scholarly.use_proxy(pg)
+    # if proxy_works:
+    #     break
+    return proxy
 
 def test_query_link(link):
     all_papers = []
     for i in link:
-        search_query = scholarly.search_pubs_custom_url(i)
+        search_query = search_pubs_url_with_proxy(i)
         all_papers.append(search_query)
     return all_papers
 
-def foward_snowballing(query, levels=2):
+def search_pubs_url_with_proxy(url):
+    try:
+        search_query = scholarly.search_pubs_custom_url(url)
+        return search_query
+    except Exception as e:
+        set_new_proxy()
+        return search_pubs_url_with_proxy(url)
+
+
+def forward_snowballing(query, levels=2):
     level = 0
     with open("result.txt", "w", encoding="utf-8") as result_file:
         result_file.write(f"level= {level}")
@@ -24,7 +45,7 @@ def foward_snowballing(query, levels=2):
                 print(e)
                 continue
         level += 1
-        for _ in range(levels-1):
+        for _ in range(levels - 1):
             result_file.write(f"level= {level}")
             result_file.write("\n\n")
             all_papers = test_query_link(citation_scholar_links)
@@ -43,8 +64,13 @@ def foward_snowballing(query, levels=2):
 
 
 def test_query_keyword(keyword):
-    search_query = scholarly.search_pubs(keyword)
-    return search_query
+    try:
+        search_query = scholarly.search_pubs(keyword)
+        # print(next(search_query))
+        return search_query
+    except Exception as e:
+        set_new_proxy()
+        return test_query_keyword(keyword)
     # cite_link = next(search_query).citations_link
     # print(cite_link)
     # return cite_link
@@ -53,4 +79,6 @@ def test_query_keyword(keyword):
 if __name__ == '__main__':
     # Currently set as Batarang cause the scholarly blocks us for insane number of requests...
     s = test_query_keyword("Batarang")
-    foward_snowballing(s)
+    forward_snowballing(s)
+    # test_query_keyword(
+    #     "Alternative to mental hospital treatment: I. Conceptual model, treatment program, and clinical evaluation")
