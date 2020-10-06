@@ -41,9 +41,12 @@ def get_title_results(title_string):
 
     search_results = citation_json_obj["message"]["items"]
     for result in search_results:
-        for title in result["title"]:
-            if title == title_string:
-                return result
+        try:
+            for title in result["title"]:
+                if title.lower() in title_string.lower():
+                    return result
+        except KeyError as e:
+            pass
     return None
 
 

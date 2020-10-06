@@ -17,7 +17,7 @@ def title_to_backwards_citations(title_string):
     search_results = citation_json_obj["message"]["items"]
     for result in search_results:
         for title in result["title"]:
-            if title == title_string:
+            if title.lower() in title_string.lower():
                 return result["reference"]
     return None
 
@@ -40,7 +40,7 @@ def get_backward_citations(doi):
 
 
 if __name__ == '__main__':
-    print(get_backward_citations("10.1038/gim.2012.7"))
+    # print(get_backward_citations("10.1038/gim.2012.7"))
     print(title_to_backwards_citations(
         "Toward modernizing the systematic review pipeline in genetics: efficient updating via data mining"))
 
