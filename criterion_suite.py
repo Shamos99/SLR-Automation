@@ -1,4 +1,6 @@
 import criterion_params as params
+from datetime import datetime
+import constants
 
 
 # all of the inclusion exclusion criterion we have will be in this file
@@ -15,10 +17,35 @@ class YearFilter(GenericFilter):
 
     @staticmethod
     def impl(pub_list, param):
+
         min_year = param[params.min_year]
         max_year = param[params.max_year]
 
+        if min_year is None:
+            min_year = datetime.strptime(constants.MIN_DATE, constants.DATE_FORMAT)
+        else:
+            min_year = datetime.strptime(param[params.min_year], constants.DATE_FORMAT)
+
+        if max_year is None:
+            max_year = datetime.strptime(constants.MAX_DATE, constants.DATE_FORMAT)
+        else:
+            max_year = datetime.strptime(param[params.max_year], constants.DATE_FORMAT)
+
         ans_list = []
+
+        for i in range(len(pub_list)):
+
+            if "publication_date" not in pub_list[i] or pub_list[i]["publication_date"] == 'null':
+                ans_list.append(1)
+                continue
+
+            this_date = datetime.strptime(pub_list[i]["publication_date"], constants.DATE_FORMAT)
+            if min_year < this_date < max_year:
+                ans_list.append(1)
+            else:
+                ans_list.append(0)
+
+        return ans_list
 
 
 class ImpactFactorFilter(GenericFilter):
@@ -40,6 +67,11 @@ class ImpactFactorFilter(GenericFilter):
             max_factor = float('inf')
 
         for paper in pub_list:
+
+            if 'impact_factor' not in param:
+                ans_list.append(1)
+                continue
+
             if min_factor < paper['impact_factor'] < max_factor:
                 ans_list.append(1)
             else:
@@ -74,6 +106,10 @@ class HIndexFilter(GenericFilter):
             max_index = float('inf')
 
         for paper in pub_list:
+
+            if 'impact_factor' not in paper:
+                ans_list.append(1)
+
             if min_index < paper['impact_factor'] < max_index:
                 ans_list.append(1)
             else:
@@ -103,7 +139,7 @@ class NCitedByFilter(GenericFilter):
         min_cited_by = param[params.min_cited_by]
         max_cited_by = param[params.max_cited_by]
 
-        ans_list = [0] * len(pub_list)
+        ans_list = []
 
         if min_cited_by is None and max_cited_by is None:
             return ans_list
@@ -115,7 +151,12 @@ class NCitedByFilter(GenericFilter):
             max_cited_by = float('inf')
 
         for paper in pub_list:
-            if min_cited_by < paper['impact_factor'] < max_cited_by:
+
+            if 'n_cited_by' not in paper:
+                ans_list.append(1)
+                continue
+
+            if min_cited_by < paper['n_cited_by'] < max_cited_by:
                 ans_list.append(1)
             else:
                 ans_list.append(0)

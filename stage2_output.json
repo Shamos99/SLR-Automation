@@ -1,0 +1,1255 @@
+[
+  {
+    "indexed": {
+      "date-parts": [
+        [
+          2020,
+          9,
+          25
+        ]
+      ],
+      "date-time": "2020-09-25T08:23:40Z",
+      "timestamp": 1601022220055
+    },
+    "reference-count": 32,
+    "publisher": "Public Library of Science (PLoS)",
+    "issue": "9",
+    "license": [
+      {
+        "URL": "http://creativecommons.org/licenses/by/4.0/",
+        "start": {
+          "date-parts": [
+            [
+              2010,
+              9,
+              21
+            ]
+          ],
+          "date-time": "2010-09-21T00:00:00Z",
+          "timestamp": 1285027200000
+        },
+        "delay-in-days": 0,
+        "content-version": "unspecified"
+      }
+    ],
+    "content-domain": {
+      "domain": [
+        "www.plosmedicine.org"
+      ],
+      "crossmark-restriction": false
+    },
+    "short-container-title": [
+      "PLoS Med"
+    ],
+    "DOI": "10.1371/journal.pmed.1000326",
+    "type": "journal-article",
+    "created": {
+      "date-parts": [
+        [
+          2010,
+          9,
+          21
+        ]
+      ],
+      "date-time": "2010-09-21T19:31:41Z",
+      "timestamp": 1285097501000
+    },
+    "page": "e1000326",
+    "update-policy": "http://dx.doi.org/10.1371/journal.pmed.corrections_policy",
+    "source": "Crossref",
+    "is-referenced-by-count": 485,
+    "title": [
+      "Seventy-Five Trials and Eleven Systematic Reviews a Day: How Will We Ever Keep Up?"
+    ],
+    "prefix": "10.1371",
+    "volume": "7",
+    "author": [
+      {
+        "given": "Hilda",
+        "family": "Bastian",
+        "sequence": "first",
+        "affiliation": []
+      },
+      {
+        "given": "Paul",
+        "family": "Glasziou",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Iain",
+        "family": "Chalmers",
+        "sequence": "additional",
+        "affiliation": []
+      }
+    ],
+    "member": "340",
+    "published-online": {
+      "date-parts": [
+        [
+          2010,
+          9,
+          21
+        ]
+      ]
+    },
+    "reference": [
+      {
+        "key": "ref1",
+        "author": "AL Cochrane",
+        "first-page": "1",
+        "year": "1979",
+        "article-title": "1931\u20131971: a critical review, with particular reference to the medical profession."
+      },
+      {
+        "key": "ref2",
+        "author": "J Lind",
+        "year": "1753"
+      },
+      {
+        "key": "ref3",
+        "author": "A Duncan",
+        "first-page": "6",
+        "year": "1773",
+        "article-title": "Introduction. Medical and Philosophical Commentaries.",
+        "journal-title": "Volume First, Part I. London: J Murray"
+      },
+      {
+        "key": "ref4",
+        "author": "MM Cummings",
+        "first-page": "161",
+        "year": "1981",
+        "article-title": "The National Library of Medicine."
+      },
+      {
+        "key": "ref5",
+        "doi-asserted-by": "crossref",
+        "first-page": "547",
+        "DOI": "10.1001/archinte.1967.00290240069001",
+        "article-title": "The evaluation of new drugs: current Food and Drug Administration regulations and statistical aspects of clinical trials.",
+        "volume": "119",
+        "author": "BA Barron",
+        "year": "1967",
+        "journal-title": "Arch Intern Med"
+      },
+      {
+        "key": "ref6",
+        "doi-asserted-by": "crossref",
+        "first-page": "121",
+        "DOI": "10.1016/S0168-8510(02)00059-3",
+        "article-title": "The development of health technology assessment.",
+        "volume": "63",
+        "author": "D Banta",
+        "year": "2003",
+        "journal-title": "Health Policy"
+      },
+      {
+        "key": "ref7",
+        "doi-asserted-by": "crossref",
+        "first-page": "1285",
+        "DOI": "10.1016/S0140-6736(74)90142-1",
+        "article-title": "Decreased survival related to irradiation postoperatively in early breast cancer.",
+        "volume": "304",
+        "author": "J Stjernsw\u00e4rd",
+        "year": "1974",
+        "journal-title": "Lancet"
+      },
+      {
+        "key": "ref8",
+        "doi-asserted-by": "crossref",
+        "first-page": "532",
+        "DOI": "10.1016/0002-9343(75)90127-8",
+        "article-title": "Effects of ascorbic acid on the common cold. An evaluation of the evidence.",
+        "volume": "58",
+        "author": "TC Chalmers",
+        "year": "1975",
+        "journal-title": "Amer J Med"
+      },
+      {
+        "key": "ref9",
+        "author": "I Chalmers",
+        "first-page": "260",
+        "year": "1979",
+        "article-title": "Randomized controlled trials of fetal monitoring 1973\u20131977."
+      },
+      {
+        "key": "ref10",
+        "first-page": "215",
+        "article-title": "Information synthesis: a practical guide.",
+        "volume": "21",
+        "author": "PG Goldschmidt",
+        "year": "1986",
+        "journal-title": "HSR: Health Services Research"
+      },
+      {
+        "key": "ref11",
+        "doi-asserted-by": "crossref",
+        "first-page": "485",
+        "DOI": "10.7326/0003-4819-106-3-485",
+        "article-title": "The medical review article: state of the science.",
+        "volume": "106",
+        "author": "CD Mulrow",
+        "year": "1987",
+        "journal-title": "Ann Intern Med"
+      },
+      {
+        "key": "ref12",
+        "doi-asserted-by": "crossref",
+        "first-page": "224",
+        "DOI": "10.7326/0003-4819-107-2-224",
+        "article-title": "Meta-analysis in clinical research.",
+        "volume": "107",
+        "author": "KA L'Abb\u00e9",
+        "year": "1987",
+        "journal-title": "Ann Int Med"
+      },
+      {
+        "key": "ref13",
+        "doi-asserted-by": "crossref",
+        "first-page": "450",
+        "DOI": "10.1056/NEJM198702193160806",
+        "article-title": "Meta-analysis of randomized controlled trials.",
+        "volume": "316",
+        "author": "HS Sacks",
+        "year": "1987",
+        "journal-title": "New Engl J Med"
+      },
+      {
+        "key": "ref14",
+        "first-page": "697",
+        "article-title": "Guidelines for reading literature reviews.",
+        "volume": "138",
+        "author": "AD Oxman",
+        "year": "1988",
+        "journal-title": "Can Med Assoc J"
+      },
+      {
+        "key": "ref15",
+        "author": "M Jenicek",
+        "year": "1987",
+        "article-title": "M\u00e9ta-analyse en m\u00e9decine."
+      },
+      {
+        "key": "ref16",
+        "doi-asserted-by": "crossref",
+        "first-page": "430",
+        "DOI": "10.1017/S0266462300007029",
+        "article-title": "The work of the National Perinatal Epidemiology Unit. One example of technology assessment in perinatal care.",
+        "volume": "7",
+        "author": "I Chalmers",
+        "year": "1991",
+        "journal-title": "Int J Technol Assess Health Care"
+      },
+      {
+        "key": "ref17",
+        "doi-asserted-by": "crossref",
+        "first-page": "182",
+        "DOI": "10.1017/S026646230909062X",
+        "article-title": "The origins, evolution and future of <italic>The Cochrane Database of Systematic Reviews (CDSR).</italic>",
+        "volume": "25",
+        "author": "M Starr",
+        "year": "2009",
+        "journal-title": "Int J Technol Assess Health Care"
+      },
+      {
+        "key": "ref18",
+        "author": "S Hopewell",
+        "volume": "1",
+        "year": "2009",
+        "article-title": "Publication bias in clinical trials due to statistical significance or direction of results.",
+        "journal-title": "Cochrane Database Syst Rev Issue",
+        "DOI": "10.1002/14651858.MR000006.pub3",
+        "doi-asserted-by": "crossref"
+      },
+      {
+        "key": "ref19",
+        "doi-asserted-by": "crossref",
+        "first-page": "e191",
+        "DOI": "10.1371/journal.pmed.0050191",
+        "article-title": "Publication of clinical trials supporting successful new drug applications: a literature analysis.",
+        "volume": "5",
+        "author": "K Lee",
+        "year": "2008",
+        "journal-title": "PLoS Med"
+      },
+      {
+        "key": "ref20",
+        "author": "EH Kass",
+        "first-page": "79",
+        "year": "1981",
+        "article-title": "Reviewing reviews."
+      },
+      {
+        "key": "ref21",
+        "doi-asserted-by": "crossref",
+        "first-page": "1159",
+        "DOI": "10.1016/S0140-6736(05)71879-1",
+        "article-title": "Epidemiology and reporting of randomised trials published in PubMed journals.",
+        "volume": "365",
+        "author": "AW Chan",
+        "year": "2005",
+        "journal-title": "Lancet"
+      },
+      {
+        "key": "ref22"
+      },
+      {
+        "key": "ref23",
+        "doi-asserted-by": "crossref",
+        "first-page": "2112",
+        "DOI": "10.1001/jama.297.19.2112",
+        "article-title": "Issues in the registration of clinical trials.",
+        "volume": "297",
+        "author": "DA Zarin",
+        "year": "2007",
+        "journal-title": "JAMA"
+      },
+      {
+        "key": "ref24",
+        "year": "2007"
+      },
+      {
+        "key": "ref25",
+        "doi-asserted-by": "crossref",
+        "first-page": "423",
+        "DOI": "10.1097/PHM.0b013e31819c59c6",
+        "article-title": "The value of \u201ctraditional\u201d reviews in the era of systematic reviewing.",
+        "volume": "88",
+        "author": "MPJM Dijkers",
+        "year": "2009",
+        "journal-title": "Am J Phys Med Rehab"
+      },
+      {
+        "key": "ref26",
+        "doi-asserted-by": "crossref",
+        "first-page": "224",
+        "DOI": "10.7326/0003-4819-147-4-200708210-00179",
+        "article-title": "How quickly do systematic reviews go out of date? A survival analysis.",
+        "volume": "147",
+        "author": "KG Shojania",
+        "year": "2007",
+        "journal-title": "Ann Intern Med"
+      },
+      {
+        "key": "ref27",
+        "doi-asserted-by": "crossref",
+        "first-page": "820",
+        "DOI": "10.1017/S0266462302000624",
+        "article-title": "The typical Cochrane review. How many trials? How many participants?",
+        "volume": "18",
+        "author": "S Mallett",
+        "year": "2002",
+        "journal-title": "Int J Technol Assess Health Care"
+      },
+      {
+        "key": "ref28",
+        "doi-asserted-by": "crossref",
+        "first-page": "e78",
+        "DOI": "10.1371/journal.pmed.0040078",
+        "article-title": "Epidemiology and reporting characteristics of systematic reviews.",
+        "volume": "4",
+        "author": "D Moher",
+        "year": "2007",
+        "journal-title": "PLoS Med"
+      },
+      {
+        "key": "ref29",
+        "doi-asserted-by": "crossref",
+        "first-page": "86",
+        "DOI": "10.1016/S0140-6736(09)60329-9",
+        "article-title": "Avoidable waste in the production and reporting of research evidence.",
+        "volume": "374",
+        "author": "I Chalmers",
+        "year": "2009",
+        "journal-title": "Lancet"
+      },
+      {
+        "key": "ref30",
+        "year": "1997",
+        "article-title": "Recommendation No."
+      },
+      {
+        "key": "ref31",
+        "author": "GG Koch",
+        "year": "2006",
+        "article-title": "No improvement \u2013 still less than half of the Cochrane reviews are up to date.",
+        "journal-title": "XIV Cochrane Colloquium, Dublin, Ireland"
+      },
+      {
+        "key": "ref32",
+        "doi-asserted-by": "crossref",
+        "first-page": "e9914",
+        "DOI": "10.1371/journal.pone.0009914",
+        "article-title": "Updating systematic reviews: an international survey.",
+        "volume": "5",
+        "author": "C Garritty",
+        "year": "2010",
+        "journal-title": "PLoS ONE"
+      }
+    ],
+    "container-title": [
+      "PLoS Medicine"
+    ],
+    "language": "en",
+    "link": [
+      {
+        "URL": "http://dx.plos.org/10.1371/journal.pmed.1000326",
+        "content-type": "unspecified",
+        "content-version": "vor",
+        "intended-application": "similarity-checking"
+      }
+    ],
+    "deposited": {
+      "date-parts": [
+        [
+          2019,
+          6,
+          5
+        ]
+      ],
+      "date-time": "2019-06-05T00:09:25Z",
+      "timestamp": 1559693365000
+    },
+    "score": 134.8469,
+    "issued": {
+      "date-parts": [
+        [
+          2010,
+          9,
+          21
+        ]
+      ]
+    },
+    "references-count": 32,
+    "journal-issue": {
+      "published-online": {
+        "date-parts": [
+          [
+            2010,
+            9,
+            21
+          ]
+        ]
+      },
+      "issue": "9"
+    },
+    "URL": "http://dx.doi.org/10.1371/journal.pmed.1000326",
+    "relation": {
+      "cites": []
+    },
+    "ISSN": [
+      "1549-1676"
+    ],
+    "issn-type": [
+      {
+        "value": "1549-1676",
+        "type": "electronic"
+      }
+    ],
+    "publication_date": "null",
+    "impact_factor": null,
+    "journal": "PLoS Medicine",
+    "h-index": null,
+    "publication_type": "journal-article",
+    "location": null,
+    "n_cited_by": 485
+  },
+  null,
+  {
+    "indexed": {
+      "date-parts": [
+        [
+          2020,
+          9,
+          2
+        ]
+      ],
+      "date-time": "2020-09-02T15:05:28Z",
+      "timestamp": 1599059128126
+    },
+    "reference-count": 0,
+    "publisher": "Public Library of Science (PLoS)",
+    "issue": "4",
+    "license": [
+      {
+        "URL": "http://creativecommons.org/licenses/by/4.0/",
+        "start": {
+          "date-parts": [
+            [
+              2010,
+              4,
+              1
+            ]
+          ],
+          "date-time": "2010-04-01T00:00:00Z",
+          "timestamp": 1270080000000
+        },
+        "delay-in-days": 0,
+        "content-version": "unspecified"
+      }
+    ],
+    "content-domain": {
+      "domain": [
+        "www.plosone.org"
+      ],
+      "crossmark-restriction": false
+    },
+    "short-container-title": [
+      "PLoS ONE"
+    ],
+    "DOI": "10.1371/journal.pone.0009914",
+    "type": "journal-article",
+    "created": {
+      "date-parts": [
+        [
+          2010,
+          4,
+          1
+        ]
+      ],
+      "date-time": "2010-04-01T19:24:06Z",
+      "timestamp": 1270149846000
+    },
+    "page": "e9914",
+    "update-policy": "http://dx.doi.org/10.1371/journal.pone.corrections_policy",
+    "source": "Crossref",
+    "is-referenced-by-count": 37,
+    "title": [
+      "Updating Systematic Reviews: An International Survey"
+    ],
+    "prefix": "10.1371",
+    "volume": "5",
+    "author": [
+      {
+        "given": "Chantelle",
+        "family": "Garritty",
+        "sequence": "first",
+        "affiliation": []
+      },
+      {
+        "given": "Alexander",
+        "family": "Tsertsvadze",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Andrea C.",
+        "family": "Tricco",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Margaret",
+        "family": "Sampson",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "David",
+        "family": "Moher",
+        "sequence": "additional",
+        "affiliation": []
+      }
+    ],
+    "member": "340",
+    "published-online": {
+      "date-parts": [
+        [
+          2010,
+          4,
+          1
+        ]
+      ]
+    },
+    "container-title": [
+      "PLoS ONE"
+    ],
+    "language": "en",
+    "deposited": {
+      "date-parts": [
+        [
+          2018,
+          10,
+          23
+        ]
+      ],
+      "date-time": "2018-10-23T22:13:48Z",
+      "timestamp": 1540332828000
+    },
+    "score": 112.367805,
+    "editor": [
+      {
+        "given": "Roberta W.",
+        "family": "Scherer",
+        "sequence": "first",
+        "affiliation": []
+      }
+    ],
+    "issued": {
+      "date-parts": [
+        [
+          2010,
+          4,
+          1
+        ]
+      ]
+    },
+    "references-count": 0,
+    "journal-issue": {
+      "published-online": {
+        "date-parts": [
+          [
+            2010,
+            4,
+            1
+          ]
+        ]
+      },
+      "issue": "4"
+    },
+    "URL": "http://dx.doi.org/10.1371/journal.pone.0009914",
+    "ISSN": [
+      "1932-6203"
+    ],
+    "issn-type": [
+      {
+        "value": "1932-6203",
+        "type": "electronic"
+      }
+    ],
+    "subject": [
+      "General Biochemistry, Genetics and Molecular Biology",
+      "General Agricultural and Biological Sciences",
+      "General Medicine"
+    ],
+    "publication_date": "null",
+    "impact_factor": null,
+    "journal": "PLoS ONE",
+    "h-index": null,
+    "publication_type": "journal-article",
+    "location": null,
+    "n_cited_by": 37
+  },
+  {
+    "indexed": {
+      "date-parts": [
+        [
+          2020,
+          4,
+          11
+        ]
+      ],
+      "date-time": "2020-04-11T22:57:16Z",
+      "timestamp": 1586645836608
+    },
+    "reference-count": 41,
+    "publisher": "Springer Science and Business Media LLC",
+    "issue": "1",
+    "license": [
+      {
+        "URL": "http://creativecommons.org/licenses/by/2.0",
+        "start": {
+          "date-parts": [
+            [
+              2007,
+              7,
+              4
+            ]
+          ],
+          "date-time": "2007-07-04T00:00:00Z",
+          "timestamp": 1183507200000
+        },
+        "delay-in-days": 0,
+        "content-version": "tdm"
+      }
+    ],
+    "content-domain": {
+      "domain": [],
+      "crossmark-restriction": false
+    },
+    "short-container-title": [
+      "BMC Med Res Methodol"
+    ],
+    "published-print": {
+      "date-parts": [
+        [
+          2007,
+          12
+        ]
+      ]
+    },
+    "DOI": "10.1186/1471-2288-7-31",
+    "type": "journal-article",
+    "created": {
+      "date-parts": [
+        [
+          2007,
+          7,
+          4
+        ]
+      ],
+      "date-time": "2007-07-04T18:13:41Z",
+      "timestamp": 1183572821000
+    },
+    "source": "Crossref",
+    "is-referenced-by-count": 8,
+    "title": [
+      "Online genetic databases informing human genome epidemiology"
+    ],
+    "prefix": "10.1186",
+    "volume": "7",
+    "author": [
+      {
+        "given": "Angela J",
+        "family": "Frodsham",
+        "sequence": "first",
+        "affiliation": []
+      },
+      {
+        "given": "Julian PT",
+        "family": "Higgins",
+        "sequence": "additional",
+        "affiliation": []
+      }
+    ],
+    "member": "297",
+    "published-online": {
+      "date-parts": [
+        [
+          2007,
+          7,
+          4
+        ]
+      ]
+    },
+    "reference": [
+      {
+        "issue": "6822",
+        "key": "214_CR1",
+        "doi-asserted-by": "publisher",
+        "first-page": "860",
+        "DOI": "10.1038/35057062",
+        "volume": "409",
+        "author": "ES Lander",
+        "year": "2001",
+        "unstructured": "Lander ES, Linton LM, Birren B, Nusbaum C, Zody MC, Baldwin J, Devon K, Dewar K, Doyle M, FitzHugh W, Funke R, Gage D, Harris K, Heaford A, Howland J, Kann L, Lehoczky J, Levine R, McEwan P, McKernan K, Meldrim J, Mesirov JP, Miranda C, Morris W, Naylor J, Raymond C, Rosetti M, Santos R, Sheridan A, Sougnez C, Stange-Thomann N, Stojanovic N, Subramanian A, Wyman D, Rogers J, Sulston J, Ainscough R, Beck S, Bentley D, Burton J, Clee C, Carter N, Coulson A, Deadman R, Deloukas P, Dunham A, Dunham I, Durbin R, French L, Grafham D, Gregory S, Hubbard T, Humphray S, Hunt A, Jones M, Lloyd C, McMurray A, Matthews L, Mercer S, Milne S, Mullikin JC, Mungall A, Plumb R, Ross M, Shownkeen R, Sims S, Waterston RH, Wilson RK, Hillier LW, McPherson JD, Marra MA, Mardis ER, Fulton LA, Chinwalla AT, Pepin KH, Gish WR, Chissoe SL, Wendl MC, Delehaunty KD, Miner TL, Delehaunty A, Kramer JB, Cook LL, Fulton RS, Johnson DL, Minx PJ, Clifton SW, Hawkins T, Branscomb E, Predki P, Richardson P, Wenning S, Slezak T, Doggett N, Cheng JF, Olsen A, Lucas S, Elkin C, Uberbacher E, Frazier M, Gibbs RA, Muzny DM, Scherer SE, Bouck JB, Sodergren EJ, Worley KC, Rives CM, Gorrell JH, Metzker ML, Naylor SL, Kucherlapati RS, Nelson DL, Weinstock GM, Sakaki Y, Fujiyama A, Hattori M, Yada T, Toyoda A, Itoh T, Kawagoe C, Watanabe H, Totoki Y, Taylor T, Weissenbach J, Heilig R, Saurin W, Artiguenave F, Brottier P, Bruls T, Pelletier E, Robert C, Wincker P, Smith DR, Doucette-Stamm L, Rubenfield M, Weinstock K, Lee HM, Dubois J, Rosenthal A, Platzer M, Nyakatura G, Taudien S, Rump A, Yang H, Yu J, Wang J, Huang G, Gu J, Hood L, Rowen L, Madan A, Qin S, Davis RW, Federspiel NA, Abola AP, Proctor MJ, Myers RM, Schmutz J, Dickson M, Grimwood J, Cox DR, Olson MV, Kaul R, Raymond C, Shimizu N, Kawasaki K, Minoshima S, Evans GA, Athanasiou M, Schultz R, Roe BA, Chen F, Pan H, Ramser J, Lehrach H, Reinhardt R, McCombie WR, de la BM, Dedhia N, Blocker H, Hornischer K, Nordsiek G, Agarwala R, Aravind L, Bailey JA, Bateman A, Batzoglou S, Birney E, Bork P, Brown DG, Burge CB, Cerutti L, Chen HC, Church D, Clamp M, Copley RR, Doerks T, Eddy SR, Eichler EE, Furey TS, Galagan J, Gilbert JG, Harmon C, Hayashizaki Y, Haussler D, Hermjakob H, Hokamp K, Jang W, Johnson LS, Jones TA, Kasif S, Kaspryzk A, Kennedy S, Kent WJ, Kitts P, Koonin EV, Korf I, Kulp D, Lancet D, Lowe TM, McLysaght A, Mikkelsen T, Moran JV, Mulder N, Pollara VJ, Ponting CP, Schuler G, Schultz J, Slater G, Smit AF, Stupka E, Szustakowski J, Thierry-Mieg D, Thierry-Mieg J, Wagner L, Wallis J, Wheeler R, Williams A, Wolf YI, Wolfe KH, Yang SP, Yeh RF, Collins F, Guyer MS, Peterson J, Felsenfeld A, Wetterstrand KA, Patrinos A, Morgan MJ, de Jong P, Catanese JJ, Osoegawa K, Shizuya H, Choi S, Chen YJ: Initial sequencing and analysis of the human genome. Nature. 2001, 409 (6822): 860-921. 10.1038/35057062.",
+        "journal-title": "Nature"
+      },
+      {
+        "key": "214_CR2",
+        "unstructured": "Gibbs JR, Singleton A: Application of Genome-Wide Single Nucleotide Polymorphism Typing: Simple Association and Beyond. PLoS Genet. 2006, 2 (10):",
+        "DOI": "10.1371/journal.pgen.0020150",
+        "doi-asserted-by": "crossref"
+      },
+      {
+        "issue": "8",
+        "key": "214_CR3",
+        "doi-asserted-by": "publisher",
+        "first-page": "667",
+        "DOI": "10.1093/aje/kwg048",
+        "volume": "157",
+        "author": "J Little",
+        "year": "2003",
+        "unstructured": "Little J, Khoury MJ, Bradley L, Clyne M, Gwinn M, Lin B, Lindegren ML, Yoon P: The human genome project is complete. How do we develop a handle for the pump?. Am J Epidemiol. 2003, 157 (8): 667-673. 10.1093/aje/kwg048.",
+        "journal-title": "Am J Epidemiol"
+      },
+      {
+        "issue": "3",
+        "key": "214_CR4",
+        "doi-asserted-by": "publisher",
+        "first-page": "306",
+        "DOI": "10.1038/ng749",
+        "volume": "29",
+        "author": "JP Ioannidis",
+        "year": "2001",
+        "unstructured": "Ioannidis JP, Ntzani EE, Trikalinos TA, Contopoulos-Ioannidis DG: Replication validity of genetic association studies. Nat Genet. 2001, 29 (3): 306-309. 10.1038/ng749.",
+        "journal-title": "Nat Genet"
+      },
+      {
+        "issue": "2",
+        "key": "214_CR5",
+        "doi-asserted-by": "publisher",
+        "first-page": "177",
+        "DOI": "10.1038/ng1071",
+        "volume": "33",
+        "author": "KE Lohmueller",
+        "year": "2003",
+        "unstructured": "Lohmueller KE, Pearce CL, Pike M, Lander ES, Hirschhorn JN: Meta-analysis of genetic association studies supports a contribution of common variants to susceptibility to common disease . Nat Genet. 2003, 33 (2): 177-182. 10.1038/ng1071.",
+        "journal-title": "Nat Genet"
+      },
+      {
+        "issue": "4",
+        "key": "214_CR6",
+        "doi-asserted-by": "publisher",
+        "first-page": "302",
+        "DOI": "10.1093/aje/kwi201",
+        "volume": "162",
+        "author": "JP Ioannidis",
+        "year": "2005",
+        "unstructured": "Ioannidis JP, Bernstein J, Boffetta P, Danesh J, Dolan S, Hartge P, Hunter D, Inskip P, Jarvelin MR, Little J, Maraganore DM, Bishop JA, O'Brien TR, Petersen G, Riboli E, Seminara D, Taioli E, Uitterlinden AG, Vineis P, Winn DM, Salanti G, Higgins JP, Khoury MJ: A network of investigator networks in human genome epidemiology . Am J Epidemiol. 2005, 162 (4): 302-304. 10.1093/aje/kwi201.",
+        "journal-title": "Am J Epidemiol"
+      },
+      {
+        "issue": "1",
+        "key": "214_CR7",
+        "doi-asserted-by": "publisher",
+        "first-page": "3",
+        "DOI": "10.1038/ng0106-3",
+        "volume": "38",
+        "author": "JP Ioannidis",
+        "year": "2006",
+        "unstructured": "Ioannidis JP, Gwinn M, Little J, Higgins JP, Bernstein JL, Boffetta P, Bondy M, Bray MS, Brenchley PE, Buffler PA, Casas JP, Chokkalingam A, Danesh J, Smith GD, Dolan S, Duncan R, Gruis NA, Hartge P, Hashibe M, Hunter DJ, Jarvelin MR, Malmer B, Maraganore DM, Newton-Bishop JA, O'Brien TR, Petersen G, Riboli E, Salanti G, Seminara D, Smeeth L, Taioli E, Timpson N, Uitterlinden AG, Vineis P, Wareham N, Winn DM, Zimmern R, Khoury MJ: A road map for efficient and reliable human genome epidemiology . Nat Genet. 2006, 38 (1): 3-5. 10.1038/ng0106-3.",
+        "journal-title": "Nat Genet"
+      },
+      {
+        "key": "214_CR8",
+        "author": "AD Marks",
+        "year": "2000",
+        "unstructured": "Marks AD, Yoon PW: Human Genome Epidemiology Information (HuGE) on the Internet. 2000",
+        "volume-title": "Human Genome Epidemiology Information (HuGE) on the Internet."
+      },
+      {
+        "issue": "Database issue",
+        "key": "214_CR9",
+        "doi-asserted-by": "publisher",
+        "first-page": "D5",
+        "DOI": "10.1093/nar/gki139",
+        "volume": "33",
+        "author": "MY Galperin",
+        "year": "2005",
+        "unstructured": "Galperin MY: The Molecular Biology Database Collection: 2005 update . Nucleic Acids Res. 2005, 33 (Database issue): D5-24. 10.1093/nar/gki139.",
+        "journal-title": "Nucleic Acids Res"
+      },
+      {
+        "key": "214_CR10",
+        "unstructured": "Center for Disease Control and Disease Prevention (CDC)- Genomics and Disease Prevention. [\n                    http://www.cdc.gov/genomics/\n                    \n                  ]"
+      },
+      {
+        "key": "214_CR11",
+        "unstructured": "Google. [\n                    http://www.google.com\n                    \n                  ]"
+      },
+      {
+        "key": "214_CR12",
+        "unstructured": "HuGENet UK Co-ordinating Centre. [\n                    http://www.hugenet.org.uk/\n                    \n                  ]"
+      },
+      {
+        "issue": "1",
+        "key": "214_CR13",
+        "doi-asserted-by": "publisher",
+        "first-page": "1",
+        "DOI": "10.1093/aje/kwj175",
+        "volume": "164",
+        "author": "BK Lin",
+        "year": "2006",
+        "unstructured": "Lin BK, Clyne M, Walsh M, Gomez O, Yu W, Gwinn M, Khoury MJ: Tracking the epidemiology of human genes in the literature: the HuGE Published Literature database. Am J Epidemiol. 2006, 164 (1): 1-4. 10.1093/aje/kwj175.",
+        "journal-title": "Am J Epidemiol"
+      },
+      {
+        "issue": "1",
+        "key": "214_CR14",
+        "doi-asserted-by": "publisher",
+        "first-page": "17",
+        "DOI": "10.1038/ng1934",
+        "volume": "39",
+        "author": "L Bertram",
+        "year": "2007",
+        "unstructured": "Bertram L, McQueen MB, Mullin K, Blacker D, Tanzi RE: Systematic meta-analyses of Alzheimer disease genetic association studies: the AlzGene database. Nat Genet. 2007, 39 (1): 17-23. 10.1038/ng1934.",
+        "journal-title": "Nat Genet"
+      },
+      {
+        "issue": "1",
+        "key": "214_CR15",
+        "doi-asserted-by": "publisher",
+        "first-page": "38",
+        "DOI": "10.1177/0163278702025001004",
+        "volume": "25",
+        "author": "K Dickersin",
+        "year": "2002",
+        "unstructured": "Dickersin K, Manheimer E, Wieland S, Robinson KA, Lefebvre C, McDonald S: Development of the Cochrane Collaboration's CENTRAL Register of controlled clinical trials. Eval Health Prof. 2002, 25 (1): 38-64.",
+        "journal-title": "Eval Health Prof"
+      },
+      {
+        "issue": "4",
+        "key": "214_CR16",
+        "doi-asserted-by": "publisher",
+        "first-page": "300",
+        "DOI": "10.1093/oxfordjournals.aje.a000179",
+        "volume": "156",
+        "author": "J Little",
+        "year": "2002",
+        "unstructured": "Little J, Bradley L, Bray MS, Clyne M, Dorman J, Ellsworth DL, Hanson J, Khoury M, Lau J, O'Brien TR, Rothman N, Stroup D, Taioli E, Thomas D, Vainio H, Wacholder S, Weinberg C: Reporting, appraising, and integrating data on genotype prevalence and gene-disease associations. Am J Epidemiol. 2002, 156 (4): 300-310.",
+        "journal-title": "Am J Epidemiol"
+      },
+      {
+        "key": "214_CR17",
+        "doi-asserted-by": "publisher",
+        "first-page": "2",
+        "DOI": "10.1186/1477-5751-1-2",
+        "volume": "1",
+        "author": "C Pfeffer",
+        "year": "2002",
+        "unstructured": "Pfeffer C, Olsen BR: Editorial: Journal of negative results in biomedicine. J Negat Results Biomed. 2002, 1: 2-10.1186/1477-5751-1-2.",
+        "journal-title": "J Negat Results Biomed"
+      },
+      {
+        "issue": "8",
+        "key": "214_CR18",
+        "first-page": "771",
+        "volume": "9",
+        "author": "PG Shields",
+        "year": "2000",
+        "unstructured": "Shields PG: Publication bias is a scientific problem with adverse ethical outcomes: the case for a section for null results. Cancer Epidemiol Biomarkers Prev. 2000, 9 (8): 771-772.",
+        "journal-title": "Cancer Epidemiol Biomarkers Prev"
+      },
+      {
+        "key": "214_CR19",
+        "author": "NCBI",
+        "year": "2006",
+        "unstructured": "NCBI: dbGaP. 2006",
+        "volume-title": "dbGaP"
+      },
+      {
+        "key": "214_CR20",
+        "author": "L Bertram",
+        "year": "2006",
+        "unstructured": "Bertram L, McQueen M, Mullin K, Blacker D, Tanzi R: The Alz Gene Database. Alzhiemer Research Forum. Web. 2006",
+        "volume-title": "Web"
+      },
+      {
+        "issue": "1",
+        "key": "214_CR21",
+        "doi-asserted-by": "publisher",
+        "first-page": "213",
+        "DOI": "10.1093/nar/27.1.213",
+        "volume": "27",
+        "author": "T Immervoll",
+        "year": "1999",
+        "unstructured": "Immervoll T, Wjst M: Current status of the Asthma and Allergy Database . Nucleic Acids Res. 1999, 27 (1): 213-214. 10.1093/nar/27.1.213.",
+        "journal-title": "Nucleic Acids Res"
+      },
+      {
+        "issue": "9",
+        "key": "214_CR22",
+        "doi-asserted-by": "publisher",
+        "first-page": "827",
+        "DOI": "10.1093/bioinformatics/14.9.827",
+        "volume": "14",
+        "author": "M Wjst",
+        "year": "1998",
+        "unstructured": "Wjst M, Immervoll T: An Internet linkage and mutation database for the complex phenotype asthma . Bioinformatics. 1998, 14 (9): 827-828. 10.1093/bioinformatics/14.9.827.",
+        "journal-title": "Bioinformatics"
+      },
+      {
+        "issue": "1",
+        "key": "214_CR23",
+        "doi-asserted-by": "publisher",
+        "first-page": "3",
+        "DOI": "10.1038/sj.gene.6363645",
+        "volume": "1",
+        "author": "J Bidwell",
+        "year": "1999",
+        "unstructured": "Bidwell J, Keen L, Gallagher G, Kimberly R, Huizinga T, McDermott MF, Oksenberg J, McNicholl J, Pociot F, Hardt C, D'Alfonso S: Cytokine gene polymorphism in human disease: on-line databases. Genes Immun. 1999, 1 (1): 3-19. 10.1038/sj.gene.6363645.",
+        "journal-title": "Genes Immun"
+      },
+      {
+        "issue": "2",
+        "key": "214_CR24",
+        "doi-asserted-by": "publisher",
+        "first-page": "61",
+        "DOI": "10.1038/sj.gene.6363733",
+        "volume": "2",
+        "author": "J Bidwell",
+        "year": "2001",
+        "unstructured": "Bidwell J, Keen L, Gallagher G, Kimberly R, Huizinga T, McDermott MF, Oksenberg J, McNicholl J, Pociot F, Hardt C, D'Alfonso S: Cytokine gene polymorphism in human disease: on-line databases, supplement 1. Genes Immun. 2001, 2 (2): 61-70. 10.1038/sj.gene.6363733.",
+        "journal-title": "Genes Immun"
+      },
+      {
+        "issue": "6",
+        "key": "214_CR25",
+        "doi-asserted-by": "publisher",
+        "first-page": "313",
+        "DOI": "10.1038/sj.gene.6363881",
+        "volume": "3",
+        "author": "N Haukim",
+        "year": "2002",
+        "unstructured": "Haukim N, Bidwell JL, Smith AJ, Keen LJ, Gallagher G, Kimberly R, Huizinga T, McDermott MF, Oksenberg J, McNicholl J, Pociot F, Hardt C, D'Alfonso S: Cytokine gene polymorphism in human disease: on-line databases, supplement 2 . Genes Immun. 2002, 3 (6): 313-330. 10.1038/sj.gene.6363881.",
+        "journal-title": "Genes Immun"
+      },
+      {
+        "key": "214_CR26",
+        "unstructured": "Khoury MJ, Mensah GA: Genomics and the Prevention and Control of Common Chronic Diseases: Emerging Priorities for Public Health Action. Prev Chronic Dis (serial online). 2005, 2 (2): A05-."
+      },
+      {
+        "issue": "10",
+        "key": "214_CR27",
+        "doi-asserted-by": "publisher",
+        "first-page": "805",
+        "DOI": "10.1016/S0764-4469(99)80021-3",
+        "volume": "321",
+        "author": "J Frezal",
+        "year": "1998",
+        "unstructured": "Frezal J: Genatlas database, genes and development defects . CR Acad Sci III. 1998, 321 (10): 805-817.",
+        "journal-title": "CR Acad Sci III"
+      },
+      {
+        "issue": "5",
+        "key": "214_CR28",
+        "doi-asserted-by": "publisher",
+        "first-page": "431",
+        "DOI": "10.1038/ng0504-431",
+        "volume": "36",
+        "author": "KG Becker",
+        "year": "2004",
+        "unstructured": "Becker KG, Barnes KC, Bright TJ, Wang SA: The genetic association database. Nat Genet. 2004, 36 (5): 431-432. 10.1038/ng0504-431.",
+        "journal-title": "Nat Genet"
+      },
+      {
+        "issue": "1",
+        "key": "214_CR29",
+        "doi-asserted-by": "publisher",
+        "first-page": "89",
+        "DOI": "10.1038/oby.2000.12",
+        "volume": "8",
+        "author": "YC Chagnon",
+        "year": "2000",
+        "unstructured": "Chagnon YC, Perusse L, Weisnagel SJ, Rankinen T, Bouchard C: The human obesity gene map: the 1999 update. Obes Res. 2000, 8 (1): 89-117.",
+        "journal-title": "Obes Res"
+      },
+      {
+        "issue": "2",
+        "key": "214_CR30",
+        "doi-asserted-by": "publisher",
+        "first-page": "135",
+        "DOI": "10.1038/oby.2001.17",
+        "volume": "9",
+        "author": "L Perusse",
+        "year": "2001",
+        "unstructured": "Perusse L, Chagnon YC, Weisnagel SJ, Rankinen T, Snyder E, Sands J, Bouchard C: The human obesity gene map: the 2000 update . Obes Res. 2001, 9 (2): 135-169.",
+        "journal-title": "Obes Res"
+      },
+      {
+        "issue": "3",
+        "key": "214_CR31",
+        "doi-asserted-by": "publisher",
+        "first-page": "196",
+        "DOI": "10.1038/oby.2002.30",
+        "volume": "10",
+        "author": "T Rankinen",
+        "year": "2002",
+        "unstructured": "Rankinen T, Perusse L, Weisnagel SJ, Snyder EE, Chagnon YC, Bouchard C: The human obesity gene map: the 2001 update . Obes Res. 2002, 10 (3): 196-243.",
+        "journal-title": "Obes Res"
+      },
+      {
+        "issue": "3",
+        "key": "214_CR32",
+        "doi-asserted-by": "publisher",
+        "first-page": "313",
+        "DOI": "10.1038/oby.2003.47",
+        "volume": "11",
+        "author": "YC Chagnon",
+        "year": "2003",
+        "unstructured": "Chagnon YC, Rankinen T, Snyder EE, Weisnagel SJ, Perusse L, Bouchard C: The human obesity gene map: the 2002 update . Obes Res. 2003, 11 (3): 313-367.",
+        "journal-title": "Obes Res"
+      },
+      {
+        "issue": "3",
+        "key": "214_CR33",
+        "doi-asserted-by": "publisher",
+        "first-page": "369",
+        "DOI": "10.1038/oby.2004.47",
+        "volume": "12",
+        "author": "EE Snyder",
+        "year": "2004",
+        "unstructured": "Snyder EE, Walts B, Perusse L, Chagnon YC, Weisnagel SJ, Rankinen T, Bouchard C: The human obesity gene map: the 2003 update . Obes Res. 2004, 12 (3): 369-439.",
+        "journal-title": "Obes Res"
+      },
+      {
+        "issue": "3",
+        "key": "214_CR34",
+        "doi-asserted-by": "publisher",
+        "first-page": "381",
+        "DOI": "10.1038/oby.2005.50",
+        "volume": "13",
+        "author": "L Perusse",
+        "year": "2005",
+        "unstructured": "Perusse L, Rankinen T, Zuberi A, Chagnon YC, Weisnagel SJ, Argyropoulos G, Walts B, Snyder EE, Bouchard C: The human obesity gene map: the 2004 update . Obes Res. 2005, 13 (3): 381-490.",
+        "journal-title": "Obes Res"
+      },
+      {
+        "issue": "1",
+        "key": "214_CR35",
+        "doi-asserted-by": "publisher",
+        "first-page": "282",
+        "DOI": "10.1093/nar/gkg031",
+        "volume": "31",
+        "author": "M Sarrauste",
+        "year": "2003",
+        "unstructured": "Sarrauste M, Terriere S, Pugnere D, Ruiz M, Demaille J, Touitou I: INFEVERS: the Registry for FMF and hereditary inflammatory disorders mutations . Nucleic Acids Res. 2003, 31 (1): 282-285. 10.1093/nar/gkg031.",
+        "journal-title": "Nucleic Acids Res"
+      },
+      {
+        "issue": "4",
+        "key": "214_CR36",
+        "doi-asserted-by": "publisher",
+        "first-page": "405",
+        "DOI": "10.1021/pr0340227",
+        "volume": "2",
+        "author": "Y Hu",
+        "year": "2003",
+        "unstructured": "Hu Y, Hines LM, Weng H, Zuo D, Rivera M, Richardson A, LaBaer J: Analysis of genomic and proteomic data using advanced literature mining . J ProteomeRes. 2003, 2 (4): 405-412. 10.1021/pr0340227.",
+        "journal-title": "J ProteomeRes"
+      },
+      {
+        "issue": "1",
+        "key": "214_CR37",
+        "doi-asserted-by": "publisher",
+        "first-page": "52",
+        "DOI": "10.1093/nar/30.1.52",
+        "volume": "30",
+        "author": "A Hamosh",
+        "year": "2002",
+        "unstructured": "Hamosh A, Scott AF, Amberger J, Bocchini C, Valle D, McKusick VA: Online Mendelian Inheritance in Man (OMIM), a knowledgebase of human genes and genetic disorders . Nucleic Acids Res. 2002, 30 (1): 52-55. 10.1093/nar/30.1.52.",
+        "journal-title": "Nucleic Acids Res"
+      },
+      {
+        "issue": "1",
+        "key": "214_CR38",
+        "doi-asserted-by": "publisher",
+        "first-page": "57",
+        "DOI": "10.1002/(SICI)1098-1004(200001)15:1<57::AID-HUMU12>3.0.CO;2-G",
+        "volume": "15",
+        "author": "A Hamosh",
+        "year": "2000",
+        "unstructured": "Hamosh A, Scott AF, Amberger J, Valle D, McKusick VA: Online Mendelian Inheritance in Man (OMIM) . Hum Mutat. 2000, 15 (1): 57-61. 10.1002/(SICI)1098-1004(200001)15:1<57::AID-HUMU12>3.0.CO;2-G.",
+        "journal-title": "Hum Mutat"
+      },
+      {
+        "issue": "Database issue",
+        "key": "214_CR39",
+        "doi-asserted-by": "publisher",
+        "first-page": "D514",
+        "DOI": "10.1093/nar/gki033",
+        "volume": "33",
+        "author": "A Hamosh",
+        "year": "2005",
+        "unstructured": "Hamosh A, Scott AF, Amberger JS, Bocchini CA, McKusick VA: Online Mendelian Inheritance in Man (OMIM), a knowledgebase of human genes and genetic disorders . Nucleic Acids Res. 2005, 33 (Database issue): D514-D517. 10.1093/nar/gki033.",
+        "journal-title": "Nucleic Acids Res"
+      },
+      {
+        "issue": "1",
+        "key": "214_CR40",
+        "doi-asserted-by": "publisher",
+        "first-page": "163",
+        "DOI": "10.1093/nar/30.1.163",
+        "volume": "30",
+        "author": "M Hewett",
+        "year": "2002",
+        "unstructured": "Hewett M, Oliver DE, Rubin DL, Easton KL, Stuart JM, Altman RB, Klein TE: PharmGKB: the Pharmacogenetics Knowledge Base. Nucleic Acids Res. 2002, 30 (1): 163-165. 10.1093/nar/30.1.163.",
+        "journal-title": "Nucleic Acids Res"
+      },
+      {
+        "issue": "Database issue",
+        "key": "214_CR41",
+        "doi-asserted-by": "publisher",
+        "first-page": "D544",
+        "DOI": "10.1093/nar/gki095",
+        "volume": "33",
+        "author": "LJ Smink",
+        "year": "2005",
+        "unstructured": "Smink LJ, Helton EM, Healy BC, Cavnor CC, Lam AC, Flamez D, Burren OS, Wang Y, Dolman GE, Burdick DB, Everett VH, Glusman G, Laneri D, Rowen L, Schuilenburg H, Walker NM, Mychaleckyj J, Wicker LS, Eizirik DL, Todd JA, Goodman N: T1DBase, a community web-based resource for type 1 diabetes research. Nucleic Acids Res. 2005, 33 (Database issue): D544-D549. 10.1093/nar/gki095.",
+        "journal-title": "Nucleic Acids Res"
+      }
+    ],
+    "container-title": [
+      "BMC Medical Research Methodology"
+    ],
+    "language": "en",
+    "link": [
+      {
+        "URL": "http://link.springer.com/article/10.1186/1471-2288-7-31/fulltext.html",
+        "content-type": "text/html",
+        "content-version": "vor",
+        "intended-application": "text-mining"
+      },
+      {
+        "URL": "http://link.springer.com/content/pdf/10.1186/1471-2288-7-31.pdf",
+        "content-type": "application/pdf",
+        "content-version": "vor",
+        "intended-application": "text-mining"
+      },
+      {
+        "URL": "http://link.springer.com/content/pdf/10.1186/1471-2288-7-31",
+        "content-type": "unspecified",
+        "content-version": "vor",
+        "intended-application": "similarity-checking"
+      },
+      {
+        "URL": "http://link.springer.com/content/pdf/10.1186/1471-2288-7-31.pdf",
+        "content-type": "application/pdf",
+        "content-version": "vor",
+        "intended-application": "similarity-checking"
+      }
+    ],
+    "deposited": {
+      "date-parts": [
+        [
+          2019,
+          1,
+          22
+        ]
+      ],
+      "date-time": "2019-01-22T23:14:56Z",
+      "timestamp": 1548198896000
+    },
+    "score": 104.654236,
+    "issued": {
+      "date-parts": [
+        [
+          2007,
+          7,
+          4
+        ]
+      ]
+    },
+    "references-count": 41,
+    "journal-issue": {
+      "published-print": {
+        "date-parts": [
+          [
+            2007,
+            12
+          ]
+        ]
+      },
+      "issue": "1"
+    },
+    "alternative-id": [
+      "214"
+    ],
+    "URL": "http://dx.doi.org/10.1186/1471-2288-7-31",
+    "relation": {
+      "cites": []
+    },
+    "ISSN": [
+      "1471-2288"
+    ],
+    "issn-type": [
+      {
+        "value": "1471-2288",
+        "type": "electronic"
+      }
+    ],
+    "subject": [
+      "Health Informatics",
+      "Epidemiology"
+    ],
+    "article-number": "31",
+    "publication_date": "2007-12-01 00:00:00",
+    "impact_factor": null,
+    "journal": "BMC Medical Research Methodology",
+    "h-index": null,
+    "publication_type": "journal-article",
+    "location": null,
+    "n_cited_by": 8
+  }
+]

@@ -10,26 +10,31 @@ N_CITED_BY = 7
 # filter params
 
 # year
-min_year = None
-max_year = None
+min_year = 'min_year'
+max_year = 'max_year'
 
 # impact_factor
-min_impact = None
-max_impact = None
+min_impact = 'min_impact'
+max_impact = 'max_impact'
 
 # journal
-journal_list = None
+journal_list = 'journal_list'
 
 # h-index
-min_h_index = None
-max_h_index = None
+min_h_index = 'min_h_index'
+max_h_index = 'max_h_index'
 
 # publication_type
-publication_types_list = None
+publication_types_list = 'publication_types_list'
 
 # location
-location_list = None
+location_list = 'location_list'
 
 # n_cited_by
-min_cited_by = None
-max_cited_by = None
+min_cited_by = 'min_cited_by'
+max_cited_by = 'max_cited_by'
+
+# misc
+DATE_FORMAT = "%Y-%m-%d %H:%M:%S"
+MIN_DATE = "0000-00-00 00:00:00"
+MAX_DATE = "5000-00-00 00:00:00"
