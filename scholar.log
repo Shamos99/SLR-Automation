@@ -1940,3 +1940,213 @@ INFO:scholarly:Session proxy config is {'http': 'http://213.230.69.33:8080', 'ht
 INFO:scholarly:Got a captcha request.
 INFO:scholarly:Exception WebDriverException while fetching page: ("'geckodriver' executable needs to be in PATH. ",)
 INFO:scholarly:Retrying with a new session.
+INFO:scholarly:Getting https://scholar.google.com/scholar?hl=en&q=Batarang&as_vis=0&as_sdt=0,33
+INFO:scholarly:Session proxy config is {}
+INFO:scholarly:Getting https://scholar.google.com/scholar?start=10&q=Batarang&hl=en&as_sdt=0,33
+INFO:scholarly:Session proxy config is {}
+INFO:scholarly:Getting https://scholar.google.com/scholar?start=20&q=Batarang&hl=en&as_sdt=0,33
+INFO:scholarly:Session proxy config is {}
+INFO:scholarly:Getting https://scholar.google.com/scholar?start=30&q=Batarang&hl=en&as_sdt=0,33
+INFO:scholarly:Session proxy config is {}
+INFO:scholarly:Getting https://scholar.google.com/scholar?start=40&q=Batarang&hl=en&as_sdt=0,33
+INFO:scholarly:Session proxy config is {}
+INFO:scholarly:Getting https://scholar.google.com/scholar?start=50&q=Batarang&hl=en&as_sdt=0,33
+INFO:scholarly:Session proxy config is {}
+INFO:scholarly:Getting https://scholar.google.com/scholar?start=60&q=Batarang&hl=en&as_sdt=0,33
+INFO:scholarly:Session proxy config is {}
+INFO:scholarly:Getting https://scholar.google.com/scholar?start=70&q=Batarang&hl=en&as_sdt=0,33
+INFO:scholarly:Session proxy config is {}
+INFO:scholarly:Getting https://scholar.google.com/scholar?start=80&q=Batarang&hl=en&as_sdt=0,33
+INFO:scholarly:Session proxy config is {}
+INFO:scholarly:Getting https://scholar.google.com/scholar?start=90&q=Batarang&hl=en&as_sdt=0,33
+INFO:scholarly:Getting https://scholar.google.com/scholar?hl=en&q=modernizing%20the%20systematic%20review%20pipeline&as_vis=0&as_sdt=0,33
+INFO:scholarly:Session proxy config is {}
+INFO:scholarly:Getting https://scholar.google.com/scholar?start=10&q=modernizing+the+systematic+review+pipeline&hl=en&as_sdt=0,33
+INFO:scholarly:Session proxy config is {}
+INFO:scholarly:Getting https://scholar.google.com/scholar?start=20&q=modernizing+the+systematic+review+pipeline&hl=en&as_sdt=0,33
+INFO:scholarly:Session proxy config is {}
+INFO:scholarly:Getting https://scholar.google.com/scholar?start=30&q=modernizing+the+systematic+review+pipeline&hl=en&as_sdt=0,33
+INFO:scholarly:Session proxy config is {}
+INFO:scholarly:Getting https://scholar.google.com/scholar?start=40&q=modernizing+the+systematic+review+pipeline&hl=en&as_sdt=0,33
+INFO:scholarly:Session proxy config is {}
+INFO:scholarly:Getting https://scholar.google.com/scholar?start=50&q=modernizing+the+systematic+review+pipeline&hl=en&as_sdt=0,33
+INFO:scholarly:Session proxy config is {}
+INFO:scholarly:Getting https://scholar.google.com/scholar?start=60&q=modernizing+the+systematic+review+pipeline&hl=en&as_sdt=0,33
+INFO:scholarly:Session proxy config is {}
+INFO:scholarly:Getting https://scholar.google.com/scholar?start=70&q=modernizing+the+systematic+review+pipeline&hl=en&as_sdt=0,33
+INFO:scholarly:Session proxy config is {}
+INFO:scholarly:Getting https://scholar.google.com/scholar?start=80&q=modernizing+the+systematic+review+pipeline&hl=en&as_sdt=0,33
+INFO:scholarly:Session proxy config is {}
+INFO:scholarly:Getting https://scholar.google.com/scholar?start=90&q=modernizing+the+systematic+review+pipeline&hl=en&as_sdt=0,33
+INFO:scholarly:Session proxy config is {}
+INFO:scholarly:Getting https://scholar.google.com/scholar?start=100&q=modernizing+the+systematic+review+pipeline&hl=en&as_sdt=0,33
+INFO:scholarly:Session proxy config is {}
+INFO:scholarly:Getting https://scholar.google.com/scholar?start=110&q=modernizing+the+systematic+review+pipeline&hl=en&as_sdt=0,33
+INFO:scholarly:Session proxy config is {}
+INFO:scholarly:Getting https://scholar.google.com/scholar?start=120&q=modernizing+the+systematic+review+pipeline&hl=en&as_sdt=0,33
+INFO:scholarly:Session proxy config is {}
+INFO:scholarly:Getting https://scholar.google.com/scholar?start=130&q=modernizing+the+systematic+review+pipeline&hl=en&as_sdt=0,33
+INFO:scholarly:Session proxy config is {}
+INFO:scholarly:Getting https://scholar.google.com/scholar?start=140&q=modernizing+the+systematic+review+pipeline&hl=en&as_sdt=0,33
+INFO:scholarly:Session proxy config is {}
+INFO:scholarly:Getting https://scholar.google.com/scholar?start=150&q=modernizing+the+systematic+review+pipeline&hl=en&as_sdt=0,33
+INFO:scholarly:Session proxy config is {}
+INFO:scholarly:Getting https://scholar.google.com/scholar?start=160&q=modernizing+the+systematic+review+pipeline&hl=en&as_sdt=0,33
+INFO:scholarly:Session proxy config is {}
+INFO:scholarly:Getting https://scholar.google.com/scholar?start=170&q=modernizing+the+systematic+review+pipeline&hl=en&as_sdt=0,33
+INFO:scholarly:Session proxy config is {}
+INFO:scholarly:Getting https://scholar.google.com/scholar?start=180&q=modernizing+the+systematic+review+pipeline&hl=en&as_sdt=0,33
+INFO:scholarly:Session proxy config is {}
+INFO:scholarly:Getting https://scholar.google.com/scholar?start=190&q=modernizing+the+systematic+review+pipeline&hl=en&as_sdt=0,33
+INFO:scholarly:Session proxy config is {}
+INFO:scholarly:Getting https://scholar.google.com/scholar?start=200&q=modernizing+the+systematic+review+pipeline&hl=en&as_sdt=0,33
+INFO:scholarly:Session proxy config is {}
+INFO:scholarly:Getting https://scholar.google.com/scholar?start=210&q=modernizing+the+systematic+review+pipeline&hl=en&as_sdt=0,33
+INFO:scholarly:Session proxy config is {}
+INFO:scholarly:Getting https://scholar.google.com/scholar?start=220&q=modernizing+the+systematic+review+pipeline&hl=en&as_sdt=0,33
+INFO:scholarly:Session proxy config is {}
+INFO:scholarly:Getting https://scholar.google.com/scholar?start=230&q=modernizing+the+systematic+review+pipeline&hl=en&as_sdt=0,33
+INFO:scholarly:Session proxy config is {}
+INFO:scholarly:Getting https://scholar.google.com/scholar?start=240&q=modernizing+the+systematic+review+pipeline&hl=en&as_sdt=0,33
+INFO:scholarly:Session proxy config is {}
+INFO:scholarly:Getting https://scholar.google.com/scholar?start=250&q=modernizing+the+systematic+review+pipeline&hl=en&as_sdt=0,33
+INFO:scholarly:Session proxy config is {}
+INFO:scholarly:Getting https://scholar.google.com/scholar?start=260&q=modernizing+the+systematic+review+pipeline&hl=en&as_sdt=0,33
+INFO:scholarly:Session proxy config is {}
+INFO:scholarly:Getting https://scholar.google.com/scholar?start=270&q=modernizing+the+systematic+review+pipeline&hl=en&as_sdt=0,33
+INFO:scholarly:Session proxy config is {}
+INFO:scholarly:Getting https://scholar.google.com/scholar?start=280&q=modernizing+the+systematic+review+pipeline&hl=en&as_sdt=0,33
+INFO:scholarly:Session proxy config is {}
+INFO:scholarly:Getting https://scholar.google.com/scholar?start=290&q=modernizing+the+systematic+review+pipeline&hl=en&as_sdt=0,33
+INFO:scholarly:Session proxy config is {}
+INFO:scholarly:Getting https://scholar.google.com/scholar?start=300&q=modernizing+the+systematic+review+pipeline&hl=en&as_sdt=0,33
+INFO:scholarly:Session proxy config is {}
+INFO:scholarly:Getting https://scholar.google.com/scholar?start=310&q=modernizing+the+systematic+review+pipeline&hl=en&as_sdt=0,33
+INFO:scholarly:Session proxy config is {}
+INFO:scholarly:Getting https://scholar.google.com/scholar?start=320&q=modernizing+the+systematic+review+pipeline&hl=en&as_sdt=0,33
+INFO:scholarly:Session proxy config is {}
+INFO:scholarly:Getting https://scholar.google.com/scholar?start=330&q=modernizing+the+systematic+review+pipeline&hl=en&as_sdt=0,33
+INFO:scholarly:Getting https://scholar.google.com/scholar?hl=en&q=modernizing%20the%20systematic%20review%20pipeline&as_vis=0&as_sdt=0,33
+INFO:scholarly:Session proxy config is {}
+INFO:scholarly:Getting https://scholar.google.com/scholar?hl=en&q=modernizing%20the%20systematic%20review%20pipeline&as_vis=0&as_sdt=0,33
+INFO:scholarly:Session proxy config is {}
+INFO:scholarly:Getting https://scholar.google.com/scholar?start=10&q=modernizing+the+systematic+review+pipeline&hl=en&as_sdt=0,33
+INFO:scholarly:Session proxy config is {}
+INFO:scholarly:Getting https://scholar.google.com/scholar?start=20&q=modernizing+the+systematic+review+pipeline&hl=en&as_sdt=0,33
+INFO:scholarly:Session proxy config is {}
+INFO:scholarly:Getting https://scholar.google.com/scholar?start=30&q=modernizing+the+systematic+review+pipeline&hl=en&as_sdt=0,33
+INFO:scholarly:Session proxy config is {}
+INFO:scholarly:Getting https://scholar.google.com/scholar?start=40&q=modernizing+the+systematic+review+pipeline&hl=en&as_sdt=0,33
+INFO:scholarly:Session proxy config is {}
+INFO:scholarly:Getting https://scholar.google.com/scholar?start=50&q=modernizing+the+systematic+review+pipeline&hl=en&as_sdt=0,33
+INFO:scholarly:Session proxy config is {}
+INFO:scholarly:Getting https://scholar.google.com/scholar?start=60&q=modernizing+the+systematic+review+pipeline&hl=en&as_sdt=0,33
+INFO:scholarly:Session proxy config is {}
+INFO:scholarly:Getting https://scholar.google.com/scholar?start=70&q=modernizing+the+systematic+review+pipeline&hl=en&as_sdt=0,33
+INFO:scholarly:Session proxy config is {}
+INFO:scholarly:Getting https://scholar.google.com/scholar?start=80&q=modernizing+the+systematic+review+pipeline&hl=en&as_sdt=0,33
+INFO:scholarly:Getting https://scholar.google.com/scholar?hl=en&q=modernizing%20the%20systematic%20review%20pipeline&as_vis=0&as_sdt=0,33
+INFO:scholarly:Session proxy config is {}
+INFO:scholarly:Getting https://scholar.google.com/scholar?hl=en&q=modernizing%20the%20systematic%20review%20pipeline&as_vis=0&as_sdt=0,33
+INFO:scholarly:Session proxy config is {}
+INFO:scholarly:Getting https://scholar.google.com/scholar?hl=en&q=modernizing%20the%20systematic%20review%20pipeline&as_vis=0&as_sdt=0,33
+INFO:scholarly:Session proxy config is {}
+INFO:scholarly:Getting https://scholar.google.com/scholar?hl=en&q=modernizing%20the%20systematic%20review%20pipeline&as_vis=0&as_sdt=0,33
+INFO:scholarly:Session proxy config is {}
+INFO:scholarly:Getting https://scholar.google.com/scholar?hl=en&q=modernizing%20the%20systematic%20review%20pipeline&as_vis=0&as_sdt=0,33
+INFO:scholarly:Session proxy config is {}
+INFO:scholarly:Getting https://scholar.google.com/scholar?q=info:e8RWxAhX_JsJ:scholar.google.com/&output=cite&scirp=0&hl=en
+INFO:scholarly:Session proxy config is {}
+INFO:scholarly:Getting https://scholar.googleusercontent.com/scholar.bib?q=info:e8RWxAhX_JsJ:scholar.google.com/&output=citation&scisdr=CgVLxDq0EOWS1H7O21U:AAGBfm0AAAAAX4LLw1VGQPAO8oy2SsnSANUU-f6KbDya&scisig=AAGBfm0AAAAAX4LLw3JEISwSxXLb5zzefsYTBMF1zg2w&scisf=4&ct=citation&cd=-1&hl=en
+INFO:scholarly:Session proxy config is {}
+INFO:scholarly:Getting https://scholar.google.com/scholar?cites=11239954465175291003&as_sdt=5,33&sciodt=0,33&hl=en
+INFO:scholarly:Session proxy config is {}
+INFO:scholarly:Getting https://scholar.google.com/scholar?cites=11239954465175291003&as_sdt=5,33&sciodt=0,33&hl=en
+INFO:scholarly:Session proxy config is {}
+INFO:scholarly:Getting https://scholar.google.com/scholar?cites=11239954465175291003&as_sdt=5,33&sciodt=0,33&hl=en
+INFO:scholarly:Session proxy config is {}
+INFO:scholarly:Getting https://scholar.google.com/scholar?cites=11239954465175291003&as_sdt=5,33&sciodt=0,33&hl=en
+INFO:scholarly:Session proxy config is {}
+INFO:scholarly:Getting https://scholar.google.com/scholar?hl=en&q=modernizing%20the%20systematic%20review%20pipeline&as_vis=0&as_sdt=0,33
+INFO:scholarly:Session proxy config is {}
+INFO:scholarly:Getting https://scholar.google.com/scholar?hl=en&q=modernizing%20the%20systematic%20review%20pipeline&as_vis=0&as_sdt=0,33
+INFO:scholarly:Session proxy config is {}
+INFO:scholarly:Getting https://scholar.google.com/scholar?hl=en&q=modernizing%20the%20systematic%20review%20pipeline&as_vis=0&as_sdt=0,33
+INFO:scholarly:Session proxy config is {}
+INFO:scholarly:Getting https://scholar.google.com/scholar?start=10&q=modernizing+the+systematic+review+pipeline&hl=en&as_sdt=0,33
+INFO:scholarly:Session proxy config is {}
+INFO:scholarly:Getting https://scholar.google.com/scholar?start=20&q=modernizing+the+systematic+review+pipeline&hl=en&as_sdt=0,33
+INFO:scholarly:Session proxy config is {}
+INFO:scholarly:Getting https://scholar.google.com/scholar?start=30&q=modernizing+the+systematic+review+pipeline&hl=en&as_sdt=0,33
+INFO:scholarly:Session proxy config is {}
+INFO:scholarly:Getting https://scholar.google.com/scholar?start=40&q=modernizing+the+systematic+review+pipeline&hl=en&as_sdt=0,33
+INFO:scholarly:Session proxy config is {}
+INFO:scholarly:Getting https://scholar.google.com/scholar?start=50&q=modernizing+the+systematic+review+pipeline&hl=en&as_sdt=0,33
+INFO:scholarly:Session proxy config is {}
+INFO:scholarly:Getting https://scholar.google.com/scholar?start=60&q=modernizing+the+systematic+review+pipeline&hl=en&as_sdt=0,33
+INFO:scholarly:Session proxy config is {}
+INFO:scholarly:Getting https://scholar.google.com/scholar?start=70&q=modernizing+the+systematic+review+pipeline&hl=en&as_sdt=0,33
+INFO:scholarly:Getting https://scholar.google.com/scholar?hl=en&q=modernizing%20the%20systematic%20review%20pipeline&as_vis=0&as_sdt=0,33
+INFO:scholarly:Session proxy config is {}
+INFO:scholarly:Getting https://scholar.google.com/scholar?start=10&q=modernizing+the+systematic+review+pipeline&hl=en&as_sdt=0,33
+INFO:scholarly:Session proxy config is {}
+INFO:scholarly:Getting https://scholar.google.com/scholar?start=20&q=modernizing+the+systematic+review+pipeline&hl=en&as_sdt=0,33
+INFO:scholarly:Session proxy config is {}
+INFO:scholarly:Getting https://scholar.google.com/scholar?start=30&q=modernizing+the+systematic+review+pipeline&hl=en&as_sdt=0,33
+INFO:scholarly:Session proxy config is {}
+INFO:scholarly:Getting https://scholar.google.com/scholar?start=40&q=modernizing+the+systematic+review+pipeline&hl=en&as_sdt=0,33
+INFO:scholarly:Session proxy config is {}
+INFO:scholarly:Getting https://scholar.google.com/scholar?start=50&q=modernizing+the+systematic+review+pipeline&hl=en&as_sdt=0,33
+INFO:scholarly:Session proxy config is {}
+INFO:scholarly:Getting https://scholar.google.com/scholar?start=60&q=modernizing+the+systematic+review+pipeline&hl=en&as_sdt=0,33
+INFO:scholarly:Session proxy config is {}
+INFO:scholarly:Getting https://scholar.google.com/scholar?start=70&q=modernizing+the+systematic+review+pipeline&hl=en&as_sdt=0,33
+INFO:scholarly:Session proxy config is {}
+INFO:scholarly:Getting https://scholar.google.com/scholar?start=80&q=modernizing+the+systematic+review+pipeline&hl=en&as_sdt=0,33
+INFO:scholarly:Session proxy config is {}
+INFO:scholarly:Getting https://scholar.google.com/scholar?start=90&q=modernizing+the+systematic+review+pipeline&hl=en&as_sdt=0,33
+INFO:scholarly:Session proxy config is {}
+INFO:scholarly:Getting https://scholar.google.com/scholar?start=100&q=modernizing+the+systematic+review+pipeline&hl=en&as_sdt=0,33
+INFO:scholarly:Session proxy config is {}
+INFO:scholarly:Getting https://scholar.google.com/scholar?start=110&q=modernizing+the+systematic+review+pipeline&hl=en&as_sdt=0,33
+INFO:scholarly:Session proxy config is {}
+INFO:scholarly:Getting https://scholar.google.com/scholar?start=120&q=modernizing+the+systematic+review+pipeline&hl=en&as_sdt=0,33
+INFO:scholarly:Session proxy config is {}
+INFO:scholarly:Getting https://scholar.google.com/scholar?start=130&q=modernizing+the+systematic+review+pipeline&hl=en&as_sdt=0,33
+INFO:scholarly:Session proxy config is {}
+INFO:scholarly:Getting https://scholar.google.com/scholar?start=140&q=modernizing+the+systematic+review+pipeline&hl=en&as_sdt=0,33
+INFO:scholarly:Getting https://scholar.google.com/scholar?hl=en&q=modernizing%20the%20systematic%20review%20pipeline&as_vis=0&as_sdt=0,33
+INFO:scholarly:Session proxy config is {}
+INFO:scholarly:Getting https://scholar.google.com/scholar?start=10&q=modernizing+the+systematic+review+pipeline&hl=en&as_sdt=0,33
+INFO:scholarly:Session proxy config is {}
+INFO:scholarly:Getting https://scholar.google.com/scholar?start=20&q=modernizing+the+systematic+review+pipeline&hl=en&as_sdt=0,33
+INFO:scholarly:Session proxy config is {}
+INFO:scholarly:Getting https://scholar.google.com/scholar?start=30&q=modernizing+the+systematic+review+pipeline&hl=en&as_sdt=0,33
+INFO:scholarly:Session proxy config is {}
+INFO:scholarly:Getting https://scholar.google.com/scholar?start=40&q=modernizing+the+systematic+review+pipeline&hl=en&as_sdt=0,33
+INFO:scholarly:Session proxy config is {}
+INFO:scholarly:Getting https://scholar.google.com/scholar?start=50&q=modernizing+the+systematic+review+pipeline&hl=en&as_sdt=0,33
+INFO:scholarly:Session proxy config is {}
+INFO:scholarly:Getting https://scholar.google.com/scholar?start=60&q=modernizing+the+systematic+review+pipeline&hl=en&as_sdt=0,33
+INFO:scholarly:Session proxy config is {}
+INFO:scholarly:Getting https://scholar.google.com/scholar?start=70&q=modernizing+the+systematic+review+pipeline&hl=en&as_sdt=0,33
+INFO:scholarly:Session proxy config is {}
+INFO:scholarly:Got a captcha request.
+INFO:scholarly:Exception WebDriverException while fetching page: ("'geckodriver' executable needs to be in PATH. ",)
+INFO:scholarly:Retrying with a new session.
+INFO:scholarly:Session proxy config is {}
+INFO:scholarly:Got a captcha request.
+INFO:scholarly:Exception WebDriverException while fetching page: ("'geckodriver' executable needs to be in PATH. ",)
+INFO:scholarly:Retrying with a new session.
+INFO:scholarly:Session proxy config is {}
+INFO:scholarly:Got a captcha request.
+INFO:scholarly:Exception WebDriverException while fetching page: ("'geckodriver' executable needs to be in PATH. ",)
+INFO:scholarly:Retrying with a new session.
+INFO:scholarly:Session proxy config is {}
+INFO:scholarly:Got a captcha request.
+INFO:scholarly:Exception WebDriverException while fetching page: ("'geckodriver' executable needs to be in PATH. ",)
+INFO:scholarly:Retrying with a new session.
+INFO:scholarly:Session proxy config is {}
+INFO:scholarly:Got a captcha request.
+INFO:scholarly:Exception WebDriverException while fetching page: ("'geckodriver' executable needs to be in PATH. ",)
+INFO:scholarly:Retrying with a new session.
