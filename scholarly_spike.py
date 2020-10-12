@@ -2,6 +2,7 @@ from scholarly import scholarly
 from scholarly import scholarly, ProxyGenerator
 from fp.fp import FreeProxy
 import json
+from title_matchinng_spike import get_similarity
 
 
 def set_new_proxy():
@@ -13,12 +14,14 @@ def set_new_proxy():
     #     break
     return proxy
 
+
 def test_query_link(link):
     all_papers = []
     for i in link:
         search_query = search_pubs_url_with_proxy(i)
         all_papers.append(search_query)
     return all_papers
+
 
 def search_pubs_url_with_proxy(url):
     try:
@@ -29,15 +32,21 @@ def search_pubs_url_with_proxy(url):
         return search_pubs_url_with_proxy(url)
 
 
-def forward_snowballing(query, levels=2):
+def forward_snowballing(keyword, target_score=0.45, levels=2):
     level = 0
-    with open("result2.json", "w+", encoding="utf-8") as result_file:
+    counter = 1
+    query = test_query_keyword(keyword)
+    with open("result3.txt", "w+", encoding="utf-8") as result_file:
         # result_file.write(f"level= {level}")
         # result_file.write("\n\n")
         result_file.write("{'data':[")
         citation_scholar_links = []
         for q in query:
-            result_file.write(json.dumps(q.bib) + ',')
+            score = get_similarity(keyword, q.bib["title"])
+            if score >= target_score:
+                print("Paper number: " + str(counter) + "\t" "Score: " + str(score))
+                result_file.write(json.dumps(q.bib) + ',')
+                counter += 1
             # result_file.write('\n\n')
             try:
                 cite_link = q.citations_link
@@ -53,7 +62,11 @@ def forward_snowballing(query, levels=2):
             citation_scholar_links = []
             for p in all_papers:
                 for paper in p:
-                    result_file.write(json.dumps(paper.bib)  + ',')
+                    score = get_similarity(keyword, q.bib["title"])
+                    if score >= target_score:
+                        print("Paper number: " + str(counter) + "\t" "Score: " + str(score))
+                        result_file.write(json.dumps(paper.bib) + ',')
+                        counter += 1
                     try:
                         cite_link = q.citations_link
                         citation_scholar_links.append(cite_link)
@@ -77,13 +90,12 @@ def test_query_keyword(keyword):
     # return cite_link
 
 
-
 if __name__ == '__main__':
     # Currently set as Batarang cause the scholarly blocks us for insane number of requests...
     s = test_query_keyword("modernizing the systematic review pipeline")
     # lol = next(s)
     # print(lol)
     # print(json.dumps(lol.bib))
-    forward_snowballing(s)
+    # forward_snowballing("modernizing the systematic review pipeline")
     # test_query_keyword(
     #     "Alternative to mental hospital treatment: I. Conceptual model, treatment program, and clinical evaluation")
