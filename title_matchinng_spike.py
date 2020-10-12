@@ -15,11 +15,14 @@ def query_get_request(query_string):
 
 
 def get_similarity(title1, title2):
-    TOKEN = "515890c2d4e5419385013367e40fc5ac"
+    # TOKEN = "515890c2d4e5419385013367e40fc5ac"
+    TOKEN = "941c83e94ebc4fdd826045ca45321a3a"
     query = "https://api.dandelion.eu/datatxt/sim/v1/?text1=" + str(title1) + "&text2=" + str(title2) + "&bow=one_empty" + "&token=" + TOKEN
     result = query_get_request(query)
-    return result["similarity"] * 100
-
+    try:
+        return result["similarity"] * 100
+    except KeyError:
+        return 0
 
 if __name__ == '__main__':
     # print(query_get_request(
