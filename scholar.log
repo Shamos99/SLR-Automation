@@ -1,120 +1,44 @@
 INFO:scholarly:Getting https://scholar.google.com/scholar?hl=en&q=modernizing%20the%20systematic%20review%20pipeline&as_vis=0&as_sdt=0,33
 INFO:scholarly:Session proxy config is {}
-INFO:scholarly:Response code 429.
-                                    Retrying...
+INFO:scholarly:Got a captcha request.
+INFO:scholarly:Exception SessionNotCreatedException while fetching page: ('Unable to find a matching set of capabilities', None, None)
+INFO:scholarly:Retrying with a new session.
 INFO:scholarly:Session proxy config is {}
-INFO:scholarly:Response code 429.
-                                    Retrying...
+INFO:scholarly:Got a captcha request.
+INFO:scholarly:Exception SessionNotCreatedException while fetching page: ('Unable to find a matching set of capabilities', None, None)
+INFO:scholarly:Retrying with a new session.
 INFO:scholarly:Session proxy config is {}
-INFO:scholarly:Response code 429.
-                                    Retrying...
+INFO:scholarly:Got a captcha request.
+INFO:scholarly:Exception SessionNotCreatedException while fetching page: ('Unable to find a matching set of capabilities', None, None)
+INFO:scholarly:Retrying with a new session.
 INFO:scholarly:Session proxy config is {}
-INFO:scholarly:Response code 429.
-                                    Retrying...
+INFO:scholarly:Got a captcha request.
+INFO:scholarly:Exception SessionNotCreatedException while fetching page: ('Unable to find a matching set of capabilities', None, None)
+INFO:scholarly:Retrying with a new session.
 INFO:scholarly:Session proxy config is {}
-INFO:scholarly:Response code 429.
-                                    Retrying...
-INFO:scholarly:Proxy works!
-INFO:scholarly:Enabling proxies: http=http://198.50.163.192:3129 https=http://198.50.163.192:3129
-INFO:scholarly:Getting https://scholar.google.com/scholar?hl=en&q=modernizing%20the%20systematic%20review%20pipeline&as_vis=0&as_sdt=0,33
-INFO:scholarly:Session proxy config is {'http': 'http://198.50.163.192:3129', 'https': 'http://198.50.163.192:3129'}
 INFO:scholarly:Got a captcha request.
-INFO:scholarly:Exception InvalidArgumentException while fetching page: ('ftpProxy must not contain a scheme: http://198.50.163.192:3129', None, None)
+INFO:scholarly:Exception SessionNotCreatedException while fetching page: ('Unable to find a matching set of capabilities', None, None)
 INFO:scholarly:Retrying with a new session.
-INFO:scholarly:Session proxy config is {'http': 'http://198.50.163.192:3129', 'https': 'http://198.50.163.192:3129'}
-INFO:scholarly:Got a captcha request.
-INFO:scholarly:Exception InvalidArgumentException while fetching page: ('ftpProxy must not contain a scheme: http://198.50.163.192:3129', None, None)
-INFO:scholarly:Retrying with a new session.
-INFO:scholarly:Session proxy config is {'http': 'http://198.50.163.192:3129', 'https': 'http://198.50.163.192:3129'}
-INFO:scholarly:Got a captcha request.
-INFO:scholarly:Exception InvalidArgumentException while fetching page: ('ftpProxy must not contain a scheme: http://198.50.163.192:3129', None, None)
-INFO:scholarly:Retrying with a new session.
-INFO:scholarly:Session proxy config is {'http': 'http://198.50.163.192:3129', 'https': 'http://198.50.163.192:3129'}
-INFO:scholarly:Got a captcha request.
-INFO:scholarly:Exception InvalidArgumentException while fetching page: ('ftpProxy must not contain a scheme: http://198.50.163.192:3129', None, None)
-INFO:scholarly:Retrying with a new session.
-INFO:scholarly:Session proxy config is {'http': 'http://198.50.163.192:3129', 'https': 'http://198.50.163.192:3129'}
-INFO:scholarly:Got a captcha request.
-INFO:scholarly:Exception InvalidArgumentException while fetching page: ('ftpProxy must not contain a scheme: http://198.50.163.192:3129', None, None)
-INFO:scholarly:Retrying with a new session.
-INFO:scholarly:Proxy works!
-INFO:scholarly:Enabling proxies: http=http://144.217.101.245:3129 https=http://144.217.101.245:3129
-INFO:scholarly:Getting https://scholar.google.com/scholar?hl=en&q=modernizing%20the%20systematic%20review%20pipeline&as_vis=0&as_sdt=0,33
-INFO:scholarly:Session proxy config is {'http': 'http://144.217.101.245:3129', 'https': 'http://144.217.101.245:3129'}
-INFO:scholarly:Got a captcha request.
-INFO:scholarly:Exception InvalidArgumentException while fetching page: ('ftpProxy must not contain a scheme: http://144.217.101.245:3129', None, None)
-INFO:scholarly:Retrying with a new session.
-INFO:scholarly:Session proxy config is {'http': 'http://144.217.101.245:3129', 'https': 'http://144.217.101.245:3129'}
-INFO:scholarly:Got a captcha request.
-INFO:scholarly:Exception InvalidArgumentException while fetching page: ('ftpProxy must not contain a scheme: http://144.217.101.245:3129', None, None)
-INFO:scholarly:Retrying with a new session.
-INFO:scholarly:Session proxy config is {'http': 'http://144.217.101.245:3129', 'https': 'http://144.217.101.245:3129'}
-INFO:scholarly:Got a captcha request.
-INFO:scholarly:Exception InvalidArgumentException while fetching page: ('ftpProxy must not contain a scheme: http://144.217.101.245:3129', None, None)
-INFO:scholarly:Retrying with a new session.
-INFO:scholarly:Session proxy config is {'http': 'http://144.217.101.245:3129', 'https': 'http://144.217.101.245:3129'}
-INFO:scholarly:Got a captcha request.
-INFO:scholarly:Exception InvalidArgumentException while fetching page: ('ftpProxy must not contain a scheme: http://144.217.101.245:3129', None, None)
-INFO:scholarly:Retrying with a new session.
-INFO:scholarly:Session proxy config is {'http': 'http://144.217.101.245:3129', 'https': 'http://144.217.101.245:3129'}
-INFO:scholarly:Got a captcha request.
-INFO:scholarly:Exception InvalidArgumentException while fetching page: ('ftpProxy must not contain a scheme: http://144.217.101.245:3129', None, None)
-INFO:scholarly:Retrying with a new session.
-INFO:scholarly:Getting https://scholar.google.com/scholar?hl=en&q=modernizing%20the%20systematic%20review%20pipeline&as_vis=0&as_sdt=0,33
-INFO:scholarly:Session proxy config is {}
-INFO:scholarly:Response code 429.
-                                    Retrying...
-INFO:scholarly:Session proxy config is {}
-INFO:scholarly:Response code 429.
-                                    Retrying...
-INFO:scholarly:Session proxy config is {}
-INFO:scholarly:Response code 429.
-                                    Retrying...
-INFO:scholarly:Session proxy config is {}
-INFO:scholarly:Response code 429.
-                                    Retrying...
-INFO:scholarly:Session proxy config is {}
-INFO:scholarly:Response code 429.
-                                    Retrying...
 INFO:scholarly:Proxy http://161.202.226.194:8123 does not seem to work.
 INFO:scholarly:Getting https://scholar.google.com/scholar?hl=en&q=modernizing%20the%20systematic%20review%20pipeline&as_vis=0&as_sdt=0,33
 INFO:scholarly:Session proxy config is {}
-INFO:scholarly:Response code 429.
-                                    Retrying...
-INFO:scholarly:Session proxy config is {}
-INFO:scholarly:Response code 429.
-                                    Retrying...
-INFO:scholarly:Session proxy config is {}
-INFO:scholarly:Response code 429.
-                                    Retrying...
-INFO:scholarly:Session proxy config is {}
-INFO:scholarly:Response code 429.
-                                    Retrying...
-INFO:scholarly:Session proxy config is {}
-INFO:scholarly:Response code 429.
-                                    Retrying...
-INFO:scholarly:Proxy works!
-INFO:scholarly:Enabling proxies: http=http://49.0.82.190:8080 https=http://49.0.82.190:8080
-INFO:scholarly:Getting https://scholar.google.com/scholar?hl=en&q=modernizing%20the%20systematic%20review%20pipeline&as_vis=0&as_sdt=0,33
-INFO:scholarly:Exception ProxyError while fetching page: (MaxRetryError("HTTPSConnectionPool(host='scholar.google.com', port=443): Max retries exceeded with url: /scholar?hl=en&q=modernizing%20the%20systematic%20review%20pipeline&as_vis=0&as_sdt=0,33 (Caused by ProxyError('Cannot connect to proxy.', timeout('timed out')))"),)
+INFO:scholarly:Got a captcha request.
+INFO:scholarly:Exception SessionNotCreatedException while fetching page: ('Unable to find a matching set of capabilities', None, None)
 INFO:scholarly:Retrying with a new session.
-INFO:scholarly:Exception ProxyError while fetching page: (MaxRetryError("HTTPSConnectionPool(host='scholar.google.com', port=443): Max retries exceeded with url: /scholar?hl=en&q=modernizing%20the%20systematic%20review%20pipeline&as_vis=0&as_sdt=0,33 (Caused by ProxyError('Cannot connect to proxy.', timeout('timed out')))"),)
+INFO:scholarly:Session proxy config is {}
+INFO:scholarly:Got a captcha request.
+INFO:scholarly:Exception SessionNotCreatedException while fetching page: ('Unable to find a matching set of capabilities', None, None)
 INFO:scholarly:Retrying with a new session.
-INFO:scholarly:Exception ProxyError while fetching page: (MaxRetryError("HTTPSConnectionPool(host='scholar.google.com', port=443): Max retries exceeded with url: /scholar?hl=en&q=modernizing%20the%20systematic%20review%20pipeline&as_vis=0&as_sdt=0,33 (Caused by ProxyError('Cannot connect to proxy.', timeout('timed out')))"),)
+INFO:scholarly:Session proxy config is {}
+INFO:scholarly:Got a captcha request.
+INFO:scholarly:Exception SessionNotCreatedException while fetching page: ('Unable to find a matching set of capabilities', None, None)
+INFO:scholarly:Retrying with a new session.
+INFO:scholarly:Session proxy config is {}
+INFO:scholarly:Got a captcha request.
+INFO:scholarly:Exception SessionNotCreatedException while fetching page: ('Unable to find a matching set of capabilities', None, None)
+INFO:scholarly:Retrying with a new session.
+INFO:scholarly:Session proxy config is {}
+INFO:scholarly:Got a captcha request.
+INFO:scholarly:Exception SessionNotCreatedException while fetching page: ('Unable to find a matching set of capabilities', None, None)
 INFO:scholarly:Retrying with a new session.
 INFO:scholarly:Getting https://scholar.google.com/scholar?hl=en&q=modernizing%20the%20systematic%20review%20pipeline&as_vis=0&as_sdt=0,33
-INFO:scholarly:Session proxy config is {}
-INFO:scholarly:Response code 429.
-                                    Retrying...
-INFO:scholarly:Session proxy config is {}
-INFO:scholarly:Response code 429.
-                                    Retrying...
-INFO:scholarly:Session proxy config is {}
-INFO:scholarly:Response code 429.
-                                    Retrying...
-INFO:scholarly:Session proxy config is {}
-INFO:scholarly:Response code 429.
-                                    Retrying...
-INFO:scholarly:Session proxy config is {}
-INFO:scholarly:Response code 429.
-                                    Retrying...
