@@ -1,6 +1,6 @@
-from forward_snowballing import forward_snowballing
-from backwards_snowball import backwards_snowballing_levels
-from standardized_json_output import standardized_list, api_enum
+from stage2.forward_snowballing import forward_snowballing
+from stage2.backwards_snowball import backwards_snowballing_levels
+from stage2.standardized_json_output import standardized_list, api_enum
 
 
 class SLR_Automation:
