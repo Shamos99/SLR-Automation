@@ -20,7 +20,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="6fa74768-990e-4d39-bc05-863a472692d4" name="Default Changelist" comment="Added Proxy and improved code quality">
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/constants.py" beforeDir="false" afterPath="$PROJECT_DIR$/constants.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/criterion_params.py" beforeDir="false" afterPath="$PROJECT_DIR$/criterion_params.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/criterion_suite.py" beforeDir="false" afterPath="$PROJECT_DIR$/criterion_suite.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/inclusion_exclusion_criterion.py" beforeDir="false" afterPath="$PROJECT_DIR$/inclusion_exclusion_criterion.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/stage 3 spiking.py" beforeDir="false" afterPath="$PROJECT_DIR$/stage 3 spiking.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -47,6 +52,12 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RunManager" selected="Python.title_matchinng_spike">
@@ -131,6 +142,9 @@
       <workItem from="1601804609493" duration="4307000" />
       <workItem from="1601809015157" duration="5781000" />
       <workItem from="1602400884905" duration="2974000" />
+      <workItem from="1602655941270" duration="1198000" />
+      <workItem from="1602664269671" duration="121000" />
+      <workItem from="1603174424904" duration="1201000" />
     </task>
     <task id="LOCAL-00001" summary="Added Proxy and improved code quality">
       <created>1601813668175</created>
@@ -143,19 +157,20 @@
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
-    <option name="version" value="2" />
+    <option name="version" value="1" />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
           </value>
         </entry>
       </map>
     </option>
-    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Added Proxy and improved code quality" />
@@ -206,14 +221,18 @@
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="142" y="0" key="SettingsEditor/0.0.1280.680@0.0.1280.680" timestamp="1601805504007" />
+    <state x="374" y="273" key="com.intellij.ide.util.TipDialog" timestamp="1603174434843">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="374" y="273" key="com.intellij.ide.util.TipDialog/0.0.1440.900@0.0.1440.900" timestamp="1603174434843" />
     <state x="450" y="255" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1601813678271">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="450" y="255" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1280.680@0.0.1280.680" timestamp="1601813678271" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/SLR_Automation$title_matchinng_spike.coverage" NAME="title_matchinng_spike Coverage Results" MODIFIED="1602404073636" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/SLR_Automation$Nosetests_in_scholarly_spike_py.coverage" NAME="Nosetests in scholarly_spike.py Coverage Results" MODIFIED="1601805349840" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/SLR_Automation$scholarly_spike.coverage" NAME="scholarly_spike Coverage Results" MODIFIED="1601809884977" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/SLR_Automation$title_matchinng_spike.coverage" NAME="title_matchinng_spike Coverage Results" MODIFIED="1602404073636" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
 </project>

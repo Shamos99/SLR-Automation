@@ -6,6 +6,7 @@ H_INDEX = 4
 PUBLICATION_TYPE = 5
 LOCATION = 6
 N_CITED_BY = 7
+LANGUAGE = 8
 
 # filter params
 
@@ -33,6 +34,9 @@ location_list = 'location_list'
 # n_cited_by
 min_cited_by = 'min_cited_by'
 max_cited_by = 'max_cited_by'
+
+# language
+language = 'language'
 
 # misc
 DATE_FORMAT = "%Y-%m-%d %H:%M:%S"

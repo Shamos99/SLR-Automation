@@ -25,5 +25,8 @@ criterion_param = {
     N_CITED_BY: {
         min_cited_by: None,
         max_cited_by: None
+    },
+    LANGUAGE: {
+        language: None
     }
 }

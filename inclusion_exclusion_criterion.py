@@ -46,6 +46,10 @@ def apply_criterion(publication_list, filter_list, param_dict):
             res = suite.NCitedByFilter.impl(publication_list, param_dict[N_CITED_BY])
             resolve_result(to_keep_arr, res)
 
+        elif filter_list == LANGUAGE:
+            res = suite.LanguageFilter.impl(publication_list, param_dict[N_CITED_BY])
+            resolve_result(to_keep_arr, res)
+
     final_pub_list = []
 
     for i in range(len(publication_list)):
@@ -57,7 +61,7 @@ def apply_criterion(publication_list, filter_list, param_dict):
 
 if __name__ == '__main__':
     filter_list = [
-        #YEAR,
+        # YEAR,
         N_CITED_BY
     ]
 

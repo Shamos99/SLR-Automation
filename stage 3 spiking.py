@@ -1,4 +1,3 @@
-import nltk
 import os
 from nltk.tokenize import word_tokenize
 import gensim

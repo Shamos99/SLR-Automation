@@ -86,6 +86,17 @@ class JournalFilter(GenericFilter):
     def impl(pub_list, param):
         journal_list = param[params.journal_list]
 
+        res = []
+
+        # naiive code
+        for paper in pub_list:
+            for journal in journal_list:
+                if journal in paper['journal_list']:
+                    res.append(1)
+            res.append(0)
+
+        return res
+
 
 class HIndexFilter(GenericFilter):
 
@@ -124,12 +135,34 @@ class PublicationTypeFilter(GenericFilter):
     def impl(pub_list, param):
         pub_type_list = param[params.publication_types_list]
 
+        res = []
+
+        # naiive code
+        for paper in pub_list:
+            for pub in pub_type_list:
+                if pub in paper['publication_list']:
+                    res.append(1)
+            res.append(0)
+
+        return res
+
 
 class LocationFilter(GenericFilter):
 
     @staticmethod
     def impl(pub_list, param):
         location_list = param[params.location_list]
+
+        res = []
+
+        # naiive code
+        for paper in pub_list:
+            for loc in location_list:
+                if loc in paper['location_list']:
+                    res.append(1)
+            res.append(0)
+
+        return res
 
 
 class NCitedByFilter(GenericFilter):
@@ -162,6 +195,23 @@ class NCitedByFilter(GenericFilter):
                 ans_list.append(0)
 
         return ans_list
+
+
+class LanguageFilter(GenericFilter):
+
+    @staticmethod
+    def impl(pub_list, param):
+        language = param[params.language]
+
+        res = []
+
+        for pub in pub_list:
+            if pub['language'] == language:
+                res.append(1)
+            else:
+                res.append(0)
+
+        return res
 
 
 if __name__ == '__main__':
