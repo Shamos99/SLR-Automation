@@ -3,6 +3,7 @@ import json
 import pprint
 from stage3.constants import *
 from stage3.criterion_params import criterion_param
+from stage2.test_material import combined_standardized_result_sample
 
 
 def resolve_result(on_going_arr, new_res):
@@ -46,8 +47,8 @@ def apply_criterion(publication_list, filter_list, param_dict):
             res = suite.NCitedByFilter.impl(publication_list, param_dict[N_CITED_BY])
             resolve_result(to_keep_arr, res)
 
-        elif filter_list == LANGUAGE:
-            res = suite.LanguageFilter.impl(publication_list, param_dict[N_CITED_BY])
+        elif filter_criteria == LANGUAGE:
+            res = suite.LanguageFilter.impl(publication_list, param_dict[LANGUAGE])
             resolve_result(to_keep_arr, res)
 
     final_pub_list = []
@@ -62,10 +63,29 @@ def apply_criterion(publication_list, filter_list, param_dict):
 if __name__ == '__main__':
     filter_list = [
         # YEAR,
-        N_CITED_BY
+        # N_CITED_BY
+        # IMPACT_FACTOR
+        # JOURNAL
+        # H_INDEX
+        # PUBLICATION_TYPE
+        # LOCATION
+        LANGUAGE
     ]
 
     param_dict = criterion_param
+
+    param_dict[JOURNAL][journal_list] = [
+        "BMC Bioinformatics"
+    ]
+
+    param_dict[PUBLICATION_TYPE][publication_type_list] = [
+        'article',
+        # 'journal'
+    ]
+
+    param_dict[LANGUAGE][language_list] = [
+        'English'
+    ]
 
     param_dict[YEAR][min_year] = '2012-07-01 00:00:00'
     param_dict[YEAR][max_year] = '2020-07-01 00:00:00'
@@ -73,8 +93,10 @@ if __name__ == '__main__':
     param_dict[N_CITED_BY][min_cited_by] = 5
     param_dict[N_CITED_BY][max_cited_by] = 1000
 
-    with open("stage2_output.json") as f:
-        loaded = json.load(f)
+    # with open("stage2_output.json") as f:
+    #     loaded = json.load(f)
+
+    loaded = combined_standardized_result_sample()
 
     list = [x for x in loaded if x is not None]
 

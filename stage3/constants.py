@@ -26,7 +26,7 @@ min_h_index = 'min_h_index'
 max_h_index = 'max_h_index'
 
 # publication_type
-publication_type = 'publication_type'
+publication_type_list = 'publication_type'
 
 # location
 location_list = 'location_list'
@@ -36,7 +36,7 @@ min_cited_by = 'min_cited_by'
 max_cited_by = 'max_cited_by'
 
 # language
-language = 'language'
+language_list = 'language'
 
 # misc
 DATE_FORMAT = "%Y-%m-%d %H:%M:%S"

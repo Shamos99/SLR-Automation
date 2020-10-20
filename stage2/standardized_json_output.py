@@ -19,7 +19,7 @@ def standarized_dict(dictionary, new_key, old_key):
                 if date_key in dictionary:
                     dictionary[new_key] = dictionary[date_key]
                     break
-                dictionary[new_key] = "-"
+                dictionary[new_key] = None
         else:
             if old_key in dictionary:
                 dictionary[new_key] = dictionary[old_key]
@@ -67,10 +67,16 @@ def standardized_list(list_inpt, enum):
             except:
                 standarized_dict(entry, "journal", None)
             standarized_dict(entry, "h-index", None)
+            standarized_dict(entry, "abstract", None)
             standarized_dict(entry, "publication_type", "type")
             standarized_dict(entry, "location", None)
             standarized_dict(entry, "n_cited_by", "is-referenced-by-count")
             standarized_dict(entry, "language", "language")
+
+            standarized_dict(entry, "title", "title")
+            if entry["title"]:
+                entry["title"] = entry["title"][0]
+
             final_result.append(entry)
         return final_result
 
@@ -110,5 +116,3 @@ if __name__ == '__main__':
     # print(len(result))
     lol = test_inp_f + result
     print(len(lol))
-
-

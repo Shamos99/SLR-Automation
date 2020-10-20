@@ -3,8 +3,6 @@ from langdetect import detect
 from datetime import datetime
 from stage3 import constants, criterion_params as params
 
-languages.name
-
 
 # all of the inclusion exclusion criterion we have will be in this file
 
@@ -38,7 +36,7 @@ class YearFilter(GenericFilter):
 
         for i in range(len(pub_list)):
 
-            if "publication_date" not in pub_list[i] or pub_list[i]["publication_date"] == 'null':
+            if "publication_date" not in pub_list[i] or pub_list[i]["publication_date"] is None:
                 ans_list.append(1)
                 continue
 
@@ -91,10 +89,9 @@ class JournalFilter(GenericFilter):
 
         res = []
 
-        # naiive code
         for paper in pub_list:
             for journal in journal_list:
-                if journal in paper['journal_list']:
+                if paper['journal'] is None or paper['journal'].lower() == journal.lower():
                     res.append(1)
             res.append(0)
 
@@ -136,16 +133,15 @@ class PublicationTypeFilter(GenericFilter):
 
     @staticmethod
     def impl(pub_list, param):
-        pub_type = param[params.publication_type]
+        pub_type_list = param[params.publication_type_list]
 
         res = []
 
-        # naiive code
         for paper in pub_list:
-            if pub_type == paper['publication_type']:
-                res.append(0)
-            else:
-                res.append(1)
+            for pub in pub_type_list:
+                if paper['publication_type'] is None or paper['publication_type'].lower() == pub.lower():
+                    res.append(1)
+            res.append(0)
 
         return res
 
@@ -192,7 +188,7 @@ class NCitedByFilter(GenericFilter):
                 ans_list.append(1)
                 continue
 
-            if min_cited_by < paper['n_cited_by'] < max_cited_by:
+            if min_cited_by < int(paper['n_cited_by']) < max_cited_by:
                 ans_list.append(1)
             else:
                 ans_list.append(0)
@@ -204,18 +200,23 @@ class LanguageFilter(GenericFilter):
 
     @staticmethod
     def impl(pub_list, param):
-        language = param[params.language]
+        language_list = param[params.language_list]
 
         res = []
 
         for pub in pub_list:
-            text = pub['abstract'] if pub['abstract'] is not None else pub['title']
-            lang_code = detect(text)
-            lang = language.get(alpha2=lang_code)
-            if lang == language:
-                res.append(1)
-            else:
-                res.append(0)
+            for language in language_list:
+
+                if pub['language'] is not None:
+                    lang = languages.get(alpha2=pub['language']).name
+                else:
+                    text = pub['abstract'] if pub['abstract'] is not None else pub['title']
+                    lang_code = detect(text)
+                    lang = languages.get(alpha2=lang_code).name
+                if lang.lower() == language.lower():
+                    res.append(1)
+                else:
+                    res.append(0)
 
         return res
 

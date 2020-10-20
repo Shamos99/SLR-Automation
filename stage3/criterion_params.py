@@ -17,7 +17,7 @@ criterion_param = {
         max_h_index: None
     },
     PUBLICATION_TYPE: {
-        publication_type: None
+        publication_type_list: None
     },
     LOCATION: {
         location_list: None
@@ -27,6 +27,6 @@ criterion_param = {
         max_cited_by: None
     },
     LANGUAGE: {
-        language: None
+        language_list: None
     }
 }
