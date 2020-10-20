@@ -1,8 +1,8 @@
-import criterion_suite as suite
+from stage3 import criterion_suite as suite
 import json
 import pprint
-from constants import *
-from criterion_params import criterion_param
+from stage3.constants import *
+from stage3.criterion_params import criterion_param
 
 
 def resolve_result(on_going_arr, new_res):

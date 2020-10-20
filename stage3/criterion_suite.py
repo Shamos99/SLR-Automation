@@ -1,11 +1,9 @@
 from iso639 import languages
 from langdetect import detect
 from datetime import datetime
-import criterion_params as params
-import constants
+from stage3 import constants, criterion_params as params
 
 languages.name
-import langdetect
 
 
 # all of the inclusion exclusion criterion we have will be in this file

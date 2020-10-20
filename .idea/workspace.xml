@@ -21,9 +21,6 @@
   <component name="ChangeListManager">
     <list default="true" id="6fa74768-990e-4d39-bc05-863a472692d4" name="Default Changelist" comment="Added Proxy and improved code quality">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/constants.py" beforeDir="false" afterPath="$PROJECT_DIR$/constants.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/criterion_params.py" beforeDir="false" afterPath="$PROJECT_DIR$/criterion_params.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/criterion_suite.py" beforeDir="false" afterPath="$PROJECT_DIR$/criterion_suite.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -40,6 +37,7 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="JupyterTrust" id="7734e1c3-07b4-44c7-98f6-bc4c464bc4da" />
   <component name="ProjectId" id="1iPM7hCK6MKUupRWCE4vvXHn5hI" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -57,6 +55,11 @@
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
+    </key>
   </component>
   <component name="RunManager" selected="Python.title_matchinng_spike">
     <configuration name="scholarly_spike" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
@@ -94,7 +97,7 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/title_matchinng_spike.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/stage3/title_matchinng_spike.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -143,7 +146,7 @@
       <workItem from="1602655941270" duration="1198000" />
       <workItem from="1602664269671" duration="121000" />
       <workItem from="1603174424904" duration="1201000" />
-      <workItem from="1603176755962" duration="1317000" />
+      <workItem from="1603176755962" duration="1598000" />
     </task>
     <task id="LOCAL-00001" summary="Added Proxy and improved code quality">
       <created>1601813668175</created>

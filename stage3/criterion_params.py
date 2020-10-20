@@ -1,4 +1,4 @@
-from constants import *
+from stage3.constants import *
 
 criterion_param = {
     YEAR: {
