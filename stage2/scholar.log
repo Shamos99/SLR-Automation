@@ -1,0 +1,74 @@
+INFO:scholarly:Getting https://scholar.google.com/scholar?hl=en&q=modernizing%20the%20systematic%20review%20pipeline&as_vis=0&as_sdt=0,33
+INFO:scholarly:Session proxy config is {}
+INFO:scholarly:Got a captcha request.
+INFO:scholarly:Exception SessionNotCreatedException while fetching page: ('Unable to find a matching set of capabilities', None, None)
+INFO:scholarly:Retrying with a new session.
+INFO:scholarly:Session proxy config is {}
+INFO:scholarly:Got a captcha request.
+INFO:scholarly:Exception SessionNotCreatedException while fetching page: ('Unable to find a matching set of capabilities', None, None)
+INFO:scholarly:Retrying with a new session.
+INFO:scholarly:Session proxy config is {}
+INFO:scholarly:Got a captcha request.
+INFO:scholarly:Exception SessionNotCreatedException while fetching page: ('Unable to find a matching set of capabilities', None, None)
+INFO:scholarly:Retrying with a new session.
+INFO:scholarly:Session proxy config is {}
+INFO:scholarly:Got a captcha request.
+INFO:scholarly:Exception SessionNotCreatedException while fetching page: ('Unable to find a matching set of capabilities', None, None)
+INFO:scholarly:Retrying with a new session.
+INFO:scholarly:Session proxy config is {}
+INFO:scholarly:Got a captcha request.
+INFO:scholarly:Exception SessionNotCreatedException while fetching page: ('Unable to find a matching set of capabilities', None, None)
+INFO:scholarly:Retrying with a new session.
+INFO:scholarly:Proxy http://161.202.226.194:8123 does not seem to work.
+INFO:scholarly:Getting https://scholar.google.com/scholar?hl=en&q=modernizing%20the%20systematic%20review%20pipeline&as_vis=0&as_sdt=0,33
+INFO:scholarly:Session proxy config is {}
+INFO:scholarly:Got a captcha request.
+INFO:scholarly:Exception SessionNotCreatedException while fetching page: ('Unable to find a matching set of capabilities', None, None)
+INFO:scholarly:Retrying with a new session.
+INFO:scholarly:Session proxy config is {}
+INFO:scholarly:Got a captcha request.
+INFO:scholarly:Exception SessionNotCreatedException while fetching page: ('Unable to find a matching set of capabilities', None, None)
+INFO:scholarly:Retrying with a new session.
+INFO:scholarly:Session proxy config is {}
+INFO:scholarly:Got a captcha request.
+INFO:scholarly:Exception SessionNotCreatedException while fetching page: ('Unable to find a matching set of capabilities', None, None)
+INFO:scholarly:Retrying with a new session.
+INFO:scholarly:Session proxy config is {}
+INFO:scholarly:Got a captcha request.
+INFO:scholarly:Exception SessionNotCreatedException while fetching page: ('Unable to find a matching set of capabilities', None, None)
+INFO:scholarly:Retrying with a new session.
+INFO:scholarly:Session proxy config is {}
+INFO:scholarly:Got a captcha request.
+INFO:scholarly:Exception SessionNotCreatedException while fetching page: ('Unable to find a matching set of capabilities', None, None)
+INFO:scholarly:Retrying with a new session.
+INFO:scholarly:Getting https://scholar.google.com/scholar?hl=en&q=modernizing%20the%20systematic%20review%20pipeline&as_vis=0&as_sdt=0,33
+INFO:scholarly:Getting https://scholar.google.com/scholar?hl=en&q=modernizing%20the%20systematic%20review%20pipeline&as_vis=0&as_sdt=0,33
+INFO:scholarly:Session proxy config is {}
+INFO:scholarly:Getting https://scholar.google.com/scholar?q=info:e8RWxAhX_JsJ:scholar.google.com/&output=cite&scirp=0&hl=en
+INFO:scholarly:Session proxy config is {}
+INFO:scholarly:Getting https://scholar.googleusercontent.com/scholar.bib?q=info:e8RWxAhX_JsJ:scholar.google.com/&output=citation&scisdr=CgVLxfYSEK2N5XKMFoY:AAGBfm0AAAAAX46JDoZu-cvwgwDmiiFw0ARjz5PtC9xc&scisig=AAGBfm0AAAAAX46JDl90rEJgBOl7XUyV2rmWXCotmiOf&scisf=4&ct=citation&cd=-1&hl=en
+INFO:scholarly:Session proxy config is {}
+INFO:scholarly:Getting https://scholar.google.com/scholar?cites=11239954465175291003&as_sdt=5,33&sciodt=0,33&hl=en
+INFO:scholarly:Session proxy config is {}
+INFO:scholarly:Getting https://scholar.google.com/scholar?cites=11239954465175291003&as_sdt=5,33&sciodt=0,33&hl=en
+INFO:scholarly:Session proxy config is {}
+INFO:scholarly:Getting https://scholar.google.com/scholar?cites=11239954465175291003&as_sdt=5,33&sciodt=0,33&hl=en
+INFO:scholarly:Session proxy config is {}
+INFO:scholarly:Getting https://scholar.google.com/scholar?cites=11239954465175291003&as_sdt=5,33&sciodt=0,33&hl=en
+INFO:scholarly:Session proxy config is {}
+INFO:scholarly:Getting https://scholar.google.com/scholar?cites=11239954465175291003&as_sdt=5,33&sciodt=0,33&hl=en
+INFO:scholarly:Session proxy config is {}
+INFO:scholarly:Getting https://scholar.google.com/scholar?cites=11239954465175291003&as_sdt=5,33&sciodt=0,33&hl=en
+INFO:scholarly:Session proxy config is {}
+INFO:scholarly:Getting https://scholar.google.com/scholar?q=info:cnTqj4pg0bIJ:scholar.google.com/&output=cite&scirp=1&hl=en
+INFO:scholarly:Session proxy config is {}
+INFO:scholarly:Getting https://scholar.googleusercontent.com/scholar.bib?q=info:cnTqj4pg0bIJ:scholar.google.com/&output=citation&scisdr=CgVLxfYSEK2N5XKMVFE:AAGBfm0AAAAAX46JTFFaH2JSDR4-zGyYTIVidWpfM62E&scisig=AAGBfm0AAAAAX46JTNIeexKxWieA8cLxsGAlqOx9V-vZ&scisf=4&ct=citation&cd=-1&hl=en
+INFO:scholarly:Session proxy config is {}
+INFO:scholarly:Getting https://scholar.google.com/scholar?cites=12885186157119960178&as_sdt=5,33&sciodt=0,33&hl=en
+INFO:scholarly:Session proxy config is {}
+INFO:scholarly:Getting https://scholar.google.com/scholar?cites=12885186157119960178&as_sdt=5,33&sciodt=0,33&hl=en
+INFO:scholarly:Session proxy config is {}
+INFO:scholarly:Getting https://scholar.google.com/scholar?start=10&q=modernizing+the+systematic+review+pipeline&hl=en&as_sdt=0,33
+INFO:scholarly:Session proxy config is {}
+INFO:scholarly:Getting https://scholar.google.com/scholar?start=20&q=modernizing+the+systematic+review+pipeline&hl=en&as_sdt=0,33
+INFO:scholarly:Session proxy config is {}

@@ -1,0 +1,962 @@
+{
+  "data": [
+    {
+      "gsrank": "1",
+      "title": "Toward modernizing the systematic review pipeline in genetics: efficient updating via data mining",
+      "url": "https://www.nature.com/articles/gim20127",
+      "author": [
+        "BC Wallace",
+        "K Small",
+        "CE Brodley",
+        "J Lau"
+      ],
+      "author_id": [
+        "KTzRHmwAAAAJ",
+        "tFwkk-YAAAAJ",
+        "sQ8u6h4AAAAJ",
+        "GhHU-PUAAAAJ"
+      ],
+      "year": "2012",
+      "venue": "Genetics in \u2026",
+      "abstract": "Purpose: The aim of this study was to demonstrate that modern data mining tools can be used as one step in reducing the labor necessary to produce and maintain systematic reviews. Methods: We used four continuously updated, manually curated resources that",
+      "cites": "61",
+      "eprint": "https://www.nature.com/articles/gim20127"
+    },
+    {
+      "gsrank": "2",
+      "title": "Modernizing the systematic review process to inform comparative effectiveness: tools and methods",
+      "url": "https://www.futuremedicine.com/doi/abs/10.2217/cer.13.17",
+      "author": [
+        "BC Wallace",
+        "IJ Dahabreh",
+        "CH Schmid"
+      ],
+      "author_id": [
+        "KTzRHmwAAAAJ",
+        "t-qaoUQAAAAJ",
+        "e23jpIoAAAAJ"
+      ],
+      "year": "2013",
+      "venue": "Journal of \u2026",
+      "abstract": "Table 1. Nonexhaustive list of examples of potential targets for modernizing systematic reviews  New informatics tools and statistical methods are needed to modernize the practice of systematic reviews  There is room in each of these steps for modernization",
+      "cites": "46",
+      "eprint": "http://www.byronwallace.com/static/articles/Wallace-et-al-JCER-2013.pdf"
+    },
+    {
+      "gsrank": "3",
+      "title": "Modernizing evidence synthesis for evidence-based medicine",
+      "url": "https://www.sciencedirect.com/science/article/pii/B9780123984760000129",
+      "author": [
+        "BC Wallace",
+        "IJ Dahabreh",
+        "CH Schmid",
+        "J Lau"
+      ],
+      "author_id": [
+        "KTzRHmwAAAAJ",
+        "t-qaoUQAAAAJ",
+        "e23jpIoAAAAJ",
+        "GhHU-PUAAAAJ"
+      ],
+      "year": "2014",
+      "venue": "Clinical Decision \u2026",
+      "abstract": "Medical Informatics Potential: Modernizing Data Extraction  medical informatics, which has the potential to increase the efficiency of the systematic review process without  Having reviewed the steps comprising systematic reviews, we now turn our attention to statistical methods",
+      "cites": "5"
+    },
+    {
+      "gsrank": "5",
+      "title": "Improving the conduct of systematic reviews: a process mining perspective",
+      "url": "https://www.sciencedirect.com/science/article/pii/S0895435618300581",
+      "author": [
+        "E Bagheri",
+        "P Rios",
+        "A Pourmasoumi",
+        "RC Robson"
+      ],
+      "author_id": [
+        "mG0H8oYAAAAJ",
+        null,
+        "RXm63hcAAAAJ",
+        null
+      ],
+      "year": "2018",
+      "venue": "Journal of clinical \u2026",
+      "abstract": "can provide a practical and informative approach toward improving and modernizing the systematic  International efforts have been ongoing over the last decade to modernize the process  study illustrates the utility of process mining to examine the systematic review process and",
+      "cites": "9",
+      "eprint": "https://tspace.library.utoronto.ca/bitstream/1807/90415/1/Improving%20the%20Conduct%20of_TSpace.pdf"
+    },
+    {
+      "gsrank": "6",
+      "title": "Reducing systematic review workload through certainty-based screening",
+      "url": "https://www.sciencedirect.com/science/article/pii/S1532046414001439",
+      "author": [
+        "M Miwa",
+        "J Thomas",
+        "A O'Mara-Eves"
+      ],
+      "author_id": [
+        "lhpx2fkAAAAJ",
+        "dhTcJgkAAAAJ",
+        "Wc-_8jgAAAAJ"
+      ],
+      "year": "2014",
+      "venue": "Journal of biomedical \u2026",
+      "abstract": "hidden in text between named entities and to enable users to systematically and efficiently  ie, determining whether a given document is relevant, or irrelevant, in the systematic review for which  whether the document is potentially relevant, or irrelevant for the review in question",
+      "cites": "105",
+      "eprint": "https://www.sciencedirect.com/science/article/pii/S1532046414001439"
+    },
+    {
+      "gsrank": "7",
+      "title": "Innovations in data collection, management, and archiving for systematic reviews",
+      "url": "https://www.acpjournals.org/doi/abs/10.7326/M14-1603",
+      "author": [
+        "T Li",
+        "SS Vedula",
+        "N Hadar",
+        "C Parkin",
+        "J Lau"
+      ],
+      "author_id": [
+        "r-02XGkAAAAJ",
+        "PfS4RUYAAAAJ",
+        null,
+        null,
+        "GhHU-PUAAAAJ"
+      ],
+      "year": "2015",
+      "venue": "Annals of internal \u2026",
+      "abstract": "do not simply give final decision-making power to the senior reviewer\u201d (3.5.1) (2  by-step tutorial for collecting, managing, and archiving data for systematic reviews and suggest steps for developing rigorous data collection forms in the Systematic Review Data Repository",
+      "cites": "70",
+      "eprint": "https://www.researchgate.net/profile/Kay_Dickersin/publication/272358598_Innovations_in_Data_Collection_Management_and_Archiving_for_Systematic_Reviews/links/554373940cf24107d39582e8/Innovations-in-Data-Collection-Management-and-Archiving-for-Systematic-Reviews.pdf"
+    },
+    {
+      "gsrank": "8",
+      "title": "Using text mining for study identification in systematic reviews: a systematic review of current approaches",
+      "url": "https://link.springer.com/article/10.1186/2046-4053-4-5",
+      "author": [
+        "A O'Mara-Eves",
+        "J Thomas",
+        "J McNaught",
+        "M Miwa"
+      ],
+      "author_id": [
+        "Wc-_8jgAAAAJ",
+        "dhTcJgkAAAAJ",
+        "MSKpy6gAAAAJ",
+        "lhpx2fkAAAAJ"
+      ],
+      "year": "2015",
+      "venue": "Systematic reviews",
+      "abstract": "of text mining for screening has not yet been pulled together systematically; this systematic  Methods guidance for conducting systematic reviews often suggests that more than one person should screen  in Standard 3.3.3. 'Use two or more members of the review team, working",
+      "cites": "284",
+      "eprint": "https://link.springer.com/article/10.1186/2046-4053-4-5"
+    },
+    {
+      "gsrank": "9",
+      "title": "Toward systematic review automation: a practical guide to using machine learning tools in research synthesis",
+      "url": "https://systematicreviewsjournal.biomedcentral.com/articles/10.1186/s13643-019-1074-9",
+      "author": [
+        "IJ Marshall",
+        "BC Wallace"
+      ],
+      "author_id": [
+        "4kdySIYAAAAJ",
+        "KTzRHmwAAAAJ"
+      ],
+      "year": "2019",
+      "venue": "Systematic reviews",
+      "abstract": "The core natural language processing (NLP) technologies used in systematic reviews are text classification and  within a candidate set meet the inclusion criteria for a particular review on the  from most to least relevant, thus potentially allowing the human reviewer to identify the",
+      "cites": "41",
+      "eprint": "https://systematicreviewsjournal.biomedcentral.com/articles/10.1186/s13643-019-1074-9"
+    },
+    {
+      "gsrank": "10",
+      "title": "The value of a second reviewer for study selection in systematic reviews",
+      "url": "https://onlinelibrary.wiley.com/doi/abs/10.1002/jrsm.1369",
+      "author": [
+        "CRT Stoll",
+        "S Izadi",
+        "S Fowler",
+        "P Green"
+      ],
+      "author_id": [
+        null,
+        null,
+        null,
+        null
+      ],
+      "year": "2019",
+      "venue": "Research Synthesis \u2026",
+      "abstract": "single reviewer. These 515 records were then dually reviewed by two reviewers, and  2011;2(1):1-14. 12. Wallace BC, Small K, Brodley CE, et al. Toward modernizing the systematic review pipeline in genetics: efficient updating via data mining. Genetics In Medicine",
+      "cites": "9"
+    },
+    {
+      "gsrank": "11",
+      "title": "Oil and Gas 4.0 era: A systematic review and outlook",
+      "url": "https://www.sciencedirect.com/science/article/pii/S0166361519302064",
+      "author": [
+        "H Lu",
+        "L Guo",
+        "M Azimi",
+        "K Huang"
+      ],
+      "author_id": [
+        "bxPadHoAAAAJ",
+        null,
+        "hBEg34AAAAAJ",
+        null
+      ],
+      "year": "2019",
+      "venue": "Computers in Industry",
+      "abstract": "Therefore, this paper systematically introduces the concept and core technologies of \u201cOil and  That is to say, there is currently no systematic academic paper on \u201cOil  Modernizing internal processes through automation will help simplify production and distribution processes and",
+      "cites": "40"
+    },
+    {
+      "gsrank": "12",
+      "title": "Diffusion of innovation in systematic review methodology: why is study selection not yet assisted by automation",
+      "url": "http://www.oapublishinglondon.com/images/article/pdf/1411781001.pdf",
+      "author": [
+        "J Thomas"
+      ],
+      "author_id": [
+        "dhTcJgkAAAAJ"
+      ],
+      "year": "2013",
+      "venue": "OA Evidence-Based Medicine",
+      "abstract": "of relevant studies from which to 'learn', if the sample is biased in some way, there is the possibility that the process will systematically fail to  They either use 3rd party systematic review software, such as Covidence, Distiller SR, Dr Evidence or EPPI- Reviewer etc.; a",
+      "cites": "29",
+      "eprint": "http://www.oapublishinglondon.com/images/article/pdf/1411781001.pdf"
+    },
+    {
+      "gsrank": "13",
+      "title": "Machine learning algorithms for systematic review: reducing workload in a preclinical review of animal studies and reducing human screening error",
+      "url": "https://systematicreviewsjournal.biomedcentral.com/articles/10.1186/s13643-019-0942-7/",
+      "author": [
+        "A Bannach-Brown",
+        "P Przyby\u0142a"
+      ],
+      "author_id": [
+        "3glzaTsAAAAJ",
+        "OpiwQjQAAAAJ"
+      ],
+      "year": "2019",
+      "venue": "Systematic \u2026",
+      "abstract": "In clinical systematic reviews, Borah and colleagues [6] showed the average clinical systematic review registered on PROSPERO (International Prospective Register of Systematic Reviews) takes an average 67.3 weeks to complete",
+      "cites": "25",
+      "eprint": "https://systematicreviewsjournal.biomedcentral.com/articles/10.1186/s13643-019-0942-7/"
+    },
+    {
+      "gsrank": "14",
+      "title": "Systematic review is e-discovery in doctor's clothing",
+      "url": "https://www.ischool.utexas.edu/~ml/papers/lease-medir16.pdf",
+      "author": [
+        "M Lease",
+        "GV Cormack",
+        "AT Nguyen"
+      ],
+      "author_id": [
+        "qgmiQ5IAAAAJ",
+        "wFuZKaUAAAAJ",
+        "JcIMDBYAAAAJ"
+      ],
+      "year": "2016",
+      "venue": "Proceedings of the \u2026",
+      "abstract": "This may stem from having a more narrowly-defined scientific domain and set of inclusion criteria for determining relevance, with less variation in types of documents being reviewed, medical training of the screeners, and  \u201cModernizing the systematic review process to inform",
+      "cites": "5",
+      "eprint": "https://www.ischool.utexas.edu/~ml/papers/lease-medir16.pdf"
+    },
+    {
+      "gsrank": "15",
+      "title": "A Dataset of Systematic Review Updates",
+      "url": "https://dl.acm.org/doi/abs/10.1145/3331184.3331358",
+      "author": [
+        "A Alharbi",
+        "M Stevenson"
+      ],
+      "author_id": [
+        null,
+        "tXe1lgkAAAAJ"
+      ],
+      "year": "2019",
+      "venue": "Proceedings of the 42nd International ACM \u2026",
+      "abstract": "Cochrane's Living Evidence Network have recently started developing living systematic reviews for which evidence is reviewed frequently (normally monthly) [7] but it is un- clear whether this effort is sustainable  Toward modernizing the systematic review pipeline in genetics",
+      "cites": "0",
+      "eprint": "http://eprints.whiterose.ac.uk/146321/8/SIGIR2019___A_Dataset_of_Systematic_Review_Updates.pdf"
+    },
+    {
+      "gsrank": "16",
+      "title": "Evaluation of text mining to reduce screening workload for injury-focused systematic reviews",
+      "url": "https://injuryprevention.bmj.com/content/26/1/55.abstract",
+      "author": [
+        "MJ Giummarra",
+        "G Lau",
+        "BJ Gabbe"
+      ],
+      "author_id": [
+        "KUvURdsAAAAJ",
+        "mAcOzRwAAAAJ",
+        "zGegzE0AAAAJ"
+      ],
+      "year": "2020",
+      "venue": "Injury prevention",
+      "abstract": "Conclusions Overall, text mining offered important benefits to systematic review workflow, but should not replace full screening by one reviewer, especially for complex reviews examining multiple health or injury outcomes. Trial registration number CRD42018084123",
+      "cites": "2"
+    },
+    {
+      "gsrank": "17",
+      "title": "Focus: Medical Education: Modernizing Medical Education through Leadership Development",
+      "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7448395/",
+      "author": [
+        "H Bai"
+      ],
+      "author_id": [
+        "BtO5pPEAAAAJ"
+      ],
+      "year": "2020",
+      "venue": "The Yale journal of biology and medicine",
+      "abstract": "Modernizing Medical Education through Leadership Development  As with any transformational change, staunch resistance to modernize medical education remains  Interprofessional Education: A Review and Analysis of Programs From Three Academic Health Centers",
+      "cites": "0",
+      "eprint": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7448395/"
+    },
+    {
+      "gsrank": "18",
+      "title": "Opportunities for improvement: Cochrane review updating workflow with pain points and communication flows",
+      "url": "http://www.academia.edu/download/44529639/CochraneTech_Technology_and_the_Future_o20160408-26073-9eqh9.pdf",
+      "author": [
+        "BW Riis",
+        "J Thomas",
+        "A Noel-Storr",
+        "G Rada",
+        "C Struthers"
+      ],
+      "author_id": [
+        null,
+        "dhTcJgkAAAAJ",
+        null,
+        null,
+        null
+      ],
+      "venue": "NA",
+      "year": "NA",
+      "abstract": "Toward modernizing the systematic review pipeline in genetics: efficient updating via data mining  James Thomas works on an online systematic review software application, EPPI-Reviewer, which is a not-for- profit service of his institution",
+      "cites": "0",
+      "eprint": "http://www.academia.edu/download/44529639/CochraneTech_Technology_and_the_Future_o20160408-26073-9eqh9.pdf"
+    },
+    {
+      "gsrank": "19",
+      "title": "Living systematic reviews: an emerging opportunity to narrow the evidence-practice gap",
+      "url": "https://journals.plos.org/plosmedicine/article?id=10.1371/journal.pmed.1001603",
+      "author": [
+        "JH Elliott",
+        "T Turner",
+        "O Clavisi",
+        "J Thomas",
+        "JPT Higgins"
+      ],
+      "author_id": [
+        "ZCuMHmQAAAAJ",
+        "C5ncZ68AAAAJ",
+        null,
+        "dhTcJgkAAAAJ",
+        "EYQIr1sAAAAJ"
+      ],
+      "year": "2014",
+      "venue": "PLoS med",
+      "abstract": "Provenance: Not commissioned; externally peer reviewed. Summary  Elliott J (2012) Exploiting innovations in technology to improve the efficiency of review production  Thomas J, McNaught J, Ananiadou S (2011) Applications of text mining within systematic reviews",
+      "cites": "278",
+      "eprint": "https://journals.plos.org/plosmedicine/article?id=10.1371/journal.pmed.1001603"
+    },
+    {
+      "gsrank": "20",
+      "title": "Harmonization of reimbursement and regulatory approval processes: a systematic review of international experiences",
+      "url": "https://www.tandfonline.com/doi/abs/10.1586/14737167.2013.814962",
+      "author": [
+        "B Tsoi",
+        "L Masucci",
+        "K Campbell"
+      ],
+      "author_id": [
+        null,
+        null,
+        null
+      ],
+      "year": "2013",
+      "venue": "Expert review of \u2026",
+      "abstract": "the focus has been on the regulators, with suggestions both to modernize the type  In terms of modernizing existing evidentiary requirements, the literature has focused on safety  The regulatory process requires modernization, as knowledge about a healthcare technology is not",
+      "cites": "24"
+    },
+    {
+      "gsrank": "21",
+      "title": "Opportunities for improvement: Cochrane review updating workflow with pain points and communication flows",
+      "author": [
+        "J Elliott",
+        "I Sim",
+        "J Thomas",
+        "N Owens",
+        "G Dooley",
+        "J Riis"
+      ],
+      "author_id": [
+        null,
+        "tXOkv2cAAAAJ",
+        "RCh5AuMAAAAJ",
+        null,
+        null,
+        null
+      ],
+      "venue": "NA",
+      "year": "NA",
+      "cites": "0"
+    },
+    {
+      "gsrank": "30",
+      "title": "Survey of public information about ongoing clinical trials funded by industry: evaluation of completeness and accessibility",
+      "url": "https://www.bmj.com/content/325/7363/528.1?variant=full-text",
+      "author": [
+        "E Manheimer",
+        "D Anderson"
+      ],
+      "author_id": [
+        null,
+        "LaDptTkAAAAJ"
+      ],
+      "year": "2002",
+      "venue": "Bmj",
+      "abstract": "trials; if the published trials are not representative of all trials undertaken, the systematic review may be  4 \u2013 6 Clinicians who make treatment decisions based on biased systematic reviews or treat  19 In the United States the Food and Drug Administration Modernization Act 1997",
+      "cites": "69",
+      "eprint": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC124135/"
+    },
+    {
+      "gsrank": "33",
+      "title": "Living systematic reviews",
+      "url": "https://ktdrr.org/products/update/v2n4/KT_Update_v2n4.pdf",
+      "author": [
+        "M Dijkers"
+      ],
+      "author_id": [
+        null
+      ],
+      "venue": "NA",
+      "year": "NA",
+      "abstract": "do systematic reviews go out of date? A survival analysis. Annals of Internal Medicine, 147(4), 224-233. Wallace, BC, Small, K., Brodley, CE, Lau, J., Schmid, CH, Bertram, L., Lill, CM, Cohen, JT, & Trikalinos, TA (2012). Toward modernizing the systematic review pipeline in",
+      "cites": "0",
+      "eprint": "https://ktdrr.org/products/update/v2n4/KT_Update_v2n4.pdf"
+    },
+    {
+      "gsrank": "44",
+      "title": "A critical analysis of studies that address the use of text mining for citation screening in systematic reviews",
+      "url": "https://dl.acm.org/doi/abs/10.1145/2915970.2915982",
+      "author": [
+        "BK Olorisade",
+        "E de Quincey",
+        "P Brereton"
+      ],
+      "author_id": [
+        "Vgq3qUgAAAAJ",
+        "FKuWJvgAAAAJ",
+        "pBN51isAAAAJ"
+      ],
+      "year": "2016",
+      "venue": "Proceedings of the 20th \u2026",
+      "abstract": "4. RESULTS In this section, the research questions are answered based on the studies reviewed. Eight of the 44 papers were excluded from this review because they did not  58]; there was no text mining experiment conducted in [73], though, systematic review was discussed in",
+      "cites": "22",
+      "eprint": "http://eprints.keele.ac.uk/1635/1/Qasim%20-%20EASE%202016.pdf"
+    },
+    {
+      "gsrank": "64",
+      "title": "Meta-analysis for genome-wide association studies using case-control design: application and practice",
+      "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5309730/",
+      "author": [
+        "S Shim",
+        "J Kim",
+        "W Jung",
+        "IS Shin",
+        "JM Bae"
+      ],
+      "author_id": [
+        "R54DAxEAAAAJ",
+        null,
+        "mbXJgwcAAAAJ",
+        null,
+        null
+      ],
+      "year": "2016",
+      "venue": "Epidemiology and Health",
+      "abstract": "Sagoo GS, Little J, Higgins JP. Systematic reviews of genetic association studies  Wallace BC, Small K, Brodley CE, Lau J, Schmid CH, Bertram L, et al. Toward modernizing the systematic review pipeline in genetics: efficient updating via data mining. Genet Med",
+      "cites": "4",
+      "eprint": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5309730/"
+    },
+    {
+      "gsrank": "67",
+      "title": "Reproducibility of studies on text mining for citation screening in systematic reviews: evaluation and checklist",
+      "url": "https://www.sciencedirect.com/science/article/pii/S1532046417301661",
+      "author": [
+        "BK Olorisade",
+        "P Brereton",
+        "P Andras"
+      ],
+      "author_id": [
+        "Vgq3qUgAAAAJ",
+        "pBN51isAAAAJ",
+        "kkWc7LUAAAAJ"
+      ],
+      "year": "2017",
+      "venue": "Journal of biomedical informatics",
+      "abstract": "33 articles were systematically assessed for reproducibility using this approach  field with the first reported publication on the subject in 2005 [21] and a systematic review of 44  we tried to reproduce six of the experiments that used the Drug Evaluation Review Program (DERP",
+      "cites": "20",
+      "eprint": "https://www.sciencedirect.com/science/article/pii/S1532046417301661"
+    },
+    {
+      "gsrank": "81",
+      "title": "A systematic review on the overprescription of antibiotics causing antibiotic resistance.",
+      "url": "http://search.ebscohost.com/login.aspx?direct=true&profile=ehost&scope=site&authtype=crawler&jrnl=09757619&AN=132173462&h=dMg58h57%2FQCqhZvUVXamveuS6q9gTITS0pjOuQ2%2BWGUdKinGL%2Fr9Rk1gqn2jrXhBt%2F9s3CyXjwHIJaZJBon9fg%3D%3D&crl=c",
+      "author": [
+        "VS Keziah",
+        "J Priya"
+      ],
+      "author_id": [
+        null,
+        null
+      ],
+      "year": "2018",
+      "venue": "Drug Invention Today",
+      "abstract": "A systematic review on the overprescription of antibiotics  The first step is to systematically collect and report the data on antibiotic resistance rates among different pathogens broadly throughout the  The third and final step is to modernize approaches to antimicrobial stewardship",
+      "cites": "1"
+    },
+    {
+      "gsrank": "89",
+      "title": "Buhos: A web-based systematic literature review management software",
+      "url": "https://www.sciencedirect.com/science/article/pii/S2352711018300293",
+      "author": [
+        "CB Navarrete",
+        "MGM Malverde",
+        "PS Lagos",
+        "AD Mujica"
+      ],
+      "author_id": [
+        "BN2RXTUAAAAJ",
+        null,
+        "HlanGsibdJUC",
+        null
+      ],
+      "year": "2018",
+      "venue": "SoftwareX",
+      "abstract": "An example of this mode of understanding systematic reviews is put forward by EPPI-Centre, which explicitly points out that the only thing that differentiates a systematic review from one that is not systematic is that \u201ca systematic review has an explicit, rigorous methodology",
+      "cites": "3",
+      "eprint": "https://www.sciencedirect.com/science/article/pii/S2352711018300293"
+    },
+    {
+      "gsrank": "99",
+      "title": "When intention-to-treat is not the question: systematic reviews and meta-analyses on the causal effect of treatment",
+      "url": "https://www.researchgate.net/profile/Megan_Wainwright/publication/283347825_Confidence_in_the_Evidence_from_Reviews_of_Qualitative_research_CERQual_Development_and_Future_Directions_of_a_Novel_Approach/links/5635b27b08ae75884113af13/Confidence-in-the-Evidence-from-Reviews-of-Qualitative-research-CERQual-Development-and-Future-Directions-of-a-Novel-Approach.pdf#page=31",
+      "author": [
+        "I Shrier",
+        "ME Schnitzer",
+        "RJ Steele"
+      ],
+      "author_id": [
+        "7migbTUAAAAJ",
+        "Zm940GMAAAAJ",
+        "-HzKeNwAAAAJ"
+      ],
+      "year": "2006",
+      "venue": "COCHRANE METHODS",
+      "abstract": "reviews, technology assessments or guidelines; \u2013expert librarian search with annotated bibliography, an update of existing systematic reviews or tech- nology assessments, or a primary summary of the evidence if these types of syntheses are not avail- able; \u2013review of select",
+      "cites": "0",
+      "eprint": "https://www.researchgate.net/profile/Megan_Wainwright/publication/283347825_Confidence_in_the_Evidence_from_Reviews_of_Qualitative_research_CERQual_Development_and_Future_Directions_of_a_Novel_Approach/links/5635b27b08ae75884113af13/Confidence-in-the-Evidence-from-Reviews-of-Qualitative-research-CERQual-Development-and-Future-Directions-of-a-Novel-Approach.pdf#page=31"
+    },
+    {
+      "gsrank": "115",
+      "title": "Improving systematic literature review with automation and bibliometrics",
+      "url": "https://ieeexplore.ieee.org/abstract/document/8481746/",
+      "author": [
+        "N Pulsiri"
+      ],
+      "author_id": [
+        null
+      ],
+      "year": "2018",
+      "venue": "2018 Portland International \u2026",
+      "abstract": "Wallace et al. [25] Toward Modernizing the Systematic  Wallace et al. [28] Semi-automated screening of biomedical citations for systematic reviews Tools/ Methods  Both approaches have some advantages and it depends on the review for the selection into evaluation step",
+      "cites": "9"
+    },
+    {
+      "gsrank": "118",
+      "title": "Use and costs of bariatric surgery and prescription weight-loss medications",
+      "url": "https://www.healthaffairs.org/doi/abs/10.1377/hlthaff.24.4.1039",
+      "author": [
+        "WE Encinosa",
+        "DM Bernard",
+        "CA Steiner",
+        "CC Chen"
+      ],
+      "author_id": [
+        null,
+        null,
+        null,
+        null
+      ],
+      "year": "2005",
+      "venue": "Health Affairs",
+      "abstract": "Guidelines created under the Medicare Prescription Drug, Improvement, and Modernization Act (MMA  Google Scholar Google Scholar; 2 Datamonitor, Commercial and Pipeline Perspectives: Obesity (London  3 H. Buchwald et al., \u201cBariatric Surgery: A Systematic Review and Meta",
+      "cites": "147",
+      "eprint": "https://www.healthaffairs.org/doi/full/10.1377/hlthaff.24.4.1039"
+    },
+    {
+      "gsrank": "119",
+      "title": "Automating systematic reviews",
+      "url": "https://research.bond.edu.au/files/36092224/John_Rathbone_Thesis.pdf",
+      "author": [
+        "J Rathbone"
+      ],
+      "author_id": [
+        null
+      ],
+      "year": "2017",
+      "venue": "NA",
+      "abstract": "John Rathbone 31/08/2017 Page 11. x Page 12. xi Research outputs Peer-reviewed publications  If the evidence had been assessed systematically at the time these risks might have been addressed sooner, but because no systematic review was available the risks",
+      "cites": "3",
+      "eprint": "https://research.bond.edu.au/files/36092224/John_Rathbone_Thesis.pdf"
+    },
+    {
+      "gsrank": "126",
+      "title": "Talent development: A systematic literature review of empirical studies",
+      "url": "https://www.emerald.com/insight/content/doi/10.1108/EJTD-09-2017-0076/full/html",
+      "author": [
+        "F Rezaei",
+        "M Beyerlein"
+      ],
+      "author_id": [
+        null,
+        "nmjYwL4AAAAJ"
+      ],
+      "year": "2018",
+      "venue": "European Journal of Training and \u2026",
+      "abstract": "Method. The primary method used to answer this study's questions is a systematic literature review, which is \u201ca form of research that  Therefore, to construct a new model in the area of TD, existing empirical studies need to be reviewed and systematically synthesized",
+      "cites": "12"
+    },
+    {
+      "gsrank": "128",
+      "title": "Association of sedentary behavior with the risk of breast cancer in women: update meta-analysis of observational studies",
+      "url": "https://www.sciencedirect.com/science/article/pii/S1047279715001921",
+      "author": [
+        "Y Zhou",
+        "H Zhao",
+        "C Peng"
+      ],
+      "author_id": [
+        null,
+        null,
+        null
+      ],
+      "year": "2015",
+      "venue": "Annals of epidemiology",
+      "abstract": "This systematic review was performed in accordance with the meta-analysis of observational studies in  manual searches of the reference lists of the retrieved articles and review articles to  and abstracts, of which 677 were excluded because they were reviews, cross-sectional",
+      "cites": "55",
+      "eprint": "http://activeworking.com/pdfs/research/79.pdf"
+    },
+    {
+      "gsrank": "129",
+      "title": "Architecting with microservices: A systematic mapping study",
+      "url": "https://www.sciencedirect.com/science/article/pii/S0164121219300019",
+      "author": [
+        "P Di Francesco",
+        "P Lago",
+        "I Malavolta"
+      ],
+      "author_id": [
+        "ZpEaqsQAAAAJ",
+        "q5vgzKgAAAAJ",
+        "ya3htIoAAAAJ"
+      ],
+      "year": "2019",
+      "venue": "Journal of Systems and Software",
+      "abstract": "Studies subject to peer review  We chose this comparison because (i) it has been widely used in various systematic mapping studies (eg, Engstr\u00f6m, Runeson, 2011  As described in Section 3.3, the part of classification framework related to RQ2 has been systematically defined",
+      "cites": "34",
+      "eprint": "https://research.vu.nl/files/75752185/Architecting_with_microservices_A_systematic_mapping_study.pdf"
+    },
+    {
+      "gsrank": "131",
+      "title": "The landscape of clinical trials in nephrology: a systematic review of Clinicaltrials. gov",
+      "url": "https://www.sciencedirect.com/science/article/pii/S0272638613014261",
+      "author": [
+        "JK Inrig",
+        "RM Califf",
+        "A Tasneem",
+        "RK Vegunta"
+      ],
+      "author_id": [
+        null,
+        null,
+        null,
+        "p5Sf5fsAAAAJ"
+      ],
+      "year": "2014",
+      "venue": "American journal of \u2026",
+      "abstract": "to clinical trial information, the US Food and Drug Administration (FDA) Modernization Act of  In this systematic review, we compared critical trial characteristics essential for the proper testing  However, our review process attempted to minimize these potential biases; all studies",
+      "cites": "97",
+      "eprint": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3988265/"
+    },
+    {
+      "gsrank": "136",
+      "title": "The incidence of breast cancer among female flight attendants: an updated meta-analysis",
+      "url": "https://academic.oup.com/jtm/article-abstract/23/6/taw055/2750995",
+      "author": [
+        "T Liu",
+        "C Zhang",
+        "C Liu"
+      ],
+      "author_id": [
+        null,
+        null,
+        null
+      ],
+      "year": "2016",
+      "venue": "Journal of travel medicine",
+      "abstract": "MOOSE guideline. Methods: A systematical search of PubMed and Embase for relevant observational studies up to March 2016 was performed, supplemented by manual reviews of bibliographies in relevant studies. A random",
+      "cites": "10",
+      "eprint": "https://academic.oup.com/jtm/article/23/6/taw055/2750995"
+    },
+    {
+      "gsrank": "139",
+      "title": "Clinical development success rates and social value of pediatric Phase 1 trials in oncology",
+      "url": "https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0234911",
+      "author": [
+        "MT Wasylewski",
+        "K Strzebonska",
+        "M Koperny",
+        "M Polak"
+      ],
+      "author_id": [
+        null,
+        "0xDWcz0AAAAJ",
+        null,
+        null
+      ],
+      "year": "2020",
+      "venue": "PloS one",
+      "abstract": "That study systematically searched EMBASE and PubMed for small sample size, non-randomized, dose  Almost every reviewed trial (94%) was cited by at least one subsequent primary research  compared to solid tumor trials (3%) as shown by our previous systematic review [12",
+      "cites": "0",
+      "eprint": "https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0234911"
+    },
+    {
+      "gsrank": "142",
+      "title": "Approaches to modernize the combination drug development paradigm",
+      "url": "https://link.springer.com/article/10.1186/s13073-016-0369-x",
+      "author": [
+        "D Day",
+        "LL Siu"
+      ],
+      "author_id": [
+        null,
+        "l7_oA-wAAAAJ"
+      ],
+      "year": "2016",
+      "venue": "Genome medicine",
+      "abstract": "Approaches to modernize the combination drug development paradigm  in addition to the expanding number of potential drug targets, necessitates systematic and efficient  Computational network-based algorithms can also systematically analyze gene regulatory and signaling",
+      "cites": "35",
+      "eprint": "https://link.springer.com/article/10.1186/s13073-016-0369-x"
+    },
+    {
+      "gsrank": "144",
+      "title": "When and how to Update Systematic Reviews",
+      "url": "https://core.ac.uk/download/pdf/110168708.pdf",
+      "author": [
+        "A Tsertsvadze"
+      ],
+      "author_id": [
+        null
+      ],
+      "year": "2017",
+      "venue": "NA",
+      "abstract": "not updated or a new review. Publication 2 (or Publication 3) systematically reviewed methods  Reviews [7] Publication 3 (Appendix 2) - When and How to Update Systematic Reviews [41]  be as costly and time consuming as conducting a new review. The decision when to",
+      "cites": "0",
+      "eprint": "https://core.ac.uk/download/pdf/110168708.pdf"
+    },
+    {
+      "gsrank": "147",
+      "title": "Drug discovery: An appraisal",
+      "url": "https://www.researchgate.net/profile/Gurunathan_Subramanian/publication/274639933_DRUG_DISCOVERY_AN_APPRAISAL/links/5524b4f50cf22e181e73a9da/DRUG-DISCOVERY-AN-APPRAISAL.pdf",
+      "author": [
+        "VGS Umashankar",
+        "S Gurunathan"
+      ],
+      "author_id": [
+        null,
+        "5SKh90UAAAAJ"
+      ],
+      "year": "2015",
+      "venue": "Int J Pharm Pharmaceutical Sci",
+      "abstract": "we intend to present a comprehensive view of overall transition and modernization of the  traditional approach to drug discovery has given way to a more modernized information-based  P, Lexchin J, Cunningham C, Greyson D. The cost of drug development: a systematic review",
+      "cites": "19",
+      "eprint": "https://www.researchgate.net/profile/Gurunathan_Subramanian/publication/274639933_DRUG_DISCOVERY_AN_APPRAISAL/links/5524b4f50cf22e181e73a9da/DRUG-DISCOVERY-AN-APPRAISAL.pdf"
+    },
+    {
+      "gsrank": "151",
+      "title": "Making personalized health care even more personalized: insights from activities of the IOM genomics roundtable",
+      "url": "https://www.annfammed.org/content/13/4/373.short",
+      "author": [
+        "SP David",
+        "SG Johnson",
+        "AC Berger"
+      ],
+      "author_id": [
+        null,
+        null,
+        null
+      ],
+      "year": "2015",
+      "venue": "The Annals of Family \u2026",
+      "abstract": "Skip to main content. Main menu. Home; Content: Current Issue; Past Issues; Articles by Subject; Articles by Type; Supplements; The Issue in Brief; Past Issues in Brief. Info for: Authors; Reviewers; Media; Job Seekers. About: Annals",
+      "cites": "30",
+      "eprint": "https://www.annfammed.org/content/annalsfm/13/4/373.full.pdf"
+    },
+    {
+      "gsrank": "158",
+      "title": "2016 AHA/ACC guideline on the management of patients with lower extremity peripheral artery disease: a report of the American College of Cardiology/American \u2026",
+      "url": "https://www.onlinejacc.org/content/69/11/e71?_ga=1.139820787.1310347736.1492006524",
+      "author": [
+        "MD Gerhard-Herman",
+        "HL Gornik",
+        "C Barrett"
+      ],
+      "author_id": [
+        null,
+        "Dfo7o3cAAAAJ",
+        null
+      ],
+      "year": "2017",
+      "venue": "Journal of the \u2026",
+      "cites": "712",
+      "eprint": "http://fa.iranathero.ir/uploads/lowe.pdf"
+    },
+    {
+      "gsrank": "169",
+      "title": "How can synergism of traditional medicines benefit from network pharmacology?",
+      "url": "https://www.mdpi.com/1420-3049/22/7/1135",
+      "author": [
+        "H Yuan",
+        "Q Ma",
+        "H Cui",
+        "G Liu",
+        "X Zhao",
+        "W Li",
+        "G Piao"
+      ],
+      "author_id": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "year": "2017",
+      "venue": "Molecules",
+      "abstract": "Comprehensive, systematic research into network pharmacology is consistent with the perspective of holisticity  At the same time, modernized TCM will achieve three types of efficiency (high  of experience in TCM, which will provide valuable support for its modernization [19,20]",
+      "cites": "70",
+      "eprint": "https://www.mdpi.com/1420-3049/22/7/1135/pdf"
+    },
+    {
+      "gsrank": "172",
+      "title": "Technology-assisted risk of bias assessment in systematic reviews: a prospective cross-sectional evaluation of the RobotReviewer machine learning tool",
+      "url": "https://www.sciencedirect.com/science/article/pii/S0895435617304729",
+      "author": [
+        "A Gates",
+        "B Vandermeer",
+        "L Hartling"
+      ],
+      "author_id": [
+        null,
+        null,
+        null
+      ],
+      "year": "2018",
+      "venue": "Journal of clinical epidemiology",
+      "abstract": "within the context of traditional systematic reviews, strategies to modernize and accelerate  RobotReviewer (https://robot-reviewer.vortext.systems/) is a freely available, online machine  an international team of researchers to improve efficiency in the systematic review process [12",
+      "cites": "23"
+    },
+    {
+      "gsrank": "186",
+      "title": "Preventing publication bias: Registries and prospective meta-analysis",
+      "url": "https://onlinelibrary.wiley.com/doi/pdf/10.1002/0470870168#page=46",
+      "author": [
+        "JA Berlin",
+        "D Ghersi"
+      ],
+      "author_id": [
+        "bNrsaaEAAAAJ",
+        null
+      ],
+      "year": "2005",
+      "venue": "Publication bias in meta-analysis \u2026",
+      "abstract": "For example, in the USA, the Food and Drug Administration Modernization Act of 1997  However, strictly from the perspective of preventing publication bias in systematic reviews, or, more particularly  the results of their trials, to providing data to be included in a systematic review",
+      "cites": "46",
+      "eprint": "https://osf.io/pfvmd/download#page=55"
+    },
+    {
+      "gsrank": "193",
+      "title": "Human resources for health interventions in high-and middle-income countries: findings of an evidence review",
+      "url": "https://human-resources-health.biomedcentral.com/articles/10.1186/s12960-020-00484-w",
+      "author": [
+        "S Witter",
+        "MM Hamza",
+        "N Alazemi"
+      ],
+      "author_id": [
+        "cW5j9-UAAAAJ",
+        "2l2l-PAAAAAJ",
+        null
+      ],
+      "year": "2020",
+      "venue": "Human \u2026",
+      "abstract": "Many high- and middle-income countries face challenges in developing and maintaining a health workforce which can address changing population health needs. They have experimented with interventions which overlap with but have differences to those documented in low- and",
+      "cites": "0",
+      "eprint": "https://human-resources-health.biomedcentral.com/articles/10.1186/s12960-020-00484-w"
+    },
+    {
+      "gsrank": "202",
+      "title": "Study on the influence of environmental factors on AC corrosion behavior and its mechanism",
+      "url": "https://onlinelibrary.wiley.com/doi/abs/10.1002/maco.201709843",
+      "author": [
+        "Y Xiao",
+        "Y Du",
+        "D Tang",
+        "L Ou",
+        "H Sun"
+      ],
+      "author_id": [
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "year": "2018",
+      "venue": "Materials and \u2026",
+      "abstract": "Please review our Terms and Conditions of Use and check box below to share full  energy demands continue to increase with the rapid development of urban modernization, the corresponding  had an important impact on AC corrosion process, but further systematic work need to",
+      "cites": "4"
+    },
+    {
+      "gsrank": "204",
+      "title": "Number needed to treat and costs per responder among biologic treatments for moderate-to-severe psoriasis: a network meta-analysis",
+      "url": "https://www.tandfonline.com/doi/abs/10.1080/03007995.2018.1457516",
+      "author": [
+        "AW Armstrong",
+        "KA Betts",
+        "JE Signorovitch"
+      ],
+      "author_id": [
+        "iDhlBzYAAAAJ",
+        "BN7it7IAAAAJ",
+        "p9JI6YcAAAAJ"
+      ],
+      "year": "2018",
+      "venue": "\u2026 medical research and \u2026",
+      "abstract": "Detailed methodological reviews and implementation guidelines for network meta-analyses have been  EQW; writing \u2013 original draft: KAB, JL, JES, EQW; writing \u2013 review and editing  to AbbVie, Amgen, Janssen, Merck, Lilly, Celgene, Novartis, Pfizer, and Modernizing Medicine",
+      "cites": "15",
+      "eprint": "http://formsus.datasus.gov.br/novoimgarq/54805/12230049_312364.pdf"
+    }
+  ]
+}
