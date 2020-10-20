@@ -4,7 +4,7 @@ import json
 from title_matchinng import get_similarity, query_get_request
 
 
-def title_to_backwards_citations(title_string, original_title, abstract_string="", target_score=50, target_score_abstract=30):
+def title_to_backwards_citations(title_string, original_title, target_score_title=45):
     """
     getting refernce list of title from a title string
     :param title_string: a title string for a paper
@@ -23,12 +23,12 @@ def title_to_backwards_citations(title_string, original_title, abstract_string="
             # print(title.lower())
             similarity_title = get_similarity(original_title.lower(), title.lower())
             # print(similarity)
-            if (title.lower() in title_string.lower()) and (similarity_title >= target_score):
+            if (title.lower() in title_string.lower()) and (similarity_title >= target_score_title):
                 try:
-                    return result["reference"]
+                    return result["reference"], result
                 except Exception:
-                    return None
-    return None
+                    return None, None
+    return None, None
 
 
 def get_backward_citations(doi):
@@ -48,8 +48,11 @@ def get_backward_citations(doi):
     return results
 
 
-def backwards_snowballing_levels(title_string, abstract_string="", level=2, target_score_title=45, target_score_abstract=30):
-    full_list = [title_to_backwards_citations(title_string, title_string)]
+def backwards_snowballing_levels(title_string, level=2, target_score_title=45):
+    backwards,result = title_to_backwards_citations(title_string, title_string)
+    full_list = [backwards]
+    result_list = [result]
+
     level = level - 1
     counter = 0
     while level >= 0:
@@ -58,15 +61,18 @@ def backwards_snowballing_levels(title_string, abstract_string="", level=2, targ
         for title in full_list[counter]:
             try:
                 check_title = title["unstructured"]
-                append_item = title_to_backwards_citations(check_title, title_string, target_score_title)
+                append_item,result_item = title_to_backwards_citations(check_title, title_string, target_score_title)
                 if append_item is not None:
                     full_list.append(append_item)
+                if result_item is not None:
+                    result_list.append(result_item)
             except Exception:
                 pass
 
         counter += 1
         level = level - 1
-    return full_list
+
+    return result_list
 
 
 if __name__ == '__main__':
