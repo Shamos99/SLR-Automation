@@ -20,7 +20,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="6fa74768-990e-4d39-bc05-863a472692d4" name="Default Changelist" comment="Added Proxy and improved code quality">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/stage2/standardized_json_output.py" beforeDir="false" afterPath="$PROJECT_DIR$/stage2/standardized_json_output.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -61,8 +61,8 @@
       <recent name="$PROJECT_DIR$" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.fuck u in the ass">
-    <configuration name="fuck u in the ass" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Python.standardized_json_output">
+    <configuration name="fuck_u_in_the_ass" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="SLR-Automation" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -75,7 +75,7 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/stage2/fuck u in the ass.py" />
+      <option name="SCRIPT_NAME" value="C:\Users\HP\Desktop\FIT 4003\git project\SLR-Automation\stage2\fuck_u_in_the_ass.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -106,6 +106,28 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="standardized_json_output" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="SLR-Automation" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/stage2" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/stage2/standardized_json_output.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="title_matchinng_spike" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="SLR-Automation" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -128,7 +150,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="Nosetests in /Users/shahmir/Desktop/Monash/Semester 7/FIT4003/GIT/SLR-Automation/scholarly_spike.py" type="tests" factoryName="Nosetests" temporary="true" nameIsGenerated="true">
+    <configuration name="Nosetests in C:/Users/HP/Desktop/FIT 4003/git project/SLR-Automation/scholarly_spike.py" type="tests" factoryName="Nosetests" temporary="true" nameIsGenerated="true">
       <module name="SLR-Automation" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -146,10 +168,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.fuck u in the ass" />
+        <item itemvalue="Python.standardized_json_output" />
+        <item itemvalue="Python.fuck_u_in_the_ass" />
         <item itemvalue="Python.title_matchinng_spike" />
         <item itemvalue="Python.scholarly_spike" />
-        <item itemvalue="Python tests.Nosetests in /Users/shahmir/Desktop/Monash/Semester 7/FIT4003/GIT/SLR-Automation/scholarly_spike.py" />
+        <item itemvalue="Python tests.Nosetests in C:/Users/HP/Desktop/FIT 4003/git project/SLR-Automation/scholarly_spike.py" />
       </list>
     </recent_temporary>
   </component>
@@ -170,7 +193,7 @@
       <workItem from="1602664269671" duration="121000" />
       <workItem from="1603174424904" duration="1201000" />
       <workItem from="1603176755962" duration="1598000" />
-      <workItem from="1603182956707" duration="1126000" />
+      <workItem from="1603182956707" duration="1392000" />
     </task>
     <task id="LOCAL-00001" summary="Added Proxy and improved code quality">
       <created>1601813668175</created>
@@ -210,38 +233,38 @@
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="0" y="0" key="FileDocumentManager.FileCacheConflict/0.0.1280.680@0.0.1280.680" timestamp="1601807561731" />
-    <state width="1237" height="163" key="GridCell.Tab.0.bottom" timestamp="1603184196859">
+    <state width="1237" height="163" key="GridCell.Tab.0.bottom" timestamp="1603184455483">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="163" key="GridCell.Tab.0.bottom/0.0.1280.680@0.0.1280.680" timestamp="1603184196859" />
-    <state width="1237" height="163" key="GridCell.Tab.0.center" timestamp="1603184196859">
+    <state width="1237" height="163" key="GridCell.Tab.0.bottom/0.0.1280.680@0.0.1280.680" timestamp="1603184455483" />
+    <state width="1237" height="163" key="GridCell.Tab.0.center" timestamp="1603184455482">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="163" key="GridCell.Tab.0.center/0.0.1280.680@0.0.1280.680" timestamp="1603184196859" />
-    <state width="1237" height="163" key="GridCell.Tab.0.left" timestamp="1603184196858">
+    <state width="1237" height="163" key="GridCell.Tab.0.center/0.0.1280.680@0.0.1280.680" timestamp="1603184455482" />
+    <state width="1237" height="163" key="GridCell.Tab.0.left" timestamp="1603184455481">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="163" key="GridCell.Tab.0.left/0.0.1280.680@0.0.1280.680" timestamp="1603184196858" />
-    <state width="1237" height="163" key="GridCell.Tab.0.right" timestamp="1603184196859">
+    <state width="1237" height="163" key="GridCell.Tab.0.left/0.0.1280.680@0.0.1280.680" timestamp="1603184455481" />
+    <state width="1237" height="163" key="GridCell.Tab.0.right" timestamp="1603184455483">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="163" key="GridCell.Tab.0.right/0.0.1280.680@0.0.1280.680" timestamp="1603184196859" />
-    <state width="1237" height="204" key="GridCell.Tab.1.bottom" timestamp="1601836817020">
+    <state width="1237" height="163" key="GridCell.Tab.0.right/0.0.1280.680@0.0.1280.680" timestamp="1603184455483" />
+    <state width="1237" height="204" key="GridCell.Tab.1.bottom" timestamp="1603184265654">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="204" key="GridCell.Tab.1.bottom/0.0.1280.680@0.0.1280.680" timestamp="1601836817020" />
-    <state width="1237" height="204" key="GridCell.Tab.1.center" timestamp="1601836817020">
+    <state width="1237" height="204" key="GridCell.Tab.1.bottom/0.0.1280.680@0.0.1280.680" timestamp="1603184265654" />
+    <state width="1237" height="204" key="GridCell.Tab.1.center" timestamp="1603184265653">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="204" key="GridCell.Tab.1.center/0.0.1280.680@0.0.1280.680" timestamp="1601836817020" />
-    <state width="1237" height="204" key="GridCell.Tab.1.left" timestamp="1601836817020">
+    <state width="1237" height="204" key="GridCell.Tab.1.center/0.0.1280.680@0.0.1280.680" timestamp="1603184265653" />
+    <state width="1237" height="204" key="GridCell.Tab.1.left" timestamp="1603184265653">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="204" key="GridCell.Tab.1.left/0.0.1280.680@0.0.1280.680" timestamp="1601836817020" />
-    <state width="1237" height="204" key="GridCell.Tab.1.right" timestamp="1601836817020">
+    <state width="1237" height="204" key="GridCell.Tab.1.left/0.0.1280.680@0.0.1280.680" timestamp="1603184265653" />
+    <state width="1237" height="204" key="GridCell.Tab.1.right" timestamp="1603184265654">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="204" key="GridCell.Tab.1.right/0.0.1280.680@0.0.1280.680" timestamp="1601836817020" />
+    <state width="1237" height="204" key="GridCell.Tab.1.right/0.0.1280.680@0.0.1280.680" timestamp="1603184265654" />
     <state x="142" y="0" key="SettingsEditor" timestamp="1601805504007">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
@@ -256,6 +279,7 @@
     <state x="450" y="255" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1280.680@0.0.1280.680" timestamp="1601813678271" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/SLR_Automation$standardized_json_output.coverage" NAME="standardized_json_output Coverage Results" MODIFIED="1603184455446" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/stage2" />
     <SUITE FILE_PATH="coverage/SLR_Automation$fuck_u_in_the_ass.coverage" NAME="fuck u in the ass Coverage Results" MODIFIED="1603184335696" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/stage2" />
     <SUITE FILE_PATH="coverage/SLR_Automation$title_matchinng_spike.coverage" NAME="title_matchinng_spike Coverage Results" MODIFIED="1602404073636" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/SLR_Automation$Nosetests_in_scholarly_spike_py.coverage" NAME="Nosetests in scholarly_spike.py Coverage Results" MODIFIED="1601805349840" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />

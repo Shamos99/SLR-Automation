@@ -1,7 +1,7 @@
 from stage2.forward_snowballing import forward_snowballing
 from stage2.backwards_snowball import backwards_snowballing_levels
 from stage2.standardized_json_output import standardized_list, api_enum
-
+from stage2.fuck_u_in_the_ass import store_list_to_file
 
 class SLR_Automation:
     true_abstract_list = []
@@ -15,15 +15,16 @@ class SLR_Automation:
     backward_snowballing_levels = 2
     backward_snowballing_result = []
     backward_snowballing_paper_string = ""
-    final_resuls = []
-
+    final_results = []
+    filename_to_store_result = ""
     def __init__(self, true_abstract_list, search_string,
                  backward_snowballing_paper_string,
                  title_similarity_score=45,
                  abstract_similarity_score=45,
                  forward_snowballing_target=50,
                  forward_snowballing_levels=2,
-                 backward_snowballing_levels=2):
+                 backward_snowballing_levels=2,
+                 filename_to_store_result = "result.txt"):
         self.search_string = search_string
         self.abstract_similarity_score = abstract_similarity_score
         self.title_similarity_score = title_similarity_score
@@ -34,6 +35,7 @@ class SLR_Automation:
         self.true_abstract_string = ""
         self.forward_snowballing_results = []
         self.backward_snowballing_result = []
+        self.filename_to_store_result = filename_to_store_result
         for i in true_abstract_list:
             self.search_string += i
 
@@ -53,10 +55,14 @@ class SLR_Automation:
     def combine_snowballing_results(self):
         standardized_list(self.forward_snowballing_results, api_enum["google_scholar"])
         backward_snowballing_standardised = standardized_list(self.backward_snowballing_result, api_enum["crossref"])
-        self.final_resuls = self.forward_snowballing_results + self.backward_snowballing_result
+        self.final_results = self.forward_snowballing_results + self.backward_snowballing_result
 
     def perform_stage_two(self):
         self.perform_forward_snowballing()
         self.perform_backward_snowballing()
         self.combine_snowballing_results()
-        return self.final_resuls
+        store_list_to_file()
+        return self.final_results
+
+    def finalize_and_save_to_file(self):
+        store_list_to_file(self.filename_to_store_result, self.final_results)

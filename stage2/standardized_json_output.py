@@ -107,8 +107,8 @@ if __name__ == '__main__':
     #
     test_inp_b = get_backward_snowballing_sample()
     result = standardized_list(test_inp_b, api_enum["crossref"])
-    # print(result)
+    # print(len(result))
     lol = test_inp_f + result
-    print(lol)
+    print(len(lol))
 
 
