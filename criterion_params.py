@@ -17,7 +17,7 @@ criterion_param = {
         max_h_index: None
     },
     PUBLICATION_TYPE: {
-        publication_types_list: None
+        publication_type: None
     },
     LOCATION: {
         location_list: None

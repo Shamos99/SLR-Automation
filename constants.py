@@ -26,7 +26,7 @@ min_h_index = 'min_h_index'
 max_h_index = 'max_h_index'
 
 # publication_type
-publication_types_list = 'publication_types_list'
+publication_type = 'publication_type'
 
 # location
 location_list = 'location_list'

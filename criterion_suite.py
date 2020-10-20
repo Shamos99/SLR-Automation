@@ -1,6 +1,11 @@
-import criterion_params as params
+from iso639 import languages
+from langdetect import detect
 from datetime import datetime
+import criterion_params as params
 import constants
+
+languages.name
+import langdetect
 
 
 # all of the inclusion exclusion criterion we have will be in this file
@@ -133,16 +138,16 @@ class PublicationTypeFilter(GenericFilter):
 
     @staticmethod
     def impl(pub_list, param):
-        pub_type_list = param[params.publication_types_list]
+        pub_type = param[params.publication_type]
 
         res = []
 
         # naiive code
         for paper in pub_list:
-            for pub in pub_type_list:
-                if pub in paper['publication_list']:
-                    res.append(1)
-            res.append(0)
+            if pub_type == paper['publication_type']:
+                res.append(0)
+            else:
+                res.append(1)
 
         return res
 
@@ -206,7 +211,10 @@ class LanguageFilter(GenericFilter):
         res = []
 
         for pub in pub_list:
-            if pub['language'] == language:
+            text = pub['abstract'] if pub['abstract'] is not None else pub['title']
+            lang_code = detect(text)
+            lang = language.get(alpha2=lang_code)
+            if lang == language:
                 res.append(1)
             else:
                 res.append(0)

@@ -24,8 +24,6 @@
       <change beforePath="$PROJECT_DIR$/constants.py" beforeDir="false" afterPath="$PROJECT_DIR$/constants.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/criterion_params.py" beforeDir="false" afterPath="$PROJECT_DIR$/criterion_params.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/criterion_suite.py" beforeDir="false" afterPath="$PROJECT_DIR$/criterion_suite.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/inclusion_exclusion_criterion.py" beforeDir="false" afterPath="$PROJECT_DIR$/inclusion_exclusion_criterion.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/stage 3 spiking.py" beforeDir="false" afterPath="$PROJECT_DIR$/stage 3 spiking.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -105,7 +103,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="Nosetests in scholarly_spike.py" type="tests" factoryName="Nosetests" temporary="true" nameIsGenerated="true">
+    <configuration name="Nosetests in /Users/shahmir/Desktop/Monash/Semester 7/FIT4003/GIT/SLR-Automation/scholarly_spike.py" type="tests" factoryName="Nosetests" temporary="true" nameIsGenerated="true">
       <module name="SLR-Automation" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -125,7 +123,7 @@
       <list>
         <item itemvalue="Python.title_matchinng_spike" />
         <item itemvalue="Python.scholarly_spike" />
-        <item itemvalue="Python tests.Nosetests in scholarly_spike.py" />
+        <item itemvalue="Python tests.Nosetests in /Users/shahmir/Desktop/Monash/Semester 7/FIT4003/GIT/SLR-Automation/scholarly_spike.py" />
       </list>
     </recent_temporary>
   </component>
@@ -145,6 +143,7 @@
       <workItem from="1602655941270" duration="1198000" />
       <workItem from="1602664269671" duration="121000" />
       <workItem from="1603174424904" duration="1201000" />
+      <workItem from="1603176755962" duration="1317000" />
     </task>
     <task id="LOCAL-00001" summary="Added Proxy and improved code quality">
       <created>1601813668175</created>
