@@ -1,7 +1,7 @@
 import urllib3
 import json
 # from query_api import query_get_request
-from title_matchinng import get_similarity, query_get_request
+from stage2.title_matchinng import get_similarity, query_get_request
 
 
 def title_to_backwards_citations(title_string, original_title, target_score_title=45):
