@@ -15,7 +15,7 @@ def title_to_backwards_citations(title_string, original_title, target_score_titl
 
     query_string = url + str(title_string)
     citation_json_obj = query_get_request(query_string)
-
+    counter = 1
     search_results = citation_json_obj["message"]["items"]
     for result in search_results:
         for title in result["title"]:
@@ -25,6 +25,8 @@ def title_to_backwards_citations(title_string, original_title, target_score_titl
             # print(similarity)
             if (title.lower() in title_string.lower()) and (similarity_title >= target_score_title):
                 try:
+                    print("Paper number: " + str(counter) + "\t" "Score: " + str(similarity_title))
+                    counter += 1
                     return result["reference"], result
                 except Exception:
                     return None, None
@@ -48,8 +50,8 @@ def get_backward_citations(doi):
     return results
 
 
-def backwards_snowballing_levels(title_string, level=2, target_score_title=45):
-    backwards,result = title_to_backwards_citations(title_string, title_string)
+def backwards_snowballing_levels(paper_string, original_title, level=2, target_score_title=45):
+    backwards, result = title_to_backwards_citations(paper_string,original_title)
     full_list = [backwards]
     result_list = [result]
 
@@ -61,7 +63,7 @@ def backwards_snowballing_levels(title_string, level=2, target_score_title=45):
         for title in full_list[counter]:
             try:
                 check_title = title["unstructured"]
-                append_item,result_item = title_to_backwards_citations(check_title, title_string, target_score_title)
+                append_item, result_item = title_to_backwards_citations(check_title, original_title, target_score_title)
                 if append_item is not None:
                     full_list.append(append_item)
                 if result_item is not None:
@@ -80,4 +82,8 @@ if __name__ == '__main__':
     #     # print(title_to_backwards_citations(
     #     #     "Toward modernizing the systematic review pipeline in genetics: efficient updating via data mining"))
     #
-    print(backwards_snowballing_levels("Toward modernizing the systematic review pipeline in genetics: efficient updating via data mining", level=1))
+    # print(backwards_snowballing_levels("Toward modernizing the systematic review pipeline in genetics: efficient updating via data mining", level=1))
+    backward_snowballing_result = backwards_snowballing_levels("Toward modernizing the systematic review pipeline in genetics: efficient updating via data mining",
+                                                                    "modernizing the systematic review pipeline",
+                                                                    level=1,
+                                                                    target_score_title=45)

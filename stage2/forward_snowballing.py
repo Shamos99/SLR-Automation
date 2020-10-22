@@ -112,9 +112,9 @@ if __name__ == '__main__':
     #     s = test_query_keyword("modernizing the systematic review pipeline")
     #     print(s)
     # lol = next(s)
-    # print(lol)
-    # print(json.dumps(lol.bib))
-    ans = forward_snowballing("modernizing the systematic review pipeline", target_papers=20)
-    print(ans)
+    print("lol")
+    # # print(json.dumps(lol.bib))
+    # ans = forward_snowballing("modernizing the systematic review pipeline", target_papers=20)
+    # print(ans)
     # test_query_keyword(
     #     "Alternative to mental hospital treatment: I. Conceptual model, treatment program, and clinical evaluation")

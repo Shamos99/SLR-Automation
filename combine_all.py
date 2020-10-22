@@ -55,6 +55,7 @@ class SLR_Automation:
 
     def perform_backward_snowballing(self):
         self.backward_snowballing_result = backwards_snowballing_levels(self.backward_snowballing_paper_string,
+                                                                        self.search_string,
                                                                         level=self.backward_snowballing_levels,
                                                                         target_score_title=self.title_similarity_score)
 
@@ -65,9 +66,10 @@ class SLR_Automation:
 
     def perform_stage_two(self):
         self.perform_forward_snowballing()
+        print("FINISHED FORWARD SNOWBALLING-----------------")
         self.perform_backward_snowballing()
+        print("FINISHED BACKWARD SNOWBALLING----------------")
         self.combine_snowballing_results()
-        store_list_to_file()
         return self.final_results
 
     def perform_filtering(self, filter_list, criterion_params):
@@ -80,7 +82,7 @@ class SLR_Automation:
 
 if __name__ == '__main__':
     test = SLR_Automation(
-        "Toward modernizing the systematic review pipeline in genetics: efficient updating via data mining",
+        "modernizing the systematic review pipeline",
         "Toward modernizing the systematic review pipeline in genetics: efficient updating via data mining",
         backward_snowballing_levels=1,
         forward_snowballing_target=20,
