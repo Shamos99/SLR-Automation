@@ -49,6 +49,8 @@ def forward_snowballing(keyword, abstract_string="", target_score_abstract=30, t
             score_abstract = 100
         if score >= target_score_title and score_abstract >= target_score_abstract:
             print("Paper number: " + str(counter) + "\t" "Score: " + str(score))
+            q.bib["title_similarity"] = score
+            q.bib["abstract_similarity"] = score_abstract
             if counter == target_papers:
                 result_list.append(q.bib)
                 return result_list
