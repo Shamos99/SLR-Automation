@@ -5,8 +5,7 @@ import sys
 
 
 def main():
-    """Run administrative tasks."""
-    os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'SLR_Automation.settings')
+    os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'slr_automation.settings')
     try:
         from django.core.management import execute_from_command_line
     except ImportError as exc:
