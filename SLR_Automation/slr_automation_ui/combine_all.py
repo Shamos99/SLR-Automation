@@ -1,10 +1,10 @@
-from stage2.forward_snowballing import forward_snowballing
-from stage2.backwards_snowball import backwards_snowballing_levels
-from stage2.standardized_json_output import standardized_list, api_enum
-from stage2.fuck_u_in_the_ass import store_list_to_file
-from stage3.inclusion_exclusion_criterion import apply_criterion
-from stage3.criterion_params import criterion_param
-from stage3.constants import *
+from .stage2.forward_snowballing import forward_snowballing
+from .stage2.backwards_snowball import backwards_snowballing_levels
+from .stage2.standardized_json_output import standardized_list, api_enum
+from .stage2.fuck_u_in_the_ass import store_list_to_file
+from .stage3.inclusion_exclusion_criterion import apply_criterion
+from .stage3.criterion_params import criterion_param
+from .stage3.constants import *
 
 
 class SLR_Automation:

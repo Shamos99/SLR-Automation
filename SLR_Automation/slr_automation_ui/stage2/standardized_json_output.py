@@ -1,9 +1,9 @@
 import datetime
 import pprint
 import json
-from stage2.query_api import get_title_results
-from stage2.backwards_snowball import title_to_backwards_citations
-from stage2.test_material import get_forward_snowballing_sample, get_backward_snowballing_sample
+from slr_automation_ui.stage2.query_api import get_title_results
+from slr_automation_ui.stage2.backwards_snowball import title_to_backwards_citations
+from slr_automation_ui.stage2.test_material import get_forward_snowballing_sample, get_backward_snowballing_sample
 
 api_enum = {
     "google_scholar": 0,

@@ -1,9 +1,9 @@
-from stage3 import criterion_suite as suite
+from slr_automation_ui.stage3 import criterion_suite as suite
 import json
 import pprint
-from stage3.constants import *
-from stage3.criterion_params import criterion_param
-from stage2.test_material import combined_standardized_result_sample
+from slr_automation_ui.stage3.constants import *
+from slr_automation_ui.stage3.criterion_params import criterion_param
+from slr_automation_ui.stage2.test_material import combined_standardized_result_sample
 
 
 def resolve_result(on_going_arr, new_res):

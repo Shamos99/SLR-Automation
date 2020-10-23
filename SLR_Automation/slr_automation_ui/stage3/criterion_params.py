@@ -1,4 +1,4 @@
-from stage3.constants import *
+from slr_automation_ui.stage3.constants import *
 
 criterion_param = {
     YEAR: {

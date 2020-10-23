@@ -1,7 +1,7 @@
 from iso639 import languages
 from langdetect import detect
 from datetime import datetime
-from stage3 import constants, criterion_params as params
+from slr_automation_ui.stage3 import constants, criterion_params as params
 
 
 # all of the inclusion exclusion criterion we have will be in this file
