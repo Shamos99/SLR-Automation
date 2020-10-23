@@ -24,6 +24,8 @@ class SLR_Automation:
 
     def __init__(self, search_string,
                  backward_snowballing_paper_string,
+                 filter_list,
+                 criterion_param,
                  true_abstract_list=[],
                  title_similarity_score=45,
                  abstract_similarity_score=45,
@@ -44,6 +46,9 @@ class SLR_Automation:
         self.filename_to_store_result = filename_to_store_result
         for i in true_abstract_list:
             self.search_string += i
+
+        self.filter_list = filter_list
+        self.criterion_param = criterion_param
 
     def perform_forward_snowballing(self):
         self.forward_snowballing_result = forward_snowballing(self.search_string,
@@ -72,12 +77,17 @@ class SLR_Automation:
         self.combine_snowballing_results()
         return self.final_results
 
-    def perform_filtering(self, filter_list, criterion_params):
-        self.final_results = apply_criterion(self.final_results, filter_list, criterion_params)
+    def perform_filtering(self):
+        self.final_results = apply_criterion(self.final_results, self.filter_list, self.criterion_param)
         return self.final_results
 
     def finalize_and_save_to_file(self):
         store_list_to_file(self.filename_to_store_result, self.final_results)
+
+    def do_the_thing(self):
+        self.perform_stage_two()
+        self.perform_filtering()
+        self.finalize_and_save_to_file()
 
 
 if __name__ == '__main__':
