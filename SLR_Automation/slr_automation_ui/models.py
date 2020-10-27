@@ -2,14 +2,15 @@ from django.db import models
 
 # Create your models here.
 class Slrform(models.Model):
-    search_query = models.CharField(max_length=200)
-    backward_snowballing_paper_string = models.CharField(max_length=200)
+    search_query = models.CharField(max_length=1000)
+    backward_snowballing_paper_string = models.CharField(max_length=1000)
     title_similarity_score = models.IntegerField(blank=True)
     abstract_similarity_score = models.IntegerField(blank=True)
     forward_snowballing_target = models.IntegerField(blank=True)
     forward_snowballing_levels = models.IntegerField(blank=True)
     backward_snowballing_levels = models.IntegerField(blank=True)
-    filename_to_store_result = models.CharField(max_length=200,blank=True)
+    backward_snowballing_target = models.IntegerField(blank=True)
+    filename_to_store_result = models.CharField(max_length=1000,blank=True)
     year_min = models.DateField(blank=True)
     year_max = models.DateField(blank=True)
     min_impact_factor = models.IntegerField(blank=True)

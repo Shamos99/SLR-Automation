@@ -2,6 +2,8 @@ import requests
 import json
 import pprint
 
+TOKEN_LIST = ["515890c2d4e5419385013367e40fc5ac", "941c83e94ebc4fdd826045ca45321a3a","31ba7bc5052442d9be33f365d09f7824"]
+index = 0
 
 def query_get_request(query_string):
     """
@@ -15,14 +17,19 @@ def query_get_request(query_string):
 
 
 def get_similarity(title1, title2):
-    TOKEN = "515890c2d4e5419385013367e40fc5ac"
-    # TOKEN = "941c83e94ebc4fdd826045ca45321a3a"
-    query = "https://api.dandelion.eu/datatxt/sim/v1/?text1=" + str(title1) + "&text2=" + str(title2) + "&bow=one_empty" + "&token=" + TOKEN
+    global TOKEN_LIST
+    global index
+    query = "https://api.dandelion.eu/datatxt/sim/v1/?text1=" + str(title1) + "&text2=" + str(title2) + "&bow=one_empty" + "&token=" + TOKEN_LIST[index]
     result = query_get_request(query)
+
     try:
         return result["similarity"] * 100
-    except KeyError:
-        return 0
+    except Exception:
+        if result["message"] == "no units left":
+            index = (index + 1)%len(TOKEN_LIST)
+            return get_similarity(title1,title2)
+        else:
+            return 0
 
 
 if __name__ == '__main__':

@@ -6,10 +6,11 @@ from django.shortcuts import render
 
 from .forms import SLRForm
 from bootstrap_datepicker_plus import DatePickerInput
-from .combine_all import SLR_Automation
-from .stage3 import constants
-from .stage3.criterion_params import criterion_param
-
+from slr_automation_ui.combine_all import SLR_Automation
+from slr_automation_ui.stage3 import constants
+from slr_automation_ui.stage3.criterion_params import criterion_param
+from slr_automation_ui.stage2.test_material import combined_standardized_result_sample
+import datetime
 
 def slr_form(request):
     if request.method == 'POST':
@@ -19,6 +20,7 @@ def slr_form(request):
         # check whether it's valid:
         if form.is_valid():
             # process the data in form.cleaned_data as required
+
             # ...
             # redirect to a new URL:
 
@@ -27,25 +29,27 @@ def slr_form(request):
 
             search_query = request.POST["search_query"]
             backward_snowballing_paper_string = request.POST['backward_snowballing_paper_string']
-            title_similarity_score = request.POST['title_similarity_score']
-            abstract_similarity_score = request.POST['abstract_similarity_score']
-            forward_snowballing_target = request.POST['forward_snowballing_target']
-            forward_snowballing_levels = request.POST['forward_snowballing_levels']
-            backward_snowballing_levels = request.POST['backward_snowballing_levels']
+            title_similarity_score = int(request.POST['title_similarity_score']) if request.POST['title_similarity_score'] != "" else None
+            abstract_similarity_score = int(request.POST['abstract_similarity_score']) if request.POST['abstract_similarity_score'] != "" else None
+            forward_snowballing_target = int(request.POST['forward_snowballing_target']) if request.POST['forward_snowballing_target'] != "" else None
+            forward_snowballing_levels = int(request.POST['forward_snowballing_levels']) if request.POST['forward_snowballing_levels'] != "" else None
+            backward_snowballing_levels = int(request.POST['backward_snowballing_levels']) if request.POST['backward_snowballing_levels'] != "" else None
+            backward_snowballing_target = int(request.POST['backward_snowballing_target']) if request.POST['backward_snowballing_target'] != "" else None
+            print(backward_snowballing_target)
             filename_to_store_result = request.POST['filename_to_store_result']
 
-            year_min = request.POST['year_min'] if request.POST['year_min'] != "" else None
-            year_max = request.POST['year_max'] if request.POST['year_max'] != "" else None
-            min_impact_factor = request.POST['min_impact_factor'] if request.POST['min_impact_factor'] != "" else None
-            max_impact_factor = request.POST['max_impact_factor'] if request.POST['max_impact_factor'] != "" else None
+            year_min = datetime.datetime.strptime(request.POST['year_min'],"%m/%d/%Y") if request.POST['year_min'] != "" else None
+            year_max = datetime.datetime.strptime(request.POST['year_max'],"%m/%d/%Y") if request.POST['year_max'] != "" else None
+            min_impact_factor = int(request.POST['min_impact_factor']) if request.POST['min_impact_factor'] != "" else None
+            max_impact_factor = int(request.POST['max_impact_factor']) if request.POST['max_impact_factor'] != "" else None
             journal_list = request.POST["journal_list"] if request.POST["journal_list"] != "" else None
-            min_h_index = request.POST["min_h_index"] if request.POST["min_h_index"] != "" else None
-            max_h_index = request.POST["max_h_index"] if request.POST["max_h_index"] != "" else None
+            min_h_index = int(request.POST["min_h_index"]) if request.POST["min_h_index"] != "" else None
+            max_h_index = int(request.POST["max_h_index"]) if request.POST["max_h_index"] != "" else None
             publication_type_list = request.POST["publication_type_list"] if request.POST[
                                                                                  "publication_type_list"] != "" else None
             location_list = request.POST["location_list"] if request.POST["location_list"] != "" else None
-            min_cited_by = request.POST["min_cited_by"] if request.POST["min_cited_by"] != "" else None
-            max_cited_by = request.POST["max_cited_by"] if request.POST["max_cited_by"] != "" else None
+            min_cited_by = int(request.POST["min_cited_by"]) if request.POST["min_cited_by"] != "" else None
+            max_cited_by = int(request.POST["max_cited_by"]) if request.POST["max_cited_by"] != "" else None
             language_list = request.POST["language_list"] if request.POST["language_list"] != "" else None
 
             delimeter = ','
@@ -120,32 +124,43 @@ def slr_form(request):
                         constants.min_cited_by] = min_cited_by
                     filter_list.append(constants.N_CITED_BY)
 
+
             if language_list is not None:
                 language_list = language_list.strip()
                 lists = language_list.split(delimeter)
-                if len(lists) > 0:
+                print(lists)
+                flag = True
+                for i in lists:
+                    if len(i) <= 0:
+                        flag = False
+
+                if flag:
                     criterion_param[constants.LANGUAGE][constants.language_list] = lists
                 else:
                     is_error = True
                     error_message = "Cannot parse languages properly, delimit with ,"
 
             if is_error:
-                pass
+                return render(request, 'slr_automation_ui/slrform_form.html', {'form': form,'error_message':error_message})
             else:
                 shit_object = SLR_Automation(search_query, backward_snowballing_paper_string, filter_list,
                                              criterion_param)
-                if title_similarity_score != "":
+                if title_similarity_score is not None:
                     shit_object.title_similarity_score = title_similarity_score
-                if abstract_similarity_score != "":
+                if abstract_similarity_score is not None:
                     shit_object.abstract_similarity_score = abstract_similarity_score
-                if forward_snowballing_target != "":
+                if forward_snowballing_target is not None:
                     shit_object.forward_snowballing_target_papers = forward_snowballing_target
-                if forward_snowballing_levels != "":
+                if forward_snowballing_levels is not None:
                     shit_object.forward_snowballing_levels = forward_snowballing_levels
-                if backward_snowballing_levels != "":
+                if backward_snowballing_levels is not None:
                     shit_object.backward_snowballing_levels = backward_snowballing_levels
-
-                return render(request, 'slr_automation_ui/results.html', {'results': results})
+                if backward_snowballing_target is not None:
+                    shit_object.backward_snowballing_target_papers = backward_snowballing_target
+                shit_object.final_results = combined_standardized_result_sample()
+                shit_object.perform_filtering()
+                shit_object.finalize_and_save_to_file()
+                return render(request, 'slr_automation_ui/results.html', {'results': shit_object.final_results})
 
         # if a GET (or any other method) we'll create a blank form
     else:

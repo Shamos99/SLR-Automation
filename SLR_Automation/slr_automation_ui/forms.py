@@ -5,14 +5,15 @@ from slr_automation_ui.models import Slrform
 from django.contrib.admin import widgets
 
 class SLRForm(forms.ModelForm):
-    search_query = forms.CharField(max_length=200)
-    backward_snowballing_paper_string = forms.CharField(max_length=200)
+    search_query = forms.CharField(max_length=1000)
+    backward_snowballing_paper_string = forms.CharField(max_length=1000)
     title_similarity_score = forms.IntegerField()
     abstract_similarity_score = forms.IntegerField()
     forward_snowballing_target = forms.IntegerField()
     forward_snowballing_levels = forms.IntegerField()
     backward_snowballing_levels = forms.IntegerField()
-    filename_to_store_result = forms.FileField()
+    backward_snowballing_target = forms.IntegerField()
+    filename_to_store_result = forms.CharField(max_length=1000)
     year_min = forms.DateField()
     year_max = forms.DateField()
     min_impact_factor = forms.IntegerField()
@@ -46,6 +47,7 @@ class SLRForm(forms.ModelForm):
         self.fields['abstract_similarity_score'].required = False
         self.fields['forward_snowballing_levels'].required = False
         self.fields['forward_snowballing_target'].required = False
+        self.fields['backward_snowballing_target'].required = False
         self.fields['backward_snowballing_levels'].required = False
         self.fields['min_cited_by'].required = False
         self.fields['max_cited_by'].required = False

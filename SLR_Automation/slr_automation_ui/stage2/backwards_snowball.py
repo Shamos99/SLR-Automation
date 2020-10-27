@@ -50,13 +50,15 @@ def get_backward_citations(doi):
     return results
 
 
-def backwards_snowballing_levels(paper_string, original_title, level=2, target_score_title=45):
+def backwards_snowballing_levels(paper_string, original_title, level=2, target_score_title=45,paper_target = 1):
+
     backwards, result = title_to_backwards_citations(paper_string,original_title)
     full_list = [backwards]
     result_list = [result]
 
     level = level - 1
     counter = 0
+    paper_counter = 0
     while level >= 0:
         # print(full_list)
 
@@ -68,9 +70,17 @@ def backwards_snowballing_levels(paper_string, original_title, level=2, target_s
                     full_list.append(append_item)
                 if result_item is not None:
                     result_list.append(result_item)
+                    paper_counter += 1
+                print("paper counter is: ",paper_counter)
+                if paper_counter == paper_target:
+                    print("it's breaking water now")
+                    break
             except Exception:
                 pass
+        if paper_counter == paper_target:
+            print("it's breaking water now x2")
 
+            break
         counter += 1
         level = level - 1
 

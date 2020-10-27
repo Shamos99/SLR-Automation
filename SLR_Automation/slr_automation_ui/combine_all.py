@@ -8,19 +8,6 @@ from .stage3.constants import *
 
 
 class SLR_Automation:
-    true_abstract_list = []
-    search_string = ""
-    true_abstract_string = ""
-    title_similarity_score = 45
-    abstract_similarity_score = 45
-    forward_snowballing_target_papers = 50
-    forward_snowballing_levels = 2
-    forward_snowballing_results = []
-    backward_snowballing_levels = 2
-    backward_snowballing_result = []
-    backward_snowballing_paper_string = ""
-    final_results = []
-    filename_to_store_result = ""
 
     def __init__(self, search_string,
                  backward_snowballing_paper_string,
@@ -31,7 +18,8 @@ class SLR_Automation:
                  abstract_similarity_score=45,
                  forward_snowballing_target=50,
                  forward_snowballing_levels=1,
-                 backward_snowballing_levels=2,
+                 backward_snowballing_levels=1,
+                 backward_snowballing_target=10,
                  filename_to_store_result="result.txt"):
         self.search_string = search_string
         self.abstract_similarity_score = abstract_similarity_score
@@ -39,6 +27,7 @@ class SLR_Automation:
         self.backward_snowballing_levels = backward_snowballing_levels
         self.forward_snowballing_levels = forward_snowballing_levels
         self.forward_snowballing_target_papers = forward_snowballing_target
+        self.backward_snowballing_target_papers = backward_snowballing_target
         self.backward_snowballing_paper_string = backward_snowballing_paper_string
         self.true_abstract_string = ""
         self.forward_snowballing_results = []
@@ -59,10 +48,13 @@ class SLR_Automation:
                                                               target_score_title=self.title_similarity_score)
 
     def perform_backward_snowballing(self):
+        print(self.backward_snowballing_target_papers)
         self.backward_snowballing_result = backwards_snowballing_levels(self.backward_snowballing_paper_string,
                                                                         self.search_string,
                                                                         level=self.backward_snowballing_levels,
-                                                                        target_score_title=self.title_similarity_score)
+                                                                        target_score_title=self.title_similarity_score,
+                                                                        paper_target=self.backward_snowballing_target_papers
+                                                                        )
 
     def combine_snowballing_results(self):
         standardized_list(self.forward_snowballing_results, api_enum["google_scholar"])
