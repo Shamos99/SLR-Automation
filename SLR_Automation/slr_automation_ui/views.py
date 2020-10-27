@@ -12,6 +12,7 @@ from slr_automation_ui.stage3.criterion_params import criterion_param
 from slr_automation_ui.stage2.test_material import combined_standardized_result_sample
 import datetime
 
+
 def slr_form(request):
     if request.method == 'POST':
         # create a form instance and populate it with data from the request:
@@ -29,19 +30,29 @@ def slr_form(request):
 
             search_query = request.POST["search_query"]
             backward_snowballing_paper_string = request.POST['backward_snowballing_paper_string']
-            title_similarity_score = int(request.POST['title_similarity_score']) if request.POST['title_similarity_score'] != "" else None
-            abstract_similarity_score = int(request.POST['abstract_similarity_score']) if request.POST['abstract_similarity_score'] != "" else None
-            forward_snowballing_target = int(request.POST['forward_snowballing_target']) if request.POST['forward_snowballing_target'] != "" else None
-            forward_snowballing_levels = int(request.POST['forward_snowballing_levels']) if request.POST['forward_snowballing_levels'] != "" else None
-            backward_snowballing_levels = int(request.POST['backward_snowballing_levels']) if request.POST['backward_snowballing_levels'] != "" else None
-            backward_snowballing_target = int(request.POST['backward_snowballing_target']) if request.POST['backward_snowballing_target'] != "" else None
+            title_similarity_score = int(request.POST['title_similarity_score']) if request.POST[
+                                                                                        'title_similarity_score'] != "" else None
+            abstract_similarity_score = int(request.POST['abstract_similarity_score']) if request.POST[
+                                                                                              'abstract_similarity_score'] != "" else None
+            forward_snowballing_target = int(request.POST['forward_snowballing_target']) if request.POST[
+                                                                                                'forward_snowballing_target'] != "" else None
+            forward_snowballing_levels = int(request.POST['forward_snowballing_levels']) if request.POST[
+                                                                                                'forward_snowballing_levels'] != "" else None
+            backward_snowballing_levels = int(request.POST['backward_snowballing_levels']) if request.POST[
+                                                                                                  'backward_snowballing_levels'] != "" else None
+            backward_snowballing_target = int(request.POST['backward_snowballing_target']) if request.POST[
+                                                                                                  'backward_snowballing_target'] != "" else None
             print(backward_snowballing_target)
             filename_to_store_result = request.POST['filename_to_store_result']
 
-            year_min = datetime.datetime.strptime(request.POST['year_min'],"%m/%d/%Y") if request.POST['year_min'] != "" else None
-            year_max = datetime.datetime.strptime(request.POST['year_max'],"%m/%d/%Y") if request.POST['year_max'] != "" else None
-            min_impact_factor = int(request.POST['min_impact_factor']) if request.POST['min_impact_factor'] != "" else None
-            max_impact_factor = int(request.POST['max_impact_factor']) if request.POST['max_impact_factor'] != "" else None
+            year_min = datetime.datetime.strptime(request.POST['year_min'], "%m/%d/%Y") if request.POST[
+                                                                                               'year_min'] != "" else None
+            year_max = datetime.datetime.strptime(request.POST['year_max'], "%m/%d/%Y") if request.POST[
+                                                                                               'year_max'] != "" else None
+            min_impact_factor = int(request.POST['min_impact_factor']) if request.POST[
+                                                                              'min_impact_factor'] != "" else None
+            max_impact_factor = int(request.POST['max_impact_factor']) if request.POST[
+                                                                              'max_impact_factor'] != "" else None
             journal_list = request.POST["journal_list"] if request.POST["journal_list"] != "" else None
             min_h_index = int(request.POST["min_h_index"]) if request.POST["min_h_index"] != "" else None
             max_h_index = int(request.POST["max_h_index"]) if request.POST["max_h_index"] != "" else None
@@ -68,6 +79,12 @@ def slr_form(request):
                 if min_impact_factor is not None and max_impact_factor is not None and min_impact_factor >= max_impact_factor:
                     is_error = True
                     error_message = "Minimum impact factor cannot be equal to or greater than maximum impact factor"
+                elif min_impact_factor is not None and min_impact_factor < 0:
+                    is_error = True
+                    error_message = "Number cannot be negative"
+                elif max_impact_factor is not None and max_impact_factor < 0:
+                    is_error = True
+                    error_message = "Number cannot be negative"
                 else:
                     criterion_param[constants.IMPACT_FACTOR][
                         constants.max_impact] = max_impact_factor
@@ -88,6 +105,12 @@ def slr_form(request):
                 if max_h_index is not None and max_h_index is not None and min_h_index >= max_h_index:
                     is_error = True
                     error_message = "Minimum h-index factor cannot be equal to or greater than maximum h-index"
+                elif min_h_index is not None and min_h_index < 0:
+                    is_error = True
+                    error_message = "Number cannot be negative"
+                elif max_h_index is not None and max_h_index < 0:
+                    is_error = True
+                    error_message = "Number cannot be negative"
                 else:
                     criterion_param[constants.H_INDEX][
                         constants.max_h_index] = max_h_index
@@ -117,13 +140,18 @@ def slr_form(request):
                 if min_cited_by is not None and max_cited_by is not None and min_cited_by >= max_cited_by:
                     is_error = True
                     error_message = "Minimum nn-cited cannot be equal to or greater than maximum n-cited"
+                elif min_cited_by is not None and min_cited_by < 0:
+                    is_error = True
+                    error_message = "Number cannot be negative"
+                elif max_cited_by is not None and max_cited_by < 0:
+                    is_error = True
+                    error_message = "Number cannot be negative"
                 else:
                     criterion_param[constants.N_CITED_BY][
                         constants.max_cited_by] = max_cited_by
                     criterion_param[constants.N_CITED_BY][
                         constants.min_cited_by] = min_cited_by
                     filter_list.append(constants.N_CITED_BY)
-
 
             if language_list is not None:
                 language_list = language_list.strip()
@@ -141,7 +169,8 @@ def slr_form(request):
                     error_message = "Cannot parse languages properly, delimit with ,"
 
             if is_error:
-                return render(request, 'slr_automation_ui/slrform_form.html', {'form': form,'error_message':error_message})
+                return render(request, 'slr_automation_ui/slrform_form.html',
+                              {'form': form, 'error_message': error_message})
             else:
                 shit_object = SLR_Automation(search_query, backward_snowballing_paper_string, filter_list,
                                              criterion_param)
