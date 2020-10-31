@@ -59,30 +59,35 @@ def backwards_snowballing_levels(paper_string, original_title, level=2, target_s
     level = level - 1
     counter = 0
     paper_counter = 0
-    while level >= 0:
-        # print(full_list)
+    try:
+        if full_list[0] == None:
+            return full_list
+        while level >= 0:
+            # print(full_list)
 
-        for title in full_list[counter]:
-            try:
-                check_title = title["unstructured"]
-                append_item, result_item = title_to_backwards_citations(check_title, original_title, target_score_title)
-                if append_item is not None:
-                    full_list.append(append_item)
-                if result_item is not None:
-                    result_list.append(result_item)
-                    paper_counter += 1
-                print("paper counter is: ",paper_counter)
-                if paper_counter == paper_target:
-                    print("it's breaking water now")
-                    break
-            except Exception:
-                pass
-        if paper_counter == paper_target:
-            print("it's breaking water now x2")
+            for title in full_list[counter]:
+                try:
+                    check_title = title["unstructured"]
+                    append_item, result_item = title_to_backwards_citations(check_title, original_title, target_score_title)
+                    if append_item is not None:
+                        full_list.append(append_item)
+                    if result_item is not None:
+                        result_list.append(result_item)
+                        paper_counter += 1
+                    print("paper counter is: ",paper_counter)
+                    if paper_counter == paper_target:
+                        print("it's breaking water now")
+                        break
+                except Exception:
+                    pass
+            if paper_counter == paper_target:
+                print("it's breaking water now x2")
 
-            break
-        counter += 1
-        level = level - 1
+                break
+            counter += 1
+            level = level - 1
+    except Exception:
+        return result_list
 
     return result_list
 
