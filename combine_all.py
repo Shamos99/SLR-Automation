@@ -83,8 +83,8 @@ class SLR_Automation:
 
 
 if __name__ == '__main__':
-    search = ""
-    paper = ""
+    search = "software fault prediction & software metrics & metadata"
+    paper = "Analyzing maintainability and reliability of object-oriented software using weighted complex network"
 
     test = SLR_Automation(
         search,
