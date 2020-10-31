@@ -1,5 +1,5 @@
 import json
-from slr_automation_ui.stage2.test_material import combined_standardized_result_sample
+from stage2.test_material import combined_standardized_result_sample
 
 
 def store_list_to_file(filename, data):

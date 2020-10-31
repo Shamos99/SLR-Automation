@@ -1,7 +1,7 @@
 from scholarly import scholarly, ProxyGenerator
 from fp.fp import FreeProxy
 import json
-from slr_automation_ui.stage2.title_matchinng import get_similarity
+from stage2.title_matchinng import get_similarity
 
 
 def set_new_proxy():
