@@ -14,3 +14,111 @@ INFO:scholarly:Getting https://scholar.google.com/scholar?start=10&q=modernizing
 INFO:scholarly:Session proxy config is {}
 INFO:scholarly:Getting https://scholar.google.com/scholar?start=20&q=modernizing+the+systematic+review+pipeline&hl=en&as_sdt=0,33
 INFO:scholarly:Session proxy config is {}
+INFO:scholarly:Getting https://scholar.google.com/scholar?hl=en&q=software%20fault%20prediction%20%26%20software%20metrics%20%26%20metadata&as_vis=0&as_sdt=0,33
+INFO:scholarly:Session proxy config is {}
+INFO:scholarly:Getting https://scholar.google.com/scholar?start=10&q=software+fault+prediction+%26+software+metrics+%26+metadata&hl=en&as_sdt=0,33
+INFO:scholarly:Session proxy config is {}
+INFO:scholarly:Getting https://scholar.google.com/scholar?start=20&q=software+fault+prediction+%26+software+metrics+%26+metadata&hl=en&as_sdt=0,33
+INFO:scholarly:Session proxy config is {}
+INFO:scholarly:Getting https://scholar.google.com/scholar?start=30&q=software+fault+prediction+%26+software+metrics+%26+metadata&hl=en&as_sdt=0,33
+INFO:scholarly:Session proxy config is {}
+INFO:scholarly:Getting https://scholar.google.com/scholar?start=40&q=software+fault+prediction+%26+software+metrics+%26+metadata&hl=en&as_sdt=0,33
+INFO:scholarly:Session proxy config is {}
+INFO:scholarly:Getting https://scholar.google.com/scholar?start=50&q=software+fault+prediction+%26+software+metrics+%26+metadata&hl=en&as_sdt=0,33
+INFO:scholarly:Session proxy config is {}
+INFO:scholarly:Getting https://scholar.google.com/scholar?start=60&q=software+fault+prediction+%26+software+metrics+%26+metadata&hl=en&as_sdt=0,33
+INFO:scholarly:Session proxy config is {}
+INFO:scholarly:Getting https://scholar.google.com/scholar?start=70&q=software+fault+prediction+%26+software+metrics+%26+metadata&hl=en&as_sdt=0,33
+INFO:scholarly:Session proxy config is {}
+INFO:scholarly:Getting https://scholar.google.com/scholar?start=80&q=software+fault+prediction+%26+software+metrics+%26+metadata&hl=en&as_sdt=0,33
+INFO:scholarly:Session proxy config is {}
+INFO:scholarly:Getting https://scholar.google.com/scholar?start=90&q=software+fault+prediction+%26+software+metrics+%26+metadata&hl=en&as_sdt=0,33
+INFO:scholarly:Session proxy config is {}
+INFO:scholarly:Getting https://scholar.google.com/scholar?start=100&q=software+fault+prediction+%26+software+metrics+%26+metadata&hl=en&as_sdt=0,33
+INFO:scholarly:Session proxy config is {}
+INFO:scholarly:Getting https://scholar.google.com/scholar?start=110&q=software+fault+prediction+%26+software+metrics+%26+metadata&hl=en&as_sdt=0,33
+INFO:scholarly:Session proxy config is {}
+INFO:scholarly:Getting https://scholar.google.com/scholar?start=120&q=software+fault+prediction+%26+software+metrics+%26+metadata&hl=en&as_sdt=0,33
+INFO:scholarly:Session proxy config is {}
+INFO:scholarly:Getting https://scholar.google.com/scholar?start=130&q=software+fault+prediction+%26+software+metrics+%26+metadata&hl=en&as_sdt=0,33
+INFO:scholarly:Session proxy config is {}
+INFO:scholarly:Getting https://scholar.google.com/scholar?start=140&q=software+fault+prediction+%26+software+metrics+%26+metadata&hl=en&as_sdt=0,33
+INFO:scholarly:Session proxy config is {}
+INFO:scholarly:Getting https://scholar.google.com/scholar?start=150&q=software+fault+prediction+%26+software+metrics+%26+metadata&hl=en&as_sdt=0,33
+INFO:scholarly:Session proxy config is {}
+INFO:scholarly:Getting https://scholar.google.com/scholar?start=160&q=software+fault+prediction+%26+software+metrics+%26+metadata&hl=en&as_sdt=0,33
+INFO:scholarly:Session proxy config is {}
+INFO:scholarly:Getting https://scholar.google.com/scholar?start=170&q=software+fault+prediction+%26+software+metrics+%26+metadata&hl=en&as_sdt=0,33
+INFO:scholarly:Session proxy config is {}
+INFO:scholarly:Getting https://scholar.google.com/scholar?hl=en&q=software%20fault%20prediction%20%26%20software%20metrics%20%26%20metadata&as_vis=0&as_sdt=0,33
+INFO:scholarly:Session proxy config is {}
+INFO:scholarly:Getting https://scholar.google.com/scholar?hl=en&q=software%20fault%20prediction%20%26%20software%20metrics%20%26%20metadata&as_vis=0&as_sdt=0,33
+INFO:scholarly:Session proxy config is {}
+INFO:scholarly:Getting https://scholar.google.com/scholar?q=info:NS1h3JEuqrkJ:scholar.google.com/&output=cite&scirp=0&hl=en
+INFO:scholarly:Session proxy config is {}
+INFO:scholarly:Getting https://scholar.googleusercontent.com/scholar.bib?q=info:NS1h3JEuqrkJ:scholar.google.com/&output=citation&scisdr=CgXmME46ENyRpmJOSHE:AAGBfm0AAAAAX55LUHFCLFDSwV3pFr6BfCdGvKkjU53L&scisig=AAGBfm0AAAAAX55LUDTeatb3gnfITah-rzRW2dNNBAVD&scisf=4&ct=citation&cd=-1&hl=en
+INFO:scholarly:Session proxy config is {}
+INFO:scholarly:Getting https://scholar.google.com/scholar?cites=13378556847059971381&as_sdt=5,33&sciodt=0,33&hl=en
+INFO:scholarly:Session proxy config is {}
+INFO:scholarly:Getting https://scholar.google.com/scholar?cites=13378556847059971381&as_sdt=5,33&sciodt=0,33&hl=en
+INFO:scholarly:Session proxy config is {}
+INFO:scholarly:Getting https://scholar.google.com/scholar?cites=13378556847059971381&as_sdt=5,33&sciodt=0,33&hl=en
+INFO:scholarly:Session proxy config is {}
+INFO:scholarly:Getting https://scholar.google.com/scholar?cites=13378556847059971381&as_sdt=5,33&sciodt=0,33&hl=en
+INFO:scholarly:Session proxy config is {}
+INFO:scholarly:Getting https://scholar.google.com/scholar?cites=13378556847059971381&as_sdt=5,33&sciodt=0,33&hl=en
+INFO:scholarly:Session proxy config is {}
+INFO:scholarly:Getting https://scholar.google.com/scholar?cites=13378556847059971381&as_sdt=5,33&sciodt=0,33&hl=en
+INFO:scholarly:Session proxy config is {}
+INFO:scholarly:Getting https://scholar.google.com/scholar?cites=13378556847059971381&as_sdt=5,33&sciodt=0,33&hl=en
+INFO:scholarly:Session proxy config is {}
+INFO:scholarly:Getting https://scholar.google.com/scholar?cites=13378556847059971381&as_sdt=5,33&sciodt=0,33&hl=en
+INFO:scholarly:Session proxy config is {}
+INFO:scholarly:Getting https://scholar.google.com/scholar?cites=13378556847059971381&as_sdt=5,33&sciodt=0,33&hl=en
+INFO:scholarly:Session proxy config is {}
+INFO:scholarly:Getting https://scholar.google.com/scholar?q=info:gIKK0VFvsyQJ:scholar.google.com/&output=cite&scirp=1&hl=en
+INFO:scholarly:Session proxy config is {}
+INFO:scholarly:Getting https://scholar.googleusercontent.com/scholar.bib?q=info:gIKK0VFvsyQJ:scholar.google.com/&output=citation&scisdr=CgXmME46ENyRpmJOtFI:AAGBfm0AAAAAX55LrFIwucMKgCI8cermbreZxdYLsPx5&scisig=AAGBfm0AAAAAX55LrJ4B6AiI6YWiKUvXfTTyIiqezYi5&scisf=4&ct=citation&cd=-1&hl=en
+INFO:scholarly:Session proxy config is {}
+INFO:scholarly:Getting https://scholar.google.com/scholar?cites=2644579803395162752&as_sdt=5,33&sciodt=0,33&hl=en
+INFO:scholarly:Session proxy config is {}
+INFO:scholarly:Getting https://scholar.google.com/scholar?cites=2644579803395162752&as_sdt=5,33&sciodt=0,33&hl=en
+INFO:scholarly:Session proxy config is {}
+INFO:scholarly:Getting https://scholar.google.com/scholar?q=info:9aWF8XXWa9AJ:scholar.google.com/&output=cite&scirp=2&hl=en
+INFO:scholarly:Session proxy config is {}
+INFO:scholarly:Getting https://scholar.googleusercontent.com/scholar.bib?q=info:9aWF8XXWa9AJ:scholar.google.com/&output=citation&scisdr=CgXmME46ENyRpmJOoTM:AAGBfm0AAAAAX55LuTP_Vc2ZlNPm6LmxcxC0kJ9h6CUI&scisig=AAGBfm0AAAAAX55LuTea4oH4WOiUyWRNKmg9JCI_9ivs&scisf=4&ct=citation&cd=-1&hl=en
+INFO:scholarly:Session proxy config is {}
+INFO:scholarly:Getting https://scholar.google.com/scholar?cites=15018333184448636405&as_sdt=5,33&sciodt=0,33&hl=en
+INFO:scholarly:Session proxy config is {}
+INFO:scholarly:Getting https://scholar.google.com/scholar?cites=15018333184448636405&as_sdt=5,33&sciodt=0,33&hl=en
+INFO:scholarly:Session proxy config is {}
+INFO:scholarly:Getting https://scholar.google.com/scholar?cites=15018333184448636405&as_sdt=5,33&sciodt=0,33&hl=en
+INFO:scholarly:Session proxy config is {}
+INFO:scholarly:Getting https://scholar.google.com/scholar?cites=15018333184448636405&as_sdt=5,33&sciodt=0,33&hl=en
+INFO:scholarly:Session proxy config is {}
+INFO:scholarly:Getting https://scholar.google.com/scholar?cites=15018333184448636405&as_sdt=5,33&sciodt=0,33&hl=en
+INFO:scholarly:Session proxy config is {}
+INFO:scholarly:Getting https://scholar.google.com/scholar?cites=15018333184448636405&as_sdt=5,33&sciodt=0,33&hl=en
+INFO:scholarly:Session proxy config is {}
+INFO:scholarly:Getting https://scholar.google.com/scholar?cites=15018333184448636405&as_sdt=5,33&sciodt=0,33&hl=en
+INFO:scholarly:Session proxy config is {}
+INFO:scholarly:Getting https://scholar.google.com/scholar?cites=15018333184448636405&as_sdt=5,33&sciodt=0,33&hl=en
+INFO:scholarly:Session proxy config is {}
+INFO:scholarly:Getting https://scholar.google.com/scholar?cites=15018333184448636405&as_sdt=5,33&sciodt=0,33&hl=en
+INFO:scholarly:Session proxy config is {}
+INFO:scholarly:Getting https://scholar.google.com/scholar?cites=15018333184448636405&as_sdt=5,33&sciodt=0,33&hl=en
+INFO:scholarly:Session proxy config is {}
+INFO:scholarly:Getting https://scholar.google.com/scholar?cites=15018333184448636405&as_sdt=5,33&sciodt=0,33&hl=en
+INFO:scholarly:Session proxy config is {}
+INFO:scholarly:Getting https://scholar.google.com/scholar?q=info:zDFPJHSO7Z4J:scholar.google.com/&output=cite&scirp=3&hl=en
+INFO:scholarly:Session proxy config is {}
+INFO:scholarly:Getting https://scholar.googleusercontent.com/scholar.bib?q=info:zDFPJHSO7Z4J:scholar.google.com/&output=citation&scisdr=CgXmME46ENyRpmJO8SY:AAGBfm0AAAAAX55L6SYMLPjOhxb30I1iulZH7OFb9yUc&scisig=AAGBfm0AAAAAX55L6WiNva00IfSgZZDluZqx4yOf58JA&scisf=4&ct=citation&cd=-1&hl=en
+INFO:scholarly:Session proxy config is {}
+INFO:scholarly:Getting https://scholar.google.com/scholar?cites=11451966056949559756&as_sdt=5,33&sciodt=0,33&hl=en
+INFO:scholarly:Session proxy config is {}
+INFO:scholarly:Getting https://scholar.google.com/scholar?hl=en&q=software%20fault%20prediction%20%26%20software%20metrics%20%26%20metadata&as_vis=0&as_sdt=0,33
+INFO:scholarly:Session proxy config is {}
+INFO:scholarly:Getting https://scholar.google.com/scholar?hl=en&q=software%20fault%20prediction%20%26%20software%20metrics%20%26%20metadata&as_vis=0&as_sdt=0,33
+INFO:scholarly:Session proxy config is {}
+INFO:scholarly:Getting https://scholar.google.com/scholar?hl=en&q=software%20fault%20prediction%20%26%20software%20metrics%20%26%20metadata&as_vis=0&as_sdt=0,33
+INFO:scholarly:Session proxy config is {}

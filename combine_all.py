@@ -57,9 +57,9 @@ class SLR_Automation:
                                                                         )
 
     def combine_snowballing_results(self):
-        standardized_list(self.forward_snowballing_results, api_enum["google_scholar"])
+        standardized_list(self.forward_snowballing_result, api_enum["google_scholar"])
         backward_snowballing_standardised = standardized_list(self.backward_snowballing_result, api_enum["crossref"])
-        self.final_results = self.forward_snowballing_results + self.backward_snowballing_result
+        self.final_results = self.forward_snowballing_result + self.backward_snowballing_result
 
     def perform_stage_two(self):
         self.perform_forward_snowballing()
@@ -92,10 +92,10 @@ if __name__ == '__main__':
         None,
         None,
         forward_snowballing_levels=2,
-        backward_snowballing_levels=3,
+        backward_snowballing_levels=2,
         backward_snowballing_target=50,
-        filename_to_store_result="Chong_test1",
-        forward_snowballing_target=100
+        forward_snowballing_target=50,
+        filename_to_store_result="Chong_test1"
     )
 
     test.perform_stage_two()
