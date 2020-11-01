@@ -52,7 +52,7 @@ def get_backward_citations(doi):
 
 def backwards_snowballing_levels(paper_string, original_title, level=2, target_score_title=45,paper_target = 1):
 
-    backwards, result = title_to_backwards_citations(paper_string,original_title)
+    backwards, result = title_to_backwards_citations(paper_string,original_title,target_score_title = 0)
     full_list = [backwards]
     result_list = [result]
 
