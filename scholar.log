@@ -14,6 +14,7 @@ INFO:scholarly:Getting https://scholar.google.com/scholar?start=10&q=modernizing
 INFO:scholarly:Session proxy config is {}
 INFO:scholarly:Getting https://scholar.google.com/scholar?start=20&q=modernizing+the+systematic+review+pipeline&hl=en&as_sdt=0,33
 INFO:scholarly:Session proxy config is {}
+<<<<<<< Updated upstream
 INFO:scholarly:Getting https://scholar.google.com/scholar?hl=en&q=software%20fault%20prediction%20%26%20software%20metrics%20%26%20metadata&as_vis=0&as_sdt=0,33
 INFO:scholarly:Session proxy config is {}
 INFO:scholarly:Getting https://scholar.google.com/scholar?start=10&q=software+fault+prediction+%26+software+metrics+%26+metadata&hl=en&as_sdt=0,33
@@ -121,4 +122,134 @@ INFO:scholarly:Session proxy config is {}
 INFO:scholarly:Getting https://scholar.google.com/scholar?hl=en&q=software%20fault%20prediction%20%26%20software%20metrics%20%26%20metadata&as_vis=0&as_sdt=0,33
 INFO:scholarly:Session proxy config is {}
 INFO:scholarly:Getting https://scholar.google.com/scholar?hl=en&q=software%20fault%20prediction%20%26%20software%20metrics%20%26%20metadata&as_vis=0&as_sdt=0,33
+=======
+INFO:scholarly:Getting https://scholar.google.com/scholar?hl=en&q=metamorphic%20testing%20%26%20metamorphic%20relationship%20%26%20machine%20learning%20algorithms&as_vis=0&as_sdt=0,33
+INFO:scholarly:Session proxy config is {}
+INFO:scholarly:Getting https://scholar.google.com/scholar?start=10&q=metamorphic+testing+%26+metamorphic+relationship+%26+machine+learning+algorithms&hl=en&as_sdt=0,33
+INFO:scholarly:Session proxy config is {}
+INFO:scholarly:Getting https://scholar.google.com/scholar?start=20&q=metamorphic+testing+%26+metamorphic+relationship+%26+machine+learning+algorithms&hl=en&as_sdt=0,33
+INFO:scholarly:Session proxy config is {}
+INFO:scholarly:Getting https://scholar.google.com/scholar?start=30&q=metamorphic+testing+%26+metamorphic+relationship+%26+machine+learning+algorithms&hl=en&as_sdt=0,33
+INFO:scholarly:Session proxy config is {}
+INFO:scholarly:Getting https://scholar.google.com/scholar?start=40&q=metamorphic+testing+%26+metamorphic+relationship+%26+machine+learning+algorithms&hl=en&as_sdt=0,33
+INFO:scholarly:Session proxy config is {}
+INFO:scholarly:Getting https://scholar.google.com/scholar?start=50&q=metamorphic+testing+%26+metamorphic+relationship+%26+machine+learning+algorithms&hl=en&as_sdt=0,33
+INFO:scholarly:Session proxy config is {}
+INFO:scholarly:Getting https://scholar.google.com/scholar?start=60&q=metamorphic+testing+%26+metamorphic+relationship+%26+machine+learning+algorithms&hl=en&as_sdt=0,33
+INFO:scholarly:Session proxy config is {}
+INFO:scholarly:Getting https://scholar.google.com/scholar?start=70&q=metamorphic+testing+%26+metamorphic+relationship+%26+machine+learning+algorithms&hl=en&as_sdt=0,33
+INFO:scholarly:Session proxy config is {}
+INFO:scholarly:Getting https://scholar.google.com/scholar?start=80&q=metamorphic+testing+%26+metamorphic+relationship+%26+machine+learning+algorithms&hl=en&as_sdt=0,33
+INFO:scholarly:Session proxy config is {}
+INFO:scholarly:Getting https://scholar.google.com/scholar?start=90&q=metamorphic+testing+%26+metamorphic+relationship+%26+machine+learning+algorithms&hl=en&as_sdt=0,33
+INFO:scholarly:Session proxy config is {}
+INFO:scholarly:Getting https://scholar.google.com/scholar?start=100&q=metamorphic+testing+%26+metamorphic+relationship+%26+machine+learning+algorithms&hl=en&as_sdt=0,33
+INFO:scholarly:Session proxy config is {}
+INFO:scholarly:Getting https://scholar.google.com/scholar?start=110&q=metamorphic+testing+%26+metamorphic+relationship+%26+machine+learning+algorithms&hl=en&as_sdt=0,33
+INFO:scholarly:Session proxy config is {}
+INFO:scholarly:Getting https://scholar.google.com/scholar?start=120&q=metamorphic+testing+%26+metamorphic+relationship+%26+machine+learning+algorithms&hl=en&as_sdt=0,33
+INFO:scholarly:Session proxy config is {}
+INFO:scholarly:Getting https://scholar.google.com/scholar?start=130&q=metamorphic+testing+%26+metamorphic+relationship+%26+machine+learning+algorithms&hl=en&as_sdt=0,33
+INFO:scholarly:Session proxy config is {}
+INFO:scholarly:Getting https://scholar.google.com/scholar?start=140&q=metamorphic+testing+%26+metamorphic+relationship+%26+machine+learning+algorithms&hl=en&as_sdt=0,33
+INFO:scholarly:Session proxy config is {}
+INFO:scholarly:Getting https://scholar.google.com/scholar?start=150&q=metamorphic+testing+%26+metamorphic+relationship+%26+machine+learning+algorithms&hl=en&as_sdt=0,33
+INFO:scholarly:Session proxy config is {}
+INFO:scholarly:Getting https://scholar.google.com/scholar?start=160&q=metamorphic+testing+%26+metamorphic+relationship+%26+machine+learning+algorithms&hl=en&as_sdt=0,33
+INFO:scholarly:Session proxy config is {}
+INFO:scholarly:Getting https://scholar.google.com/scholar?start=170&q=metamorphic+testing+%26+metamorphic+relationship+%26+machine+learning+algorithms&hl=en&as_sdt=0,33
+INFO:scholarly:Session proxy config is {}
+INFO:scholarly:Getting https://scholar.google.com/scholar?start=180&q=metamorphic+testing+%26+metamorphic+relationship+%26+machine+learning+algorithms&hl=en&as_sdt=0,33
+INFO:scholarly:Session proxy config is {}
+INFO:scholarly:Getting https://scholar.google.com/scholar?start=190&q=metamorphic+testing+%26+metamorphic+relationship+%26+machine+learning+algorithms&hl=en&as_sdt=0,33
+INFO:scholarly:Session proxy config is {}
+INFO:scholarly:Getting https://scholar.google.com/scholar?start=200&q=metamorphic+testing+%26+metamorphic+relationship+%26+machine+learning+algorithms&hl=en&as_sdt=0,33
+INFO:scholarly:Session proxy config is {}
+INFO:scholarly:Getting https://scholar.google.com/scholar?start=210&q=metamorphic+testing+%26+metamorphic+relationship+%26+machine+learning+algorithms&hl=en&as_sdt=0,33
+INFO:scholarly:Session proxy config is {}
+INFO:scholarly:Getting https://scholar.google.com/scholar?start=220&q=metamorphic+testing+%26+metamorphic+relationship+%26+machine+learning+algorithms&hl=en&as_sdt=0,33
+INFO:scholarly:Session proxy config is {}
+INFO:scholarly:Getting https://scholar.google.com/scholar?start=230&q=metamorphic+testing+%26+metamorphic+relationship+%26+machine+learning+algorithms&hl=en&as_sdt=0,33
+INFO:scholarly:Session proxy config is {}
+INFO:scholarly:Getting https://scholar.google.com/scholar?start=240&q=metamorphic+testing+%26+metamorphic+relationship+%26+machine+learning+algorithms&hl=en&as_sdt=0,33
+INFO:scholarly:Session proxy config is {}
+INFO:scholarly:Getting https://scholar.google.com/scholar?start=250&q=metamorphic+testing+%26+metamorphic+relationship+%26+machine+learning+algorithms&hl=en&as_sdt=0,33
+INFO:scholarly:Session proxy config is {}
+INFO:scholarly:Getting https://scholar.google.com/scholar?start=260&q=metamorphic+testing+%26+metamorphic+relationship+%26+machine+learning+algorithms&hl=en&as_sdt=0,33
+INFO:scholarly:Session proxy config is {}
+INFO:scholarly:Getting https://scholar.google.com/scholar?start=270&q=metamorphic+testing+%26+metamorphic+relationship+%26+machine+learning+algorithms&hl=en&as_sdt=0,33
+INFO:scholarly:Session proxy config is {}
+INFO:scholarly:Getting https://scholar.google.com/scholar?start=280&q=metamorphic+testing+%26+metamorphic+relationship+%26+machine+learning+algorithms&hl=en&as_sdt=0,33
+INFO:scholarly:Session proxy config is {}
+INFO:scholarly:Getting https://scholar.google.com/scholar?start=290&q=metamorphic+testing+%26+metamorphic+relationship+%26+machine+learning+algorithms&hl=en&as_sdt=0,33
+INFO:scholarly:Session proxy config is {}
+INFO:scholarly:Getting https://scholar.google.com/scholar?start=300&q=metamorphic+testing+%26+metamorphic+relationship+%26+machine+learning+algorithms&hl=en&as_sdt=0,33
+INFO:scholarly:Session proxy config is {}
+INFO:scholarly:Getting https://scholar.google.com/scholar?start=310&q=metamorphic+testing+%26+metamorphic+relationship+%26+machine+learning+algorithms&hl=en&as_sdt=0,33
+INFO:scholarly:Session proxy config is {}
+INFO:scholarly:Getting https://scholar.google.com/scholar?start=320&q=metamorphic+testing+%26+metamorphic+relationship+%26+machine+learning+algorithms&hl=en&as_sdt=0,33
+INFO:scholarly:Session proxy config is {}
+INFO:scholarly:Getting https://scholar.google.com/scholar?start=330&q=metamorphic+testing+%26+metamorphic+relationship+%26+machine+learning+algorithms&hl=en&as_sdt=0,33
+INFO:scholarly:Session proxy config is {}
+INFO:scholarly:Getting https://scholar.google.com/scholar?start=340&q=metamorphic+testing+%26+metamorphic+relationship+%26+machine+learning+algorithms&hl=en&as_sdt=0,33
+INFO:scholarly:Session proxy config is {}
+INFO:scholarly:Getting https://scholar.google.com/scholar?start=350&q=metamorphic+testing+%26+metamorphic+relationship+%26+machine+learning+algorithms&hl=en&as_sdt=0,33
+INFO:scholarly:Session proxy config is {}
+INFO:scholarly:Getting https://scholar.google.com/scholar?start=360&q=metamorphic+testing+%26+metamorphic+relationship+%26+machine+learning+algorithms&hl=en&as_sdt=0,33
+INFO:scholarly:Session proxy config is {}
+INFO:scholarly:Getting https://scholar.google.com/scholar?start=370&q=metamorphic+testing+%26+metamorphic+relationship+%26+machine+learning+algorithms&hl=en&as_sdt=0,33
+INFO:scholarly:Session proxy config is {}
+INFO:scholarly:Getting https://scholar.google.com/scholar?start=380&q=metamorphic+testing+%26+metamorphic+relationship+%26+machine+learning+algorithms&hl=en&as_sdt=0,33
+INFO:scholarly:Session proxy config is {}
+INFO:scholarly:Getting https://scholar.google.com/scholar?start=390&q=metamorphic+testing+%26+metamorphic+relationship+%26+machine+learning+algorithms&hl=en&as_sdt=0,33
+INFO:scholarly:Session proxy config is {}
+INFO:scholarly:Getting https://scholar.google.com/scholar?start=400&q=metamorphic+testing+%26+metamorphic+relationship+%26+machine+learning+algorithms&hl=en&as_sdt=0,33
+INFO:scholarly:Session proxy config is {}
+INFO:scholarly:Getting https://scholar.google.com/scholar?start=410&q=metamorphic+testing+%26+metamorphic+relationship+%26+machine+learning+algorithms&hl=en&as_sdt=0,33
+INFO:scholarly:Session proxy config is {}
+INFO:scholarly:Getting https://scholar.google.com/scholar?start=420&q=metamorphic+testing+%26+metamorphic+relationship+%26+machine+learning+algorithms&hl=en&as_sdt=0,33
+INFO:scholarly:Session proxy config is {}
+INFO:scholarly:Getting https://scholar.google.com/scholar?start=430&q=metamorphic+testing+%26+metamorphic+relationship+%26+machine+learning+algorithms&hl=en&as_sdt=0,33
+INFO:scholarly:Session proxy config is {}
+INFO:scholarly:Getting https://scholar.google.com/scholar?start=440&q=metamorphic+testing+%26+metamorphic+relationship+%26+machine+learning+algorithms&hl=en&as_sdt=0,33
+INFO:scholarly:Session proxy config is {}
+INFO:scholarly:Getting https://scholar.google.com/scholar?start=450&q=metamorphic+testing+%26+metamorphic+relationship+%26+machine+learning+algorithms&hl=en&as_sdt=0,33
+INFO:scholarly:Session proxy config is {}
+INFO:scholarly:Getting https://scholar.google.com/scholar?hl=en&q=metamorphic%20testing%20%26%20metamorphic%20relationship%20%26%20machine%20learning%20algorithms&as_vis=0&as_sdt=0,33
+INFO:scholarly:Getting https://scholar.google.com/scholar?hl=en&q=metamorphic%20testing%20%26%20metamorphic%20relationship%20%26%20machine%20learning%20algorithms&as_vis=0&as_sdt=0,33
+INFO:scholarly:Session proxy config is {}
+INFO:scholarly:Getting https://scholar.google.com/scholar?start=10&q=metamorphic+testing+%26+metamorphic+relationship+%26+machine+learning+algorithms&hl=en&as_sdt=0,33
+INFO:scholarly:Session proxy config is {}
+INFO:scholarly:Getting https://scholar.google.com/scholar?start=20&q=metamorphic+testing+%26+metamorphic+relationship+%26+machine+learning+algorithms&hl=en&as_sdt=0,33
+INFO:scholarly:Session proxy config is {}
+INFO:scholarly:Getting https://scholar.google.com/scholar?start=30&q=metamorphic+testing+%26+metamorphic+relationship+%26+machine+learning+algorithms&hl=en&as_sdt=0,33
+INFO:scholarly:Session proxy config is {}
+INFO:scholarly:Getting https://scholar.google.com/scholar?start=40&q=metamorphic+testing+%26+metamorphic+relationship+%26+machine+learning+algorithms&hl=en&as_sdt=0,33
+INFO:scholarly:Session proxy config is {}
+INFO:scholarly:Getting https://scholar.google.com/scholar?start=50&q=metamorphic+testing+%26+metamorphic+relationship+%26+machine+learning+algorithms&hl=en&as_sdt=0,33
+INFO:scholarly:Session proxy config is {}
+INFO:scholarly:Getting https://scholar.google.com/scholar?start=60&q=metamorphic+testing+%26+metamorphic+relationship+%26+machine+learning+algorithms&hl=en&as_sdt=0,33
+INFO:scholarly:Session proxy config is {}
+INFO:scholarly:Getting https://scholar.google.com/scholar?start=70&q=metamorphic+testing+%26+metamorphic+relationship+%26+machine+learning+algorithms&hl=en&as_sdt=0,33
+INFO:scholarly:Session proxy config is {}
+INFO:scholarly:Getting https://scholar.google.com/scholar?start=80&q=metamorphic+testing+%26+metamorphic+relationship+%26+machine+learning+algorithms&hl=en&as_sdt=0,33
+INFO:scholarly:Session proxy config is {}
+INFO:scholarly:Getting https://scholar.google.com/scholar?start=90&q=metamorphic+testing+%26+metamorphic+relationship+%26+machine+learning+algorithms&hl=en&as_sdt=0,33
+INFO:scholarly:Session proxy config is {}
+INFO:scholarly:Getting https://scholar.google.com/scholar?start=100&q=metamorphic+testing+%26+metamorphic+relationship+%26+machine+learning+algorithms&hl=en&as_sdt=0,33
+INFO:scholarly:Session proxy config is {}
+INFO:scholarly:Getting https://scholar.google.com/scholar?start=110&q=metamorphic+testing+%26+metamorphic+relationship+%26+machine+learning+algorithms&hl=en&as_sdt=0,33
+INFO:scholarly:Session proxy config is {}
+INFO:scholarly:Getting https://scholar.google.com/scholar?start=120&q=metamorphic+testing+%26+metamorphic+relationship+%26+machine+learning+algorithms&hl=en&as_sdt=0,33
+INFO:scholarly:Session proxy config is {}
+INFO:scholarly:Getting https://scholar.google.com/scholar?start=130&q=metamorphic+testing+%26+metamorphic+relationship+%26+machine+learning+algorithms&hl=en&as_sdt=0,33
+INFO:scholarly:Session proxy config is {}
+INFO:scholarly:Getting https://scholar.google.com/scholar?start=140&q=metamorphic+testing+%26+metamorphic+relationship+%26+machine+learning+algorithms&hl=en&as_sdt=0,33
+INFO:scholarly:Session proxy config is {}
+INFO:scholarly:Getting https://scholar.google.com/scholar?start=150&q=metamorphic+testing+%26+metamorphic+relationship+%26+machine+learning+algorithms&hl=en&as_sdt=0,33
+INFO:scholarly:Session proxy config is {}
+INFO:scholarly:Getting https://scholar.google.com/scholar?start=160&q=metamorphic+testing+%26+metamorphic+relationship+%26+machine+learning+algorithms&hl=en&as_sdt=0,33
+INFO:scholarly:Session proxy config is {}
+INFO:scholarly:Getting https://scholar.google.com/scholar?start=170&q=metamorphic+testing+%26+metamorphic+relationship+%26+machine+learning+algorithms&hl=en&as_sdt=0,33
+>>>>>>> Stashed changes
 INFO:scholarly:Session proxy config is {}

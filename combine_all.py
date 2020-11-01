@@ -63,6 +63,7 @@ class SLR_Automation:
 
     def perform_stage_two(self):
         self.perform_forward_snowballing()
+        print(self.forward_snowballing_results)
         print("FINISHED FORWARD SNOWBALLING-----------------")
         self.perform_backward_snowballing()
         print("FINISHED BACKWARD SNOWBALLING----------------")
@@ -87,8 +88,8 @@ if __name__ == '__main__':
     paper = "Analyzing maintainability and reliability of object-oriented software using weighted complex network"
 
     test = SLR_Automation(
-        search,
-        paper,
+        "metamorphic testing & metamorphic relationship & machine learning algorithms",
+        "Simultaneous localization of software faults based on complex network theory",
         None,
         None,
         forward_snowballing_levels=2,
